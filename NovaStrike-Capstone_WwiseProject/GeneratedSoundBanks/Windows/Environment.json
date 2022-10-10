@@ -1,0 +1,75 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "G:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "G:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1229948536",
+    "GUID": "{4C9ED762-EFBE-48DC-A06F-C68D6729D55A}",
+    "Language": "SFX",
+    "Hash": "1846218553",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Environment",
+    "ShortName": "Environment",
+    "Path": "Environment.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1958090894",
+      "Name": "Play_TestSounds",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_TestSounds",
+      "GUID": "{14CB80BE-D603-4BC1-AF74-41B313B87AFA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.406258",
+      "DurationMax": "1.156258",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "443077306",
+        "Language": "SFX",
+        "ShortName": "Announcer1.wav",
+        "Path": "SFX\\Announcer1_10C4C929.wem"
+       },
+       {
+        "Id": "660193127",
+        "Language": "SFX",
+        "ShortName": "Announcer3.wav",
+        "Path": "SFX\\Announcer3_10C4C929.wem"
+       },
+       {
+        "Id": "773082952",
+        "Language": "SFX",
+        "ShortName": "AnnouncerOutstanding.wav",
+        "Path": "SFX\\AnnouncerOutstanding_10C4C929.wem"
+       },
+       {
+        "Id": "794946183",
+        "Language": "SFX",
+        "ShortName": "AnnouncerSuper.wav",
+        "Path": "SFX\\AnnouncerSuper_10C4C929.wem"
+       },
+       {
+        "Id": "889043477",
+        "Language": "SFX",
+        "ShortName": "AnnouncerGreat.wav",
+        "Path": "SFX\\AnnouncerGreat_10C4C929.wem"
+       },
+       {
+        "Id": "1009762844",
+        "Language": "SFX",
+        "ShortName": "Announcer2.wav",
+        "Path": "SFX\\Announcer2_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
