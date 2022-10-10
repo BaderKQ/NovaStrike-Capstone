@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "G:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
-   "SourceFilesRoot": "G:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Mac\\",
-   "SoundBanksRoot": "G:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ProjectRoot": "/Users/nycelly/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Not Case Sensitive/Unreal/Projects/NovaStrike-Capstone/NovaStrike-Capstone_WwiseProject/",
+   "SourceFilesRoot": "/Users/nycelly/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Not Case Sensitive/Unreal/Projects/NovaStrike-Capstone/NovaStrike-Capstone_WwiseProject/.cache/Mac/",
+   "SoundBanksRoot": "/Users/nycelly/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Not Case Sensitive/Unreal/Projects/NovaStrike-Capstone/NovaStrike-Capstone_WwiseProject/GeneratedSoundBanks/Mac/",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "G:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Mac"
+   "ExternalSourcesOutputRoot": "/Users/nycelly/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Not Case Sensitive/Unreal/Projects/NovaStrike-Capstone/NovaStrike-Capstone_WwiseProject/GeneratedSoundBanks/Mac"
   },
   "SoundBanks": [
    {
     "Id": "1229948536",
     "GUID": "{4C9ED762-EFBE-48DC-A06F-C68D6729D55A}",
     "Language": "SFX",
-    "Hash": "1846218553",
+    "Hash": "3146736654",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Environment",
     "ShortName": "Environment",
     "Path": "Environment.bnk",
@@ -34,37 +34,37 @@
         "Id": "443077306",
         "Language": "SFX",
         "ShortName": "Announcer1.wav",
-        "Path": "SFX\\Announcer1_10C4C929.wem"
+        "Path": "SFX/Announcer1_10C4C929.wem"
        },
        {
         "Id": "660193127",
         "Language": "SFX",
         "ShortName": "Announcer3.wav",
-        "Path": "SFX\\Announcer3_10C4C929.wem"
+        "Path": "SFX/Announcer3_10C4C929.wem"
        },
        {
         "Id": "773082952",
         "Language": "SFX",
         "ShortName": "AnnouncerOutstanding.wav",
-        "Path": "SFX\\AnnouncerOutstanding_10C4C929.wem"
+        "Path": "SFX/AnnouncerOutstanding_10C4C929.wem"
        },
        {
         "Id": "794946183",
         "Language": "SFX",
         "ShortName": "AnnouncerSuper.wav",
-        "Path": "SFX\\AnnouncerSuper_10C4C929.wem"
+        "Path": "SFX/AnnouncerSuper_10C4C929.wem"
        },
        {
         "Id": "889043477",
         "Language": "SFX",
         "ShortName": "AnnouncerGreat.wav",
-        "Path": "SFX\\AnnouncerGreat_10C4C929.wem"
+        "Path": "SFX/AnnouncerGreat_10C4C929.wem"
        },
        {
         "Id": "1009762844",
         "Language": "SFX",
         "ShortName": "Announcer2.wav",
-        "Path": "SFX\\Announcer2_10C4C929.wem"
+        "Path": "SFX/Announcer2_10C4C929.wem"
        }
       ]
      }

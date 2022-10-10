@@ -2,10 +2,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	1958090894	Play_TestSounds			\Default Work Unit\Play_TestSounds	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	443077306	Announcer1	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\Announcer1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestSounds\Announcer1		71728
-	660193127	Announcer3	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\Announcer3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestSounds\Announcer3		71728
-	773082952	AnnouncerOutstanding	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\AnnouncerOutstanding_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestSounds\AnnouncerOutstanding		204028
-	794946183	AnnouncerSuper	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\AnnouncerSuper_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestSounds\AnnouncerSuper		140636
-	889043477	AnnouncerGreat	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\AnnouncerGreat_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestSounds\AnnouncerGreat		121340
-	1009762844	Announcer2	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\Announcer2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestSounds\Announcer2		71728
+	443077306	Announcer1	Z:\Volumes\Not Case Sensitive\Unreal\Projects\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\Announcer1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestSounds\Announcer1		71728
+	660193127	Announcer3	Z:\Volumes\Not Case Sensitive\Unreal\Projects\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\Announcer3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestSounds\Announcer3		71728
+	773082952	AnnouncerOutstanding	Z:\Volumes\Not Case Sensitive\Unreal\Projects\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\AnnouncerOutstanding_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestSounds\AnnouncerOutstanding		204028
+	794946183	AnnouncerSuper	Z:\Volumes\Not Case Sensitive\Unreal\Projects\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\AnnouncerSuper_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestSounds\AnnouncerSuper		140636
+	889043477	AnnouncerGreat	Z:\Volumes\Not Case Sensitive\Unreal\Projects\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\AnnouncerGreat_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestSounds\AnnouncerGreat		121340
+	1009762844	Announcer2	Z:\Volumes\Not Case Sensitive\Unreal\Projects\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\Announcer2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestSounds\Announcer2		71728
 

@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "G:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
-   "SourceFilesRoot": "G:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Mac\\",
-   "SoundBanksRoot": "G:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ProjectRoot": "/Users/nycelly/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Not Case Sensitive/Unreal/Projects/NovaStrike-Capstone/NovaStrike-Capstone_WwiseProject/",
+   "SourceFilesRoot": "/Users/nycelly/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Not Case Sensitive/Unreal/Projects/NovaStrike-Capstone/NovaStrike-Capstone_WwiseProject/.cache/Mac/",
+   "SoundBanksRoot": "/Users/nycelly/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Not Case Sensitive/Unreal/Projects/NovaStrike-Capstone/NovaStrike-Capstone_WwiseProject/GeneratedSoundBanks/Mac/",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "G:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Mac"
+   "ExternalSourcesOutputRoot": "/Users/nycelly/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Not Case Sensitive/Unreal/Projects/NovaStrike-Capstone/NovaStrike-Capstone_WwiseProject/GeneratedSoundBanks/Mac"
   },
   "SoundBanks": [
    {
