@@ -158,11 +158,10 @@
 					<ChildrenList>
 						<ActorMixer Name="FootstepsMixer" ID="{DEBB1E53-8329-41BE-90AF-8C3231F20D04}" ShortID="116505284">
 							<PropertyList>
-								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="6"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8</Value>
+										<Value>-6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -177,6 +176,7 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="FS 1 M1" ID="{6C09ACA3-F94B-42AA-B007-288AA966D7DE}" ShortID="673388882">
 									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -191,6 +191,7 @@
 											</ModifierList>
 										</Property>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-10</Value>
@@ -399,10 +400,19 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{FE7134ED-479E-4AF0-8BC8-A722A820C772}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-50.635593220339"/>
+												<Property Name="PanY" Type="Real64" Value="42.6991150442478"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="FS 1 M4 Equipment2" ID="{B7541543-C1B4-412F-BDE2-B216AF5CBB77}" ShortID="419977668">
 									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -417,6 +427,7 @@
 											</ModifierList>
 										</Property>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-22</Value>
@@ -571,9 +582,21 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{22D14B5A-5124-4DC0-B93B-5515F1DEB295}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-10.3813559322034"/>
+												<Property Name="PanY" Type="Real64" Value="3.53982300884955"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<SwitchContainer Name="Variance_Switch" ID="{7909C74E-F6D2-434B-89C9-AD85FFE8F9FD}" ShortID="840655945">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -703,6 +726,14 @@
 											<ObjectLists/>
 										</RandomSequenceContainer>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{1BE6A2EA-4862-4833-8E4D-575FD7CE1460}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-51.0593220338983"/>
+												<Property Name="PanY" Type="Real64" Value="45.1327433628319"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
 									<ObjectLists/>
 									<GroupingInfo>
 										<GroupingBehaviorList>
@@ -722,6 +753,8 @@
 								</SwitchContainer>
 								<SwitchContainer Name="Texture_Switch" ID="{EF8E54E7-8602-4245-816E-64B0974CE9BA}" ShortID="553478662">
 									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-10</Value>
@@ -903,6 +936,14 @@
 											<ObjectLists/>
 										</RandomSequenceContainer>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{1533C413-F960-460C-A903-745E4361B43D}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-51.271186440678"/>
+												<Property Name="PanY" Type="Real64" Value="48.0088495575221"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
 									<ObjectLists/>
 									<GroupingInfo>
 										<GroupingBehaviorList>
@@ -922,6 +963,7 @@
 								</SwitchContainer>
 								<RandomSequenceContainer Name="FS 1 M2" ID="{92BF16AA-0274-4971-82C6-FCCC62C8A947}" ShortID="634962498">
 									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -936,6 +978,7 @@
 											</ModifierList>
 										</Property>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-8</Value>
@@ -1090,10 +1133,19 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{8A6DDEF1-CE56-4DE2-9692-A52352F404A6}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-50.635593220339"/>
+												<Property Name="PanY" Type="Real64" Value="46.6814159292035"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="FS 1 M3 Equipment1" ID="{80FE0FBE-2040-47D0-969F-006517A675EC}" ShortID="670488506">
 									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -1108,6 +1160,7 @@
 											</ModifierList>
 										</Property>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-12</Value>
@@ -1262,6 +1315,14 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{319291C3-319E-4694-9BBD-08A60EE70C7C}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-5.9322033898305"/>
+												<Property Name="PanY" Type="Real64" Value="21.6814159292036"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
 									<ObjectLists/>
 								</RandomSequenceContainer>
 							</ChildrenList>

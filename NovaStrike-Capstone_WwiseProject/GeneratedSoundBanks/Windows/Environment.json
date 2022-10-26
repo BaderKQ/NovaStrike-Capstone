@@ -5,22 +5,280 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "/Users/nycelly/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Not Case Sensitive/Unreal/Projects/NovaStrike-Capstone/NovaStrike-Capstone_WwiseProject/",
-   "SourceFilesRoot": "/Users/nycelly/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Not Case Sensitive/Unreal/Projects/NovaStrike-Capstone/NovaStrike-Capstone_WwiseProject/.cache/Windows/",
-   "SoundBanksRoot": "/Users/nycelly/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Not Case Sensitive/Unreal/Projects/NovaStrike-Capstone/NovaStrike-Capstone_WwiseProject/GeneratedSoundBanks/Windows/",
+   "ProjectRoot": "G:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "G:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "/Users/nycelly/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Not Case Sensitive/Unreal/Projects/NovaStrike-Capstone/NovaStrike-Capstone_WwiseProject/GeneratedSoundBanks/Windows"
+   "ExternalSourcesOutputRoot": "G:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "1229948536",
     "GUID": "{4C9ED762-EFBE-48DC-A06F-C68D6729D55A}",
     "Language": "SFX",
-    "Hash": "3146736654",
+    "Hash": "1006256857",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Environment",
     "ShortName": "Environment",
     "Path": "Environment.bnk",
     "IncludedEvents": [
+     {
+      "Id": "1602358412",
+      "Name": "Play_Footstep",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footstep",
+      "GUID": "{7240FB77-46DF-4AA3-ADFE-E226E742D4C3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.39",
+      "DurationMax": "0.510021",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "57506250",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 4.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 4_10C4C929.wem"
+       },
+       {
+        "Id": "118814164",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\Texture\\Variance-Gravel\\FS 1 VarianceGravel-3.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Variance-Gravel\\FS 1 VarianceGravel-3_10C4C929.wem"
+       },
+       {
+        "Id": "123078190",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 1.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 1_10C4C929.wem"
+       },
+       {
+        "Id": "138071412",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-2.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-2_10C4C929.wem"
+       },
+       {
+        "Id": "152352733",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-6.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-6_10C4C929.wem"
+       },
+       {
+        "Id": "185378386",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 6.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 6_10C4C929.wem"
+       },
+       {
+        "Id": "230773830",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-1.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-1_10C4C929.wem"
+       },
+       {
+        "Id": "267454486",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\Texture\\Variance-Gravel\\FS 1 Gravel-6.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Variance-Gravel\\FS 1 Gravel-6_10C4C929.wem"
+       },
+       {
+        "Id": "268944095",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-3.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-3_10C4C929.wem"
+       },
+       {
+        "Id": "291603426",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-6.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-6_10C4C929.wem"
+       },
+       {
+        "Id": "307754126",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 3.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 3_10C4C929.wem"
+       },
+       {
+        "Id": "321862013",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 4.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 4_10C4C929.wem"
+       },
+       {
+        "Id": "350382438",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 2.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 2_10C4C929.wem"
+       },
+       {
+        "Id": "432822066",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 6.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 6_10C4C929.wem"
+       },
+       {
+        "Id": "456988660",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\Texture\\Variance-Gravel\\FS 1 VarianceGravel-1.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Variance-Gravel\\FS 1 VarianceGravel-1_10C4C929.wem"
+       },
+       {
+        "Id": "521817947",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 5.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 5_10C4C929.wem"
+       },
+       {
+        "Id": "540815047",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 2.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 2_10C4C929.wem"
+       },
+       {
+        "Id": "551793092",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-3.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-3_10C4C929.wem"
+       },
+       {
+        "Id": "608239218",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 3.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 3_10C4C929.wem"
+       },
+       {
+        "Id": "758534941",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 3.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 3_10C4C929.wem"
+       },
+       {
+        "Id": "788911061",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-4.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-4_10C4C929.wem"
+       },
+       {
+        "Id": "797775328",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 5.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 5_10C4C929.wem"
+       },
+       {
+        "Id": "831562792",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 6.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 6_10C4C929.wem"
+       },
+       {
+        "Id": "832651337",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 4.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 4_10C4C929.wem"
+       },
+       {
+        "Id": "837384237",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 1.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 1_10C4C929.wem"
+       },
+       {
+        "Id": "876128968",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 2.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 2_10C4C929.wem"
+       },
+       {
+        "Id": "880064682",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-1.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-1_10C4C929.wem"
+       },
+       {
+        "Id": "890678112",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-5.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-5_10C4C929.wem"
+       },
+       {
+        "Id": "893480275",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 1.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 1_10C4C929.wem"
+       },
+       {
+        "Id": "942946384",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-5.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-5_10C4C929.wem"
+       },
+       {
+        "Id": "1006125412",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-2.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-2_10C4C929.wem"
+       },
+       {
+        "Id": "1036931546",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 5.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 5_10C4C929.wem"
+       },
+       {
+        "Id": "1040588585",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-4.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-4_10C4C929.wem"
+       },
+       {
+        "Id": "1054982694",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\Texture\\Variance-Gravel\\FS 1 VarianceGravel-2.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Variance-Gravel\\FS 1 VarianceGravel-2_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{EDCAEB60-0A45-4E7A-94A7-F751E8E33B1E}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{4800904A-CABC-4B95-9175-4E81A2DFAF84}",
+        "Media": [
+         {
+          "Id": "138071412"
+         },
+         {
+          "Id": "291603426"
+         },
+         {
+          "Id": "551793092"
+         },
+         {
+          "Id": "788911061"
+         },
+         {
+          "Id": "880064682"
+         },
+         {
+          "Id": "890678112"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{BB57FB33-4984-4F30-85A4-8B1D1FEA704B}",
+        "Media": [
+         {
+          "Id": "118814164"
+         },
+         {
+          "Id": "267454486"
+         },
+         {
+          "Id": "456988660"
+         },
+         {
+          "Id": "1054982694"
+         }
+        ]
+       }
+      ]
+     },
      {
       "Id": "1958090894",
       "Name": "Play_TestSounds",
@@ -34,37 +292,79 @@
         "Id": "443077306",
         "Language": "SFX",
         "ShortName": "Announcer1.wav",
-        "Path": "SFX/Announcer1_10C4C929.wem"
+        "Path": "SFX\\Announcer1_10C4C929.wem"
        },
        {
         "Id": "660193127",
         "Language": "SFX",
         "ShortName": "Announcer3.wav",
-        "Path": "SFX/Announcer3_10C4C929.wem"
+        "Path": "SFX\\Announcer3_10C4C929.wem"
        },
        {
         "Id": "773082952",
         "Language": "SFX",
         "ShortName": "AnnouncerOutstanding.wav",
-        "Path": "SFX/AnnouncerOutstanding_10C4C929.wem"
+        "Path": "SFX\\AnnouncerOutstanding_10C4C929.wem"
        },
        {
         "Id": "794946183",
         "Language": "SFX",
         "ShortName": "AnnouncerSuper.wav",
-        "Path": "SFX/AnnouncerSuper_10C4C929.wem"
+        "Path": "SFX\\AnnouncerSuper_10C4C929.wem"
        },
        {
         "Id": "889043477",
         "Language": "SFX",
         "ShortName": "AnnouncerGreat.wav",
-        "Path": "SFX/AnnouncerGreat_10C4C929.wem"
+        "Path": "SFX\\AnnouncerGreat_10C4C929.wem"
        },
        {
         "Id": "1009762844",
         "Language": "SFX",
         "ShortName": "Announcer2.wav",
-        "Path": "SFX/Announcer2_10C4C929.wem"
+        "Path": "SFX\\Announcer2_10C4C929.wem"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "684570577",
+      "Name": "Footstep_Material",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Footstep_Material",
+      "GUID": "{933A4E83-6228-4C3F-A943-F3A364522B34}",
+      "Switches": [
+       {
+        "Id": "2185786256",
+        "Name": "Gravel",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footstep_Material\\Gravel",
+        "GUID": "{4800904A-CABC-4B95-9175-4E81A2DFAF84}"
+       },
+       {
+        "Id": "1291433366",
+        "Name": "Base",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footstep_Material\\Base",
+        "GUID": "{D8A16657-DCAF-4D03-9B33-BF1A5626801F}"
+       }
+      ]
+     },
+     {
+      "Id": "2912674983",
+      "Name": "FSVariance_Material",
+      "ObjectPath": "\\Switches\\Default Work Unit\\FSVariance_Material",
+      "GUID": "{A401C704-6435-4BD2-B910-EEF82E9D0307}",
+      "Switches": [
+       {
+        "Id": "1291433366",
+        "Name": "Base",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FSVariance_Material\\Base",
+        "GUID": "{EDCAEB60-0A45-4E7A-94A7-F751E8E33B1E}"
+       },
+       {
+        "Id": "2185786256",
+        "Name": "Gravel",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FSVariance_Material\\Gravel",
+        "GUID": "{BB57FB33-4984-4F30-85A4-8B1D1FEA704B}"
        }
       ]
      }
