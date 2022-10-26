@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{51D0B3E2-75B1-4F73-AD15-FEA6B9D8CC2D}" SchemaVersion="103">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{51D0B3E2-75B1-4F73-AD15-FEA6B9D8CC2D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{51D0B3E2-75B1-4F73-AD15-FEA6B9D8CC2D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{08DE8B99-0233-449E-A267-731017291E0E}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Footstep" ID="{7240FB77-46DF-4AA3-ADFE-E226E742D4C3}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Gravel" ID="{BB57FB33-4984-4F30-85A4-8B1D1FEA704B}"/>
+						<CurrentSwitchRef Name="Gravel" ID="{4800904A-CABC-4B95-9175-4E81A2DFAF84}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

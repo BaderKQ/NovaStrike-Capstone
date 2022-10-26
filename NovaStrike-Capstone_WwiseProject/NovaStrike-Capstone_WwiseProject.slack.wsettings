@@ -5,6 +5,7 @@
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="G:\Ableton\New Projects\Empty Project\AudioWorkshop\Sounds\"/>
 				<Property Name="Event Action List\{14CB80BE-D603-4BC1-AF74-41B313B87AFA}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{7240FB77-46DF-4AA3-ADFE-E226E742D4C3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
