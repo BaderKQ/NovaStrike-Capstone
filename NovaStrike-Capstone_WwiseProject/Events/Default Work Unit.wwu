@@ -129,6 +129,38 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{1CDFDCE3-EC4E-4DD2-86C1-20B93ABA18BB}" ShortID="918431506">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BloodSplat" ID="{CBFE8A89-0153-4684-A822-7175171B91AE}" WorkUnitID="{6B950275-FAC6-4D3D-8417-DD0CE6969EDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Test_WeaponHit" ID="{F91808D2-FDA3-4ECB-B520-87DA073B59B9}">
+					<ChildrenList>
+						<Action Name="" ID="{780B802A-C2C6-467F-AE80-009982E22C29}" ShortID="1017944250">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_MeleeSwingLeft" ID="{9D07230D-FBCB-46B9-930C-BBE0D4F45329}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7A17CE82-F1DA-49BC-8938-62AB965F398E}" ShortID="916358181">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_WeaponHit" ID="{C9741DF2-797F-4243-BD35-82C1C4A41D1A}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>

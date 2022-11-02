@@ -2475,6 +2475,19 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="FleshHit" ID="{8D3B3888-E825-41C4-AF23-15BD36382433}" ShortID="133980393">
 									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FC801F80-4F4A-4655-8E08-F044631F22C7}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="126"/>
+															<Property Name="Min" Type="Real64" Value="-227"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-5</Value>
@@ -2691,6 +2704,19 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="FleshHit#2" ID="{62FAC920-ED96-42B0-A8E4-8DCAED444EC4}" ShortID="1026402001">
 									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{20D96881-5B16-478F-93B8-F8B4455F072C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="202"/>
+															<Property Name="Min" Type="Real64" Value="-152"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-6</Value>
@@ -3027,7 +3053,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-15</Value>
+												<Value>-22</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -3067,6 +3093,21 @@
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Stamp" ID="{962CAF49-7511-4E04-AA43-74795F754B67}" ShortID="597228665">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{04353CC8-EC5C-4127-8DC6-A711C4794C33}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="101"/>
+															<Property Name="Min" Type="Real64" Value="-202"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -3087,6 +3128,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Stamp#1" ID="{3203BE52-7ED5-4642-8E0B-FB24A99E9E9B}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.256169871794872"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.256169871794872"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Stamp#1.wav</AudioFile>
 													<MediaIDList>
@@ -3110,6 +3156,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Stamp#2" ID="{2706ECDF-8030-4984-8B5A-3B74FB8C9789}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.286538461538461"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.303846153846154"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Stamp#2.wav</AudioFile>
 													<MediaIDList>
@@ -3133,6 +3184,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Stamp#3" ID="{B791E657-8109-4CE9-B68F-9E10A757D68D}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.332532051282051"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.332532051282051"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Stamp#3.wav</AudioFile>
 													<MediaIDList>
@@ -3156,6 +3212,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Stamp#4" ID="{FC435E77-F7F2-4E1D-80E1-AF97E2201B35}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.310576923076923"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.310576923076923"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Stamp#4.wav</AudioFile>
 													<MediaIDList>
@@ -3179,6 +3240,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Stamp#5" ID="{E9C41E6A-1F62-49D7-89FC-659425B85E99}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.363581730769231"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.363581730769231"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Stamp#5.wav</AudioFile>
 													<MediaIDList>
@@ -3189,6 +3255,223 @@
 											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Stamp#5" ID="{E9C41E6A-1F62-49D7-89FC-659425B85E99}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="BloodSplat" ID="{CBFE8A89-0153-4684-A822-7175171B91AE}" ShortID="958475841">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DCC427AA-E8C2-4940-963E-BCCFEAA2D535}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="202"/>
+															<Property Name="Min" Type="Real64" Value="-177"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FGHTBf_Body Fall Splat_PSE_BW-BD3HL_k5fOM" ID="{EA9F911D-259B-42A5-804A-2CBBDC9AD22C}" ShortID="41481903">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FGHTBf_Body Fall Splat_PSE_BW-BD3HL_k5fOM" ID="{9B91F5BF-7384-4E4F-9A8F-BAA6DDF2167C}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.966166666666666"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.0175"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>FGHTBf_Body Fall Splat_PSE_BW-BD3HL_k5fOM.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="124393227"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FGHTBf_Body Fall Splat_PSE_BW-BD3HL_k5fOM" ID="{9B91F5BF-7384-4E4F-9A8F-BAA6DDF2167C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FGHTBf_Body Fall Splat_PSE_BW-BD3HL_Z0qh2" ID="{BBCC5AF9-03D9-4EE6-81D8-C7223F0F81F2}" ShortID="750132899">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FGHTBf_Body Fall Splat_PSE_BW-BD3HL_Z0qh2" ID="{A96C85D0-1E13-49BC-9B8E-317382F2379D}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.839076923076924"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.839076923076924"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>FGHTBf_Body Fall Splat_PSE_BW-BD3HL_Z0qh2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="263220282"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FGHTBf_Body Fall Splat_PSE_BW-BD3HL_Z0qh2" ID="{A96C85D0-1E13-49BC-9B8E-317382F2379D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GOREFlsh_Skull Crack_PSE_BW-BD3HL_IjDqw" ID="{56199B4F-90BC-40F2-AC2F-0250C270DDC1}" ShortID="251021019">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GOREFlsh_Skull Crack_PSE_BW-BD3HL_IjDqw" ID="{422F88C4-06AE-4B3E-B111-4AD0C691A2BE}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.00410256410256"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.00410256410256"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>GOREFlsh_Skull Crack_PSE_BW-BD3HL_IjDqw.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1038066726"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="GOREFlsh_Skull Crack_PSE_BW-BD3HL_IjDqw" ID="{422F88C4-06AE-4B3E-B111-4AD0C691A2BE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GOREMisc_Flesh Impact_PSE_BW-BD3HL_wiOom" ID="{6214C502-A4B2-4580-8CB6-9F2D8FEBDC87}" ShortID="7413438">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GOREMisc_Flesh Impact_PSE_BW-BD3HL_wiOom" ID="{F8C3E487-4E6B-4C68-AA5F-651C66343B0B}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.898959575320509"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.446422102029914"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.34538167735042"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>GOREMisc_Flesh Impact_PSE_BW-BD3HL_wiOom.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="687508310"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="GOREMisc_Flesh Impact_PSE_BW-BD3HL_wiOom" ID="{F8C3E487-4E6B-4C68-AA5F-651C66343B0B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GOREMisc_Guts Impact_PSE_BW-BD3HL_4Aevz" ID="{C3755368-1E2A-4229-9B74-BEE589370F38}" ShortID="113200722">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GOREMisc_Guts Impact_PSE_BW-BD3HL_4Aevz" ID="{41CDBDAB-DD35-4CCC-BF1E-A412DC248DDF}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.511153846153847"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.511153846153847"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>GOREMisc_Guts Impact_PSE_BW-BD3HL_4Aevz.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="31567030"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="GOREMisc_Guts Impact_PSE_BW-BD3HL_4Aevz" ID="{41CDBDAB-DD35-4CCC-BF1E-A412DC248DDF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GOREMisc_Head Impact_PSE_BW-BD3HL_kpsSI" ID="{575FA0E3-EFD9-4ABA-871F-D8D16116F4E2}" ShortID="1020245504">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{B0A23383-251D-423F-B18C-B11A58CF4372}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="202"/>
+																	<Property Name="Min" Type="Real64" Value="-303"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GOREMisc_Head Impact_PSE_BW-BD3HL_kpsSI" ID="{BB7F9FFF-9E58-4A10-B79B-280E41B447D3}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.593379286858975"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.593379286858975"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>GOREMisc_Head Impact_PSE_BW-BD3HL_kpsSI.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="836613961"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="GOREMisc_Head Impact_PSE_BW-BD3HL_kpsSI" ID="{BB7F9FFF-9E58-4A10-B79B-280E41B447D3}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>

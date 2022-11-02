@@ -9,12 +9,16 @@
 							<ObjectRef Name="Play_Footstep" ID="{7240FB77-46DF-4AA3-ADFE-E226E742D4C3}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}"/>
 							<Position X="0" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Test_WeaponHit" ID="{F91808D2-FDA3-4ECB-B520-87DA073B59B9}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}"/>
+							<Position X="1" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Gravel" ID="{BB57FB33-4984-4F30-85A4-8B1D1FEA704B}"/>
-						<CurrentSwitchRef Name="Gravel" ID="{4800904A-CABC-4B95-9175-4E81A2DFAF84}"/>
+						<CurrentSwitchRef Name="Base" ID="{EDCAEB60-0A45-4E7A-94A7-F751E8E33B1E}"/>
+						<CurrentSwitchRef Name="Base" ID="{D8A16657-DCAF-4D03-9B33-BF1A5626801F}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
