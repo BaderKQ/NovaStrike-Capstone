@@ -16,7 +16,7 @@
     "Id": "1229948536",
     "GUID": "{4C9ED762-EFBE-48DC-A06F-C68D6729D55A}",
     "Language": "SFX",
-    "Hash": "1006256857",
+    "Hash": "1965399939",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Environment",
     "ShortName": "Environment",
     "Path": "Environment.bnk",
@@ -280,6 +280,220 @@
       ]
      },
      {
+      "Id": "2580748627",
+      "Name": "Play_MeleeSwingLeft",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_MeleeSwingLeft",
+      "GUID": "{9D07230D-FBCB-46B9-930C-BBE0D4F45329}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.375",
+      "DurationMax": "0.875",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "118988992",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 2.wav",
+        "Path": "SFX\\Swing #1\\Swing 2_10C4C929.wem"
+       },
+       {
+        "Id": "140773415",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-7.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-7_10C4C929.wem"
+       },
+       {
+        "Id": "183537508",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-6.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-6_10C4C929.wem"
+       },
+       {
+        "Id": "226937758",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-4.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-4_10C4C929.wem"
+       },
+       {
+        "Id": "286611772",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-2.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-2_10C4C929.wem"
+       },
+       {
+        "Id": "344543557",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 3.wav",
+        "Path": "SFX\\Swing #1\\Swing 3_10C4C929.wem"
+       },
+       {
+        "Id": "408041494",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-5.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-5_10C4C929.wem"
+       },
+       {
+        "Id": "456186507",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 7.wav",
+        "Path": "SFX\\Swing #1\\Swing 7_10C4C929.wem"
+       },
+       {
+        "Id": "543822850",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 8.wav",
+        "Path": "SFX\\Swing #1\\Swing 8_10C4C929.wem"
+       },
+       {
+        "Id": "625501743",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 6.wav",
+        "Path": "SFX\\Swing #1\\Swing 6_10C4C929.wem"
+       },
+       {
+        "Id": "666426747",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 1.wav",
+        "Path": "SFX\\Swing #1\\Swing 1_10C4C929.wem"
+       },
+       {
+        "Id": "696450797",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-8.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-8_10C4C929.wem"
+       },
+       {
+        "Id": "702790565",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-1.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-1_10C4C929.wem"
+       },
+       {
+        "Id": "730219167",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 5.wav",
+        "Path": "SFX\\Swing #1\\Swing 5_10C4C929.wem"
+       },
+       {
+        "Id": "801527397",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 4.wav",
+        "Path": "SFX\\Swing #1\\Swing 4_10C4C929.wem"
+       },
+       {
+        "Id": "1069350722",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-3.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-3_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "695242574",
+      "Name": "Play_MeleeSwingRight",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_MeleeSwingRight",
+      "GUID": "{7D29DCF3-9731-4D1D-B5FD-5F3C674A5B10}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.375",
+      "DurationMax": "0.875",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "118988992",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 2.wav",
+        "Path": "SFX\\Swing #1\\Swing 2_10C4C929.wem"
+       },
+       {
+        "Id": "140773415",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-7.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-7_10C4C929.wem"
+       },
+       {
+        "Id": "183537508",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-6.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-6_10C4C929.wem"
+       },
+       {
+        "Id": "226937758",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-4.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-4_10C4C929.wem"
+       },
+       {
+        "Id": "286611772",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-2.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-2_10C4C929.wem"
+       },
+       {
+        "Id": "344543557",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 3.wav",
+        "Path": "SFX\\Swing #1\\Swing 3_10C4C929.wem"
+       },
+       {
+        "Id": "408041494",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-5.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-5_10C4C929.wem"
+       },
+       {
+        "Id": "456186507",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 7.wav",
+        "Path": "SFX\\Swing #1\\Swing 7_10C4C929.wem"
+       },
+       {
+        "Id": "543822850",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 8.wav",
+        "Path": "SFX\\Swing #1\\Swing 8_10C4C929.wem"
+       },
+       {
+        "Id": "625501743",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 6.wav",
+        "Path": "SFX\\Swing #1\\Swing 6_10C4C929.wem"
+       },
+       {
+        "Id": "666426747",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 1.wav",
+        "Path": "SFX\\Swing #1\\Swing 1_10C4C929.wem"
+       },
+       {
+        "Id": "696450797",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-8.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-8_10C4C929.wem"
+       },
+       {
+        "Id": "702790565",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-1.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-1_10C4C929.wem"
+       },
+       {
+        "Id": "730219167",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 5.wav",
+        "Path": "SFX\\Swing #1\\Swing 5_10C4C929.wem"
+       },
+       {
+        "Id": "801527397",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 4.wav",
+        "Path": "SFX\\Swing #1\\Swing 4_10C4C929.wem"
+       },
+       {
+        "Id": "1069350722",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-3.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-3_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "1958090894",
       "Name": "Play_TestSounds",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_TestSounds",
@@ -323,6 +537,167 @@
         "Language": "SFX",
         "ShortName": "Announcer2.wav",
         "Path": "SFX\\Announcer2_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2848865453",
+      "Name": "Play_WeaponHit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_WeaponHit",
+      "GUID": "{C9741DF2-797F-4243-BD35-82C1C4A41D1A}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.941804",
+      "DurationMax": "2.453596",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "49877259",
+        "Language": "SFX",
+        "ShortName": "BLLTImpt_Bullet Hit Body Flesh 03_PSE_BR-C_Zkibl.wav",
+        "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 03_PSE_BR-C_Zkibl_C01A14D8.wem"
+       },
+       {
+        "Id": "101837807",
+        "Language": "SFX",
+        "ShortName": "BLLTImpt_Bullet Hit Body Flesh 10_PSE_BR-C_fLUNu.wav",
+        "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 10_PSE_BR-C_fLUNu_10C4C929.wem"
+       },
+       {
+        "Id": "127522731",
+        "Language": "SFX",
+        "ShortName": "WEAPSwrd_Sword Hit_PSE_BW-BD3HL_Fi9WH.wav",
+        "Path": "SFX\\WEAPSwrd_Sword Hit_PSE_BW-BD3HL_Fi9WH_10C4C929.wem"
+       },
+       {
+        "Id": "174808841",
+        "Language": "SFX",
+        "ShortName": "BLLTImpt_Bullet Hit Body Flesh 14_PSE_BR-C_xRUms.wav",
+        "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 14_PSE_BR-C_xRUms_10C4C929.wem"
+       },
+       {
+        "Id": "215285947",
+        "Language": "SFX",
+        "ShortName": "FGHTImpt_Punch Face_PSE_BW-BD3HL_KkqdV.wav",
+        "Path": "SFX\\FGHTImpt_Punch Face_PSE_BW-BD3HL_KkqdV_DCA71335.wem"
+       },
+       {
+        "Id": "255430892",
+        "Language": "SFX",
+        "ShortName": "BLLTImpt_Bullet Hit Body Flesh 08_PSE_BR-C_i2B7L.wav",
+        "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 08_PSE_BR-C_i2B7L_A5798C83.wem"
+       },
+       {
+        "Id": "257135719",
+        "Language": "SFX",
+        "ShortName": "Stamp#4.wav",
+        "Path": "SFX\\Stamp#4_10C4C929.wem"
+       },
+       {
+        "Id": "264818208",
+        "Language": "SFX",
+        "ShortName": "BLLTImpt_Bullet Hit Body Flesh 06_PSE_BR-C_lVvBO.wav",
+        "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 06_PSE_BR-C_lVvBO_9FF3502A.wem"
+       },
+       {
+        "Id": "282495091",
+        "Language": "SFX",
+        "ShortName": "Stamp#1.wav",
+        "Path": "SFX\\Stamp#1_10C4C929.wem"
+       },
+       {
+        "Id": "334582737",
+        "Language": "SFX",
+        "ShortName": "BLLTImpt_Bullet Hit Body Flesh 16_PSE_BR-C_WJnTK.wav",
+        "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 16_PSE_BR-C_WJnTK_AB423CF8.wem"
+       },
+       {
+        "Id": "367022978",
+        "Language": "SFX",
+        "ShortName": "FGHTImpt_Punch Face_PSE_BW-BD3HL_1WwP2.wav",
+        "Path": "SFX\\FGHTImpt_Punch Face_PSE_BW-BD3HL_1WwP2_63B71010.wem"
+       },
+       {
+        "Id": "391176960",
+        "Language": "SFX",
+        "ShortName": "BLLTImpt_Bullet Hit Body Flesh 13_PSE_BR-C_961Vj.wav",
+        "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 13_PSE_BR-C_961Vj_10C4C929.wem"
+       },
+       {
+        "Id": "424632207",
+        "Language": "SFX",
+        "ShortName": "BLLTImpt_Bullet Hit Body Flesh 07_PSE_BR-C_A54wU.wav",
+        "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 07_PSE_BR-C_A54wU_10C4C929.wem"
+       },
+       {
+        "Id": "454025069",
+        "Language": "SFX",
+        "ShortName": "FGHTImpt_Punch Face_PSE_BW-BD3HL_cIg6y.wav",
+        "Path": "SFX\\FGHTImpt_Punch Face_PSE_BW-BD3HL_cIg6y_28E39F30.wem"
+       },
+       {
+        "Id": "615086575",
+        "Language": "SFX",
+        "ShortName": "Stamp#2.wav",
+        "Path": "SFX\\Stamp#2_10C4C929.wem"
+       },
+       {
+        "Id": "693703507",
+        "Language": "SFX",
+        "ShortName": "Stamp#3.wav",
+        "Path": "SFX\\Stamp#3_10C4C929.wem"
+       },
+       {
+        "Id": "798688238",
+        "Language": "SFX",
+        "ShortName": "BLLTImpt_Bullet Hit Body Flesh 15_PSE_BR-C_EiRYG.wav",
+        "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 15_PSE_BR-C_EiRYG_10C4C929.wem"
+       },
+       {
+        "Id": "800351919",
+        "Language": "SFX",
+        "ShortName": "FGHTImpt_Punch Flesh_PSE_BW-BD3HL_r2Phs.wav",
+        "Path": "SFX\\FGHTImpt_Punch Flesh_PSE_BW-BD3HL_r2Phs_27D7F77C.wem"
+       },
+       {
+        "Id": "889853806",
+        "Language": "SFX",
+        "ShortName": "BLLTImpt_Bullet Hit Body Flesh 11_PSE_BR-C_LYCMs.wav",
+        "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 11_PSE_BR-C_LYCMs_10C4C929.wem"
+       },
+       {
+        "Id": "892248465",
+        "Language": "SFX",
+        "ShortName": "FGHTImpt_Punch Face_PSE_BW-BD3HL_kjwct.wav",
+        "Path": "SFX\\FGHTImpt_Punch Face_PSE_BW-BD3HL_kjwct_5E27093D.wem"
+       },
+       {
+        "Id": "905927144",
+        "Language": "SFX",
+        "ShortName": "BLLTImpt_Bullet Hit Body Flesh 05_PSE_BR-C_FZCrU.wav",
+        "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 05_PSE_BR-C_FZCrU_A8165933.wem"
+       },
+       {
+        "Id": "907754223",
+        "Language": "SFX",
+        "ShortName": "Stamp#5.wav",
+        "Path": "SFX\\Stamp#5_10C4C929.wem"
+       },
+       {
+        "Id": "975051020",
+        "Language": "SFX",
+        "ShortName": "BLLTImpt_Bullet Hit Body Flesh 12_PSE_BR-C_BbguS.wav",
+        "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 12_PSE_BR-C_BbguS_10C4C929.wem"
+       },
+       {
+        "Id": "1040386342",
+        "Language": "SFX",
+        "ShortName": "FGHTImpt_Punch Face_PSE_BW-BD3HL_5X4Zg.wav",
+        "Path": "SFX\\FGHTImpt_Punch Face_PSE_BW-BD3HL_5X4Zg_08BEB9C2.wem"
+       },
+       {
+        "Id": "1053616209",
+        "Language": "SFX",
+        "ShortName": "FGHTImpt_Punch Face_PSE_BW-BD3HL_386EH.wav",
+        "Path": "SFX\\FGHTImpt_Punch Face_PSE_BW-BD3HL_386EH_B155C166.wem"
        }
       ]
      }
