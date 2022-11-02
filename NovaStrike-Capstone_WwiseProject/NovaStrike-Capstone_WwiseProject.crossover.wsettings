@@ -3,7 +3,13 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{7963D599-F576-4A66-8957-7CCF482B0AFD}">
 			<PropertyList>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="Z:\Volumes\Creativity Drive\Ableton Projects\NovaStrike\NovaStrike Hit Sounds #1 Project\StampNoise\"/>
 				<Property Name="Event Action List\{14CB80BE-D603-4BC1-AF74-41B313B87AFA}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{7240FB77-46DF-4AA3-ADFE-E226E742D4C3}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{7D29DCF3-9731-4D1D-B5FD-5F3C674A5B10}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{9D07230D-FBCB-46B9-930C-BBE0D4F45329}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B3C8C5D5-3BC2-48DB-948A-52B990A9297B}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C9741DF2-797F-4243-BD35-82C1C4A41D1A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -36,7 +42,7 @@
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_12_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{27092F88-225A-1154-6725-C8A34F3D4482}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{00CF10EA-999B-4BA3-BE6C-52CA536AB404}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
 				<Property Name="ProjectExplorer\FirstVisible_5_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_7_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
@@ -50,12 +56,12 @@
 				<Property Name="ProjectExplorer\x64_Expanded_17_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_18_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_19_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="AjbgJJtsPEWbSqLVpVpjKQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_22_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="XEEpq7ss0Em8iAYCBOSUfg=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="BrbhSJ0e0UG8xc8ocAQ6Xj/DrjYBqrJDjcqJWZI7HGt1ApVrxvo9TYQX3Qzmlp7f/mrZmS4TaU6MqY+0oUL24V9kFvgXZwVPtulkVW5yT/4="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="NjursDEerE+Ee4eH52By+w=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value=""/>
