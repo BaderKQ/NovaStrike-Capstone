@@ -16,7 +16,7 @@
     "Id": "1229948536",
     "GUID": "{4C9ED762-EFBE-48DC-A06F-C68D6729D55A}",
     "Language": "SFX",
-    "Hash": "1965399939",
+    "Hash": "959031093",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Environment",
     "ShortName": "Environment",
     "Path": "Environment.bnk",
@@ -550,6 +550,12 @@
       "DurationMax": "2.453596",
       "IncludedMemoryFiles": [
        {
+        "Id": "31567030",
+        "Language": "SFX",
+        "ShortName": "GOREMisc_Guts Impact_PSE_BW-BD3HL_4Aevz.wav",
+        "Path": "SFX\\GOREMisc_Guts Impact_PSE_BW-BD3HL_4Aevz_97CBECDB.wem"
+       },
+       {
         "Id": "49877259",
         "Language": "SFX",
         "ShortName": "BLLTImpt_Bullet Hit Body Flesh 03_PSE_BR-C_Zkibl.wav",
@@ -560,6 +566,12 @@
         "Language": "SFX",
         "ShortName": "BLLTImpt_Bullet Hit Body Flesh 10_PSE_BR-C_fLUNu.wav",
         "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 10_PSE_BR-C_fLUNu_10C4C929.wem"
+       },
+       {
+        "Id": "124393227",
+        "Language": "SFX",
+        "ShortName": "FGHTBf_Body Fall Splat_PSE_BW-BD3HL_k5fOM.wav",
+        "Path": "SFX\\FGHTBf_Body Fall Splat_PSE_BW-BD3HL_k5fOM_92905282.wem"
        },
        {
         "Id": "127522731",
@@ -589,7 +601,13 @@
         "Id": "257135719",
         "Language": "SFX",
         "ShortName": "Stamp#4.wav",
-        "Path": "SFX\\Stamp#4_10C4C929.wem"
+        "Path": "SFX\\Stamp#4_60C170BF.wem"
+       },
+       {
+        "Id": "263220282",
+        "Language": "SFX",
+        "ShortName": "FGHTBf_Body Fall Splat_PSE_BW-BD3HL_Z0qh2.wav",
+        "Path": "SFX\\FGHTBf_Body Fall Splat_PSE_BW-BD3HL_Z0qh2_AF8569C3.wem"
        },
        {
         "Id": "264818208",
@@ -601,7 +619,7 @@
         "Id": "282495091",
         "Language": "SFX",
         "ShortName": "Stamp#1.wav",
-        "Path": "SFX\\Stamp#1_10C4C929.wem"
+        "Path": "SFX\\Stamp#1_20D16C23.wem"
        },
        {
         "Id": "334582737",
@@ -637,13 +655,19 @@
         "Id": "615086575",
         "Language": "SFX",
         "ShortName": "Stamp#2.wav",
-        "Path": "SFX\\Stamp#2_10C4C929.wem"
+        "Path": "SFX\\Stamp#2_A6A87090.wem"
+       },
+       {
+        "Id": "687508310",
+        "Language": "SFX",
+        "ShortName": "GOREMisc_Flesh Impact_PSE_BW-BD3HL_wiOom.wav",
+        "Path": "SFX\\GOREMisc_Flesh Impact_PSE_BW-BD3HL_wiOom_DE90CC3D.wem"
        },
        {
         "Id": "693703507",
         "Language": "SFX",
         "ShortName": "Stamp#3.wav",
-        "Path": "SFX\\Stamp#3_10C4C929.wem"
+        "Path": "SFX\\Stamp#3_40A7BEDF.wem"
        },
        {
         "Id": "798688238",
@@ -656,6 +680,12 @@
         "Language": "SFX",
         "ShortName": "FGHTImpt_Punch Flesh_PSE_BW-BD3HL_r2Phs.wav",
         "Path": "SFX\\FGHTImpt_Punch Flesh_PSE_BW-BD3HL_r2Phs_27D7F77C.wem"
+       },
+       {
+        "Id": "836613961",
+        "Language": "SFX",
+        "ShortName": "GOREMisc_Head Impact_PSE_BW-BD3HL_kpsSI.wav",
+        "Path": "SFX\\GOREMisc_Head Impact_PSE_BW-BD3HL_kpsSI_DF540C8F.wem"
        },
        {
         "Id": "889853806",
@@ -679,13 +709,19 @@
         "Id": "907754223",
         "Language": "SFX",
         "ShortName": "Stamp#5.wav",
-        "Path": "SFX\\Stamp#5_10C4C929.wem"
+        "Path": "SFX\\Stamp#5_02A2E31F.wem"
        },
        {
         "Id": "975051020",
         "Language": "SFX",
         "ShortName": "BLLTImpt_Bullet Hit Body Flesh 12_PSE_BR-C_BbguS.wav",
         "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 12_PSE_BR-C_BbguS_10C4C929.wem"
+       },
+       {
+        "Id": "1038066726",
+        "Language": "SFX",
+        "ShortName": "GOREFlsh_Skull Crack_PSE_BW-BD3HL_IjDqw.wav",
+        "Path": "SFX\\GOREFlsh_Skull Crack_PSE_BW-BD3HL_IjDqw_C8515CD3.wem"
        },
        {
         "Id": "1040386342",
