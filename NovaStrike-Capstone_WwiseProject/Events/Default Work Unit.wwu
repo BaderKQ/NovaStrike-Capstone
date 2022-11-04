@@ -163,6 +163,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_ContainerEnergy" ID="{4E66FAE1-0F86-43BA-A672-420E72EC2D31}">
+					<ChildrenList>
+						<Action Name="" ID="{5C68D9EF-53B0-4370-BE00-1BFD3F487EC0}" ShortID="996112243">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ContainerEnergy" ID="{3ACE6F6A-2FA2-417F-9AF5-16F2DB7B42AE}" WorkUnitID="{6B950275-FAC6-4D3D-8417-DD0CE6969EDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_Game_Parameter_Energy" ID="{2B19698F-4695-4A63-ABB8-BA7A62BF03B6}">
+					<ChildrenList>
+						<Action Name="" ID="{BE99B1DC-2AA8-44EA-A6CD-0C1D7FF0C160}" ShortID="572744541">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Energy" ID="{87BDEC17-848F-4A12-993D-3BB23DE1E501}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
