@@ -14,6 +14,181 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Footstep" ID="{7240FB77-46DF-4AA3-ADFE-E226E742D4C3}">
+					<ChildrenList>
+						<Action Name="" ID="{531639BB-C9BF-4AA3-B8C8-41FF4EBF49E1}" ShortID="232831540">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FS 1 M1" ID="{6C09ACA3-F94B-42AA-B007-288AA966D7DE}" WorkUnitID="{6B950275-FAC6-4D3D-8417-DD0CE6969EDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F9C3C1F7-9EF4-47C8-82D8-7EEA2BBAB439}" ShortID="297613256">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FS 1 M2" ID="{92BF16AA-0274-4971-82C6-FCCC62C8A947}" WorkUnitID="{6B950275-FAC6-4D3D-8417-DD0CE6969EDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{81D78ED9-4E0A-45E9-8E77-A51080373EE9}" ShortID="447617631">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FS 1 M3 Equipment1" ID="{80FE0FBE-2040-47D0-969F-006517A675EC}" WorkUnitID="{6B950275-FAC6-4D3D-8417-DD0CE6969EDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1BC3FEFF-8091-4BB0-9A4B-89F9E73A7ED4}" ShortID="1053613766">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FS 1 M4 Equipment2" ID="{B7541543-C1B4-412F-BDE2-B216AF5CBB77}" WorkUnitID="{6B950275-FAC6-4D3D-8417-DD0CE6969EDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{20F846FA-89DF-49FD-AC7F-C40C6279565C}" ShortID="825393579">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Texture_Switch" ID="{EF8E54E7-8602-4245-816E-64B0974CE9BA}" WorkUnitID="{6B950275-FAC6-4D3D-8417-DD0CE6969EDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{48525A7D-9570-4F27-B73E-D0BC3EA94562}" ShortID="1023293116">
+							<PropertyList>
+								<Property Name="Probability" Type="Real64" Value="10"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Variance_Switch" ID="{7909C74E-F6D2-434B-89C9-AD85FFE8F9FD}" WorkUnitID="{6B950275-FAC6-4D3D-8417-DD0CE6969EDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MeleeSwingLeft" ID="{9D07230D-FBCB-46B9-930C-BBE0D4F45329}">
+					<ChildrenList>
+						<Action Name="" ID="{45AE42B7-1919-40A7-B66C-4AE2D7EDB1A6}" ShortID="840968422">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swing #1" ID="{AA5EB718-0BD8-4F6F-AC87-FAB843DD0B5C}" WorkUnitID="{6B950275-FAC6-4D3D-8417-DD0CE6969EDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6E3D65A7-2A05-40EA-A17A-C23560C190C6}" ShortID="964566626">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swing #2" ID="{FE66E626-292E-4F83-A3D1-0B484B71A31C}" WorkUnitID="{6B950275-FAC6-4D3D-8417-DD0CE6969EDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MeleeSwingRight" ID="{7D29DCF3-9731-4D1D-B5FD-5F3C674A5B10}">
+					<ChildrenList>
+						<Action Name="" ID="{C98BBC2F-B356-47F1-87F4-4C75395F53A3}" ShortID="387573397">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swing #1'" ID="{3158DF40-7523-4F00-BC9F-62C04A687498}" WorkUnitID="{6B950275-FAC6-4D3D-8417-DD0CE6969EDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9E29AFC3-7D46-48C8-8729-25609AAACFC7}" ShortID="625838191">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swing #2'" ID="{C23E383F-AC90-40A5-969B-56310B544B93}" WorkUnitID="{6B950275-FAC6-4D3D-8417-DD0CE6969EDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WeaponHit" ID="{C9741DF2-797F-4243-BD35-82C1C4A41D1A}">
+					<ChildrenList>
+						<Action Name="" ID="{D779C35F-E6BB-44E6-BFE5-A81114A57EFA}" ShortID="948093662">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FleshHit" ID="{8D3B3888-E825-41C4-AF23-15BD36382433}" WorkUnitID="{6B950275-FAC6-4D3D-8417-DD0CE6969EDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7FAE7E4E-F57B-412C-A0DF-0CABFAED0DE5}" ShortID="323522004">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FleshHit#2" ID="{62FAC920-ED96-42B0-A8E4-8DCAED444EC4}" WorkUnitID="{6B950275-FAC6-4D3D-8417-DD0CE6969EDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{78C21D8E-DF8A-4AC5-9D8C-D91D26587976}" ShortID="754143373">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MetalTinge" ID="{D2F860BD-327F-42D6-A05C-892FEB9607FA}" WorkUnitID="{6B950275-FAC6-4D3D-8417-DD0CE6969EDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{280E0220-2409-4FBD-85B8-4A9D8FC6FDE8}" ShortID="494352460">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stamp" ID="{962CAF49-7511-4E04-AA43-74795F754B67}" WorkUnitID="{6B950275-FAC6-4D3D-8417-DD0CE6969EDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1CDFDCE3-EC4E-4DD2-86C1-20B93ABA18BB}" ShortID="918431506">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BloodSplat" ID="{CBFE8A89-0153-4684-A822-7175171B91AE}" WorkUnitID="{6B950275-FAC6-4D3D-8417-DD0CE6969EDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Test_WeaponHit" ID="{F91808D2-FDA3-4ECB-B520-87DA073B59B9}">
+					<ChildrenList>
+						<Action Name="" ID="{780B802A-C2C6-467F-AE80-009982E22C29}" ShortID="1017944250">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_MeleeSwingLeft" ID="{9D07230D-FBCB-46B9-930C-BBE0D4F45329}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7A17CE82-F1DA-49BC-8938-62AB965F398E}" ShortID="916358181">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_WeaponHit" ID="{C9741DF2-797F-4243-BD35-82C1C4A41D1A}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ContainerEnergy" ID="{4E66FAE1-0F86-43BA-A672-420E72EC2D31}">
+					<ChildrenList>
+						<Action Name="" ID="{5C68D9EF-53B0-4370-BE00-1BFD3F487EC0}" ShortID="996112243">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ContainerEnergy" ID="{3ACE6F6A-2FA2-417F-9AF5-16F2DB7B42AE}" WorkUnitID="{6B950275-FAC6-4D3D-8417-DD0CE6969EDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_Game_Parameter_Energy" ID="{2B19698F-4695-4A63-ABB8-BA7A62BF03B6}">
+					<ChildrenList>
+						<Action Name="" ID="{BE99B1DC-2AA8-44EA-A6CD-0C1D7FF0C160}" ShortID="572744541">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Energy" ID="{87BDEC17-848F-4A12-993D-3BB23DE1E501}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

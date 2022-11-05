@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{51D0B3E2-75B1-4F73-AD15-FEA6B9D8CC2D}" SchemaVersion="103">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{51D0B3E2-75B1-4F73-AD15-FEA6B9D8CC2D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{51D0B3E2-75B1-4F73-AD15-FEA6B9D8CC2D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{08DE8B99-0233-449E-A267-731017291E0E}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Footstep" ID="{7240FB77-46DF-4AA3-ADFE-E226E742D4C3}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Set_Game_Parameter_Energy" ID="{2B19698F-4695-4A63-ABB8-BA7A62BF03B6}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Test_WeaponHit" ID="{F91808D2-FDA3-4ECB-B520-87DA073B59B9}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_ContainerEnergy" ID="{4E66FAE1-0F86-43BA-A672-420E72EC2D31}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Energy" ID="{87BDEC17-848F-4A12-993D-3BB23DE1E501}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Base" ID="{EDCAEB60-0A45-4E7A-94A7-F751E8E33B1E}"/>
+						<CurrentSwitchRef Name="Base" ID="{D8A16657-DCAF-4D03-9B33-BF1A5626801F}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

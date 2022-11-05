@@ -5,22 +5,494 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "/Users/nycelly/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Not Case Sensitive/Unreal/Projects/NovaStrike-Capstone/NovaStrike-Capstone_WwiseProject/",
-   "SourceFilesRoot": "/Users/nycelly/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Not Case Sensitive/Unreal/Projects/NovaStrike-Capstone/NovaStrike-Capstone_WwiseProject/.cache/Windows/",
-   "SoundBanksRoot": "/Users/nycelly/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Not Case Sensitive/Unreal/Projects/NovaStrike-Capstone/NovaStrike-Capstone_WwiseProject/GeneratedSoundBanks/Windows/",
+   "ProjectRoot": "G:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "G:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "/Users/nycelly/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Not Case Sensitive/Unreal/Projects/NovaStrike-Capstone/NovaStrike-Capstone_WwiseProject/GeneratedSoundBanks/Windows"
+   "ExternalSourcesOutputRoot": "G:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "1229948536",
     "GUID": "{4C9ED762-EFBE-48DC-A06F-C68D6729D55A}",
     "Language": "SFX",
-    "Hash": "3146736654",
+    "Hash": "959031093",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Environment",
     "ShortName": "Environment",
     "Path": "Environment.bnk",
     "IncludedEvents": [
+     {
+      "Id": "1602358412",
+      "Name": "Play_Footstep",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footstep",
+      "GUID": "{7240FB77-46DF-4AA3-ADFE-E226E742D4C3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.39",
+      "DurationMax": "0.510021",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "57506250",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 4.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 4_10C4C929.wem"
+       },
+       {
+        "Id": "118814164",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\Texture\\Variance-Gravel\\FS 1 VarianceGravel-3.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Variance-Gravel\\FS 1 VarianceGravel-3_10C4C929.wem"
+       },
+       {
+        "Id": "123078190",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 1.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 1_10C4C929.wem"
+       },
+       {
+        "Id": "138071412",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-2.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-2_10C4C929.wem"
+       },
+       {
+        "Id": "152352733",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-6.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-6_10C4C929.wem"
+       },
+       {
+        "Id": "185378386",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 6.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 6_10C4C929.wem"
+       },
+       {
+        "Id": "230773830",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-1.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-1_10C4C929.wem"
+       },
+       {
+        "Id": "267454486",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\Texture\\Variance-Gravel\\FS 1 Gravel-6.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Variance-Gravel\\FS 1 Gravel-6_10C4C929.wem"
+       },
+       {
+        "Id": "268944095",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-3.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-3_10C4C929.wem"
+       },
+       {
+        "Id": "291603426",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-6.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-6_10C4C929.wem"
+       },
+       {
+        "Id": "307754126",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 3.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 3_10C4C929.wem"
+       },
+       {
+        "Id": "321862013",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 4.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 4_10C4C929.wem"
+       },
+       {
+        "Id": "350382438",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 2.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 2_10C4C929.wem"
+       },
+       {
+        "Id": "432822066",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 6.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 6_10C4C929.wem"
+       },
+       {
+        "Id": "456988660",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\Texture\\Variance-Gravel\\FS 1 VarianceGravel-1.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Variance-Gravel\\FS 1 VarianceGravel-1_10C4C929.wem"
+       },
+       {
+        "Id": "521817947",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 5.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 5_10C4C929.wem"
+       },
+       {
+        "Id": "540815047",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 2.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 2_10C4C929.wem"
+       },
+       {
+        "Id": "551793092",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-3.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-3_10C4C929.wem"
+       },
+       {
+        "Id": "608239218",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 3.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 3_10C4C929.wem"
+       },
+       {
+        "Id": "758534941",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 3.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 3_10C4C929.wem"
+       },
+       {
+        "Id": "788911061",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-4.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-4_10C4C929.wem"
+       },
+       {
+        "Id": "797775328",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 5.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 5_10C4C929.wem"
+       },
+       {
+        "Id": "831562792",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 6.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 6_10C4C929.wem"
+       },
+       {
+        "Id": "832651337",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 4.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 4_10C4C929.wem"
+       },
+       {
+        "Id": "837384237",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 1.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 1_10C4C929.wem"
+       },
+       {
+        "Id": "876128968",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 2.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 2_10C4C929.wem"
+       },
+       {
+        "Id": "880064682",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-1.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-1_10C4C929.wem"
+       },
+       {
+        "Id": "890678112",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-5.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-5_10C4C929.wem"
+       },
+       {
+        "Id": "893480275",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 1.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 1_10C4C929.wem"
+       },
+       {
+        "Id": "942946384",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-5.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-5_10C4C929.wem"
+       },
+       {
+        "Id": "1006125412",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-2.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-2_10C4C929.wem"
+       },
+       {
+        "Id": "1036931546",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 5.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 5_10C4C929.wem"
+       },
+       {
+        "Id": "1040588585",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-4.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-4_10C4C929.wem"
+       },
+       {
+        "Id": "1054982694",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\Texture\\Variance-Gravel\\FS 1 VarianceGravel-2.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Variance-Gravel\\FS 1 VarianceGravel-2_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{EDCAEB60-0A45-4E7A-94A7-F751E8E33B1E}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{4800904A-CABC-4B95-9175-4E81A2DFAF84}",
+        "Media": [
+         {
+          "Id": "138071412"
+         },
+         {
+          "Id": "291603426"
+         },
+         {
+          "Id": "551793092"
+         },
+         {
+          "Id": "788911061"
+         },
+         {
+          "Id": "880064682"
+         },
+         {
+          "Id": "890678112"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{BB57FB33-4984-4F30-85A4-8B1D1FEA704B}",
+        "Media": [
+         {
+          "Id": "118814164"
+         },
+         {
+          "Id": "267454486"
+         },
+         {
+          "Id": "456988660"
+         },
+         {
+          "Id": "1054982694"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "2580748627",
+      "Name": "Play_MeleeSwingLeft",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_MeleeSwingLeft",
+      "GUID": "{9D07230D-FBCB-46B9-930C-BBE0D4F45329}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.375",
+      "DurationMax": "0.875",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "118988992",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 2.wav",
+        "Path": "SFX\\Swing #1\\Swing 2_10C4C929.wem"
+       },
+       {
+        "Id": "140773415",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-7.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-7_10C4C929.wem"
+       },
+       {
+        "Id": "183537508",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-6.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-6_10C4C929.wem"
+       },
+       {
+        "Id": "226937758",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-4.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-4_10C4C929.wem"
+       },
+       {
+        "Id": "286611772",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-2.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-2_10C4C929.wem"
+       },
+       {
+        "Id": "344543557",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 3.wav",
+        "Path": "SFX\\Swing #1\\Swing 3_10C4C929.wem"
+       },
+       {
+        "Id": "408041494",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-5.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-5_10C4C929.wem"
+       },
+       {
+        "Id": "456186507",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 7.wav",
+        "Path": "SFX\\Swing #1\\Swing 7_10C4C929.wem"
+       },
+       {
+        "Id": "543822850",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 8.wav",
+        "Path": "SFX\\Swing #1\\Swing 8_10C4C929.wem"
+       },
+       {
+        "Id": "625501743",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 6.wav",
+        "Path": "SFX\\Swing #1\\Swing 6_10C4C929.wem"
+       },
+       {
+        "Id": "666426747",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 1.wav",
+        "Path": "SFX\\Swing #1\\Swing 1_10C4C929.wem"
+       },
+       {
+        "Id": "696450797",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-8.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-8_10C4C929.wem"
+       },
+       {
+        "Id": "702790565",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-1.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-1_10C4C929.wem"
+       },
+       {
+        "Id": "730219167",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 5.wav",
+        "Path": "SFX\\Swing #1\\Swing 5_10C4C929.wem"
+       },
+       {
+        "Id": "801527397",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 4.wav",
+        "Path": "SFX\\Swing #1\\Swing 4_10C4C929.wem"
+       },
+       {
+        "Id": "1069350722",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-3.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-3_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "695242574",
+      "Name": "Play_MeleeSwingRight",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_MeleeSwingRight",
+      "GUID": "{7D29DCF3-9731-4D1D-B5FD-5F3C674A5B10}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.375",
+      "DurationMax": "0.875",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "118988992",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 2.wav",
+        "Path": "SFX\\Swing #1\\Swing 2_10C4C929.wem"
+       },
+       {
+        "Id": "140773415",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-7.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-7_10C4C929.wem"
+       },
+       {
+        "Id": "183537508",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-6.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-6_10C4C929.wem"
+       },
+       {
+        "Id": "226937758",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-4.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-4_10C4C929.wem"
+       },
+       {
+        "Id": "286611772",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-2.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-2_10C4C929.wem"
+       },
+       {
+        "Id": "344543557",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 3.wav",
+        "Path": "SFX\\Swing #1\\Swing 3_10C4C929.wem"
+       },
+       {
+        "Id": "408041494",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-5.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-5_10C4C929.wem"
+       },
+       {
+        "Id": "456186507",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 7.wav",
+        "Path": "SFX\\Swing #1\\Swing 7_10C4C929.wem"
+       },
+       {
+        "Id": "543822850",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 8.wav",
+        "Path": "SFX\\Swing #1\\Swing 8_10C4C929.wem"
+       },
+       {
+        "Id": "625501743",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 6.wav",
+        "Path": "SFX\\Swing #1\\Swing 6_10C4C929.wem"
+       },
+       {
+        "Id": "666426747",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 1.wav",
+        "Path": "SFX\\Swing #1\\Swing 1_10C4C929.wem"
+       },
+       {
+        "Id": "696450797",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-8.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-8_10C4C929.wem"
+       },
+       {
+        "Id": "702790565",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-1.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-1_10C4C929.wem"
+       },
+       {
+        "Id": "730219167",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 5.wav",
+        "Path": "SFX\\Swing #1\\Swing 5_10C4C929.wem"
+       },
+       {
+        "Id": "801527397",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 4.wav",
+        "Path": "SFX\\Swing #1\\Swing 4_10C4C929.wem"
+       },
+       {
+        "Id": "1069350722",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-3.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-3_10C4C929.wem"
+       }
+      ]
+     },
      {
       "Id": "1958090894",
       "Name": "Play_TestSounds",
@@ -34,37 +506,276 @@
         "Id": "443077306",
         "Language": "SFX",
         "ShortName": "Announcer1.wav",
-        "Path": "SFX/Announcer1_10C4C929.wem"
+        "Path": "SFX\\Announcer1_10C4C929.wem"
        },
        {
         "Id": "660193127",
         "Language": "SFX",
         "ShortName": "Announcer3.wav",
-        "Path": "SFX/Announcer3_10C4C929.wem"
+        "Path": "SFX\\Announcer3_10C4C929.wem"
        },
        {
         "Id": "773082952",
         "Language": "SFX",
         "ShortName": "AnnouncerOutstanding.wav",
-        "Path": "SFX/AnnouncerOutstanding_10C4C929.wem"
+        "Path": "SFX\\AnnouncerOutstanding_10C4C929.wem"
        },
        {
         "Id": "794946183",
         "Language": "SFX",
         "ShortName": "AnnouncerSuper.wav",
-        "Path": "SFX/AnnouncerSuper_10C4C929.wem"
+        "Path": "SFX\\AnnouncerSuper_10C4C929.wem"
        },
        {
         "Id": "889043477",
         "Language": "SFX",
         "ShortName": "AnnouncerGreat.wav",
-        "Path": "SFX/AnnouncerGreat_10C4C929.wem"
+        "Path": "SFX\\AnnouncerGreat_10C4C929.wem"
        },
        {
         "Id": "1009762844",
         "Language": "SFX",
         "ShortName": "Announcer2.wav",
-        "Path": "SFX/Announcer2_10C4C929.wem"
+        "Path": "SFX\\Announcer2_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2848865453",
+      "Name": "Play_WeaponHit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_WeaponHit",
+      "GUID": "{C9741DF2-797F-4243-BD35-82C1C4A41D1A}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.941804",
+      "DurationMax": "2.453596",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "31567030",
+        "Language": "SFX",
+        "ShortName": "GOREMisc_Guts Impact_PSE_BW-BD3HL_4Aevz.wav",
+        "Path": "SFX\\GOREMisc_Guts Impact_PSE_BW-BD3HL_4Aevz_97CBECDB.wem"
+       },
+       {
+        "Id": "49877259",
+        "Language": "SFX",
+        "ShortName": "BLLTImpt_Bullet Hit Body Flesh 03_PSE_BR-C_Zkibl.wav",
+        "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 03_PSE_BR-C_Zkibl_C01A14D8.wem"
+       },
+       {
+        "Id": "101837807",
+        "Language": "SFX",
+        "ShortName": "BLLTImpt_Bullet Hit Body Flesh 10_PSE_BR-C_fLUNu.wav",
+        "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 10_PSE_BR-C_fLUNu_10C4C929.wem"
+       },
+       {
+        "Id": "124393227",
+        "Language": "SFX",
+        "ShortName": "FGHTBf_Body Fall Splat_PSE_BW-BD3HL_k5fOM.wav",
+        "Path": "SFX\\FGHTBf_Body Fall Splat_PSE_BW-BD3HL_k5fOM_92905282.wem"
+       },
+       {
+        "Id": "127522731",
+        "Language": "SFX",
+        "ShortName": "WEAPSwrd_Sword Hit_PSE_BW-BD3HL_Fi9WH.wav",
+        "Path": "SFX\\WEAPSwrd_Sword Hit_PSE_BW-BD3HL_Fi9WH_10C4C929.wem"
+       },
+       {
+        "Id": "174808841",
+        "Language": "SFX",
+        "ShortName": "BLLTImpt_Bullet Hit Body Flesh 14_PSE_BR-C_xRUms.wav",
+        "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 14_PSE_BR-C_xRUms_10C4C929.wem"
+       },
+       {
+        "Id": "215285947",
+        "Language": "SFX",
+        "ShortName": "FGHTImpt_Punch Face_PSE_BW-BD3HL_KkqdV.wav",
+        "Path": "SFX\\FGHTImpt_Punch Face_PSE_BW-BD3HL_KkqdV_DCA71335.wem"
+       },
+       {
+        "Id": "255430892",
+        "Language": "SFX",
+        "ShortName": "BLLTImpt_Bullet Hit Body Flesh 08_PSE_BR-C_i2B7L.wav",
+        "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 08_PSE_BR-C_i2B7L_A5798C83.wem"
+       },
+       {
+        "Id": "257135719",
+        "Language": "SFX",
+        "ShortName": "Stamp#4.wav",
+        "Path": "SFX\\Stamp#4_60C170BF.wem"
+       },
+       {
+        "Id": "263220282",
+        "Language": "SFX",
+        "ShortName": "FGHTBf_Body Fall Splat_PSE_BW-BD3HL_Z0qh2.wav",
+        "Path": "SFX\\FGHTBf_Body Fall Splat_PSE_BW-BD3HL_Z0qh2_AF8569C3.wem"
+       },
+       {
+        "Id": "264818208",
+        "Language": "SFX",
+        "ShortName": "BLLTImpt_Bullet Hit Body Flesh 06_PSE_BR-C_lVvBO.wav",
+        "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 06_PSE_BR-C_lVvBO_9FF3502A.wem"
+       },
+       {
+        "Id": "282495091",
+        "Language": "SFX",
+        "ShortName": "Stamp#1.wav",
+        "Path": "SFX\\Stamp#1_20D16C23.wem"
+       },
+       {
+        "Id": "334582737",
+        "Language": "SFX",
+        "ShortName": "BLLTImpt_Bullet Hit Body Flesh 16_PSE_BR-C_WJnTK.wav",
+        "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 16_PSE_BR-C_WJnTK_AB423CF8.wem"
+       },
+       {
+        "Id": "367022978",
+        "Language": "SFX",
+        "ShortName": "FGHTImpt_Punch Face_PSE_BW-BD3HL_1WwP2.wav",
+        "Path": "SFX\\FGHTImpt_Punch Face_PSE_BW-BD3HL_1WwP2_63B71010.wem"
+       },
+       {
+        "Id": "391176960",
+        "Language": "SFX",
+        "ShortName": "BLLTImpt_Bullet Hit Body Flesh 13_PSE_BR-C_961Vj.wav",
+        "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 13_PSE_BR-C_961Vj_10C4C929.wem"
+       },
+       {
+        "Id": "424632207",
+        "Language": "SFX",
+        "ShortName": "BLLTImpt_Bullet Hit Body Flesh 07_PSE_BR-C_A54wU.wav",
+        "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 07_PSE_BR-C_A54wU_10C4C929.wem"
+       },
+       {
+        "Id": "454025069",
+        "Language": "SFX",
+        "ShortName": "FGHTImpt_Punch Face_PSE_BW-BD3HL_cIg6y.wav",
+        "Path": "SFX\\FGHTImpt_Punch Face_PSE_BW-BD3HL_cIg6y_28E39F30.wem"
+       },
+       {
+        "Id": "615086575",
+        "Language": "SFX",
+        "ShortName": "Stamp#2.wav",
+        "Path": "SFX\\Stamp#2_A6A87090.wem"
+       },
+       {
+        "Id": "687508310",
+        "Language": "SFX",
+        "ShortName": "GOREMisc_Flesh Impact_PSE_BW-BD3HL_wiOom.wav",
+        "Path": "SFX\\GOREMisc_Flesh Impact_PSE_BW-BD3HL_wiOom_DE90CC3D.wem"
+       },
+       {
+        "Id": "693703507",
+        "Language": "SFX",
+        "ShortName": "Stamp#3.wav",
+        "Path": "SFX\\Stamp#3_40A7BEDF.wem"
+       },
+       {
+        "Id": "798688238",
+        "Language": "SFX",
+        "ShortName": "BLLTImpt_Bullet Hit Body Flesh 15_PSE_BR-C_EiRYG.wav",
+        "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 15_PSE_BR-C_EiRYG_10C4C929.wem"
+       },
+       {
+        "Id": "800351919",
+        "Language": "SFX",
+        "ShortName": "FGHTImpt_Punch Flesh_PSE_BW-BD3HL_r2Phs.wav",
+        "Path": "SFX\\FGHTImpt_Punch Flesh_PSE_BW-BD3HL_r2Phs_27D7F77C.wem"
+       },
+       {
+        "Id": "836613961",
+        "Language": "SFX",
+        "ShortName": "GOREMisc_Head Impact_PSE_BW-BD3HL_kpsSI.wav",
+        "Path": "SFX\\GOREMisc_Head Impact_PSE_BW-BD3HL_kpsSI_DF540C8F.wem"
+       },
+       {
+        "Id": "889853806",
+        "Language": "SFX",
+        "ShortName": "BLLTImpt_Bullet Hit Body Flesh 11_PSE_BR-C_LYCMs.wav",
+        "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 11_PSE_BR-C_LYCMs_10C4C929.wem"
+       },
+       {
+        "Id": "892248465",
+        "Language": "SFX",
+        "ShortName": "FGHTImpt_Punch Face_PSE_BW-BD3HL_kjwct.wav",
+        "Path": "SFX\\FGHTImpt_Punch Face_PSE_BW-BD3HL_kjwct_5E27093D.wem"
+       },
+       {
+        "Id": "905927144",
+        "Language": "SFX",
+        "ShortName": "BLLTImpt_Bullet Hit Body Flesh 05_PSE_BR-C_FZCrU.wav",
+        "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 05_PSE_BR-C_FZCrU_A8165933.wem"
+       },
+       {
+        "Id": "907754223",
+        "Language": "SFX",
+        "ShortName": "Stamp#5.wav",
+        "Path": "SFX\\Stamp#5_02A2E31F.wem"
+       },
+       {
+        "Id": "975051020",
+        "Language": "SFX",
+        "ShortName": "BLLTImpt_Bullet Hit Body Flesh 12_PSE_BR-C_BbguS.wav",
+        "Path": "SFX\\BLLTImpt_Bullet Hit Body Flesh 12_PSE_BR-C_BbguS_10C4C929.wem"
+       },
+       {
+        "Id": "1038066726",
+        "Language": "SFX",
+        "ShortName": "GOREFlsh_Skull Crack_PSE_BW-BD3HL_IjDqw.wav",
+        "Path": "SFX\\GOREFlsh_Skull Crack_PSE_BW-BD3HL_IjDqw_C8515CD3.wem"
+       },
+       {
+        "Id": "1040386342",
+        "Language": "SFX",
+        "ShortName": "FGHTImpt_Punch Face_PSE_BW-BD3HL_5X4Zg.wav",
+        "Path": "SFX\\FGHTImpt_Punch Face_PSE_BW-BD3HL_5X4Zg_08BEB9C2.wem"
+       },
+       {
+        "Id": "1053616209",
+        "Language": "SFX",
+        "ShortName": "FGHTImpt_Punch Face_PSE_BW-BD3HL_386EH.wav",
+        "Path": "SFX\\FGHTImpt_Punch Face_PSE_BW-BD3HL_386EH_B155C166.wem"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "684570577",
+      "Name": "Footstep_Material",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Footstep_Material",
+      "GUID": "{933A4E83-6228-4C3F-A943-F3A364522B34}",
+      "Switches": [
+       {
+        "Id": "2185786256",
+        "Name": "Gravel",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footstep_Material\\Gravel",
+        "GUID": "{4800904A-CABC-4B95-9175-4E81A2DFAF84}"
+       },
+       {
+        "Id": "1291433366",
+        "Name": "Base",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footstep_Material\\Base",
+        "GUID": "{D8A16657-DCAF-4D03-9B33-BF1A5626801F}"
+       }
+      ]
+     },
+     {
+      "Id": "2912674983",
+      "Name": "FSVariance_Material",
+      "ObjectPath": "\\Switches\\Default Work Unit\\FSVariance_Material",
+      "GUID": "{A401C704-6435-4BD2-B910-EEF82E9D0307}",
+      "Switches": [
+       {
+        "Id": "1291433366",
+        "Name": "Base",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FSVariance_Material\\Base",
+        "GUID": "{EDCAEB60-0A45-4E7A-94A7-F751E8E33B1E}"
+       },
+       {
+        "Id": "2185786256",
+        "Name": "Gravel",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FSVariance_Material\\Gravel",
+        "GUID": "{BB57FB33-4984-4F30-85A4-8B1D1FEA704B}"
        }
       ]
      }
