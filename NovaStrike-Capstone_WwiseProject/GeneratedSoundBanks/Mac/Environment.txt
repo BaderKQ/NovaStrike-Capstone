@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1602358412	Play_Footstep			\Default Work Unit\Play_Footstep	
 	1958090894	Play_TestSounds			\Default Work Unit\Play_TestSounds	
 	2580748627	Play_MeleeSwingLeft			\Default Work Unit\Play_MeleeSwingLeft	
+	2611571207	Play_ContainerEnergy			\Default Work Unit\Play_ContainerEnergy	
 	2848865453	Play_WeaponHit			\Default Work Unit\Play_WeaponHit	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -14,6 +15,9 @@ Switch	ID	Name	Switch Group			Notes
 	2185786256	Gravel	Footstep_Material			
 	1291433366	Base	FSVariance_Material			
 	2185786256	Gravel	FSVariance_Material			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1345584937	Energy			\Default Work Unit\Energy	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	31567030	GOREMisc_Guts Impact_PSE_BW-BD3HL_4Aevz	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\GOREMisc_Guts Impact_PSE_BW-BD3HL_4Aevz_97CBECDB.wem		\Actor-Mixer Hierarchy\Default Work Unit\MeleeAttacks\WeaponHit\BloodSplat\GOREMisc_Guts Impact_PSE_BW-BD3HL_4Aevz		98204
@@ -50,20 +54,25 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	350382438	FS 1 M2 - 2	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\NovaStrike Footstep Package\FS 1 M2\FS 1 M2 - 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NovaStrike Footstep Package\FootstepsMixer\FS 1 M2\FS 1 M2 - 2		75544
 	367022978	FGHTImpt_Punch Face_PSE_BW-BD3HL_1WwP2	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\FGHTImpt_Punch Face_PSE_BW-BD3HL_1WwP2_63B71010.wem		\Actor-Mixer Hierarchy\Default Work Unit\MeleeAttacks\WeaponHit\FleshHit\FGHTImpt_Punch Face_PSE_BW-BD3HL_1WwP2		36628
 	391176960	BLLTImpt_Bullet Hit Body Flesh 13_PSE_BR-C_961Vj	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\BLLTImpt_Bullet Hit Body Flesh 13_PSE_BR-C_961Vj_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MeleeAttacks\WeaponHit\FleshHit#2\BLLTImpt_Bullet Hit Body Flesh 13_PSE_BR-C_961Vj		21184
+	394087409	Energy-Spinner1	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\Energy-Spinner1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Energy\ContainerEnergy\Energy-Spinner1		2468636
 	408041494	Swing 2-5	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\Swing #2'\Swing 2-5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MeleeAttacks\WeaponSwingLeft\Swing #2\Swing 2-5		48064
+	413567759	Energy-BaseLoop	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\Energy-BaseLoop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Energy\ContainerEnergy\Energy-BaseLoop		2468636
 	424632207	BLLTImpt_Bullet Hit Body Flesh 07_PSE_BR-C_A54wU	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\BLLTImpt_Bullet Hit Body Flesh 07_PSE_BR-C_A54wU_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MeleeAttacks\WeaponHit\FleshHit#2\BLLTImpt_Bullet Hit Body Flesh 07_PSE_BR-C_A54wU		43264
 	432822066	FS 1 M2 - 6	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\NovaStrike Footstep Package\FS 1 M2\FS 1 M2 - 6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NovaStrike Footstep Package\FootstepsMixer\FS 1 M2\FS 1 M2 - 6		72064
 	443077306	Announcer1	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\Announcer1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestSounds\Announcer1		71728
 	454025069	FGHTImpt_Punch Face_PSE_BW-BD3HL_cIg6y	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\FGHTImpt_Punch Face_PSE_BW-BD3HL_cIg6y_28E39F30.wem		\Actor-Mixer Hierarchy\Default Work Unit\MeleeAttacks\WeaponHit\FleshHit\FGHTImpt_Punch Face_PSE_BW-BD3HL_cIg6y		87460
 	456186507	Swing 7	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\Swing #1\Swing 7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MeleeAttacks\WeaponSwingLeft\Swing #1\Swing 7		132064
 	456988660	FS 1 VarianceGravel-1	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\NovaStrike Footstep Package\Texture\Variance-Gravel\FS 1 VarianceGravel-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NovaStrike Footstep Package\FootstepsMixer\Variance_Switch\Variance-Gravel\FS 1 VarianceGravel-1		97988
+	496615053	Energy-Pulse1	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\Energy-Pulse1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Energy\ContainerEnergy\Energy-Pulse1		2468636
 	521817947	FS 1 M2 - 5	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\NovaStrike Footstep Package\FS 1 M2\FS 1 M2 - 5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NovaStrike Footstep Package\FootstepsMixer\FS 1 M2\FS 1 M2 - 5		72064
 	540815047	FS 1 M3 Equipment1 - 2	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\NovaStrike Footstep Package\FS 1 M3 Equipment1\FS 1 M3 Equipment1 - 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NovaStrike Footstep Package\FootstepsMixer\FS 1 M3 Equipment1\FS 1 M3 Equipment1 - 2		72064
 	543822850	Swing 8	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\Swing #1\Swing 8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MeleeAttacks\WeaponSwingLeft\Swing #1\Swing 8		162064
 	551793092	FS 1 Gravel-3	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\NovaStrike Footstep Package\Texture\Gravel\FS 1 Gravel-3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NovaStrike Footstep Package\FootstepsMixer\Texture_Switch\Gravel\FS 1 Gravel-3		72064
 	608239218	FS 1 M4 Equipment2 - 3	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\NovaStrike Footstep Package\FS 1 M4 Equipment2\FS 1 M4 Equipment2 - 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NovaStrike Footstep Package\FootstepsMixer\FS 1 M4 Equipment2\FS 1 M4 Equipment2 - 3		54064
+	610718830	Energy-Electricity	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\Energy-Electricity_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Energy\ContainerEnergy\Energy-Electricity		2468636
 	615086575	Stamp#2	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\Stamp#2_A6A87090.wem		\Actor-Mixer Hierarchy\Default Work Unit\MeleeAttacks\WeaponHit\Stamp\Stamp#2		58404
 	625501743	Swing 6	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\Swing #1\Swing 6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MeleeAttacks\WeaponSwingLeft\Swing #1\Swing 6		168064
+	628721520	Energy-Spinner2	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\Energy-Spinner2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Energy\ContainerEnergy\Energy-Spinner2		2468636
 	660193127	Announcer3	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\Announcer3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestSounds\Announcer3		71728
 	666426747	Swing 1	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\Swing #1\Swing 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MeleeAttacks\WeaponSwingLeft\Swing #1\Swing 1		96064
 	687508310	GOREMisc_Flesh Impact_PSE_BW-BD3HL_wiOom	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\GOREMisc_Flesh Impact_PSE_BW-BD3HL_wiOom_DE90CC3D.wem		\Actor-Mixer Hierarchy\Default Work Unit\MeleeAttacks\WeaponHit\BloodSplat\GOREMisc_Flesh Impact_PSE_BW-BD3HL_wiOom		172664
@@ -93,6 +102,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	905927144	BLLTImpt_Bullet Hit Body Flesh 05_PSE_BR-C_FZCrU	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\BLLTImpt_Bullet Hit Body Flesh 05_PSE_BR-C_FZCrU_A8165933.wem		\Actor-Mixer Hierarchy\Default Work Unit\MeleeAttacks\WeaponHit\FleshHit#2\BLLTImpt_Bullet Hit Body Flesh 05_PSE_BR-C_FZCrU		51054
 	907754223	Stamp#5	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\Stamp#5_02A2E31F.wem		\Actor-Mixer Hierarchy\Default Work Unit\MeleeAttacks\WeaponHit\Stamp\Stamp#5		69872
 	942946384	FS 1 Bass-5	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\NovaStrike Footstep Package\FS 1 M1\FS 1 Bass-5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NovaStrike Footstep Package\FootstepsMixer\FS 1 M1\FS 1 Bass-5		53824
+	974298645	Energy-Pulse2	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\Energy-Pulse2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Energy\ContainerEnergy\Energy-Pulse2		2468636
 	975051020	BLLTImpt_Bullet Hit Body Flesh 12_PSE_BR-C_BbguS	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\BLLTImpt_Bullet Hit Body Flesh 12_PSE_BR-C_BbguS_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MeleeAttacks\WeaponHit\FleshHit#2\BLLTImpt_Bullet Hit Body Flesh 12_PSE_BR-C_BbguS		39424
 	1006125412	FS 1 Bass-2	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\NovaStrike Footstep Package\FS 1 M1\FS 1 Bass-2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NovaStrike Footstep Package\FootstepsMixer\FS 1 M1\FS 1 Bass-2		71108
 	1009762844	Announcer2	G:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Mac\SFX\Announcer2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestSounds\Announcer2		71728

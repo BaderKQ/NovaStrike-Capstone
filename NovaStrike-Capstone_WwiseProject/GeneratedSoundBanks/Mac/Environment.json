@@ -16,11 +16,56 @@
     "Id": "1229948536",
     "GUID": "{4C9ED762-EFBE-48DC-A06F-C68D6729D55A}",
     "Language": "SFX",
-    "Hash": "959031093",
+    "Hash": "2513210324",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Environment",
     "ShortName": "Environment",
     "Path": "Environment.bnk",
     "IncludedEvents": [
+     {
+      "Id": "2611571207",
+      "Name": "Play_ContainerEnergy",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_ContainerEnergy",
+      "GUID": "{4E66FAE1-0F86-43BA-A672-420E72EC2D31}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "394087409",
+        "Language": "SFX",
+        "ShortName": "Energy-Spinner1.wav",
+        "Path": "SFX\\Energy-Spinner1_D79FB2B7.wem"
+       },
+       {
+        "Id": "413567759",
+        "Language": "SFX",
+        "ShortName": "Energy-BaseLoop.wav",
+        "Path": "SFX\\Energy-BaseLoop_D79FB2B7.wem"
+       },
+       {
+        "Id": "496615053",
+        "Language": "SFX",
+        "ShortName": "Energy-Pulse1.wav",
+        "Path": "SFX\\Energy-Pulse1_D79FB2B7.wem"
+       },
+       {
+        "Id": "610718830",
+        "Language": "SFX",
+        "ShortName": "Energy-Electricity.wav",
+        "Path": "SFX\\Energy-Electricity_D79FB2B7.wem"
+       },
+       {
+        "Id": "628721520",
+        "Language": "SFX",
+        "ShortName": "Energy-Spinner2.wav",
+        "Path": "SFX\\Energy-Spinner2_D79FB2B7.wem"
+       },
+       {
+        "Id": "974298645",
+        "Language": "SFX",
+        "ShortName": "Energy-Pulse2.wav",
+        "Path": "SFX\\Energy-Pulse2_D79FB2B7.wem"
+       }
+      ]
+     },
      {
       "Id": "1602358412",
       "Name": "Play_Footstep",
@@ -736,6 +781,14 @@
         "Path": "SFX\\FGHTImpt_Punch Face_PSE_BW-BD3HL_386EH_B155C166.wem"
        }
       ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1345584937",
+      "Name": "Energy",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Energy",
+      "GUID": "{87BDEC17-848F-4A12-993D-3BB23DE1E501}"
      }
     ],
     "SwitchGroups": [
