@@ -3730,12 +3730,12 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>49.83315</XPos>
+																<XPos>0.4983315</XPos>
 																<YPos>-5.86519</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>100</XPos>
+																<XPos>1</XPos>
 																<YPos>0</YPos>
 																<Flags>37</Flags>
 															</Point>
@@ -3756,7 +3756,7 @@
 											<CrossfadingInfo>
 												<LeftEdgePos>0</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>100</RightEdgePos>
+												<RightEdgePos>1</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
@@ -3783,32 +3783,27 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>0.001</XPos>
+																<XPos>0.01</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>20.0222469410456</XPos>
+																<XPos>0.200222469410456</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>39.93326</XPos>
+																<XPos>0.3993326</XPos>
 																<YPos>-0.69524</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>90.09911</XPos>
+																<XPos>0.9009911</XPos>
 																<YPos>-0.41043</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>99.999</XPos>
-																<YPos>-6.71584</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
+																<XPos>1</XPos>
 																<YPos>-200</YPos>
 																<Flags>37</Flags>
 															</Point>
@@ -3829,7 +3824,7 @@
 											<CrossfadingInfo>
 												<LeftEdgePos>0</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>49.8326479421579</RightEdgePos>
+												<RightEdgePos>0.498326479421579</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
@@ -3856,12 +3851,12 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>51.16796</XPos>
+																<XPos>0.5116796</XPos>
 																<YPos>-10.23768</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>100</XPos>
+																<XPos>1</XPos>
 																<YPos>0</YPos>
 																<Flags>37</Flags>
 															</Point>
@@ -3898,7 +3893,7 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>100</XPos>
+																<XPos>1</XPos>
 																<YPos>0</YPos>
 																<Flags>37</Flags>
 															</Point>
@@ -3926,17 +3921,17 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>0.44494</XPos>
+																<XPos>0.01</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>40.26696</XPos>
+																<XPos>0.4026696</XPos>
 																<YPos>-0.45122</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>100</XPos>
+																<XPos>1</XPos>
 																<YPos>0</YPos>
 																<Flags>37</Flags>
 															</Point>
@@ -3957,7 +3952,7 @@
 											<CrossfadingInfo>
 												<LeftEdgePos>0</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>99.9995</RightEdgePos>
+												<RightEdgePos>0.999995</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
@@ -3984,7 +3979,7 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>100</XPos>
+																<XPos>1</XPos>
 																<YPos>444</YPos>
 																<Flags>37</Flags>
 															</Point>
@@ -4012,12 +4007,12 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>30.03337</XPos>
+																<XPos>0.3003337</XPos>
 																<YPos>-0.13467</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>100</XPos>
+																<XPos>1</XPos>
 																<YPos>0</YPos>
 																<Flags>37</Flags>
 															</Point>
@@ -4054,7 +4049,7 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>100</XPos>
+																<XPos>1</XPos>
 																<YPos>0</YPos>
 																<Flags>37</Flags>
 															</Point>
@@ -4082,12 +4077,12 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>5.56174</XPos>
+																<XPos>0.0556174</XPos>
 																<YPos>-1.9382</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>100</XPos>
+																<XPos>1</XPos>
 																<YPos>0</YPos>
 																<Flags>37</Flags>
 															</Point>

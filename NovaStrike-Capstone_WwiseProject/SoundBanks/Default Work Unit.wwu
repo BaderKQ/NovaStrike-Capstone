@@ -6,6 +6,7 @@
 				<SoundBank Name="Environment" ID="{4C9ED762-EFBE-48DC-A06F-C68D6729D55A}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_WeaponHit" ID="{C9741DF2-797F-4243-BD35-82C1C4A41D1A}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_ContainerEnergy" ID="{4E66FAE1-0F86-43BA-A672-420E72EC2D31}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_MeleeSwingLeft" ID="{9D07230D-FBCB-46B9-930C-BBE0D4F45329}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footstep" ID="{7240FB77-46DF-4AA3-ADFE-E226E742D4C3}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_TestSounds" ID="{14CB80BE-D603-4BC1-AF74-41B313B87AFA}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}" Origin="Manual" Filter="7"/>

@@ -25,7 +25,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Energy" ID="{87BDEC17-848F-4A12-993D-3BB23DE1E501}"/>
-							<Value>0</Value>
+							<Value>2.17440841113454E-312</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
