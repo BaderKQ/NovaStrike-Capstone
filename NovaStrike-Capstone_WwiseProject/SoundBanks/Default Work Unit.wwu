@@ -5,7 +5,13 @@
 			<ChildrenList>
 				<SoundBank Name="Environment" ID="{4C9ED762-EFBE-48DC-A06F-C68D6729D55A}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Test_WeaponHit" ID="{D0037BC1-4383-442E-AE57-12D864F22BFD}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Footstep" ID="{DD22E7DA-50DD-4B46-B9AE-63B7F26C325C}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Set_Game_Parameter_Energy" ID="{30643AA2-3A6B-4B85-9996-5DA94523A652}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_WeaponSwing" ID="{67D163C2-2127-4B88-A2BC-9A84E3F0EA23}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_TestSounds" ID="{14CB80BE-D603-4BC1-AF74-41B313B87AFA}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_EnergyContainer" ID="{A31E91E7-29CE-4BD9-915A-49373C7031F2}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_WeaponHit" ID="{CF28BA31-90F0-4E7F-ACBC-633E126A96F3}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
