@@ -5,18 +5,30 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
+<<<<<<< HEAD
    "ProjectRoot": "G:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
    "SourceFilesRoot": "G:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
    "SoundBanksRoot": "G:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
    "ExternalSourcesOutputRoot": "G:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+=======
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+>>>>>>> 87427929e10149f8085a4365a232150cf78e165f
   },
   "SoundBanks": [
    {
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
+<<<<<<< HEAD
     "Hash": "1272599224",
+=======
+    "Hash": "1226717111",
+>>>>>>> 87427929e10149f8085a4365a232150cf78e165f
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk"

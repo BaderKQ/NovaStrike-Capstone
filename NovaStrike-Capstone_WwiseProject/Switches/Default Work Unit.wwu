@@ -3,6 +3,7 @@
 	<Switches>
 		<WorkUnit Name="Default Work Unit" ID="{55DA12B5-2EA2-40DA-AE1A-D9C08A8CE62C}" PersistMode="Standalone">
 			<ChildrenList>
+<<<<<<< HEAD
 				<SwitchGroup Name="Footstep_Material" ID="{933A4E83-6228-4C3F-A943-F3A364522B34}">
 					<ChildrenList>
 						<Switch Name="Gravel" ID="{4800904A-CABC-4B95-9175-4E81A2DFAF84}"/>
@@ -13,6 +14,12 @@
 					<ChildrenList>
 						<Switch Name="Base" ID="{EDCAEB60-0A45-4E7A-94A7-F751E8E33B1E}"/>
 						<Switch Name="Gravel" ID="{BB57FB33-4984-4F30-85A4-8B1D1FEA704B}"/>
+=======
+				<SwitchGroup Name="Material" ID="{CFB9FC1F-758E-48E2-A46D-02DCA613E1B2}">
+					<ChildrenList>
+						<Switch Name="Gravel" ID="{8F7941C1-D6CD-4359-8217-A0DAD9EF4008}"/>
+						<Switch Name="Base" ID="{0E054AB0-BB48-4D70-B1C4-C06CA92DD551}"/>
+>>>>>>> 87427929e10149f8085a4365a232150cf78e165f
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

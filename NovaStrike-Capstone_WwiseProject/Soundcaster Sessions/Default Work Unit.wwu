@@ -3,6 +3,7 @@
 	<SoundcasterSessions>
 		<WorkUnit Name="Default Work Unit" ID="{51D0B3E2-75B1-4F73-AD15-FEA6B9D8CC2D}" PersistMode="Standalone">
 			<ChildrenList>
+<<<<<<< HEAD
 				<SoundcasterSession Name="New Soundcaster Session" ID="{08DE8B99-0233-449E-A267-731017291E0E}">
 					<ModuleList>
 						<Module>
@@ -26,12 +27,33 @@
 						<RTPCValue>
 							<GameParameterRef Name="Energy" ID="{87BDEC17-848F-4A12-993D-3BB23DE1E501}"/>
 							<Value>2.17440841113454E-312</Value>
+=======
+				<SoundcasterSession Name="TestCaster" ID="{9F0EA394-0566-49B7-904B-5EE5E5F8CC3B}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Test_WeaponHit" ID="{D0037BC1-4383-442E-AE57-12D864F22BFD}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Footstep" ID="{DD22E7DA-50DD-4B46-B9AE-63B7F26C325C}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}"/>
+							<Value>0</Value>
+>>>>>>> 87427929e10149f8085a4365a232150cf78e165f
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
+<<<<<<< HEAD
 						<CurrentSwitchRef Name="Base" ID="{EDCAEB60-0A45-4E7A-94A7-F751E8E33B1E}"/>
 						<CurrentSwitchRef Name="Base" ID="{D8A16657-DCAF-4D03-9B33-BF1A5626801F}"/>
+=======
+						<CurrentSwitchRef Name="Gravel" ID="{8F7941C1-D6CD-4359-8217-A0DAD9EF4008}"/>
+>>>>>>> 87427929e10149f8085a4365a232150cf78e165f
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
