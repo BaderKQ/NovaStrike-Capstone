@@ -25,6 +25,7 @@
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 					</ValueList>
 				</Property>
+				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjEzNTU3IiBtYXNrPSJOTFdFMTY4NiIgZW5jPSIwIj48bGlj ZW5zZSBpZD0iMSIgbmFtZT0iV3dpc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iNCwx MCIgZXhwaXJlcz0iMjAyMy0wNi0wMSIgIC8+PGxpY2Vuc2UgaWQ9IjIxIiBuYW1l PSJNYWludGVuYW5jZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSI0LDEwIiBleHBpcmVz PSIyMDIzLTA2LTAxIiAgLz48bGljZW5zZSBpZD0iNzAiIG5hbWU9IkluZGllIExp Y2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iNCwxMCIgZXhwaXJlcz0iMjAyMy0w Ni0wMSIgIC8+PC9wcm9qZWN0Pg==|TVES1ABLqHRJtrI50AjbG0pEfbeHGKHFG4x Kh7Toy+wnXtDIebdx0XS5J0sFU8uIY+5aUckB2lBXHtrtPk/EcHd9tztjFBP6ENx l9+ngntCJE7pdoBb3d8NfvvpS2dAOfZmL8fqtHe6MG7uLdKzDtMks/4cqxiAfo0J rstLXbOu/k2cFkdPQQJgNIZo1PkpTziN9qXmH6VQPxx6kUi/TrP0IETY5qNT+qPq gbSuNIK2Cp+KhMvdTNunYImIr6WRm8hHMWcYpPFbry5qPBu+PmcBxPvKXZlNkxpz S6UrVUh6gONjUuG3a0QfXbFUBODpvie5Q2PSvqVn3o5ppns7mZw== "/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
@@ -57,20 +58,6 @@
 					</ValueList>
 				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2021.1|Build=7883|VersionName=v2021.1.10|Config=Release"/>
-			
-				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjEzNTU3IiBtYXNrPSJOTFdFMTY4NiIgZW5jPSIwIj48bGlj
-ZW5zZSBpZD0iMSIgbmFtZT0iV3dpc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iNCwx
-MCIgZXhwaXJlcz0iMjAyMy0wNi0wMSIgIC8+PGxpY2Vuc2UgaWQ9IjIxIiBuYW1l
-PSJNYWludGVuYW5jZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSI0LDEwIiBleHBpcmVz
-PSIyMDIzLTA2LTAxIiAgLz48bGljZW5zZSBpZD0iNzAiIG5hbWU9IkluZGllIExp
-Y2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iNCwxMCIgZXhwaXJlcz0iMjAyMy0w
-Ni0wMSIgIC8+PC9wcm9qZWN0Pg==|TVES1ABLqHRJtrI50AjbG0pEfbeHGKHFG4x
-Kh7Toy+wnXtDIebdx0XS5J0sFU8uIY+5aUckB2lBXHtrtPk/EcHd9tztjFBP6ENx
-l9+ngntCJE7pdoBb3d8NfvvpS2dAOfZmL8fqtHe6MG7uLdKzDtMks/4cqxiAfo0J
-rstLXbOu/k2cFkdPQQJgNIZo1PkpTziN9qXmH6VQPxx6kUi/TrP0IETY5qNT+qPq
-gbSuNIK2Cp+KhMvdTNunYImIr6WRm8hHMWcYpPFbry5qPBu+PmcBxPvKXZlNkxpz
-S6UrVUh6gONjUuG3a0QfXbFUBODpvie5Q2PSvqVn3o5ppns7mZw==
-"/>
 			</PropertyList>
 			<SharedValues>
 				<SharedPropertyList ClassName="AudioSource" PluginType="0" CompanyID="1" PluginID="0">
@@ -143,6 +130,11 @@ S6UrVUh6gONjUuG3a0QfXbFUBODpvie5Q2PSvqVn3o5ppns7mZw==
 						<Property Name="OverrideWavLoop" Type="bool">
 							<ValueList>
 								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:FileIDForAudioSource" Type="string">
+							<ValueList>
+								<Value></Value>
 							</ValueList>
 						</Property>
 						<Property Name="TrimBegin" Type="Real64">
@@ -558,6 +550,76 @@ S6UrVUh6gONjUuG3a0QfXbFUBODpvie5Q2PSvqVn3o5ppns7mZw==
 						<Property Name="RenderEffect3" Type="bool">
 							<ValueList>
 								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:ActiveChannels" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:FileID" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:FileName" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:HandleStartTime" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:HandleStopTime" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:LibraryID" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:LibraryLocation" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:PlaybackSpeed" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:ProcessList" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:RenderedFilePath" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:SelectionStartTime" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:SelectionStopTime" Type="string">
+							<ValueList>
+								<Value></Value>
 							</ValueList>
 						</Property>
 						<Property Name="SpeakerPanning" Type="int16">
@@ -10149,8 +10211,8 @@ S6UrVUh6gONjUuG3a0QfXbFUBODpvie5Q2PSvqVn3o5ppns7mZw==
 				</ObsOccCurves>
 			</EnvironmentalSettings>
 			<LogCentralIgnoreList>
-				<IgnoreItem MessageId="MediaDuplicated"/>
 				<IgnoreItem MessageId="MediaNotFound"/>
+				<IgnoreItem MessageId="MediaDuplicated"/>
 			</LogCentralIgnoreList>
 			<DefaultConversion Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}"/>
 			<PhysicalFolderList>

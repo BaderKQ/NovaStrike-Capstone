@@ -9,6 +9,78 @@
 							<ObjectRef Name="System" ID="{C19B0194-5E0E-46C0-A5E9-B2CC1BB82511}" WorkUnitID="{24E03602-6C9B-453C-9B4A-A2D5A55A6329}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="PlayerMaster" ID="{A877FC03-444F-4FC2-88CA-F2E46877E75D}">
+							<ChildrenList>
+								<Bus Name="PlayerLocomotion" ID="{1E7FD133-0240-4709-95CE-F518DF901D3A}">
+									<ChildrenList>
+										<Bus Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}">
+											<ObjectLists/>
+										</Bus>
+									</ChildrenList>
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="PlayerCloth" ID="{5674D2BD-BE3C-4F96-8794-DE0014FEBEEB}">
+									<ObjectLists/>
+								</Bus>
+							</ChildrenList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="NPCMaster" ID="{CDCA502A-0062-483E-B239-C8FBB41EA257}">
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="AmbientMaster" ID="{094EBDBA-4BAA-449D-96A6-13C31F26533C}">
+							<ChildrenList>
+								<Bus Name="AmbientBeds" ID="{E8148497-C7F2-4C13-A091-51963A837EEB}">
+									<ChildrenList>
+										<Bus Name="2DAmbientBeds" ID="{CA39EF62-A947-4A5D-9774-3E787C5FE6E0}">
+											<ObjectLists/>
+										</Bus>
+										<Bus Name="3DAmbience" ID="{8F6A752E-6989-4A57-9441-DBDB22D53FA2}">
+											<ObjectLists/>
+										</Bus>
+										<Bus Name="2DAmbience" ID="{0D41B950-DB88-4567-BB26-07D50320FCB0}">
+											<ObjectLists/>
+										</Bus>
+									</ChildrenList>
+									<ObjectLists/>
+								</Bus>
+							</ChildrenList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Combat" ID="{72AC963F-4D84-4D0F-A4D2-F6D6CBCF2452}">
+							<ObjectLists/>
+						</Bus>
+						<AuxBus Name="Reverb" ID="{EBCAA468-A256-4FEE-97B1-1C80279A2063}">
+							<ChildrenList>
+								<AuxBus Name="ReverbOutdoors" ID="{FE76474F-9CD6-426A-B992-11863F7E5AD7}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="ReverbRoomSmall" ID="{4622EE15-B8EA-4B12-A5E5-2D128AC97431}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="ReverbRoomMedium" ID="{F95BEE73-3624-46D4-BF86-0B703B9F562F}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Room_Medium" ID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+							</ChildrenList>
+							<ObjectLists/>
+						</AuxBus>
+					</ChildrenList>
 					<ObjectLists/>
 				</Bus>
 			</ChildrenList>
