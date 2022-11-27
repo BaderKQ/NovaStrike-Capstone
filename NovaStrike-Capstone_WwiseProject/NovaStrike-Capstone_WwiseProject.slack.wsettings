@@ -6,6 +6,7 @@
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="G:\Ableton\New Projects\Empty Project\AudioWorkshop\Sounds\"/>
 				<Property Name="Event Action List\{14CB80BE-D603-4BC1-AF74-41B313B87AFA}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{30643AA2-3A6B-4B85-9996-5DA94523A652}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{64DD94DD-9B89-44B3-845A-014B5436060E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{67D163C2-2127-4B88-A2BC-9A84E3F0EA23}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A31E91E7-29CE-4BD9-915A-49373C7031F2}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{CF28BA31-90F0-4E7F-ACBC-633E126A96F3}\x64_Expand States" Type="string" Value=""/>
@@ -45,7 +46,7 @@
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_12_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{27092F88-225A-1154-6725-C8A34F3D4482}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{A877FC03-444F-4FC2-88CA-F2E46877E75D}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
 				<Property Name="ProjectExplorer\FirstVisible_5_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_7_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
@@ -63,8 +64,8 @@
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_22_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ87q9TgmqS51ElqYTwx8mUzxcQSmruyzQSbyIBgIE5JR+aKTK61ai7k+XsRyAJ5ogYw=="/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="dOc/iXrS2kGfRY0JYXMPnfWO+EXRZ3dEvU5NTtuxnKnz9cncBCTZRok/qVl0KG1+ChcjXe8PK0eeZV/yBi86KVrpzrpTCjBIvtWeMcA7xCp2Toz+3VMXSZzhb3NT+OEcNcXGznDFY0uxVQI+tnQHcHUClWvG+j1NhBfdDOaWnt+tVChe+1QVTr3D3K+hkSpU+vmqBqe4tk+0KMnFhuSAyQ=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ87q9TgmqS51ElqYTwx8mUzxcQSmruyzQSbyIBgIE5JR+eq1JHQjdxk2VHjo4Tk3gQwP8d6hPRMJPiMry5Gh3511opMrrVqLuT5exHIAnmiBj"/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="O434rqTEH0CEAUlQhr+fGZVJbKF3iHFAgTUTkcJLoS905z+JetLaQZ9FjQlhcw+dUugkkYgv10OBUSEl7nbCyPP1ydwEJNlGiT+pWXQobX5a6c66UwowSL7VnjHAO8Qqdk6M/t1TF0mc4W9zU/jhHGvUvWaFuy1MiL1hfDjvUbB1ApVrxvo9TYQX3Qzmlp7fFV+zd2EnuU2ovu9bBAFcA/r5qganuLZPtCjJxYbkgMk="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="NjursDEerE+Ee4eH52By+w=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value="tRLaVaIu2kCuGtnAiozmLB/8uc+OdeJIpG0C3KYT4bI="/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value=""/>

@@ -6,6 +6,7 @@
 				<SoundBank Name="Environment" ID="{4C9ED762-EFBE-48DC-A06F-C68D6729D55A}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Test_WeaponHit" ID="{D0037BC1-4383-442E-AE57-12D864F22BFD}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_WaveGunPrimaryFire" ID="{64DD94DD-9B89-44B3-845A-014B5436060E}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footstep" ID="{DD22E7DA-50DD-4B46-B9AE-63B7F26C325C}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_Game_Parameter_Energy" ID="{30643AA2-3A6B-4B85-9996-5DA94523A652}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_WeaponSwing" ID="{67D163C2-2127-4B88-A2BC-9A84E3F0EA23}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}" Origin="Manual" Filter="7"/>

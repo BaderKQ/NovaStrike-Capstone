@@ -23,6 +23,20 @@
 								<Bus Name="PlayerCloth" ID="{5674D2BD-BE3C-4F96-8794-DE0014FEBEEB}">
 									<ObjectLists/>
 								</Bus>
+								<Bus Name="PlayerWavegun" ID="{1D49AD7A-DD08-4DC6-951E-3A384E4DE043}">
+									<ChildrenList>
+										<Bus Name="PlayerWaveGunTail" ID="{A6A75970-8082-4DBF-BE00-F373BFA17523}">
+											<ObjectLists/>
+										</Bus>
+										<Bus Name="PlayerWaveGunFire" ID="{45EEF577-1CB5-4868-8C39-E0083B66009C}">
+											<PropertyList>
+												<Property Name="MaxDuckVolume" Type="Real64" Value="-17.5"/>
+											</PropertyList>
+											<ObjectLists/>
+										</Bus>
+									</ChildrenList>
+									<ObjectLists/>
+								</Bus>
 							</ChildrenList>
 							<ObjectLists/>
 						</Bus>

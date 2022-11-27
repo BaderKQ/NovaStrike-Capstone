@@ -220,6 +220,83 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_WaveGunPrimaryFire" ID="{64DD94DD-9B89-44B3-845A-014B5436060E}">
+					<ChildrenList>
+						<Action Name="" ID="{9264F18B-DEF1-421D-A0CA-6FAC1F67011A}" ShortID="70412099">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tail Layer Long 1" ID="{8BA6AEA8-5078-404D-8B35-ED555267DE36}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0F6EC8E3-52FE-4407-8104-DD79F3064389}" ShortID="352455342">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mechanical Layer 1" ID="{EE6DE0C1-87C6-4A06-9E1B-5950CE35A3F2}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2C206FE5-5CB7-4F21-B101-0F7A3B1DC271}" ShortID="454463102">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mechanical Layer 2" ID="{3A1A8E3E-2C99-4D1B-B27F-3A3DE3E54068}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2AEF2245-1C57-409C-939D-0CE8A2C9B85E}" ShortID="915436564">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mechanical Layer 3" ID="{A63EF6CB-6087-44F4-AAE2-1EAE2D55C7B2}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FFB8FE07-15CE-4FF1-90F8-1B3B80256819}" ShortID="757931953">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Transient Layer 1" ID="{860698A9-A28B-41B1-B76E-886D73D98F55}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D331E64A-19C7-465D-A4AE-C2B918E74E66}" ShortID="228787336">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Transient Layer 2" ID="{FF555D12-3159-4B95-9F5D-2863B913C4E3}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{32663993-C24C-44AF-89CD-38ECC20BA5CA}" ShortID="376255178">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Transient Layer 3" ID="{B47DBAAF-2784-4C57-9390-5BB9034D9B8E}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BA1880E0-A5BB-414C-8D80-F8A0553E7078}" ShortID="843899799">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tail Layer Long 1" ID="{8BA6AEA8-5078-404D-8B35-ED555267DE36}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

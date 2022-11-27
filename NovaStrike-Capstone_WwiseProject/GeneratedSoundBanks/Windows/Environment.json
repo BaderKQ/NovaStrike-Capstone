@@ -16,7 +16,7 @@
     "Id": "1229948536",
     "GUID": "{4C9ED762-EFBE-48DC-A06F-C68D6729D55A}",
     "Language": "SFX",
-    "Hash": "2953872078",
+    "Hash": "1265839853",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Environment",
     "ShortName": "Environment",
     "Path": "Environment.bnk",
@@ -380,6 +380,121 @@
       ]
      },
      {
+      "Id": "3509501661",
+      "Name": "Play_WaveGunPrimaryFire",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_WaveGunPrimaryFire",
+      "GUID": "{64DD94DD-9B89-44B3-845A-014B5436060E}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.368146",
+      "DurationMax": "7.368146",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "48849822",
+        "Language": "SFX",
+        "ShortName": "PrimaryFireSFX\\Transient\\Transient Layer 2\\Transient Layer 2 - 4.wav",
+        "Path": "SFX\\PrimaryFireSFX\\Transient\\Transient Layer 2\\Transient Layer 2 - 4_10C4C929.wem"
+       },
+       {
+        "Id": "96197157",
+        "Language": "SFX",
+        "ShortName": "PrimaryFireSFX\\Mechanical\\Mechanical Layer 2\\Mechanical Layer 2 - 4.wav",
+        "Path": "SFX\\PrimaryFireSFX\\Mechanical\\Mechanical Layer 2\\Mechanical Layer 2 - 4_10C4C929.wem"
+       },
+       {
+        "Id": "102065411",
+        "Language": "SFX",
+        "ShortName": "PrimaryFireSFX\\Transient\\Transient Layer 1\\Transient Layer 1 - 1.wav",
+        "Path": "SFX\\PrimaryFireSFX\\Transient\\Transient Layer 1\\Transient Layer 1 - 1_10C4C929.wem"
+       },
+       {
+        "Id": "121663510",
+        "Language": "SFX",
+        "ShortName": "PrimaryFireSFX\\Transient\\Transient Layer 2\\Transient Layer 2 - 2.wav",
+        "Path": "SFX\\PrimaryFireSFX\\Transient\\Transient Layer 2\\Transient Layer 2 - 2_10C4C929.wem"
+       },
+       {
+        "Id": "128963296",
+        "Language": "SFX",
+        "ShortName": "PrimaryFireSFX\\Transient\\Transient Layer 3\\Transient Layer 3 - 1.wav",
+        "Path": "SFX\\PrimaryFireSFX\\Transient\\Transient Layer 3\\Transient Layer 3 - 1_10C4C929.wem"
+       },
+       {
+        "Id": "150010056",
+        "Language": "SFX",
+        "ShortName": "PrimaryFireSFX\\Mechanical\\Mechanical Layer 1\\Mechanical Layer 1 - 1.wav",
+        "Path": "SFX\\PrimaryFireSFX\\Mechanical\\Mechanical Layer 1\\Mechanical Layer 1 - 1_10C4C929.wem"
+       },
+       {
+        "Id": "164373645",
+        "Language": "SFX",
+        "ShortName": "PrimaryFireSFX\\Mechanical\\Mechanical Layer 2\\Mechanical Layer 2 - 1.wav",
+        "Path": "SFX\\PrimaryFireSFX\\Mechanical\\Mechanical Layer 2\\Mechanical Layer 2 - 1_10C4C929.wem"
+       },
+       {
+        "Id": "285751116",
+        "Language": "SFX",
+        "ShortName": "PrimaryFireSFX\\Transient\\Transient Layer 2\\Transient Layer 2 - 3.wav",
+        "Path": "SFX\\PrimaryFireSFX\\Transient\\Transient Layer 2\\Transient Layer 2 - 3_10C4C929.wem"
+       },
+       {
+        "Id": "363765967",
+        "Language": "SFX",
+        "ShortName": "PrimaryFireSFX\\Tail\\Tail Layer Long 1.wav",
+        "Path": "SFX\\PrimaryFireSFX\\Tail\\Tail Layer Long 1_10C4C929.wem"
+       },
+       {
+        "Id": "469413295",
+        "Language": "SFX",
+        "ShortName": "PrimaryFireSFX\\Transient\\Transient Layer 3\\Transient Layer 3 - 3.wav",
+        "Path": "SFX\\PrimaryFireSFX\\Transient\\Transient Layer 3\\Transient Layer 3 - 3_10C4C929.wem"
+       },
+       {
+        "Id": "604548745",
+        "Language": "SFX",
+        "ShortName": "PrimaryFireSFX\\Mechanical\\Mechanical Layer 2\\Mechanical Layer 2 - 3.wav",
+        "Path": "SFX\\PrimaryFireSFX\\Mechanical\\Mechanical Layer 2\\Mechanical Layer 2 - 3_10C4C929.wem"
+       },
+       {
+        "Id": "624243904",
+        "Language": "SFX",
+        "ShortName": "PrimaryFireSFX\\Transient\\Transient Layer 3\\Transient Layer 3 - 2.wav",
+        "Path": "SFX\\PrimaryFireSFX\\Transient\\Transient Layer 3\\Transient Layer 3 - 2_10C4C929.wem"
+       },
+       {
+        "Id": "749705478",
+        "Language": "SFX",
+        "ShortName": "PrimaryFireSFX\\Mechanical\\Mechanical Layer 3\\Mechanical Layer 3 - 1.wav",
+        "Path": "SFX\\PrimaryFireSFX\\Mechanical\\Mechanical Layer 3\\Mechanical Layer 3 - 1_10C4C929.wem"
+       },
+       {
+        "Id": "758096104",
+        "Language": "SFX",
+        "ShortName": "PrimaryFireSFX\\Transient\\Transient Layer 2\\Transient Layer 2 - 1.wav",
+        "Path": "SFX\\PrimaryFireSFX\\Transient\\Transient Layer 2\\Transient Layer 2 - 1_10C4C929.wem"
+       },
+       {
+        "Id": "819918026",
+        "Language": "SFX",
+        "ShortName": "PrimaryFireSFX\\Transient\\Transient Layer 3\\Transient Layer 3 - 4.wav",
+        "Path": "SFX\\PrimaryFireSFX\\Transient\\Transient Layer 3\\Transient Layer 3 - 4_10C4C929.wem"
+       },
+       {
+        "Id": "901905874",
+        "Language": "SFX",
+        "ShortName": "PrimaryFireSFX\\Mechanical\\Mechanical Layer 2\\Mechanical Layer 2 - 2.wav",
+        "Path": "SFX\\PrimaryFireSFX\\Mechanical\\Mechanical Layer 2\\Mechanical Layer 2 - 2_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+       }
+      ]
+     },
+     {
       "Id": "2848865453",
       "Name": "Play_WeaponHit",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_WeaponHit",
@@ -717,7 +832,7 @@
         "Id": "2067372",
         "Language": "SFX",
         "ShortName": "HItSFXPackage\\Grunts\\Grunt - 5.wav",
-        "Path": "SFX\\HItSFXPackage\\Grunts\\Grunt - 5_0D8B5259.wem"
+        "Path": "SFX\\HItSFXPackage\\Grunts\\Grunt - 5_81D0572F.wem"
        },
        {
         "Id": "42644540",
@@ -741,7 +856,7 @@
         "Id": "157959170",
         "Language": "SFX",
         "ShortName": "Weapons, Sword, Draw, Put Back, Long Blade 02 SND69191.wav",
-        "Path": "SFX\\Weapons, Sword, Draw, Put Back, Long Blade 02 SND69191_217F77A7.wem"
+        "Path": "SFX\\Weapons, Sword, Draw, Put Back, Long Blade 02 SND69191_73A670EA.wem"
        },
        {
         "Id": "203869449",
@@ -759,7 +874,7 @@
         "Id": "376603312",
         "Language": "SFX",
         "ShortName": "HItSFXPackage\\Grunts\\Grunt - 4.wav",
-        "Path": "SFX\\HItSFXPackage\\Grunts\\Grunt - 4_E3966CFD.wem"
+        "Path": "SFX\\HItSFXPackage\\Grunts\\Grunt - 4_2540A608.wem"
        },
        {
         "Id": "398166433",
@@ -795,7 +910,7 @@
         "Id": "680427967",
         "Language": "SFX",
         "ShortName": "Weapons, Sword, Draw, Put Back, Long Blade 01 SND69192 1.wav",
-        "Path": "SFX\\Weapons, Sword, Draw, Put Back, Long Blade 01 SND69192 1_5AB8658B.wem"
+        "Path": "SFX\\Weapons, Sword, Draw, Put Back, Long Blade 01 SND69192 1_21770D53.wem"
        },
        {
         "Id": "739152062",
@@ -813,7 +928,7 @@
         "Id": "790840264",
         "Language": "SFX",
         "ShortName": "Weapons, Sword, Draw, Put Back, Long Blade 01 SND69192.wav",
-        "Path": "SFX\\Weapons, Sword, Draw, Put Back, Long Blade 01 SND69192_B6B84390.wem"
+        "Path": "SFX\\Weapons, Sword, Draw, Put Back, Long Blade 01 SND69192_71732554.wem"
        },
        {
         "Id": "809212293",
@@ -855,19 +970,19 @@
         "Id": "1003469998",
         "Language": "SFX",
         "ShortName": "Weapons, Sword, Draw, Put Back, Long Blade 02 SND69191 1.wav",
-        "Path": "SFX\\Weapons, Sword, Draw, Put Back, Long Blade 02 SND69191 1_F989716B.wem"
+        "Path": "SFX\\Weapons, Sword, Draw, Put Back, Long Blade 02 SND69191 1_1DD544B1.wem"
        },
        {
         "Id": "1007036534",
         "Language": "SFX",
         "ShortName": "HItSFXPackage\\Grunts\\Grunt - 8.wav",
-        "Path": "SFX\\HItSFXPackage\\Grunts\\Grunt - 8_173CA1B1.wem"
+        "Path": "SFX\\HItSFXPackage\\Grunts\\Grunt - 8_BB21BE8C.wem"
        },
        {
         "Id": "1028328296",
         "Language": "SFX",
         "ShortName": "HItSFXPackage\\Grunts\\Grunt - 3.wav",
-        "Path": "SFX\\HItSFXPackage\\Grunts\\Grunt - 3_4D815C4C.wem"
+        "Path": "SFX\\HItSFXPackage\\Grunts\\Grunt - 3_6A1E79A8.wem"
        },
        {
         "Id": "1040248817",
@@ -879,7 +994,7 @@
         "Id": "1042514970",
         "Language": "SFX",
         "ShortName": "HItSFXPackage\\Grunts\\Grunt - 6.wav",
-        "Path": "SFX\\HItSFXPackage\\Grunts\\Grunt - 6_8E8D7319.wem"
+        "Path": "SFX\\HItSFXPackage\\Grunts\\Grunt - 6_524A157E.wem"
        }
       ],
       "AuxBusSends": [
