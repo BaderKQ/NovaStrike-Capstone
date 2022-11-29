@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1D32E8B2-A4F2-4E08-BBA1-5FE2C8FF401F}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="AmbianceSwitches" ID="{1D32E8B2-A4F2-4E08-BBA1-5FE2C8FF401F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="AmbEnvironmentTypes" ID="{B33CDD7F-62D2-4450-8A4D-E999F435AB97}">
+					<ChildrenList>
+						<Switch Name="Indoors" ID="{25EA4457-B385-4F55-B88D-F5E6AC32063B}"/>
+						<Switch Name="Outdoors" ID="{6741CF09-42E0-48EB-97E4-6145BE5725C1}"/>
+						<Switch Name="Trainyard" ID="{3B44DBD7-540E-48A9-9BDB-F625C43D3C04}"/>
+						<Switch Name="CorporationOutdoors" ID="{70B7830F-C0CD-412D-B2AF-8723695B13BE}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

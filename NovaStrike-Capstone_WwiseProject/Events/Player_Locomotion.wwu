@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5180ADD5-C300-45A7-BCDC-867E496431AC}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Player_Locomotion" ID="{5180ADD5-C300-45A7-BCDC-867E496431AC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Footstep" ID="{DD22E7DA-50DD-4B46-B9AE-63B7F26C325C}">
+					<ChildrenList>
+						<Action Name="" ID="{37AA7D90-D4C4-410A-8913-62D6D79F1A8F}" ShortID="43483113">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FS 1 M1" ID="{4D660AB3-60C8-468C-8B13-320FA2D4B9F6}" WorkUnitID="{06AAF9FA-B8A7-4FB6-B428-C9C586E480C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5408F387-1963-4273-94D5-151913604B5C}" ShortID="701829353">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FS 1 M2" ID="{F76536CC-FC74-4C31-A8BC-AC85F06B68F0}" WorkUnitID="{06AAF9FA-B8A7-4FB6-B428-C9C586E480C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{54CBB0A5-E723-46C2-AB05-5EA3A7C272C5}" ShortID="176560827">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FS 1 M3 Equipment1" ID="{65065E2A-943A-4421-81CB-9772FC7DE7D8}" WorkUnitID="{06AAF9FA-B8A7-4FB6-B428-C9C586E480C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8CEF76B3-F276-4630-8939-5E5A90F2F950}" ShortID="1010993000">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FS 1 M4 Equipment2" ID="{DEAFBE95-B886-44A1-B379-10F3C44A9DEB}" WorkUnitID="{06AAF9FA-B8A7-4FB6-B428-C9C586E480C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{401231AC-3A15-4C1C-AAB6-1B593DF5A98F}" ShortID="761530500">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Texture" ID="{A6F4204F-0870-44F2-A1F4-FAEDA9C7C468}" WorkUnitID="{06AAF9FA-B8A7-4FB6-B428-C9C586E480C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

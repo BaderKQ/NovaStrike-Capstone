@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DA72CB74-6FF2-462F-B647-CFA273543CB8}" SchemaVersion="103" RootDocumentID="{DF7EDA04-0B6F-4650-8B5D-BC9EBCCD386B}" ParentDocumentID="{DF7EDA04-0B6F-4650-8B5D-BC9EBCCD386B}">
+	<Events>
+		<WorkUnit Name="Ambiance" ID="{DA72CB74-6FF2-462F-B647-CFA273543CB8}" OwnerID="{DF7EDA04-0B6F-4650-8B5D-BC9EBCCD386B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_AmbienceMain" ID="{BF4C797B-AA82-4B2B-AD75-E380DC8F63DA}">
+					<ChildrenList>
+						<Action Name="" ID="{3D92A66B-1038-414C-BC30-26FD61BA37B9}" ShortID="609223468">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_MainEnviroSwitch" ID="{31964BB8-CF4C-45A5-BB9A-DCFD620FBED4}" WorkUnitID="{C96CA62B-FF21-4A7B-8318-5D165A627DE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
