@@ -3,35 +3,39 @@
 	<SoundcasterSessions>
 		<WorkUnit Name="Default Work Unit" ID="{51D0B3E2-75B1-4F73-AD15-FEA6B9D8CC2D}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundcasterSession Name="New Soundcaster Session" ID="{08DE8B99-0233-449E-A267-731017291E0E}">
+				<SoundcasterSession Name="TestCaster" ID="{9F0EA394-0566-49B7-904B-5EE5E5F8CC3B}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_Footstep" ID="{7240FB77-46DF-4AA3-ADFE-E226E742D4C3}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}"/>
+							<ObjectRef Name="Test_WeaponHit" ID="{D0037BC1-4383-442E-AE57-12D864F22BFD}" WorkUnitID="{DEABBB02-87E5-48B5-83EE-94A62E9A31B8}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Set_Game_Parameter_Energy" ID="{2B19698F-4695-4A63-ABB8-BA7A62BF03B6}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}"/>
+							<ObjectRef Name="Play_AmbienceMain" ID="{BF4C797B-AA82-4B2B-AD75-E380DC8F63DA}" WorkUnitID="{DA72CB74-6FF2-462F-B647-CFA273543CB8}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Test_WeaponHit" ID="{F91808D2-FDA3-4ECB-B520-87DA073B59B9}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}"/>
+							<ObjectRef Name="Play_Footstep" ID="{DD22E7DA-50DD-4B46-B9AE-63B7F26C325C}" WorkUnitID="{5180ADD5-C300-45A7-BCDC-867E496431AC}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_ContainerEnergy" ID="{4E66FAE1-0F86-43BA-A672-420E72EC2D31}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}"/>
+							<ObjectRef Name="Play_WeaponSwing" ID="{67D163C2-2127-4B88-A2BC-9A84E3F0EA23}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}"/>
 							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_WaveGunPrimaryFire" ID="{64DD94DD-9B89-44B3-845A-014B5436060E}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}"/>
+							<Position X="3" Y="0"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="Energy" ID="{87BDEC17-848F-4A12-993D-3BB23DE1E501}"/>
-							<Value>2.17440841113454E-312</Value>
+							<GameParameterRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}"/>
+							<Value>1</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Base" ID="{EDCAEB60-0A45-4E7A-94A7-F751E8E33B1E}"/>
-						<CurrentSwitchRef Name="Base" ID="{D8A16657-DCAF-4D03-9B33-BF1A5626801F}"/>
+						<CurrentSwitchRef Name="Indoors" ID="{25EA4457-B385-4F55-B88D-F5E6AC32063B}"/>
+						<CurrentSwitchRef Name="Gravel" ID="{8F7941C1-D6CD-4359-8217-A0DAD9EF4008}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

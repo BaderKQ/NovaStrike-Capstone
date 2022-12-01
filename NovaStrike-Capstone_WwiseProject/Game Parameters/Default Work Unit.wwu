@@ -3,9 +3,9 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="Energy" ID="{87BDEC17-848F-4A12-993D-3BB23DE1E501}">
+				<GameParameter Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}">
 					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="0.1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="Max" Type="Real64" Value="1"/>
 					</PropertyList>
 				</GameParameter>

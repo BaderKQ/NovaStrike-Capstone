@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{06AAF9FA-B8A7-4FB6-B428-C9C586E480C9}" SchemaVersion="103" RootDocumentID="{BACEE95A-0A53-4830-BED5-9E31C03BC42A}" ParentDocumentID="{BACEE95A-0A53-4830-BED5-9E31C03BC42A}">
+	<AudioObjects>
+		<WorkUnit Name="PlayerLocomotion" ID="{06AAF9FA-B8A7-4FB6-B428-C9C586E480C9}" OwnerID="{BACEE95A-0A53-4830-BED5-9E31C03BC42A}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="PlayerFootsteps" ID="{2AFBEDF1-CC16-4C1E-A59F-95B98857D326}" ShortID="974596623">
+					<PropertyList>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="ReverbOutdoors" ID="{FE76474F-9CD6-426A-B992-11863F7E5AD7}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="FS 1 M1" ID="{4D660AB3-60C8-468C-8B13-320FA2D4B9F6}" ShortID="798626691">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2F6BBED8-70BC-4F8F-820F-010E97240358}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="126"/>
+													<Property Name="Min" Type="Real64" Value="-253"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FS 1 Bass-1" ID="{A93FF3D2-BC10-4BCC-92C8-2E256B243025}" ShortID="490848103">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS 1 Bass-1" ID="{2A42EDE7-55CC-47B2-A9C6-BD84E6AFC876}">
+											<Language>SFX</Language>
+											<AudioFile>NovaStrike Footstep Package\FS 1 M1\FS 1 Bass-1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="46936019"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FS 1 Bass-1" ID="{2A42EDE7-55CC-47B2-A9C6-BD84E6AFC876}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS 1 Bass-2" ID="{F1FDF906-6463-45AA-B37E-078B71C76CCB}" ShortID="568268575">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS 1 Bass-2" ID="{F3FFC208-0F2A-4DF8-96FE-2AA57BB487C4}">
+											<Language>SFX</Language>
+											<AudioFile>NovaStrike Footstep Package\FS 1 M1\FS 1 Bass-2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="761361615"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FS 1 Bass-2" ID="{F3FFC208-0F2A-4DF8-96FE-2AA57BB487C4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS 1 Bass-3" ID="{D53B28D8-864F-4052-BABD-2E56ACDCE93A}" ShortID="390459868">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS 1 Bass-3" ID="{1AE5BDF1-A164-45EF-B080-2AFD09D3AD57}">
+											<Language>SFX</Language>
+											<AudioFile>NovaStrike Footstep Package\FS 1 M1\FS 1 Bass-3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="764365220"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FS 1 Bass-3" ID="{1AE5BDF1-A164-45EF-B080-2AFD09D3AD57}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS 1 Bass-4" ID="{7838BA53-6762-47DC-96A5-67C3963B04BA}" ShortID="646716017">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS 1 Bass-4" ID="{949C4177-47DB-47EF-ABED-19183677DE78}">
+											<Language>SFX</Language>
+											<AudioFile>NovaStrike Footstep Package\FS 1 M1\FS 1 Bass-4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="889482195"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FS 1 Bass-4" ID="{949C4177-47DB-47EF-ABED-19183677DE78}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS 1 Bass-5" ID="{E796E240-7476-4824-BD6D-28CAED1449FE}" ShortID="234065112">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS 1 Bass-5" ID="{F5CB9358-BF93-462B-8E6B-6AEA689C6B34}">
+											<Language>SFX</Language>
+											<AudioFile>NovaStrike Footstep Package\FS 1 M1\FS 1 Bass-5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1048956148"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FS 1 Bass-5" ID="{F5CB9358-BF93-462B-8E6B-6AEA689C6B34}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS 1 Bass-6" ID="{1416E86C-DC2E-4414-AF00-299A8B89B2DF}" ShortID="898820921">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS 1 Bass-6" ID="{D4747522-0F6E-4BDB-900F-9B288D838854}">
+											<Language>SFX</Language>
+											<AudioFile>NovaStrike Footstep Package\FS 1 M1\FS 1 Bass-6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="365128681"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FS 1 Bass-6" ID="{D4747522-0F6E-4BDB-900F-9B288D838854}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sound Design Showcase #2" ID="{A68F9989-1723-4D35-A1CE-C21821044AD9}" ShortID="639972032">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sound Design Showcase #2" ID="{27FDED5F-9839-4A5B-9955-87C5B817135F}">
+											<Language>SFX</Language>
+											<AudioFile>NovaStrike Footstep Package\FS 1 M1\Sound Design Showcase #2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="865337007"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Sound Design Showcase #2" ID="{27FDED5F-9839-4A5B-9955-87C5B817135F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="FS 1 M2" ID="{F76536CC-FC74-4C31-A8BC-AC85F06B68F0}" ShortID="837484557">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{30749F78-6447-48B4-9BDA-B088B0E50DA9}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="126"/>
+													<Property Name="Min" Type="Real64" Value="-202"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FS 1 M2 - 1" ID="{5031F45E-13AC-4A43-A462-1A710C4A5E32}" ShortID="754837061">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS 1 M2 - 1" ID="{6B815A67-2A22-4576-A68F-FC80C03A4F7E}">
+											<Language>SFX</Language>
+											<AudioFile>NovaStrike Footstep Package\FS 1 M2\FS 1 M2 - 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="668170142"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FS 1 M2 - 1" ID="{6B815A67-2A22-4576-A68F-FC80C03A4F7E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS 1 M2 - 2" ID="{ADC01C2F-EC7F-4C72-8D68-CEA89E98D5DC}" ShortID="535177447">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS 1 M2 - 2" ID="{00819B71-ACF5-46CD-B60B-097AA468B05E}">
+											<Language>SFX</Language>
+											<AudioFile>NovaStrike Footstep Package\FS 1 M2\FS 1 M2 - 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="573691120"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FS 1 M2 - 2" ID="{00819B71-ACF5-46CD-B60B-097AA468B05E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS 1 M2 - 3" ID="{09472B63-FC8A-48C9-94A8-F29CF353674F}" ShortID="858601548">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS 1 M2 - 3" ID="{59CC27F6-1C09-4765-84E9-5E86D85CD62C}">
+											<Language>SFX</Language>
+											<AudioFile>NovaStrike Footstep Package\FS 1 M2\FS 1 M2 - 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="150923388"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FS 1 M2 - 3" ID="{59CC27F6-1C09-4765-84E9-5E86D85CD62C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS 1 M2 - 4" ID="{BC147D08-048F-43F9-BD99-6438F282E474}" ShortID="475163993">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS 1 M2 - 4" ID="{98541B82-F8BE-43E2-8B8B-9C0E8339BC91}">
+											<Language>SFX</Language>
+											<AudioFile>NovaStrike Footstep Package\FS 1 M2\FS 1 M2 - 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="867156841"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FS 1 M2 - 4" ID="{98541B82-F8BE-43E2-8B8B-9C0E8339BC91}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS 1 M2 - 5" ID="{A26E8098-14A2-4FB0-BD24-7445C0A096E3}" ShortID="500310082">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS 1 M2 - 5" ID="{0FBB73EB-6C5A-43AD-9D35-8EA5E56EBEA8}">
+											<Language>SFX</Language>
+											<AudioFile>NovaStrike Footstep Package\FS 1 M2\FS 1 M2 - 5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="81904558"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FS 1 M2 - 5" ID="{0FBB73EB-6C5A-43AD-9D35-8EA5E56EBEA8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS 1 M2 - 6" ID="{CA79AC65-1DBF-4730-8ABA-982F096B3DE8}" ShortID="460291593">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS 1 M2 - 6" ID="{CD3EB15F-C4A5-464D-A63A-B5A48BFA8D69}">
+											<Language>SFX</Language>
+											<AudioFile>NovaStrike Footstep Package\FS 1 M2\FS 1 M2 - 6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="855070433"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FS 1 M2 - 6" ID="{CD3EB15F-C4A5-464D-A63A-B5A48BFA8D69}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="FS 1 M3 Equipment1" ID="{65065E2A-943A-4421-81CB-9772FC7DE7D8}" ShortID="175706979">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{7B0E3E3C-4C06-415D-887A-278FABD5A3CA}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="126"/>
+													<Property Name="Min" Type="Real64" Value="-227"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FS 1 M3 Equipment1 - 1" ID="{7177E38E-6128-4560-A57C-133B63B78AD1}" ShortID="686705355">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS 1 M3 Equipment1 - 1" ID="{2F09EDB2-221D-4796-85C5-304C05F6BBAB}">
+											<Language>SFX</Language>
+											<AudioFile>NovaStrike Footstep Package\FS 1 M3 Equipment1\FS 1 M3 Equipment1 - 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="721719337"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FS 1 M3 Equipment1 - 1" ID="{2F09EDB2-221D-4796-85C5-304C05F6BBAB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS 1 M3 Equipment1 - 2" ID="{596B36E8-FFC6-48E6-9405-2D573F275F52}" ShortID="907491712">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS 1 M3 Equipment1 - 2" ID="{97478D39-048B-42A6-A282-105D31DFC2A1}">
+											<Language>SFX</Language>
+											<AudioFile>NovaStrike Footstep Package\FS 1 M3 Equipment1\FS 1 M3 Equipment1 - 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="848755469"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FS 1 M3 Equipment1 - 2" ID="{97478D39-048B-42A6-A282-105D31DFC2A1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS 1 M3 Equipment1 - 3" ID="{34E4107B-77AA-4B49-87CF-7B4DAEADD86C}" ShortID="484927503">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS 1 M3 Equipment1 - 3" ID="{39E7E82D-F047-4CB9-8646-479A697F5CC7}">
+											<Language>SFX</Language>
+											<AudioFile>NovaStrike Footstep Package\FS 1 M3 Equipment1\FS 1 M3 Equipment1 - 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="28427238"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FS 1 M3 Equipment1 - 3" ID="{39E7E82D-F047-4CB9-8646-479A697F5CC7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS 1 M3 Equipment1 - 4" ID="{A3D1D575-C24A-4171-BDC8-4C6E70B347DB}" ShortID="472380499">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS 1 M3 Equipment1 - 4" ID="{F1F498C6-BBFE-476B-8524-FB32420C7572}">
+											<Language>SFX</Language>
+											<AudioFile>NovaStrike Footstep Package\FS 1 M3 Equipment1\FS 1 M3 Equipment1 - 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="442106981"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FS 1 M3 Equipment1 - 4" ID="{F1F498C6-BBFE-476B-8524-FB32420C7572}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS 1 M3 Equipment1 - 5" ID="{17ABB58A-8B96-4CFE-A6D4-0553D09397F6}" ShortID="466377599">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS 1 M3 Equipment1 - 5" ID="{85F00ED6-EFF8-413C-9525-7554881129B9}">
+											<Language>SFX</Language>
+											<AudioFile>NovaStrike Footstep Package\FS 1 M3 Equipment1\FS 1 M3 Equipment1 - 5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="669566922"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FS 1 M3 Equipment1 - 5" ID="{85F00ED6-EFF8-413C-9525-7554881129B9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS 1 M3 Equipment1 - 6" ID="{018213DE-8E33-4881-B3A3-17DA6E549BD0}" ShortID="256956594">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS 1 M3 Equipment1 - 6" ID="{999C8CBE-683B-4768-8FA5-2C6933DE85D9}">
+											<Language>SFX</Language>
+											<AudioFile>NovaStrike Footstep Package\FS 1 M3 Equipment1\FS 1 M3 Equipment1 - 6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="579840248"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FS 1 M3 Equipment1 - 6" ID="{999C8CBE-683B-4768-8FA5-2C6933DE85D9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="FS 1 M4 Equipment2" ID="{DEAFBE95-B886-44A1-B379-10F3C44A9DEB}" ShortID="342337097">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{788754AB-CD8F-40CA-A0EB-BF614B7F34EE}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="101"/>
+													<Property Name="Min" Type="Real64" Value="-202"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-23</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FS 1 M4 Equipment2 - 1" ID="{7CFF1722-8199-4ECE-8AB8-42D281C1B835}" ShortID="921023341">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS 1 M4 Equipment2 - 1" ID="{6D68CF0D-7CF6-4CD9-BB2E-0DFFBEF759BC}">
+											<Language>SFX</Language>
+											<AudioFile>NovaStrike Footstep Package\FS 1 M4 Equipment2\FS 1 M4 Equipment2 - 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="380790067"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FS 1 M4 Equipment2 - 1" ID="{6D68CF0D-7CF6-4CD9-BB2E-0DFFBEF759BC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS 1 M4 Equipment2 - 2" ID="{A2EDAABD-DA3F-46EF-9B57-2A0A92630869}" ShortID="568207053">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS 1 M4 Equipment2 - 2" ID="{E2E86D13-8654-44EE-B942-6D1741FAA894}">
+											<Language>SFX</Language>
+											<AudioFile>NovaStrike Footstep Package\FS 1 M4 Equipment2\FS 1 M4 Equipment2 - 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="525162396"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FS 1 M4 Equipment2 - 2" ID="{E2E86D13-8654-44EE-B942-6D1741FAA894}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS 1 M4 Equipment2 - 3" ID="{1BC37FE8-4094-4F6C-B7CC-574ACCFE5387}" ShortID="595093996">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS 1 M4 Equipment2 - 3" ID="{8B5E65F1-FC36-4423-A944-A2E93432F10B}">
+											<Language>SFX</Language>
+											<AudioFile>NovaStrike Footstep Package\FS 1 M4 Equipment2\FS 1 M4 Equipment2 - 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="383861449"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FS 1 M4 Equipment2 - 3" ID="{8B5E65F1-FC36-4423-A944-A2E93432F10B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS 1 M4 Equipment2 - 4" ID="{A7C24C5A-EB38-4187-ABBC-BFA5737873E7}" ShortID="89982369">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS 1 M4 Equipment2 - 4" ID="{1C84EAB5-E271-4A58-932A-E9FCE081EF05}">
+											<Language>SFX</Language>
+											<AudioFile>NovaStrike Footstep Package\FS 1 M4 Equipment2\FS 1 M4 Equipment2 - 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="248937897"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FS 1 M4 Equipment2 - 4" ID="{1C84EAB5-E271-4A58-932A-E9FCE081EF05}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS 1 M4 Equipment2 - 5" ID="{FF7BB502-AABF-4C95-B0D0-062326E8C75A}" ShortID="102548409">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS 1 M4 Equipment2 - 5" ID="{66CA4241-D832-4E9B-B3C3-20A3AFD6CC9F}">
+											<Language>SFX</Language>
+											<AudioFile>NovaStrike Footstep Package\FS 1 M4 Equipment2\FS 1 M4 Equipment2 - 5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1010739839"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FS 1 M4 Equipment2 - 5" ID="{66CA4241-D832-4E9B-B3C3-20A3AFD6CC9F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS 1 M4 Equipment2 - 6" ID="{59415BB7-7819-4D74-AB23-987857F69A1F}" ShortID="435330634">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS 1 M4 Equipment2 - 6" ID="{02270804-B642-4F0A-B495-55FDF007685C}">
+											<Language>SFX</Language>
+											<AudioFile>NovaStrike Footstep Package\FS 1 M4 Equipment2\FS 1 M4 Equipment2 - 6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="580374050"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FS 1 M4 Equipment2 - 6" ID="{02270804-B642-4F0A-B495-55FDF007685C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<SwitchContainer Name="Texture" ID="{A6F4204F-0870-44F2-A1F4-FAEDA9C7C468}" ShortID="967980642">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C322BE41-940A-47AC-B2A1-7BDB40CEBD97}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Material" ID="{CFB9FC1F-758E-48E2-A46D-02DCA613E1B2}" WorkUnitID="{55DA12B5-2EA2-40DA-AE1A-D9C08A8CE62C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Variance-Gravel" ID="{77634086-2D34-449B-9F55-6BD2210D538D}" ShortID="415261539">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6BE19454-6E7B-478A-A86B-84224C56DC2B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="126"/>
+															<Property Name="Min" Type="Real64" Value="-202"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FS 1 Gravel-6" ID="{A76CF320-3102-4EFC-9419-FEF0464CDAF1}" ShortID="740613821">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS 1 Gravel-6" ID="{8648BF8F-0D02-431C-91A9-48E2F7606C0D}">
+													<Language>SFX</Language>
+													<AudioFile>NovaStrike Footstep Package\Texture\Variance-Gravel\FS 1 Gravel-6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="140730131"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FS 1 Gravel-6" ID="{8648BF8F-0D02-431C-91A9-48E2F7606C0D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS 1 VarianceGravel-1" ID="{C010E8CB-EDDE-48F7-B250-12EE47CFCADB}" ShortID="533432587">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS 1 VarianceGravel-1" ID="{4FE1A406-94ED-4993-8233-F690C768B5EA}">
+													<Language>SFX</Language>
+													<AudioFile>NovaStrike Footstep Package\Texture\Variance-Gravel\FS 1 VarianceGravel-1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="198665915"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FS 1 VarianceGravel-1" ID="{4FE1A406-94ED-4993-8233-F690C768B5EA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS 1 VarianceGravel-2" ID="{9D67C0B7-94AC-4DC9-A9DF-6B94310D1366}" ShortID="1032753172">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS 1 VarianceGravel-2" ID="{008DBE95-904D-4D64-B335-25D7781BC36D}">
+													<Language>SFX</Language>
+													<AudioFile>NovaStrike Footstep Package\Texture\Variance-Gravel\FS 1 VarianceGravel-2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="917608859"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FS 1 VarianceGravel-2" ID="{008DBE95-904D-4D64-B335-25D7781BC36D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS 1 VarianceGravel-3" ID="{08E644C6-71C0-4E13-92AF-A36F5BFB5547}" ShortID="166116109">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS 1 VarianceGravel-3" ID="{86F66400-E541-4566-AB88-29E04302A330}">
+													<Language>SFX</Language>
+													<AudioFile>NovaStrike Footstep Package\Texture\Variance-Gravel\FS 1 VarianceGravel-3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="912533498"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FS 1 VarianceGravel-3" ID="{86F66400-E541-4566-AB88-29E04302A330}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Gravel" ID="{1DCAEB0D-AF09-4A5B-9910-02D8A9C4365A}" ShortID="625448735">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C1407B05-4ADF-4A12-816E-E91ABBC93197}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="126"/>
+															<Property Name="Min" Type="Real64" Value="-253"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FS 1 Gravel-1" ID="{D853B16D-064E-499F-B364-9EC2C1224132}" ShortID="806224855">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS 1 Gravel-1" ID="{026A1421-D8A5-44A0-87CA-D8E1279D395E}">
+													<Language>SFX</Language>
+													<AudioFile>NovaStrike Footstep Package\Texture\Gravel\FS 1 Gravel-1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="938522667"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FS 1 Gravel-1" ID="{026A1421-D8A5-44A0-87CA-D8E1279D395E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS 1 Gravel-2" ID="{A52D7090-2426-432B-8F9A-4B070271E3BD}" ShortID="350099020">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS 1 Gravel-2" ID="{8FC001C5-BE4C-4526-979D-2CF0DB77F436}">
+													<Language>SFX</Language>
+													<AudioFile>NovaStrike Footstep Package\Texture\Gravel\FS 1 Gravel-2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="236340964"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FS 1 Gravel-2" ID="{8FC001C5-BE4C-4526-979D-2CF0DB77F436}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS 1 Gravel-3" ID="{C5D7046F-E12D-4AE4-AADA-862A5714A11F}" ShortID="611185826">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS 1 Gravel-3" ID="{6884A49D-B906-44A0-AD13-1DC3B7831C63}">
+													<Language>SFX</Language>
+													<AudioFile>NovaStrike Footstep Package\Texture\Gravel\FS 1 Gravel-3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="948977331"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FS 1 Gravel-3" ID="{6884A49D-B906-44A0-AD13-1DC3B7831C63}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS 1 Gravel-4" ID="{31B4ED92-A508-47C0-A37C-A5815E0FE9A1}" ShortID="303129552">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS 1 Gravel-4" ID="{DC63FADC-DC37-43C8-98D7-9FA169BF4672}">
+													<Language>SFX</Language>
+													<AudioFile>NovaStrike Footstep Package\Texture\Gravel\FS 1 Gravel-4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="944618114"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FS 1 Gravel-4" ID="{DC63FADC-DC37-43C8-98D7-9FA169BF4672}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS 1 Gravel-5" ID="{E43F811C-752F-4922-9CB7-E7D8CD3CD995}" ShortID="987342586">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS 1 Gravel-5" ID="{96354501-ED0C-4126-A805-478A35592BC1}">
+													<Language>SFX</Language>
+													<AudioFile>NovaStrike Footstep Package\Texture\Gravel\FS 1 Gravel-5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="485795145"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FS 1 Gravel-5" ID="{96354501-ED0C-4126-A805-478A35592BC1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS 1 Gravel-6" ID="{A3F6D0B4-A862-430A-A334-0F60443CE5EA}" ShortID="933733480">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS 1 Gravel-6" ID="{F0C88DBB-1FFA-4F65-A900-1224647B0EBC}">
+													<Language>SFX</Language>
+													<AudioFile>NovaStrike Footstep Package\Texture\Gravel\FS 1 Gravel-6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="352862345"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FS 1 Gravel-6" ID="{F0C88DBB-1FFA-4F65-A900-1224647B0EBC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists/>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Gravel" ID="{1DCAEB0D-AF09-4A5B-9910-02D8A9C4365A}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Variance-Gravel" ID="{77634086-2D34-449B-9F55-6BD2210D538D}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Gravel" ID="{8F7941C1-D6CD-4359-8217-A0DAD9EF4008}"/>
+										<ItemList>
+											<ItemRef Name="Variance-Gravel" ID="{77634086-2D34-449B-9F55-6BD2210D538D}"/>
+											<ItemRef Name="Gravel" ID="{1DCAEB0D-AF09-4A5B-9910-02D8A9C4365A}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{6F1B66D4-E771-452C-B759-EEE1E2D19316}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+								<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

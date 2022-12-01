@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8FD4B51F-2D1E-49EB-BD93-6EFED3FBFABA}" SchemaVersion="103" RootDocumentID="{BACEE95A-0A53-4830-BED5-9E31C03BC42A}" ParentDocumentID="{BACEE95A-0A53-4830-BED5-9E31C03BC42A}">
+	<AudioObjects>
+		<WorkUnit Name="PlayerAmbience" ID="{8FD4B51F-2D1E-49EB-BD93-6EFED3FBFABA}" OwnerID="{BACEE95A-0A53-4830-BED5-9E31C03BC42A}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="PlayerEnergyContainer" ID="{5D23170A-0FEF-472B-9E65-5FF2062F3A29}" ShortID="790959837">
+					<PropertyList>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-18</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="EnergyContainer" ID="{CEC6C535-C570-4B63-B155-023EB6740770}" ShortID="556725550">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Energy-BaseLoop" ID="{ECCE4B69-4B02-4466-9A62-2D153C5AFF66}" ShortID="250760326">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Energy-BaseLoop" ID="{BBE65CA1-B861-4860-82B8-578305C20014}">
+											<Language>SFX</Language>
+											<AudioFile>EnergyContainer\Energy-BaseLoop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="556765065"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Energy-BaseLoop" ID="{BBE65CA1-B861-4860-82B8-578305C20014}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Energy-Electricity" ID="{A937641B-32E2-423D-A7BC-C448E8EA3882}" ShortID="259021746">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-18</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Energy-Electricity" ID="{59915197-4DCB-44E7-A230-AAEC57FB7013}">
+											<Language>SFX</Language>
+											<AudioFile>EnergyContainer\Energy-Electricity.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="429384935"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Energy-Electricity" ID="{59915197-4DCB-44E7-A230-AAEC57FB7013}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Energy-Pulse1" ID="{E568507A-499F-46B4-B191-A91FC09261CE}" ShortID="27021766">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Energy-Pulse1" ID="{F8EBBA9E-1886-4C02-B72F-243C9369F65D}">
+											<Language>SFX</Language>
+											<AudioFile>EnergyContainer\Energy-Pulse1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="181092289"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Energy-Pulse1" ID="{F8EBBA9E-1886-4C02-B72F-243C9369F65D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Energy-Pulse2" ID="{CF62C045-16D4-47D3-BFDA-0C45C2AF0003}" ShortID="354959509">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Energy-Pulse2" ID="{73A77822-62DE-48D3-B95E-A78D0A463897}">
+											<Language>SFX</Language>
+											<AudioFile>EnergyContainer\Energy-Pulse2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="184952446"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Energy-Pulse2" ID="{73A77822-62DE-48D3-B95E-A78D0A463897}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Energy-Spinner1" ID="{D3EC5AE8-D4E9-457A-BC16-0DC938141A2A}" ShortID="161911434">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Energy-Spinner1" ID="{EBA0522A-AFD9-4257-8814-25285D623E2D}">
+											<Language>SFX</Language>
+											<AudioFile>EnergyContainer\Energy-Spinner1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="524955019"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Energy-Spinner1" ID="{EBA0522A-AFD9-4257-8814-25285D623E2D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Energy-Spinner2" ID="{D88DA27E-D94B-4CA9-80BC-97FE656088DC}" ShortID="1070878935">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-22</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Energy-Spinner2" ID="{EC0E62BC-44D0-471B-B0EB-F31E6D1456BA}">
+											<Language>SFX</Language>
+											<AudioFile>EnergyContainer\Energy-Spinner2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1040577855"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Energy-Spinner2" ID="{EC0E62BC-44D0-471B-B0EB-F31E6D1456BA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+							<BlendTrackList>
+								<BlendTrack Name="EnergyBase" ID="{36FA9998-61D9-45A4-A089-2EA41D028C32}" ShortID="258323785">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<RTPCList>
+												<RTPC Name="" ID="{AFEC492B-DB8B-49A6-A2C0-842963CDA834}" ShortID="895100044">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{670E0528-55A4-419E-BA9B-314B6EC2686C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-443</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{B69CE7F7-5DDB-4709-B6C5-6E3098164A62}" ShortID="866911482">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{9628EA6B-BDE9-495B-AC2A-C867A1F21DFA}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>0.42069</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0.74828</XPos>
+																<YPos>0.2451</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>1.29451</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Energy-BaseLoop" ID="{ECCE4B69-4B02-4466-9A62-2D153C5AFF66}"/>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+								<BlendTrack Name="EnergyElectricity" ID="{8329C38B-003E-4A18-A117-680EEE1DCA4F}" ShortID="149314786">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{D12CC01B-7B54-4047-AE91-066950C35ACA}" ShortID="291877791">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{FBC3E477-A803-4019-8BA8-76AB71AA831A}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>0.25862</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0.49828</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0.49928</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0.13467</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Energy-Electricity" ID="{A937641B-32E2-423D-A7BC-C448E8EA3882}"/>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+								<BlendTrack Name="EnergyPulse" ID="{8D1D41F0-20DF-4656-B9CE-A2195000B657}" ShortID="853876212">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{560774D8-5FF0-4A12-95FD-90F64BE2BF25}" ShortID="762101819">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{4FDF62EB-07BA-471D-8A7C-7308B8364720}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>0.38191</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0.74828</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>-6.71586</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Energy-Pulse1" ID="{E568507A-499F-46B4-B191-A91FC09261CE}"/>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+								<BlendTrack Name="EnergyPulse2" ID="{1F329F08-FA78-4DD5-80C0-B0D060CA6C00}" ShortID="775847939">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<RTPCList>
+												<RTPC Name="" ID="{378D1516-76E0-4C6A-9B23-C002BB094BCD}" ShortID="326480748">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{CC7AC000-9F9A-454B-BBAE-07EB0D699599}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-500</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>1000</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{679C8BEA-BD3F-4A45-A5FD-E7A4476762BC}" ShortID="720904053">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{6A5D9DCD-DD6C-4922-AA51-9914DD2C7B21}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>0.25131</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0.50777</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0.69872</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Energy-Pulse2" ID="{CF62C045-16D4-47D3-BFDA-0C45C2AF0003}"/>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+								<BlendTrack Name="EnergySpinner1" ID="{B6D0CB0B-9B00-4869-BF16-074687F862EB}" ShortID="363655139">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{584AE6E6-A0EF-4E02-B6F3-6C38CD1E7AE7}" ShortID="141717952">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{1254F78C-CFF9-4080-8FD4-7D1BA5C4F8D1}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>0.25299</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0.34396</XPos>
+																<YPos>-12.17587</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0.63276</XPos>
+																<YPos>-3.91496</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Energy-Spinner1" ID="{D3EC5AE8-D4E9-457A-BC16-0DC938141A2A}"/>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+								<BlendTrack Name="EnergySpinner2" ID="{8B03ED55-D04F-46F6-B05A-FD08182B6E1D}" ShortID="233874617">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<RTPCList>
+												<RTPC Name="" ID="{406DDF0D-EDAD-4743-94B9-30B66962D064}" ShortID="397148345">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{52D06CDD-B28F-4326-AE5F-8BFE17385761}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>0.75217</XPos>
+																<YPos>150</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>150</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{CB4A4399-FEA8-44CD-829C-6807E5034097}" ShortID="283246475">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{ADDBF2EE-504A-4203-837B-C8EF28677EA8}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>0.12413</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0.3537</XPos>
+																<YPos>-6.15526</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Energy-Spinner2" ID="{D88DA27E-D94B-4CA9-80BC-97FE656088DC}"/>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{C1B5A4A0-A02C-41C6-9B87-738DFC924765}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="-7.41525423728814"/>
+								<Property Name="PanY" Type="Real64" Value="-23.4513274336283"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
