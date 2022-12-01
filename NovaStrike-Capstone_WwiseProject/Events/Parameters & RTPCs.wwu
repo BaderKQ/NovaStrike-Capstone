@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9CC5E171-3908-4CEF-ACD6-9B53FCDBDA9F}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Parameters &amp; RTPCs" ID="{9CC5E171-3908-4CEF-ACD6-9B53FCDBDA9F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Set_Game_Parameter_Energy" ID="{30643AA2-3A6B-4B85-9996-5DA94523A652}">
+					<ChildrenList>
+						<Action Name="" ID="{34D0E2AB-A515-4876-9B89-D166595DE6C4}" ShortID="1037217815">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

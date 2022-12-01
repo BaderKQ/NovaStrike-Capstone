@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DEABBB02-87E5-48B5-83EE-94A62E9A31B8}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Testing" ID="{DEABBB02-87E5-48B5-83EE-94A62E9A31B8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_TestSounds" ID="{14CB80BE-D603-4BC1-AF74-41B313B87AFA}">
+					<ChildrenList>
+						<Action Name="" ID="{3C8CEE5C-DB7C-4E50-B025-79829E776E69}" ShortID="525545995">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TestSounds" ID="{0406C740-495F-43D9-9ED2-F478A4901441}" WorkUnitID="{6B950275-FAC6-4D3D-8417-DD0CE6969EDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Test_WeaponHit" ID="{D0037BC1-4383-442E-AE57-12D864F22BFD}">
+					<ChildrenList>
+						<Action Name="" ID="{3F61D6A8-EB00-495C-84B0-97277DA5A69C}" ShortID="453859119">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_WeaponSwing" ID="{67D163C2-2127-4B88-A2BC-9A84E3F0EA23}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A67593B8-5FD0-45D3-933A-9419D007A976}" ShortID="860164634">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_WeaponHit" ID="{CF28BA31-90F0-4E7F-ACBC-633E126A96F3}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

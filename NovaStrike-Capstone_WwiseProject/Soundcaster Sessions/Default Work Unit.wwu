@@ -6,19 +6,23 @@
 				<SoundcasterSession Name="TestCaster" ID="{9F0EA394-0566-49B7-904B-5EE5E5F8CC3B}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Test_WeaponHit" ID="{D0037BC1-4383-442E-AE57-12D864F22BFD}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}"/>
+							<ObjectRef Name="Test_WeaponHit" ID="{D0037BC1-4383-442E-AE57-12D864F22BFD}" WorkUnitID="{DEABBB02-87E5-48B5-83EE-94A62E9A31B8}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Footstep" ID="{DD22E7DA-50DD-4B46-B9AE-63B7F26C325C}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}"/>
+							<ObjectRef Name="Play_AmbienceMain" ID="{BF4C797B-AA82-4B2B-AD75-E380DC8F63DA}" WorkUnitID="{DA72CB74-6FF2-462F-B647-CFA273543CB8}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Footstep" ID="{DD22E7DA-50DD-4B46-B9AE-63B7F26C325C}" WorkUnitID="{5180ADD5-C300-45A7-BCDC-867E496431AC}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_WeaponSwing" ID="{67D163C2-2127-4B88-A2BC-9A84E3F0EA23}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}"/>
+							<ObjectRef Name="Play_WeaponSwing" ID="{67D163C2-2127-4B88-A2BC-9A84E3F0EA23}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_WaveGunPrimaryFire" ID="{64DD94DD-9B89-44B3-845A-014B5436060E}" WorkUnitID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}"/>
+							<ObjectRef Name="Play_WaveGunPrimaryFire" ID="{64DD94DD-9B89-44B3-845A-014B5436060E}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 					</ModuleList>
@@ -30,6 +34,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Indoors" ID="{25EA4457-B385-4F55-B88D-F5E6AC32063B}"/>
 						<CurrentSwitchRef Name="Gravel" ID="{8F7941C1-D6CD-4359-8217-A0DAD9EF4008}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>

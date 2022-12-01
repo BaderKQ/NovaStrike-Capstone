@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{81D82911-6D85-4AE0-9DDA-BE8B4DB5FE70}" SchemaVersion="103" RootDocumentID="{DF7EDA04-0B6F-4650-8B5D-BC9EBCCD386B}" ParentDocumentID="{DF7EDA04-0B6F-4650-8B5D-BC9EBCCD386B}">
+	<Events>
+		<WorkUnit Name="Player_Ambience" ID="{81D82911-6D85-4AE0-9DDA-BE8B4DB5FE70}" OwnerID="{DF7EDA04-0B6F-4650-8B5D-BC9EBCCD386B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_EnergyContainer" ID="{A31E91E7-29CE-4BD9-915A-49373C7031F2}">
+					<ChildrenList>
+						<Action Name="" ID="{D84B60DC-0165-4ADC-828A-78172A107356}" ShortID="627384621">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EnergyContainer" ID="{CEC6C535-C570-4B63-B155-023EB6740770}" WorkUnitID="{8FD4B51F-2D1E-49EB-BD93-6EFED3FBFABA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
