@@ -155,6 +155,7 @@
 					<ObjectLists/>
 				</RandomSequenceContainer>
 <<<<<<< HEAD
+<<<<<<< HEAD
 				<Folder Name="NovaStrike Footstep Package" ID="{48E1B606-1E9D-41D1-BCC5-CF2870043A5E}" ShortID="104678602">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="11"/>
@@ -6657,6 +6658,8 @@
 					<ObjectLists/>
 				</ActorMixer>
 >>>>>>> 87427929e10149f8085a4365a232150cf78e165f
+=======
+>>>>>>> 8728c85d09bf49bee7e7998df6ca757e9f70c1d3
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

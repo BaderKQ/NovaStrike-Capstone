@@ -25,13 +25,43 @@
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Hash": "2147404930",
 =======
     "Hash": "1656989097",
 >>>>>>> 87427929e10149f8085a4365a232150cf78e165f
+=======
+    "Hash": "2593058075",
+>>>>>>> 8728c85d09bf49bee7e7998df6ca757e9f70c1d3
     "ObjectPath": "Init",
     "ShortName": "Init",
-    "Path": "Init.bnk"
+    "Path": "Init.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "348963605",
+      "Name": "Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb",
+      "GUID": "{EBCAA468-A256-4FEE-97B1-1C80279A2063}"
+     },
+     {
+      "Id": "1330453310",
+      "Name": "ReverbOutdoors",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+      "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+     },
+     {
+      "Id": "2287215461",
+      "Name": "ReverbRoomSmall",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbRoomSmall",
+      "GUID": "{4622EE15-B8EA-4B12-A5E5-2D128AC97431}"
+     },
+     {
+      "Id": "2495704813",
+      "Name": "ReverbRoomMedium",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbRoomMedium",
+      "GUID": "{F95BEE73-3624-46D4-BF86-0B703B9F562F}"
+     }
+    ]
    }
   ]
  }

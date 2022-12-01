@@ -3,6 +3,7 @@
 	<Attenuations>
 		<WorkUnit Name="Default Work Unit" ID="{B07301C3-8358-41E8-BABD-2E0AB28776B1}" PersistMode="Standalone">
 			<ChildrenList>
+<<<<<<< HEAD
 				<Attenuation Name="SwingAttenuation" ID="{98202749-BC0B-4BD0-B82B-E6F393CEB51D}" ShortID="226074513">
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -64,6 +65,9 @@
 						</FocusUsage>
 					</CurveUsageInfoList>
 				</Attenuation>
+=======
+				<WorkUnit Name="Attenutations" ID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}" PersistMode="Reference"/>
+>>>>>>> 8728c85d09bf49bee7e7998df6ca757e9f70c1d3
 			</ChildrenList>
 		</WorkUnit>
 	</Attenuations>
