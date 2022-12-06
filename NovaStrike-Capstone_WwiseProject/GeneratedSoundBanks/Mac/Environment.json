@@ -16,7 +16,7 @@
     "Id": "1229948536",
     "GUID": "{4C9ED762-EFBE-48DC-A06F-C68D6729D55A}",
     "Language": "SFX",
-    "Hash": "2834052352",
+    "Hash": "313878245",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Environment",
     "ShortName": "Environment",
     "Path": "Environment.bnk",
@@ -90,67 +90,67 @@
         "Id": "72889420",
         "Language": "SFX",
         "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 2.wav",
-        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 2_8F204C94.wem"
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 2_F96BA2C7.wem"
        },
        {
         "Id": "194534585",
         "Language": "SFX",
         "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936.wav",
-        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936_9183D17A.wem"
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936_D62422D1.wem"
        },
        {
         "Id": "236120727",
         "Language": "SFX",
         "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 3.wav",
-        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 3_B8FEB9EE.wem"
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 3_CC450997.wem"
        },
        {
         "Id": "262686026",
         "Language": "SFX",
         "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 2.wav",
-        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 2_3DB29CD2.wem"
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 2_3BAC3DAE.wem"
        },
        {
         "Id": "381731202",
         "Language": "SFX",
         "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 1.wav",
-        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 1_85314A54.wem"
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 1_BA7FC22F.wem"
        },
        {
         "Id": "760440341",
         "Language": "SFX",
         "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 1.wav",
-        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 1_45D90242.wem"
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 1_FB13E634.wem"
        },
        {
         "Id": "804412954",
         "Language": "SFX",
         "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 4.wav",
-        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 4_852BBA77.wem"
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 4_13147238.wem"
        },
        {
         "Id": "816899802",
         "Language": "SFX",
         "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 5.wav",
-        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 5_D65E660D.wem"
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 5_0018D74E.wem"
        },
        {
         "Id": "820497599",
         "Language": "SFX",
         "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901.wav",
-        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901_EE0F25B2.wem"
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901_0BF89AB8.wem"
        },
        {
         "Id": "884924529",
         "Language": "SFX",
         "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936 1.wav",
-        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936 1_F9DA9C3E.wem"
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936 1_B5EC082A.wem"
        },
        {
         "Id": "1034394021",
         "Language": "SFX",
         "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937.wav",
-        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937_85B3CADD.wem"
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937_4C12614A.wem"
        }
       ],
       "ActionPostEvent": [
@@ -486,67 +486,67 @@
         "Id": "72889420",
         "Language": "SFX",
         "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 2.wav",
-        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 2_8F204C94.wem"
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 2_F96BA2C7.wem"
        },
        {
         "Id": "194534585",
         "Language": "SFX",
         "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936.wav",
-        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936_9183D17A.wem"
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936_D62422D1.wem"
        },
        {
         "Id": "236120727",
         "Language": "SFX",
         "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 3.wav",
-        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 3_B8FEB9EE.wem"
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 3_CC450997.wem"
        },
        {
         "Id": "262686026",
         "Language": "SFX",
         "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 2.wav",
-        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 2_3DB29CD2.wem"
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 2_3BAC3DAE.wem"
        },
        {
         "Id": "381731202",
         "Language": "SFX",
         "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 1.wav",
-        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 1_85314A54.wem"
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 1_BA7FC22F.wem"
        },
        {
         "Id": "760440341",
         "Language": "SFX",
         "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 1.wav",
-        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 1_45D90242.wem"
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 1_FB13E634.wem"
        },
        {
         "Id": "804412954",
         "Language": "SFX",
         "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 4.wav",
-        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 4_852BBA77.wem"
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 4_13147238.wem"
        },
        {
         "Id": "816899802",
         "Language": "SFX",
         "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 5.wav",
-        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 5_D65E660D.wem"
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 5_0018D74E.wem"
        },
        {
         "Id": "820497599",
         "Language": "SFX",
         "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901.wav",
-        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901_EE0F25B2.wem"
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901_0BF89AB8.wem"
        },
        {
         "Id": "884924529",
         "Language": "SFX",
         "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936 1.wav",
-        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936 1_F9DA9C3E.wem"
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936 1_B5EC082A.wem"
        },
        {
         "Id": "1034394021",
         "Language": "SFX",
         "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937.wav",
-        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937_85B3CADD.wem"
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937_4C12614A.wem"
        }
       ],
       "ActionPostEvent": [
@@ -563,9 +563,10 @@
       "Name": "Play_Saideed_Attack",
       "ObjectPath": "\\Events\\Saideed\\SaideedCombat\\Play_Saideed_Attack",
       "GUID": "{3168B451-59A9-4FAC-B557-F8F20E45D663}",
+      "MaxAttenuation": "500.",
       "DurationType": "OneShot",
-      "DurationMin": "2.265298",
-      "DurationMax": "2.542712",
+      "DurationMin": "2.018152",
+      "DurationMax": "2.265298",
       "IncludedMemoryFiles": [
        {
         "Id": "3247321",
@@ -597,6 +598,14 @@
         "ShortName": "Saideed Noises\\Saideed Attack\\Saideed Attack - 1.wav",
         "Path": "SFX\\Saideed Noises\\Saideed Attack\\Saideed Attack - 1_10C4C929.wem"
        }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+       }
       ]
      },
      {
@@ -604,9 +613,10 @@
       "Name": "Play_Saideed_Buff",
       "ObjectPath": "\\Events\\Saideed\\SaideedCombat\\Play_Saideed_Buff",
       "GUID": "{54AE8AE3-540F-4550-A843-D06166A88900}",
+      "MaxAttenuation": "500.",
       "DurationType": "OneShot",
-      "DurationMin": "2.4",
-      "DurationMax": "2.4",
+      "DurationMin": "2.138157",
+      "DurationMax": "2.138157",
       "IncludedMemoryFiles": [
        {
         "Id": "489340103",
@@ -625,6 +635,14 @@
         "Language": "SFX",
         "ShortName": "Saideed Noises\\Saideed Buff\\Saideed Buff - 1.wav",
         "Path": "SFX\\Saideed Noises\\Saideed Buff\\Saideed Buff - 1_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
        }
       ]
      },
@@ -686,9 +704,10 @@
       "Name": "Play_Saideed_Hit",
       "ObjectPath": "\\Events\\Saideed\\SaideedCombat\\Play_Saideed_Hit",
       "GUID": "{BEF80A2A-4628-4CBB-8E56-ED880F8A0AD4}",
+      "MaxAttenuation": "500.",
       "DurationType": "OneShot",
-      "DurationMin": "2.4",
-      "DurationMax": "2.4",
+      "DurationMin": "2.138157",
+      "DurationMax": "2.138157",
       "IncludedMemoryFiles": [
        {
         "Id": "142687313",
@@ -738,6 +757,14 @@
         "ShortName": "Saideed Noises\\Hit\\Saideed Hit - 8.wav",
         "Path": "SFX\\Saideed Noises\\Hit\\Saideed Hit - 8_10C4C929.wem"
        }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+       }
       ]
      },
      {
@@ -745,9 +772,10 @@
       "Name": "Play_Saideed_Swing",
       "ObjectPath": "\\Events\\Saideed\\SaideedCombat\\Play_Saideed_Swing",
       "GUID": "{03E153F2-2697-48BF-B7A9-5802F380F591}",
+      "MaxAttenuation": "500.",
       "DurationType": "OneShot",
-      "DurationMin": "1.2",
-      "DurationMax": "1.2",
+      "DurationMin": "1.069078",
+      "DurationMax": "1.069078",
       "IncludedMemoryFiles": [
        {
         "Id": "29244023",
@@ -772,6 +800,14 @@
         "Language": "SFX",
         "ShortName": "Saideed Noises\\Saideed Swing\\Saideed Swing - 4.wav",
         "Path": "SFX\\Saideed Noises\\Saideed Swing\\Saideed Swing - 4_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
        }
       ]
      },

@@ -6,6 +6,9 @@
 				<Event Name="Play_AmbienceMain" ID="{BF4C797B-AA82-4B2B-AD75-E380DC8F63DA}">
 					<ChildrenList>
 						<Action Name="" ID="{3D92A66B-1038-414C-BC30-26FD61BA37B9}" ShortID="609223468">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="4"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Amb_MainEnviroSwitch" ID="{31964BB8-CF4C-45A5-BB9A-DCFD620FBED4}" WorkUnitID="{C96CA62B-FF21-4A7B-8318-5D165A627DE7}"/>

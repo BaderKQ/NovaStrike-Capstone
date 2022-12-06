@@ -81,6 +81,11 @@
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="Combat" ID="{72AC963F-4D84-4D0F-A4D2-F6D6CBCF2452}">
+							<ChildrenList>
+								<Bus Name="EnemySFX" ID="{6696559A-C411-44CF-8839-76CB8B4C7F88}">
+									<ObjectLists/>
+								</Bus>
+							</ChildrenList>
 							<ObjectLists/>
 						</Bus>
 						<AuxBus Name="Reverb" ID="{EBCAA468-A256-4FEE-97B1-1C80279A2063}">

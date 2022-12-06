@@ -46,7 +46,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Outdoors" ID="{6741CF09-42E0-48EB-97E4-6145BE5725C1}"/>
+						<CurrentSwitchRef Name="CorporationOutdoors" ID="{70B7830F-C0CD-412D-B2AF-8723695B13BE}"/>
 						<CurrentSwitchRef Name="Base" ID="{0E054AB0-BB48-4D70-B1C4-C06CA92DD551}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>

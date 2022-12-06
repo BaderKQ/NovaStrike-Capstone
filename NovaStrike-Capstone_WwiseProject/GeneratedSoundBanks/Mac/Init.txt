@@ -1,6 +1,7 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	14131923	PlayerWaveGunTail			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerWavegun\PlayerWaveGunTail	
 	309309195	2DAmbience			\Default Work Unit\Master Audio Bus\AmbientMaster\AmbientBeds\2DAmbience	
+	406817756	EnemySFX			\Default Work Unit\Master Audio Bus\Combat\EnemySFX	
 	765206498	PlayerCloth			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerCloth	
 	1182634443	AmbientBeds			\Default Work Unit\Master Audio Bus\AmbientMaster\AmbientBeds	
 	1301074112	3DAmbience			\Default Work Unit\Master Audio Bus\AmbientMaster\AmbientBeds\3DAmbience	
