@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D8D77032-1570-4105-B952-6B372DE0DE17}" SchemaVersion="103" RootDocumentID="{5D4DD2E9-BB57-4772-AFD3-CABD3A9A8AC0}" ParentDocumentID="{5D4DD2E9-BB57-4772-AFD3-CABD3A9A8AC0}">
+	<Events>
+		<WorkUnit Name="SaideedCombat" ID="{D8D77032-1570-4105-B952-6B372DE0DE17}" OwnerID="{5D4DD2E9-BB57-4772-AFD3-CABD3A9A8AC0}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Saideed_Buff" ID="{54AE8AE3-540F-4550-A843-D06166A88900}">
+					<ChildrenList>
+						<Action Name="" ID="{42751818-5764-4891-80AA-F421634C0AA0}" ShortID="523160775">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Saideed Buff" ID="{D2EF24EE-B926-47A5-883A-EEF22BA09312}" WorkUnitID="{11A65CD9-A556-4F21-AEFD-C5381C8349AB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Saideed_Swing" ID="{03E153F2-2697-48BF-B7A9-5802F380F591}">
+					<ChildrenList>
+						<Action Name="" ID="{ECFF6D00-ADC8-4D15-9CBE-99CFE1D0DBE1}" ShortID="684348879">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Saideed Swing" ID="{E2433639-756A-45E4-9C77-EB146769A3AC}" WorkUnitID="{11A65CD9-A556-4F21-AEFD-C5381C8349AB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Saideed_Hit" ID="{BEF80A2A-4628-4CBB-8E56-ED880F8A0AD4}">
+					<ChildrenList>
+						<Action Name="" ID="{F20003CC-6D41-45D9-B5FC-CDA0D40CDE98}" ShortID="476507801">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Saideed Hit" ID="{EBF823E2-597A-4A45-857D-174141B66BD7}" WorkUnitID="{11A65CD9-A556-4F21-AEFD-C5381C8349AB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Saideed_Attack" ID="{3168B451-59A9-4FAC-B557-F8F20E45D663}">
+					<ChildrenList>
+						<Action Name="" ID="{EC872980-361E-4CF0-AE13-426579B6D166}" ShortID="1053350210">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Saideed Attack" ID="{C5705A86-6BAD-40EF-A8E7-86F29AA97ACA}" WorkUnitID="{11A65CD9-A556-4F21-AEFD-C5381C8349AB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

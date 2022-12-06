@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EA136EFD-40C8-49CF-A2D7-478E3C8521D4}" SchemaVersion="103" RootDocumentID="{5D4DD2E9-BB57-4772-AFD3-CABD3A9A8AC0}" ParentDocumentID="{5D4DD2E9-BB57-4772-AFD3-CABD3A9A8AC0}">
+	<Events>
+		<WorkUnit Name="SaideedLocomotion" ID="{EA136EFD-40C8-49CF-A2D7-478E3C8521D4}" OwnerID="{5D4DD2E9-BB57-4772-AFD3-CABD3A9A8AC0}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Saideed_Footsteps" ID="{1A54F101-C2C7-4293-B926-B92FC2BA6188}">
+					<ChildrenList>
+						<Action Name="" ID="{3EBC1579-2590-4221-A825-6FB7E48EECC2}" ShortID="5049258">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Saideed Footsteps" ID="{C76201B7-D419-4192-ABB0-8490E32293A6}" WorkUnitID="{2387BBA9-8B5E-426E-8EFC-476AEBA3BDBF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

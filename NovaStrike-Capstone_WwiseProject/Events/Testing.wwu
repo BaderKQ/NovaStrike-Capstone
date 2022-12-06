@@ -37,6 +37,17 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{32DD4508-BFDE-44CB-8A4E-179C5260D1C3}" ShortID="625108646">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Saideed_Hit" ID="{BEF80A2A-4628-4CBB-8E56-ED880F8A0AD4}" WorkUnitID="{D8D77032-1570-4105-B952-6B372DE0DE17}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>

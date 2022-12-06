@@ -119,7 +119,7 @@
 											<Language>SFX</Language>
 											<AudioFile>NovaStrike Footstep Package\FS 1 M1\FS 1 Bass-3.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="764365220"/>
+												<MediaID ID="268944095"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -165,7 +165,7 @@
 											<Language>SFX</Language>
 											<AudioFile>NovaStrike Footstep Package\FS 1 M1\FS 1 Bass-5.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1048956148"/>
+												<MediaID ID="942946384"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -188,7 +188,7 @@
 											<Language>SFX</Language>
 											<AudioFile>NovaStrike Footstep Package\FS 1 M1\FS 1 Bass-6.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="365128681"/>
+												<MediaID ID="152352733"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -290,7 +290,7 @@
 											<Language>SFX</Language>
 											<AudioFile>NovaStrike Footstep Package\FS 1 M2\FS 1 M2 - 2.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="573691120"/>
+												<MediaID ID="350382438"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -336,7 +336,7 @@
 											<Language>SFX</Language>
 											<AudioFile>NovaStrike Footstep Package\FS 1 M2\FS 1 M2 - 4.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="867156841"/>
+												<MediaID ID="57506250"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -382,7 +382,7 @@
 											<Language>SFX</Language>
 											<AudioFile>NovaStrike Footstep Package\FS 1 M2\FS 1 M2 - 6.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="855070433"/>
+												<MediaID ID="432822066"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -461,7 +461,7 @@
 											<Language>SFX</Language>
 											<AudioFile>NovaStrike Footstep Package\FS 1 M3 Equipment1\FS 1 M3 Equipment1 - 2.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="848755469"/>
+												<MediaID ID="540815047"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -507,7 +507,7 @@
 											<Language>SFX</Language>
 											<AudioFile>NovaStrike Footstep Package\FS 1 M3 Equipment1\FS 1 M3 Equipment1 - 4.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="442106981"/>
+												<MediaID ID="321862013"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -614,7 +614,7 @@
 											<Language>SFX</Language>
 											<AudioFile>NovaStrike Footstep Package\FS 1 M4 Equipment2\FS 1 M4 Equipment2 - 1.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="380790067"/>
+												<MediaID ID="123078190"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -706,7 +706,7 @@
 											<Language>SFX</Language>
 											<AudioFile>NovaStrike Footstep Package\FS 1 M4 Equipment2\FS 1 M4 Equipment2 - 5.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1010739839"/>
+												<MediaID ID="797775328"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -729,7 +729,7 @@
 											<Language>SFX</Language>
 											<AudioFile>NovaStrike Footstep Package\FS 1 M4 Equipment2\FS 1 M4 Equipment2 - 6.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="580374050"/>
+												<MediaID ID="185378386"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -876,7 +876,7 @@
 													<Language>SFX</Language>
 													<AudioFile>NovaStrike Footstep Package\Texture\Variance-Gravel\FS 1 VarianceGravel-3.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="912533498"/>
+														<MediaID ID="118814164"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -932,7 +932,7 @@
 													<Language>SFX</Language>
 													<AudioFile>NovaStrike Footstep Package\Texture\Gravel\FS 1 Gravel-1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="938522667"/>
+														<MediaID ID="880064682"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -955,7 +955,7 @@
 													<Language>SFX</Language>
 													<AudioFile>NovaStrike Footstep Package\Texture\Gravel\FS 1 Gravel-2.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="236340964"/>
+														<MediaID ID="138071412"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -978,7 +978,7 @@
 													<Language>SFX</Language>
 													<AudioFile>NovaStrike Footstep Package\Texture\Gravel\FS 1 Gravel-3.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="948977331"/>
+														<MediaID ID="551793092"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1001,7 +1001,7 @@
 													<Language>SFX</Language>
 													<AudioFile>NovaStrike Footstep Package\Texture\Gravel\FS 1 Gravel-4.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="944618114"/>
+														<MediaID ID="788911061"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1047,7 +1047,7 @@
 													<Language>SFX</Language>
 													<AudioFile>NovaStrike Footstep Package\Texture\Gravel\FS 1 Gravel-6.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="352862345"/>
+														<MediaID ID="291603426"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>

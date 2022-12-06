@@ -234,7 +234,7 @@
 													<Language>SFX</Language>
 													<AudioFile>NovaStrike Footstep Package\FS 1 M1\FS 1 Bass-1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="230773830"/>
+														<MediaID ID="46936019"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -266,7 +266,7 @@
 													<Language>SFX</Language>
 													<AudioFile>NovaStrike Footstep Package\FS 1 M1\FS 1 Bass-2.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="1006125412"/>
+														<MediaID ID="761361615"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -330,7 +330,7 @@
 													<Language>SFX</Language>
 													<AudioFile>NovaStrike Footstep Package\FS 1 M1\FS 1 Bass-4.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="1040588585"/>
+														<MediaID ID="889482195"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -484,7 +484,7 @@
 													<Language>SFX</Language>
 													<AudioFile>NovaStrike Footstep Package\FS 1 M4 Equipment2\FS 1 M4 Equipment2 - 2.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="876128968"/>
+														<MediaID ID="525162396"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -507,7 +507,7 @@
 													<Language>SFX</Language>
 													<AudioFile>NovaStrike Footstep Package\FS 1 M4 Equipment2\FS 1 M4 Equipment2 - 3.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="608239218"/>
+														<MediaID ID="383861449"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -530,7 +530,7 @@
 													<Language>SFX</Language>
 													<AudioFile>NovaStrike Footstep Package\FS 1 M4 Equipment2\FS 1 M4 Equipment2 - 4.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="832651337"/>
+														<MediaID ID="248937897"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -605,14 +605,8 @@
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
 										</Reference>
-										<Reference Name="DefaultSwitchOrState">
-											<ObjectRef Name="Base" ID="{EDCAEB60-0A45-4E7A-94A7-F751E8E33B1E}" WorkUnitID="{55DA12B5-2EA2-40DA-AE1A-D9C08A8CE62C}"/>
-										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
-										</Reference>
-										<Reference Name="SwitchGroupOrStateGroup">
-											<ObjectRef Name="FSVariance_Material" ID="{A401C704-6435-4BD2-B910-EEF82E9D0307}" WorkUnitID="{55DA12B5-2EA2-40DA-AE1A-D9C08A8CE62C}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -648,7 +642,7 @@
 															<Language>SFX</Language>
 															<AudioFile>NovaStrike Footstep Package\Texture\Variance-Gravel\FS 1 Gravel-6.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="267454486"/>
+																<MediaID ID="140730131"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -671,7 +665,7 @@
 															<Language>SFX</Language>
 															<AudioFile>NovaStrike Footstep Package\Texture\Variance-Gravel\FS 1 VarianceGravel-1.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="456988660"/>
+																<MediaID ID="198665915"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -694,7 +688,7 @@
 															<Language>SFX</Language>
 															<AudioFile>NovaStrike Footstep Package\Texture\Variance-Gravel\FS 1 VarianceGravel-2.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="1054982694"/>
+																<MediaID ID="917608859"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -745,14 +739,6 @@
 												<ItemRef Name="Variance-Gravel" ID="{701E77AA-60C6-40C8-8D6C-1DB93F606852}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
-										<GroupingList>
-											<Grouping>
-												<SwitchRef Name="Gravel" ID="{BB57FB33-4984-4F30-85A4-8B1D1FEA704B}"/>
-												<ItemList>
-													<ItemRef Name="Variance-Gravel" ID="{701E77AA-60C6-40C8-8D6C-1DB93F606852}"/>
-												</ItemList>
-											</Grouping>
-										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
 								<SwitchContainer Name="Texture_Switch" ID="{EF8E54E7-8602-4245-816E-64B0974CE9BA}" ShortID="553478662">
@@ -769,14 +755,8 @@
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
 										</Reference>
-										<Reference Name="DefaultSwitchOrState">
-											<ObjectRef Name="Base" ID="{D8A16657-DCAF-4D03-9B33-BF1A5626801F}" WorkUnitID="{55DA12B5-2EA2-40DA-AE1A-D9C08A8CE62C}"/>
-										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
-										</Reference>
-										<Reference Name="SwitchGroupOrStateGroup">
-											<ObjectRef Name="Footstep_Material" ID="{933A4E83-6228-4C3F-A943-F3A364522B34}" WorkUnitID="{55DA12B5-2EA2-40DA-AE1A-D9C08A8CE62C}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -904,7 +884,7 @@
 															<Language>SFX</Language>
 															<AudioFile>NovaStrike Footstep Package\Texture\Gravel\FS 1 Gravel-5.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="890678112"/>
+																<MediaID ID="485795145"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -955,14 +935,6 @@
 												<ItemRef Name="Gravel" ID="{E2D85B4A-CE70-40B0-B0A6-A6554CE7E2E3}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
-										<GroupingList>
-											<Grouping>
-												<SwitchRef Name="Gravel" ID="{4800904A-CABC-4B95-9175-4E81A2DFAF84}"/>
-												<ItemList>
-													<ItemRef Name="Gravel" ID="{E2D85B4A-CE70-40B0-B0A6-A6554CE7E2E3}"/>
-												</ItemList>
-											</Grouping>
-										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
 								<RandomSequenceContainer Name="FS 1 M2" ID="{92BF16AA-0274-4971-82C6-FCCC62C8A947}" ShortID="634962498">
@@ -1012,7 +984,7 @@
 													<Language>SFX</Language>
 													<AudioFile>NovaStrike Footstep Package\FS 1 M2\FS 1 M2 - 1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="837384237"/>
+														<MediaID ID="668170142"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1058,7 +1030,7 @@
 													<Language>SFX</Language>
 													<AudioFile>NovaStrike Footstep Package\FS 1 M2\FS 1 M2 - 3.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="307754126"/>
+														<MediaID ID="150923388"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1104,7 +1076,7 @@
 													<Language>SFX</Language>
 													<AudioFile>NovaStrike Footstep Package\FS 1 M2\FS 1 M2 - 5.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="521817947"/>
+														<MediaID ID="81904558"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1194,7 +1166,7 @@
 													<Language>SFX</Language>
 													<AudioFile>NovaStrike Footstep Package\FS 1 M3 Equipment1\FS 1 M3 Equipment1 - 1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="893480275"/>
+														<MediaID ID="721719337"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1240,7 +1212,7 @@
 													<Language>SFX</Language>
 													<AudioFile>NovaStrike Footstep Package\FS 1 M3 Equipment1\FS 1 M3 Equipment1 - 3.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="758534941"/>
+														<MediaID ID="28427238"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1286,7 +1258,7 @@
 													<Language>SFX</Language>
 													<AudioFile>NovaStrike Footstep Package\FS 1 M3 Equipment1\FS 1 M3 Equipment1 - 5.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="1036931546"/>
+														<MediaID ID="669566922"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1309,7 +1281,7 @@
 													<Language>SFX</Language>
 													<AudioFile>NovaStrike Footstep Package\FS 1 M3 Equipment1\FS 1 M3 Equipment1 - 6.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="831562792"/>
+														<MediaID ID="579840248"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1360,9 +1332,6 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="SwingAttenuation" ID="{98202749-BC0B-4BD0-B82B-E6F393CEB51D}" WorkUnitID="{B07301C3-8358-41E8-BABD-2E0AB28776B1}"/>
-								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
 								</Reference>
@@ -1464,7 +1433,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Swing #1\Swing 4.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="801527397"/>
+														<MediaID ID="102371403"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1487,7 +1456,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Swing #1\Swing 5.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="730219167"/>
+														<MediaID ID="398166433"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1510,7 +1479,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Swing #1\Swing 6.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="625501743"/>
+														<MediaID ID="448611861"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1556,7 +1525,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Swing #1\Swing 8.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="543822850"/>
+														<MediaID ID="343650829"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1645,7 +1614,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Swing #2'\Swing 2-3.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="1069350722"/>
+														<MediaID ID="422212681"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1914,9 +1883,6 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="SwingAttenuation" ID="{98202749-BC0B-4BD0-B82B-E6F393CEB51D}" WorkUnitID="{B07301C3-8358-41E8-BABD-2E0AB28776B1}"/>
-								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
 								</Reference>
@@ -2018,7 +1984,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Swing #1\Swing 4.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="801527397"/>
+														<MediaID ID="102371403"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -2041,7 +2007,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Swing #1\Swing 5.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="730219167"/>
+														<MediaID ID="398166433"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -2064,7 +2030,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Swing #1\Swing 6.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="625501743"/>
+														<MediaID ID="448611861"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -2110,7 +2076,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Swing #1\Swing 8.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="543822850"/>
+														<MediaID ID="343650829"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -2199,7 +2165,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Swing #2'\Swing 2-3.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="1069350722"/>
+														<MediaID ID="422212681"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -3710,162 +3676,22 @@
 							<ObjectLists/>
 							<BlendTrackList>
 								<BlendTrack Name="BaseLayer" ID="{1C6ED3D2-0F9C-449B-B486-D19E55E6AEFA}" ShortID="789353558">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{8FC7DC20-B418-4D70-B203-1184893FEAB0}" ShortID="564936961">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Energy" ID="{87BDEC17-848F-4A12-993D-3BB23DE1E501}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{1307405F-3547-463E-A5C7-2C320B9688C9}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>0.4983315</XPos>
-																<YPos>-5.86519</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>0</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="LayerCrossFadeControlInput">
-											<ObjectRef Name="Energy" ID="{87BDEC17-848F-4A12-993D-3BB23DE1E501}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
-										</Reference>
-									</ReferenceList>
+									<ReferenceList/>
 									<BlendTrackAssocList>
 										<BlendTrackAssoc>
 											<ItemRef Name="Energy-BaseLoop" ID="{7AB1988A-9909-4EDA-A5C6-939F7BD0138A}"/>
-											<CrossfadingInfo>
-												<LeftEdgePos>0</LeftEdgePos>
-												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>1</RightEdgePos>
-												<RightFadingMode>Automatic</RightFadingMode>
-											</CrossfadingInfo>
 										</BlendTrackAssoc>
 									</BlendTrackAssocList>
 								</BlendTrack>
 								<BlendTrack Name="Pulse Layer 1" ID="{C33DBD44-F95E-4F68-8885-6CE369FDA1C4}" ShortID="129021081">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{4F9EDA4A-DD2A-447B-B870-27646B16AB6C}" ShortID="1039794580">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Energy" ID="{87BDEC17-848F-4A12-993D-3BB23DE1E501}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{98F74FCD-16CF-471A-9B30-7E6DCE0286E8}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>0.01</XPos>
-																<YPos>-200</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>0.200222469410456</XPos>
-																<YPos>-200</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>0.3993326</XPos>
-																<YPos>-0.69524</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>0.9009911</XPos>
-																<YPos>-0.41043</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>-200</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="LayerCrossFadeControlInput">
-											<ObjectRef Name="Energy" ID="{87BDEC17-848F-4A12-993D-3BB23DE1E501}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
-										</Reference>
-									</ReferenceList>
+									<ReferenceList/>
 									<BlendTrackAssocList>
 										<BlendTrackAssoc>
 											<ItemRef Name="Energy-Pulse1" ID="{1BA6C05F-9F50-4FE9-8F0B-0E74804F01FC}"/>
-											<CrossfadingInfo>
-												<LeftEdgePos>0</LeftEdgePos>
-												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>0.498326479421579</RightEdgePos>
-												<RightFadingMode>Automatic</RightFadingMode>
-											</CrossfadingInfo>
 										</BlendTrackAssoc>
 									</BlendTrackAssocList>
 								</BlendTrack>
 								<BlendTrack Name="Electricity" ID="{1DC8E051-B04D-436F-B59C-1374C3878FF3}" ShortID="268111456">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{47BEDC95-9782-4E01-8B8C-0737586712B8}" ShortID="198871323">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Energy" ID="{87BDEC17-848F-4A12-993D-3BB23DE1E501}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{926E812E-8683-493F-97B9-D4D55E8E77AA}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>0.5116796</XPos>
-																<YPos>-10.23768</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>0</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
 									<BlendTrackAssocList>
 										<BlendTrackAssoc>
 											<ItemRef Name="Energy-Electricity" ID="{932A3294-4C7F-48B7-8CA4-2386B102468B}"/>
@@ -3873,155 +3699,14 @@
 									</BlendTrackAssocList>
 								</BlendTrack>
 								<BlendTrack Name="Spinner Layer 1" ID="{F2610441-BF39-44B5-92B0-617CA83F1BAC}" ShortID="137990391">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<RTPCList>
-												<RTPC Name="" ID="{9DE03DB0-4A37-47C9-9979-62A0B7A7528F}" ShortID="601307774">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Energy" ID="{87BDEC17-848F-4A12-993D-3BB23DE1E501}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{51E866F7-9CB9-4926-A5FA-2B1941564FD4}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="65537"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-295</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>0</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{C3CA241A-9047-40C7-840A-526BE4449BFF}" ShortID="583188551">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Energy" ID="{87BDEC17-848F-4A12-993D-3BB23DE1E501}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{90424A03-F348-4083-B577-A803EB099E78}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>0.01</XPos>
-																<YPos>-200</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>0.4026696</XPos>
-																<YPos>-0.45122</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>0</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="LayerCrossFadeControlInput">
-											<ObjectRef Name="Energy" ID="{87BDEC17-848F-4A12-993D-3BB23DE1E501}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
-										</Reference>
-									</ReferenceList>
+									<ReferenceList/>
 									<BlendTrackAssocList>
 										<BlendTrackAssoc>
 											<ItemRef Name="Energy-Spinner1" ID="{78405A71-8ABF-446F-9BB0-5E4CDFD159D5}"/>
-											<CrossfadingInfo>
-												<LeftEdgePos>0</LeftEdgePos>
-												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>0.999995</RightEdgePos>
-												<RightFadingMode>Automatic</RightFadingMode>
-											</CrossfadingInfo>
 										</BlendTrackAssoc>
 									</BlendTrackAssocList>
 								</BlendTrack>
 								<BlendTrack Name="Pulse Layer 2" ID="{C745F834-6039-4CBC-9B6C-0A09EBAC1070}" ShortID="754148118">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<RTPCList>
-												<RTPC Name="" ID="{8B0BF51D-F7BC-4990-B652-B7F91DDAE236}" ShortID="680402087">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Energy" ID="{87BDEC17-848F-4A12-993D-3BB23DE1E501}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{335048EA-771C-489A-B86E-99BF7AB0B092}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="65537"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-443</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>444</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{ED585B36-0FDA-4F33-90B6-5CE84E856748}" ShortID="169001881">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Energy" ID="{87BDEC17-848F-4A12-993D-3BB23DE1E501}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{6B2DC545-552D-4B94-8A90-5B5FCB20F54A}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>0.3003337</XPos>
-																<YPos>-0.13467</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>0</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
 									<BlendTrackAssocList>
 										<BlendTrackAssoc>
 											<ItemRef Name="Energy-Pulse2" ID="{BB0C8A27-D536-406F-9E4E-17130967C4F0}"/>
@@ -4029,69 +3714,6 @@
 									</BlendTrackAssocList>
 								</BlendTrack>
 								<BlendTrack Name="Spinner Layer 2" ID="{0509AA70-6511-4E44-BA90-67F9A32C4B2F}" ShortID="117760345">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<RTPCList>
-												<RTPC Name="" ID="{65033764-069A-4226-942F-713C9E2DB2B2}" ShortID="978388930">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Energy" ID="{87BDEC17-848F-4A12-993D-3BB23DE1E501}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{A29DD137-584B-48BF-831A-CA2D9A1B4AF4}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="65537"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-1108</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>0</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{E3C3FF87-0D47-4B86-8B15-7A14FDD98CBA}" ShortID="113850126">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Energy" ID="{87BDEC17-848F-4A12-993D-3BB23DE1E501}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{A11D07D2-B78A-4753-AD69-FAB005FF0BCC}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>0.0556174</XPos>
-																<YPos>-1.9382</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>0</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
 									<BlendTrackAssocList>
 										<BlendTrackAssoc>
 											<ItemRef Name="Energy-Spinner2" ID="{0B580C95-0D2E-4C23-B54D-FE516F473E91}"/>

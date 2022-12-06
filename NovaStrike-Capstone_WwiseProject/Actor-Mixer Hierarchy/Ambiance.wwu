@@ -16,6 +16,11 @@
 						<SwitchContainer Name="Amb_MainEnviroSwitch" ID="{31964BB8-CF4C-45A5-BB9A-DCFD620FBED4}" ShortID="228205434">
 							<PropertyList>
 								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -160,9 +165,21 @@
 										</ItemList>
 									</Grouping>
 									<Grouping>
+										<SwitchRef Name="CorporationOutdoors" ID="{70B7830F-C0CD-412D-B2AF-8723695B13BE}"/>
+										<ItemList>
+											<ItemRef Name="OutdoorsBase" ID="{AB261215-C1A5-47F3-B18C-96DDE174A8E8}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
 										<SwitchRef Name="Indoors" ID="{25EA4457-B385-4F55-B88D-F5E6AC32063B}"/>
 										<ItemList>
 											<ItemRef Name="IndoorsBase" ID="{77214AEC-9C77-4B70-8B84-1A7DF0EFEA29}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Trainyard" ID="{3B44DBD7-540E-48A9-9BDB-F625C43D3C04}"/>
+										<ItemList>
+											<ItemRef Name="OutdoorsBase" ID="{AB261215-C1A5-47F3-B18C-96DDE174A8E8}"/>
 										</ItemList>
 									</Grouping>
 								</GroupingList>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5D4DD2E9-BB57-4772-AFD3-CABD3A9A8AC0}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Saideed" ID="{5D4DD2E9-BB57-4772-AFD3-CABD3A9A8AC0}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="SaideedCombat" ID="{D8D77032-1570-4105-B952-6B372DE0DE17}" PersistMode="Reference"/>
+				<WorkUnit Name="SaideedLocomotion" ID="{EA136EFD-40C8-49CF-A2D7-478E3C8521D4}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2387BBA9-8B5E-426E-8EFC-476AEBA3BDBF}" SchemaVersion="103" RootDocumentID="{218B369A-B6FB-4CE9-AFA3-E17B4528807E}" ParentDocumentID="{218B369A-B6FB-4CE9-AFA3-E17B4528807E}">
+	<AudioObjects>
+		<WorkUnit Name="SaideedLocomotion" ID="{2387BBA9-8B5E-426E-8EFC-476AEBA3BDBF}" OwnerID="{218B369A-B6FB-4CE9-AFA3-E17B4528807E}" PersistMode="Nested">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Saideed Footsteps" ID="{C76201B7-D419-4192-ABB0-8490E32293A6}" ShortID="313466518">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{02EE57F3-5EFD-40C0-9D8A-3B9BAF355CEA}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{BFCFC2E5-7CAF-4931-8784-484D87E57E42}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-1"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Saideed FS - 1" ID="{BDA12989-17F8-4C44-9E44-DF000DCE321E}" ShortID="954437463">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Saideed FS - 1" ID="{AF490DE2-C8C0-41D1-B878-5CA9A5229183}">
+									<Language>SFX</Language>
+									<AudioFile>Saideed Noises\Saideed Footsteps\Saideed FS - 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="939000552"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Saideed FS - 1" ID="{AF490DE2-C8C0-41D1-B878-5CA9A5229183}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Saideed FS - 2" ID="{40175CE0-FF5B-4E1C-913B-2995D9AF7D8E}" ShortID="143322155">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Saideed FS - 2" ID="{69891638-4EFA-4725-A706-D552DD6FC894}">
+									<Language>SFX</Language>
+									<AudioFile>Saideed Noises\Saideed Footsteps\Saideed FS - 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="71490517"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Saideed FS - 2" ID="{69891638-4EFA-4725-A706-D552DD6FC894}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Saideed FS - 3" ID="{E29C6ED8-54F8-49E1-A29D-EBF6B6DE78DE}" ShortID="480817354">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Saideed FS - 3" ID="{747C175F-6C00-4D26-AEDD-C8385CEA2119}">
+									<Language>SFX</Language>
+									<AudioFile>Saideed Noises\Saideed Footsteps\Saideed FS - 3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="441923519"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Saideed FS - 3" ID="{747C175F-6C00-4D26-AEDD-C8385CEA2119}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Saideed FS - 4" ID="{B17AE5D7-5CB9-40D4-9A90-F9EE1F061B9D}" ShortID="160943229">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Saideed FS - 4" ID="{AEACC38E-7EDA-4CB5-9681-AB8DF61F8B72}">
+									<Language>SFX</Language>
+									<AudioFile>Saideed Noises\Saideed Footsteps\Saideed FS - 4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="425391298"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Saideed FS - 4" ID="{AEACC38E-7EDA-4CB5-9681-AB8DF61F8B72}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Saideed FS - 5" ID="{5781D13E-F3CB-4C59-BBAB-0746184ECA57}" ShortID="714154874">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Saideed FS - 5" ID="{0FFA8559-DBF6-4BA8-99A3-9C86A64FED50}">
+									<Language>SFX</Language>
+									<AudioFile>Saideed Noises\Saideed Footsteps\Saideed FS - 5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="77921177"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Saideed FS - 5" ID="{0FFA8559-DBF6-4BA8-99A3-9C86A64FED50}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Saideed FS - 6" ID="{6D6E812C-51E0-463A-9067-531CD9861D7E}" ShortID="416487983">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Saideed FS - 6" ID="{10B1AB6E-B23F-47CC-810F-C9A525B8EA16}">
+									<Language>SFX</Language>
+									<AudioFile>Saideed Noises\Saideed Footsteps\Saideed FS - 6.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="911207313"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Saideed FS - 6" ID="{10B1AB6E-B23F-47CC-810F-C9A525B8EA16}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Saideed FS - 7" ID="{41CF6AA8-3B3A-4521-A0CA-034A4249DFB3}" ShortID="485164059">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Saideed FS - 7" ID="{7C3165F6-53BB-445C-BA94-BCCECC6839B6}">
+									<Language>SFX</Language>
+									<AudioFile>Saideed Noises\Saideed Footsteps\Saideed FS - 7.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="758593360"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Saideed FS - 7" ID="{7C3165F6-53BB-445C-BA94-BCCECC6839B6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

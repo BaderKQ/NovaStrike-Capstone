@@ -17,6 +17,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Set_Switch_Indoors" ID="{D8CE504F-E133-4509-861E-FCF13B481699}">
+					<ChildrenList>
+						<Action Name="" ID="{06BA956E-E5FC-4969-BE92-6C2415D98191}" ShortID="537403120">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Indoors" ID="{25EA4457-B385-4F55-B88D-F5E6AC32063B}" WorkUnitID="{1D32E8B2-A4F2-4E08-BBA1-5FE2C8FF401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_Switch_Outdoors" ID="{F5E786C0-DCE1-4762-8C23-645765A0D271}">
+					<ChildrenList>
+						<Action Name="" ID="{D371DFC6-70EC-45C0-8597-85CC6E1C769C}" ShortID="728780262">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Outdoors" ID="{6741CF09-42E0-48EB-97E4-6145BE5725C1}" WorkUnitID="{1D32E8B2-A4F2-4E08-BBA1-5FE2C8FF401F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
