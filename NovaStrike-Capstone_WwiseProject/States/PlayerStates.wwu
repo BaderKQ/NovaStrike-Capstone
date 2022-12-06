@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E219C12E-EFE6-49A0-8AE5-79760FDE53EC}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="PlayerStates" ID="{E219C12E-EFE6-49A0-8AE5-79760FDE53EC}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Health" ID="{DAD11399-48FE-45EB-AD24-1F82BE616C7B}">
+					<ChildrenList>
+						<State Name="None" ID="{83680A5F-8241-4737-B92C-0AF0FD520338}"/>
+						<State Name="Stable" ID="{7065E30F-FAE2-4F54-8D82-EAF6FA8CB343}"/>
+						<State Name="Critical" ID="{502A2000-F64D-41DD-A426-48D27E5C04C0}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

@@ -614,6 +614,68 @@
 					</PositioningInfo>
 					<ObjectLists/>
 				</ActorMixer>
+				<ActorMixer Name="LowHealth" ID="{AF57D9B2-B6FE-4552-9956-F466BFFCC792}" ShortID="958707924">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="LowHealthAmbiance" ID="{206B327C-7D52-4649-B5E6-07E4FBF541AB}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="LowHealthImpact" ID="{E05EBB1A-1E1A-40E7-B87C-79139497303A}" ShortID="688560488">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LowHealthImpact" ID="{A148526D-23CF-45F5-86E9-26CEEE362C82}">
+									<Language>SFX</Language>
+									<AudioFile>LowHealthImpact.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="761327914"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LowHealthImpact" ID="{A148526D-23CF-45F5-86E9-26CEEE362C82}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LowHealthLoop" ID="{2D3304A5-3698-414F-9C46-6B781589802C}" ShortID="450733373">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LowHealthLoop" ID="{EAB1A127-772D-424E-A21D-0096002F9577}">
+									<Language>SFX</Language>
+									<AudioFile>LowHealthLoop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="260842554"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LowHealthLoop" ID="{EAB1A127-772D-424E-A21D-0096002F9577}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

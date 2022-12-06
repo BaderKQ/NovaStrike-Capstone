@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BB0C1E83-5078-4C4D-818F-1234439771F5}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="AI Suit" ID="{BB0C1E83-5078-4C4D-818F-1234439771F5}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Suit" ID="{88684780-DDE1-4B8A-91A6-01431272E713}" ShortID="1005506773">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SuitAI" ID="{CD7F8BD4-2D13-434C-8F67-5CB44B1DE0D0}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Folder Name="Suit AI" ID="{0DDD19F9-0944-42E0-A8D2-F2DA866BDF5F}" ShortID="677504859">
+							<ChildrenList>
+								<SwitchContainer Name="EnergyPercentages" ID="{BF2BCFE7-DBA3-42B0-8538-CEC4D9FAC145}" ShortID="464665555">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Max" ID="{3CA8FE76-2DC4-4846-9F51-80823A0340C5}" WorkUnitID="{606FE9E1-9DA5-4AA6-B73E-AE7647AA9C3B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="EnergySwitches" ID="{A3B3BFD5-0052-4ABD-A8C3-8CF5688EE05F}" WorkUnitID="{606FE9E1-9DA5-4AA6-B73E-AE7647AA9C3B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Suit - 100Percent" ID="{FEAE89B5-C47F-46C7-A001-726C8144FFBD}" ShortID="399538957">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Suit - 100Percent" ID="{A8BBDCCF-902C-4076-AC3A-903DF37B4343}">
+													<Language>SFX</Language>
+													<AudioFile>Suit AI\Percentages\Suit - 100Percent.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="967028752"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Suit - 100Percent" ID="{A8BBDCCF-902C-4076-AC3A-903DF37B4343}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Suit - 10Percent" ID="{84A80843-1E92-48EA-A0E5-B54172178C30}" ShortID="26085373">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Suit - 10Percent" ID="{89705AB1-364A-4B2A-97FE-ADD6B66EF3E7}">
+													<Language>SFX</Language>
+													<AudioFile>Suit AI\Percentages\Suit - 10Percent.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="771712282"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Suit - 10Percent" ID="{89705AB1-364A-4B2A-97FE-ADD6B66EF3E7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Suit - 15Percent" ID="{7DEE4977-E4F4-4AAD-B77E-FA0073D3D0E3}" ShortID="811861966">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Suit - 15Percent" ID="{94361C3F-C0BF-4ABD-81BB-C048BA87AFFC}">
+													<Language>SFX</Language>
+													<AudioFile>Suit AI\Percentages\Suit - 15Percent.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="243020510"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Suit - 15Percent" ID="{94361C3F-C0BF-4ABD-81BB-C048BA87AFFC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Suit - 20Percent" ID="{D8400C63-E7D4-439E-9B00-83017D5C675C}" ShortID="705539669">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Suit - 20Percent" ID="{46B3E8A5-72AF-4492-B59D-41FA57C90249}">
+													<Language>SFX</Language>
+													<AudioFile>Suit AI\Percentages\Suit - 20Percent.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="681933414"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Suit - 20Percent" ID="{46B3E8A5-72AF-4492-B59D-41FA57C90249}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Suit - 25Percent" ID="{701DCC86-9A31-430B-B3BC-1ACECF533A2E}" ShortID="374602298">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Suit - 25Percent" ID="{840EF27A-78CA-4549-95FC-4507E38D9AFB}">
+													<Language>SFX</Language>
+													<AudioFile>Suit AI\Percentages\Suit - 25Percent.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="184503678"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Suit - 25Percent" ID="{840EF27A-78CA-4549-95FC-4507E38D9AFB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Suit - 30Percent" ID="{3D846110-1A44-4AF4-9A1A-9A0E96988256}" ShortID="25296698">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Suit - 30Percent" ID="{1C8866D8-61D6-45BC-A8F0-2E4B2F55716C}">
+													<Language>SFX</Language>
+													<AudioFile>Suit AI\Percentages\Suit - 30Percent.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="101522411"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Suit - 30Percent" ID="{1C8866D8-61D6-45BC-A8F0-2E4B2F55716C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Suit - 35Percent" ID="{D29CAB2C-FE16-426F-B0FC-0EA64114B56C}" ShortID="843683773">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Suit - 35Percent" ID="{5B835191-A74D-448E-968F-F3C803B94B88}">
+													<Language>SFX</Language>
+													<AudioFile>Suit AI\Percentages\Suit - 35Percent.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="746334606"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Suit - 35Percent" ID="{5B835191-A74D-448E-968F-F3C803B94B88}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Suit - 40Percent" ID="{80CDBE5B-4AB0-4910-9656-789A437C599B}" ShortID="633008469">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Suit - 40Percent" ID="{B2D8AB57-3794-4748-B79A-56EB14C24CB3}">
+													<Language>SFX</Language>
+													<AudioFile>Suit AI\Percentages\Suit - 40Percent.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="587246153"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Suit - 40Percent" ID="{B2D8AB57-3794-4748-B79A-56EB14C24CB3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Suit - 45Percent" ID="{6CDBDC24-700A-40CE-9043-8B840F62F48E}" ShortID="50930773">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Suit - 45Percent" ID="{2A02212E-E619-413B-B85D-113D9A19DA6C}">
+													<Language>SFX</Language>
+													<AudioFile>Suit AI\Percentages\Suit - 45Percent.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="854832671"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Suit - 45Percent" ID="{2A02212E-E619-413B-B85D-113D9A19DA6C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Suit - 50Percent" ID="{169F1A04-A447-4410-8EE9-038223D74C0B}" ShortID="325846938">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Suit - 50Percent" ID="{28C14885-887C-4BD2-A41D-B1DAFDEF6578}">
+													<Language>SFX</Language>
+													<AudioFile>Suit AI\Percentages\Suit - 50Percent.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="8105765"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Suit - 50Percent" ID="{28C14885-887C-4BD2-A41D-B1DAFDEF6578}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Suit - 55Percent" ID="{C6FD3D0A-121E-4A34-B748-760267CA900F}" ShortID="944296944">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Suit - 55Percent" ID="{81D3DFB8-51C2-47A6-939A-96FEA135A5DB}">
+													<Language>SFX</Language>
+													<AudioFile>Suit AI\Percentages\Suit - 55Percent.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="764543334"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Suit - 55Percent" ID="{81D3DFB8-51C2-47A6-939A-96FEA135A5DB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Suit - 5Percent" ID="{7A0B8F06-50C2-4AF4-AFDC-8344801074ED}" ShortID="571510061">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Suit - 5Percent" ID="{8F55FB87-4372-451A-AB19-C01A5FD3362E}">
+													<Language>SFX</Language>
+													<AudioFile>Suit AI\Percentages\Suit - 5Percent.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="279542793"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Suit - 5Percent" ID="{8F55FB87-4372-451A-AB19-C01A5FD3362E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Suit - 60Percent" ID="{4A663D6B-E296-4356-9C1D-63A429A06AA1}" ShortID="434562170">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Suit - 60Percent" ID="{F7CB4F20-3D1C-41B3-8823-0DEE9C0712C1}">
+													<Language>SFX</Language>
+													<AudioFile>Suit AI\Percentages\Suit - 60Percent.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="694710752"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Suit - 60Percent" ID="{F7CB4F20-3D1C-41B3-8823-0DEE9C0712C1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Suit - 65Percent" ID="{B69DE592-CE34-48D8-BC51-2E5397D8E4A6}" ShortID="195248140">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Suit - 65Percent" ID="{F3EA1C66-4D37-449C-A040-3ECB26235ECC}">
+													<Language>SFX</Language>
+													<AudioFile>Suit AI\Percentages\Suit - 65Percent.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="194961571"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Suit - 65Percent" ID="{F3EA1C66-4D37-449C-A040-3ECB26235ECC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Suit - 70Percent" ID="{8255ED8A-3406-4DE6-BAB4-EDAAB28F0D8B}" ShortID="564294975">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Suit - 70Percent" ID="{C26B8C80-A734-4053-84F8-2E40199951F3}">
+													<Language>SFX</Language>
+													<AudioFile>Suit AI\Percentages\Suit - 70Percent.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="83405443"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Suit - 70Percent" ID="{C26B8C80-A734-4053-84F8-2E40199951F3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Suit - 75Percent" ID="{0D507589-4383-4201-A112-FA9F934B445A}" ShortID="325216069">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Suit - 75Percent" ID="{95A7F1E3-6BEE-4BA1-94C3-7AE5BF7F2CEF}">
+													<Language>SFX</Language>
+													<AudioFile>Suit AI\Percentages\Suit - 75Percent.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="10474873"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Suit - 75Percent" ID="{95A7F1E3-6BEE-4BA1-94C3-7AE5BF7F2CEF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Suit - 80Percent" ID="{C4A5D675-19B9-405E-BA13-7F981E668FB2}" ShortID="1053939828">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Suit - 80Percent" ID="{D01B171C-68DB-4142-A9EC-A4DA37625358}">
+													<Language>SFX</Language>
+													<AudioFile>Suit AI\Percentages\Suit - 80Percent.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="854131991"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Suit - 80Percent" ID="{D01B171C-68DB-4142-A9EC-A4DA37625358}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Suit - 85Percent" ID="{EFCFFC8A-5F91-47A7-8F74-7F6B836C6C3E}" ShortID="799866349">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Suit - 85Percent" ID="{688E4266-C946-41AF-8ABD-3F180D9997D6}">
+													<Language>SFX</Language>
+													<AudioFile>Suit AI\Percentages\Suit - 85Percent.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="10784390"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Suit - 85Percent" ID="{688E4266-C946-41AF-8ABD-3F180D9997D6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Suit - 90Percent" ID="{D5A0A3B9-3FE8-4EDA-B249-CA200AEC969D}" ShortID="806927190">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Suit - 90Percent" ID="{C5073CC7-F4D9-4CF8-ACE2-A4E7AFC749ED}">
+													<Language>SFX</Language>
+													<AudioFile>Suit AI\Percentages\Suit - 90Percent.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="850768528"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Suit - 90Percent" ID="{C5073CC7-F4D9-4CF8-ACE2-A4E7AFC749ED}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Suit - 95Percent" ID="{179A1CD1-5D21-4CB5-990B-5658FDF582E1}" ShortID="513702989">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Suit - 95Percent" ID="{9AFF931E-D96B-4A39-8833-BB84B57D2F1D}">
+													<Language>SFX</Language>
+													<AudioFile>Suit AI\Percentages\Suit - 95Percent.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="148423409"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Suit - 95Percent" ID="{9AFF931E-D96B-4A39-8833-BB84B57D2F1D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Suit - 50Percent" ID="{169F1A04-A447-4410-8EE9-038223D74C0B}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Suit - 5Percent" ID="{7A0B8F06-50C2-4AF4-AFDC-8344801074ED}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Suit - 55Percent" ID="{C6FD3D0A-121E-4A34-B748-760267CA900F}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Suit - 30Percent" ID="{3D846110-1A44-4AF4-9A1A-9A0E96988256}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Suit - 45Percent" ID="{6CDBDC24-700A-40CE-9043-8B840F62F48E}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Suit - 35Percent" ID="{D29CAB2C-FE16-426F-B0FC-0EA64114B56C}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Suit - 10Percent" ID="{84A80843-1E92-48EA-A0E5-B54172178C30}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Suit - 40Percent" ID="{80CDBE5B-4AB0-4910-9656-789A437C599B}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Suit - 20Percent" ID="{D8400C63-E7D4-439E-9B00-83017D5C675C}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Suit - 60Percent" ID="{4A663D6B-E296-4356-9C1D-63A429A06AA1}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Suit - 80Percent" ID="{C4A5D675-19B9-405E-BA13-7F981E668FB2}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Suit - 15Percent" ID="{7DEE4977-E4F4-4AAD-B77E-FA0073D3D0E3}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Suit - 25Percent" ID="{701DCC86-9A31-430B-B3BC-1ACECF533A2E}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Suit - 75Percent" ID="{0D507589-4383-4201-A112-FA9F934B445A}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Suit - 70Percent" ID="{8255ED8A-3406-4DE6-BAB4-EDAAB28F0D8B}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Suit - 85Percent" ID="{EFCFFC8A-5F91-47A7-8F74-7F6B836C6C3E}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Suit - 65Percent" ID="{B69DE592-CE34-48D8-BC51-2E5397D8E4A6}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Suit - 100Percent" ID="{FEAE89B5-C47F-46C7-A001-726C8144FFBD}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Suit - 90Percent" ID="{D5A0A3B9-3FE8-4EDA-B249-CA200AEC969D}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Suit - 95Percent" ID="{179A1CD1-5D21-4CB5-990B-5658FDF582E1}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="TenPercent" ID="{FD9F3227-48AA-4042-948B-750D5E7A120E}"/>
+												<ItemList>
+													<ItemRef Name="Suit - 10Percent" ID="{84A80843-1E92-48EA-A0E5-B54172178C30}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="FivePercent" ID="{F8393931-D7E9-4742-A0BB-5B5142759328}"/>
+												<ItemList>
+													<ItemRef Name="Suit - 5Percent" ID="{7A0B8F06-50C2-4AF4-AFDC-8344801074ED}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="TwentFive" ID="{2732874C-A4D0-4607-B69C-8C26C7FD1507}"/>
+												<ItemList>
+													<ItemRef Name="Suit - 25Percent" ID="{701DCC86-9A31-430B-B3BC-1ACECF533A2E}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="SixtyFive" ID="{D52AF152-A439-43E6-A433-E13FE23B98D5}"/>
+												<ItemList>
+													<ItemRef Name="Suit - 65Percent" ID="{B69DE592-CE34-48D8-BC51-2E5397D8E4A6}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Fifteen" ID="{3AEAEF54-858D-43CF-8347-71604BDD58A0}"/>
+												<ItemList>
+													<ItemRef Name="Suit - 15Percent" ID="{7DEE4977-E4F4-4AAD-B77E-FA0073D3D0E3}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Eighty" ID="{909E9D55-9FE8-46C3-9519-66FCA960706A}"/>
+												<ItemList>
+													<ItemRef Name="Suit - 80Percent" ID="{C4A5D675-19B9-405E-BA13-7F981E668FB2}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="FourtyFive" ID="{AC954B6A-ECDE-4A27-A16F-0AAEEE885A8D}"/>
+												<ItemList>
+													<ItemRef Name="Suit - 45Percent" ID="{6CDBDC24-700A-40CE-9043-8B840F62F48E}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Max" ID="{3CA8FE76-2DC4-4846-9F51-80823A0340C5}"/>
+												<ItemList>
+													<ItemRef Name="Suit - 100Percent" ID="{FEAE89B5-C47F-46C7-A001-726C8144FFBD}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Fourty" ID="{791CBA8E-BE16-4F52-A636-663FD5045C64}"/>
+												<ItemList>
+													<ItemRef Name="Suit - 40Percent" ID="{80CDBE5B-4AB0-4910-9656-789A437C599B}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Ninety" ID="{084BEA92-1974-4D10-BD64-DE26B26B7188}"/>
+												<ItemList>
+													<ItemRef Name="Suit - 90Percent" ID="{D5A0A3B9-3FE8-4EDA-B249-CA200AEC969D}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="EightyFive" ID="{E60FB594-6718-421D-A32F-C320633983B1}"/>
+												<ItemList>
+													<ItemRef Name="Suit - 85Percent" ID="{EFCFFC8A-5F91-47A7-8F74-7F6B836C6C3E}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Twenty" ID="{3E56EEC1-7BDC-4818-AB34-0C1A014C5B29}"/>
+												<ItemList>
+													<ItemRef Name="Suit - 20Percent" ID="{D8400C63-E7D4-439E-9B00-83017D5C675C}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="FiftyFive" ID="{18DAAEC2-7253-491B-9D0D-E039955DC67C}"/>
+												<ItemList>
+													<ItemRef Name="Suit - 55Percent" ID="{C6FD3D0A-121E-4A34-B748-760267CA900F}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Fifty" ID="{B5ACD4CB-C1F4-46B0-8CD0-147D362A0D1F}"/>
+												<ItemList>
+													<ItemRef Name="Suit - 50Percent" ID="{169F1A04-A447-4410-8EE9-038223D74C0B}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="SeventyFive" ID="{4C8ED9CD-4C03-4C06-B60C-BEDE73182FCB}"/>
+												<ItemList>
+													<ItemRef Name="Suit - 75Percent" ID="{0D507589-4383-4201-A112-FA9F934B445A}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Thirty" ID="{A2E694D4-1679-4F29-8E4D-8F144970D670}"/>
+												<ItemList>
+													<ItemRef Name="Suit - 30Percent" ID="{3D846110-1A44-4AF4-9A1A-9A0E96988256}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="NinetyFive" ID="{350778D6-F614-4522-AEAA-09956C45B6DF}"/>
+												<ItemList>
+													<ItemRef Name="Suit - 95Percent" ID="{179A1CD1-5D21-4CB5-990B-5658FDF582E1}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Seventy" ID="{B04065D8-A9FC-4D5C-87C3-F25B60E795EA}"/>
+												<ItemList>
+													<ItemRef Name="Suit - 70Percent" ID="{8255ED8A-3406-4DE6-BAB4-EDAAB28F0D8B}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="ThirtyFive" ID="{D77162E3-8C76-4169-8CA5-ADF9C4B3DE87}"/>
+												<ItemList>
+													<ItemRef Name="Suit - 35Percent" ID="{D29CAB2C-FE16-426F-B0FC-0EA64114B56C}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Sixty" ID="{B7785BFC-971A-46F0-A2BB-99490A58E9D2}"/>
+												<ItemList>
+													<ItemRef Name="Suit - 60Percent" ID="{4A663D6B-E296-4356-9C1D-63A429A06AA1}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<Sound Name="Suit - Vitals" ID="{72954AAF-A76E-45C5-B19B-986B829BBE3A}" ShortID="599037092">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Suit - Vitals" ID="{1EB93D7F-723A-400E-B5F6-49B630727655}">
+											<Language>SFX</Language>
+											<AudioFile>Suit AI\Suit - Vitals.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="213077831"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Suit - Vitals" ID="{1EB93D7F-723A-400E-B5F6-49B630727655}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Suit Energy Start" ID="{70114C1E-2A86-4D87-85A0-5B5EA14B8C59}" ShortID="391332718">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Suit Energy Start" ID="{878634E4-8E87-4D2E-A4AF-EF61FA483332}">
+											<Language>SFX</Language>
+											<AudioFile>Suit AI\Suit Energy Start.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="104587653"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Suit Energy Start" ID="{878634E4-8E87-4D2E-A4AF-EF61FA483332}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<BlendContainer Name="HealthBeep" ID="{27CA1E08-F0E9-4B09-AF4E-3CAEAE7C0EE8}" ShortID="852126547">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Suit - BeepLoop" ID="{3ACF933E-8404-4A50-BBBD-A07F2FFD4D88}" ShortID="448343201">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Suit - BeepLoop" ID="{4652DD97-C530-4C9E-8537-82B70D2E57EB}">
+													<Language>SFX</Language>
+													<AudioFile>Suit AI\Suit - BeepLoop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="504208030"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Suit - BeepLoop" ID="{4652DD97-C530-4C9E-8537-82B70D2E57EB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+									<BlendTrackList>
+										<BlendTrack Name="HealthBeep" ID="{D7057343-97A5-45F6-96DD-2C549B4F696B}" ShortID="528377564">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<RTPCList>
+														<RTPC Name="" ID="{DE3764DE-D438-41F2-97B0-BAFE7388C4FC}" ShortID="944731940">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="PlayerHealth" ID="{B6DD977A-F110-47D2-85FA-818D582C23D2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{7DD18B2C-5CD2-40F1-A397-98EFE33734F6}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>500</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>75.17483</XPos>
+																		<YPos>-500</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{1B890C43-FC6B-498A-BB87-62D621B29434}" ShortID="600985173">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="PlayerHealth" ID="{B6DD977A-F110-47D2-85FA-818D582C23D2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{613129A6-27DF-4513-9CFF-B26F28038F28}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-0.69524</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>24.82517</XPos>
+																		<YPos>-10.23767</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>75</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="Suit - BeepLoop" ID="{3ACF933E-8404-4A50-BBBD-A07F2FFD4D88}"/>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+								<SwitchContainer Name="HealthStatus" ID="{FED22CA4-4AE6-4C0A-ACFD-C70219491DF8}" ShortID="544189984">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Stable" ID="{E46B07A8-E6C7-40CC-BDF6-DA3CF6A86238}" WorkUnitID="{606FE9E1-9DA5-4AA6-B73E-AE7647AA9C3B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="HealthSwitches" ID="{9DE050AC-C397-4FD6-A335-AD7F3B5487AB}" WorkUnitID="{606FE9E1-9DA5-4AA6-B73E-AE7647AA9C3B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Suit - Stabilized" ID="{00613605-9483-429F-AECC-2D23399AE615}" ShortID="846278890">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Suit - Stabilized" ID="{DD980DA2-0ECE-456E-80D9-0DFF7BBE7BE6}">
+													<Language>SFX</Language>
+													<AudioFile>Suit AI\Suit - Stabilized.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="512333820"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Suit - Stabilized" ID="{DD980DA2-0ECE-456E-80D9-0DFF7BBE7BE6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Suit - Low" ID="{8F78F49B-DD17-476C-BD9C-4C4AC928326B}" ShortID="51970813">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Suit - Low" ID="{5D4D90E0-D996-4B8A-BB27-3D82A7747ADD}">
+													<Language>SFX</Language>
+													<AudioFile>Suit AI\Suit - Low.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="53484955"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Suit - Low" ID="{5D4D90E0-D996-4B8A-BB27-3D82A7747ADD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Suit - Stabilized" ID="{00613605-9483-429F-AECC-2D23399AE615}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Suit - Low" ID="{8F78F49B-DD17-476C-BD9C-4C4AC928326B}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Low" ID="{A3C06D46-E063-4130-B943-B9E6C7152C6A}"/>
+												<ItemList>
+													<ItemRef Name="Suit - Low" ID="{8F78F49B-DD17-476C-BD9C-4C4AC928326B}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Stable" ID="{E46B07A8-E6C7-40CC-BDF6-DA3CF6A86238}"/>
+												<ItemList>
+													<ItemRef Name="Suit - Stabilized" ID="{00613605-9483-429F-AECC-2D23399AE615}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="MedicalNeeded" ID="{D2B1EB89-F0C9-49AE-89C1-46E90A99AD62}" ShortID="981056777">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Stable" ID="{E46B07A8-E6C7-40CC-BDF6-DA3CF6A86238}" WorkUnitID="{606FE9E1-9DA5-4AA6-B73E-AE7647AA9C3B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="HealthSwitches" ID="{9DE050AC-C397-4FD6-A335-AD7F3B5487AB}" WorkUnitID="{606FE9E1-9DA5-4AA6-B73E-AE7647AA9C3B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Suit - Medical Needed" ID="{C30CE539-5022-4882-9110-2EA0008DF813}" ShortID="129372715">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Suit - Medical Needed" ID="{F6FFE5E4-8917-48CD-A03B-5C239CD5A265}">
+													<Language>SFX</Language>
+													<AudioFile>Suit AI\Suit - Medical Needed.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="77232466"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Suit - Medical Needed" ID="{F6FFE5E4-8917-48CD-A03B-5C239CD5A265}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Suit - Medical Needed" ID="{C30CE539-5022-4882-9110-2EA0008DF813}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Low" ID="{A3C06D46-E063-4130-B943-B9E6C7152C6A}"/>
+												<ItemList>
+													<ItemRef Name="Suit - Medical Needed" ID="{C30CE539-5022-4882-9110-2EA0008DF813}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -45,6 +45,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Set_State_Critical" ID="{2751AFBA-6B3D-447E-A19A-E89B59A9CD94}">
+					<ChildrenList>
+						<Action Name="" ID="{D0E4931D-2EA5-48F8-B015-740A8697F05F}" ShortID="893543682">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Critical" ID="{502A2000-F64D-41DD-A426-48D27E5C04C0}" WorkUnitID="{E219C12E-EFE6-49A0-8AE5-79760FDE53EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_State_Stable" ID="{FEB8B7EB-6AB3-4F57-AA76-C79D26F12D19}">
+					<ChildrenList>
+						<Action Name="" ID="{5857B557-92A5-40C1-8F6D-7D71F4CBE01F}" ShortID="750547957">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stable" ID="{7065E30F-FAE2-4F54-8D82-EAF6FA8CB343}" WorkUnitID="{E219C12E-EFE6-49A0-8AE5-79760FDE53EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

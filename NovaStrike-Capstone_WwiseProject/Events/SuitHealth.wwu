@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{07B82889-94CC-4D8B-A757-AEC5E39D7259}" SchemaVersion="103" RootDocumentID="{74543DDB-C211-4169-BE8B-A8EB0D0667CB}" ParentDocumentID="{74543DDB-C211-4169-BE8B-A8EB0D0667CB}">
+	<Events>
+		<WorkUnit Name="SuitHealth" ID="{07B82889-94CC-4D8B-A757-AEC5E39D7259}" OwnerID="{74543DDB-C211-4169-BE8B-A8EB0D0667CB}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_SuitBeepLoop" ID="{4280C45F-E4A4-43B9-B0CB-4E5188D7DCE4}">
+					<ChildrenList>
+						<Action Name="" ID="{9B8334EA-BDD4-4090-8136-D8A6D52198A9}" ShortID="284256217">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HealthBeep" ID="{27CA1E08-F0E9-4B09-AF4E-3CAEAE7C0EE8}" WorkUnitID="{BB0C1E83-5078-4C4D-818F-1234439771F5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HealthStatus" ID="{9AB882B2-4452-4A99-91C2-5B8F5BAEA219}">
+					<ChildrenList>
+						<Action Name="" ID="{BD00D7AD-854B-43EE-96A5-815C30235BF3}" ShortID="332722996">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Suit - Vitals" ID="{72954AAF-A76E-45C5-B19B-986B829BBE3A}" WorkUnitID="{BB0C1E83-5078-4C4D-818F-1234439771F5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8287A412-DA3E-44D0-839A-86D0FF9CCBBA}" ShortID="24578739">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HealthStatus" ID="{FED22CA4-4AE6-4C0A-ACFD-C70219491DF8}" WorkUnitID="{BB0C1E83-5078-4C4D-818F-1234439771F5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{40FFED8B-34CE-4070-9372-7BDE4AF69054}" ShortID="556330332">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="3.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MedicalNeeded" ID="{D2B1EB89-F0C9-49AE-89C1-46E90A99AD62}" WorkUnitID="{BB0C1E83-5078-4C4D-818F-1234439771F5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

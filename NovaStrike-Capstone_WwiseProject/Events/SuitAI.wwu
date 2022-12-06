@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{74543DDB-C211-4169-BE8B-A8EB0D0667CB}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="SuitAI" ID="{74543DDB-C211-4169-BE8B-A8EB0D0667CB}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="SuitEnergy" ID="{1ACC8EAC-D454-414D-8A75-CF6B4C5EAC90}" PersistMode="Reference"/>
+				<WorkUnit Name="SuitHealth" ID="{07B82889-94CC-4D8B-A757-AEC5E39D7259}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

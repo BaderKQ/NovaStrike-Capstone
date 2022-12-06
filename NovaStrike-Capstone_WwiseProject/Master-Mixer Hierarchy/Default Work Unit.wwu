@@ -11,6 +11,58 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="PlayerMaster" ID="{A877FC03-444F-4FC2-88CA-F2E46877E75D}">
+							<PropertyList>
+								<Property Name="BypassEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{7DE51328-E44F-4E2F-AC3B-C34BAFF4B5C2}" ShortID="953701537">
+											<Comment>Player Health lowpass
+</Comment>
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="PlayerHealth" ID="{B6DD977A-F110-47D2-85FA-818D582C23D2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{2ACFDF66-7D31-49AE-81EC-57A256A57B36}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>46</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>24.999</XPos>
+														<YPos>46</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>25.1</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="Low_Pass_20KHz" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
 							<ChildrenList>
 								<Bus Name="PlayerLocomotion" ID="{1E7FD133-0240-4709-95CE-F518DF901D3A}">
 									<ChildrenList>
@@ -55,6 +107,9 @@
 									</ChildrenList>
 									<ObjectLists/>
 								</Bus>
+								<Bus Name="SuitAI" ID="{CD7F8BD4-2D13-434C-8F67-5CB44B1DE0D0}">
+									<ObjectLists/>
+								</Bus>
 							</ChildrenList>
 							<ObjectLists/>
 						</Bus>
@@ -81,8 +136,53 @@
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="Combat" ID="{72AC963F-4D84-4D0F-A4D2-F6D6CBCF2452}">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{A97FA311-A18C-4306-BAF7-29A9A05A3B42}" ShortID="736013933">
+											<Comment>Player Health lowpass
+</Comment>
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="PlayerHealth" ID="{B6DD977A-F110-47D2-85FA-818D582C23D2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{8BCADBEA-A294-4B5F-8B01-B2A182A6C5E0}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>46</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>24.999</XPos>
+														<YPos>46</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>25.1</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
 							<ChildrenList>
 								<Bus Name="EnemySFX" ID="{6696559A-C411-44CF-8839-76CB8B4C7F88}">
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="PlayerCombat" ID="{2C1862CC-BC02-4FF6-9193-8128FDEE7694}">
 									<ObjectLists/>
 								</Bus>
 							</ChildrenList>
@@ -117,6 +217,9 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</AuxBus>
+						<Bus Name="LowHealthAmbiance" ID="{206B327C-7D52-4649-B5E6-07E4FBF541AB}">
+							<ObjectLists/>
+						</Bus>
 					</ChildrenList>
 					<ObjectLists/>
 				</Bus>
