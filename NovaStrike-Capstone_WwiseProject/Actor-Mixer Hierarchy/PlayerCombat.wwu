@@ -3729,185 +3729,6 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
 										</Reference>
 									</ReferenceList>
-									<ChildrenList>
-										<RandomSequenceContainer Name="Mechanical Layer 1" ID="{EE6DE0C1-87C6-4A06-9E1B-5950CE35A3F2}" ShortID="784630348">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="Mechanical Layer 1 - 1" ID="{253E9C03-677E-4829-B061-D6471157C5A2}" ShortID="698166839">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Mechanical Layer 1 - 1" ID="{7C48EA85-12FE-474E-AB70-2F53DC25CDCE}">
-															<Language>SFX</Language>
-															<AudioFile>PrimaryFireSFX\Mechanical\Mechanical Layer 1\Mechanical Layer 1 - 1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="150010056"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ObjectLists/>
-													<ActiveSourceList>
-														<ActiveSource Name="Mechanical Layer 1 - 1" ID="{7C48EA85-12FE-474E-AB70-2F53DC25CDCE}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-											<ObjectLists/>
-										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="Mechanical Layer 2" ID="{3A1A8E3E-2C99-4D1B-B27F-3A3DE3E54068}" ShortID="708491933">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="Mechanical Layer 2 - 1" ID="{CF89A41F-9A81-4108-A576-673EA5D9D0F5}" ShortID="152537685">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Mechanical Layer 2 - 1" ID="{4F1A148B-F8C1-4FF5-B341-BB986494F22E}">
-															<Language>SFX</Language>
-															<AudioFile>PrimaryFireSFX\Mechanical\Mechanical Layer 2\Mechanical Layer 2 - 1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="164373645"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ObjectLists/>
-													<ActiveSourceList>
-														<ActiveSource Name="Mechanical Layer 2 - 1" ID="{4F1A148B-F8C1-4FF5-B341-BB986494F22E}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Mechanical Layer 2 - 2" ID="{2908C026-98B9-4C2C-BE08-F0FCCABA7868}" ShortID="609997908">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Mechanical Layer 2 - 2" ID="{EFA21151-D673-4AF2-887F-A349AC48FCEF}">
-															<Language>SFX</Language>
-															<AudioFile>PrimaryFireSFX\Mechanical\Mechanical Layer 2\Mechanical Layer 2 - 2.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="901905874"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ObjectLists/>
-													<ActiveSourceList>
-														<ActiveSource Name="Mechanical Layer 2 - 2" ID="{EFA21151-D673-4AF2-887F-A349AC48FCEF}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Mechanical Layer 2 - 3" ID="{8E76E51A-FD68-45A2-8B46-8DDFCC61E2DD}" ShortID="435456725">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Mechanical Layer 2 - 3" ID="{251E4334-7AA2-4DF9-8BA9-FAC1B43F1695}">
-															<Language>SFX</Language>
-															<AudioFile>PrimaryFireSFX\Mechanical\Mechanical Layer 2\Mechanical Layer 2 - 3.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="604548745"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ObjectLists/>
-													<ActiveSourceList>
-														<ActiveSource Name="Mechanical Layer 2 - 3" ID="{251E4334-7AA2-4DF9-8BA9-FAC1B43F1695}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Mechanical Layer 2 - 4" ID="{A06219F9-26EE-4F14-9D0F-71345CB8FE59}" ShortID="61094381">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Mechanical Layer 2 - 4" ID="{5DA99587-184F-4E94-AC59-328C043130FD}">
-															<Language>SFX</Language>
-															<AudioFile>PrimaryFireSFX\Mechanical\Mechanical Layer 2\Mechanical Layer 2 - 4.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="96197157"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ObjectLists/>
-													<ActiveSourceList>
-														<ActiveSource Name="Mechanical Layer 2 - 4" ID="{5DA99587-184F-4E94-AC59-328C043130FD}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-											<ObjectLists/>
-										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="Mechanical Layer 3" ID="{A63EF6CB-6087-44F4-AAE2-1EAE2D55C7B2}" ShortID="5702283">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="Mechanical Layer 3 - 1" ID="{CEB795F4-3DC5-4F74-B02C-3E2839925229}" ShortID="338697265">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Mechanical Layer 3 - 1" ID="{7D8BA33A-9020-4FE9-9265-7A64709B7F2D}">
-															<Language>SFX</Language>
-															<AudioFile>PrimaryFireSFX\Mechanical\Mechanical Layer 3\Mechanical Layer 3 - 1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="749705478"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ObjectLists/>
-													<ActiveSourceList>
-														<ActiveSource Name="Mechanical Layer 3 - 1" ID="{7D8BA33A-9020-4FE9-9265-7A64709B7F2D}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-											<ObjectLists/>
-										</RandomSequenceContainer>
-									</ChildrenList>
 									<ObjectLists/>
 								</ActorMixer>
 								<ActorMixer Name="Tail" ID="{77B35F15-2761-4DB9-A8BE-EF5B04015C03}" ShortID="1003481825">
@@ -3928,34 +3749,20 @@
 											<ObjectRef Name="PlayerWaveGunTail" ID="{A6A75970-8082-4DBF-BE00-F373BFA17523}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
 										</Reference>
 									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Tail Layer Long 1" ID="{8BA6AEA8-5078-404D-8B35-ED555267DE36}" ShortID="193258437">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Tail Layer Long 1" ID="{1E0FDE3F-608E-4D07-90EA-3B58BCDCD8F5}">
-													<Language>SFX</Language>
-													<AudioFile>PrimaryFireSFX\Tail\Tail Layer Long 1.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="363765967"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="Tail Layer Long 1" ID="{1E0FDE3F-608E-4D07-90EA-3B58BCDCD8F5}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
 									<ObjectLists/>
 								</ActorMixer>
 								<ActorMixer Name="Transient" ID="{AEF88D3B-C4A4-401F-8401-495086BF9F19}" ShortID="1012515105">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+								<BlendContainer Name="PrimaryFireBlend" ID="{DE1190B7-F56C-48AB-8E2F-319698A4CB7F}" ShortID="743640394">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -3978,7 +3785,10 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+													<ObjectRef Name="PlayerWaveGunFire" ID="{45EEF577-1CB5-4868-8C39-E0083B66009C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="ReverbOutdoors" ID="{FE76474F-9CD6-426A-B992-11863F7E5AD7}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -4021,7 +3831,10 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+													<ObjectRef Name="PlayerWaveGunFire" ID="{45EEF577-1CB5-4868-8C39-E0083B66009C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="ReverbOutdoors" ID="{FE76474F-9CD6-426A-B992-11863F7E5AD7}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -4126,7 +3939,10 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+													<ObjectRef Name="PlayerWaveGunFire" ID="{45EEF577-1CB5-4868-8C39-E0083B66009C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="ReverbOutdoors" ID="{FE76474F-9CD6-426A-B992-11863F7E5AD7}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -4225,12 +4041,809 @@
 											</ChildrenList>
 											<ObjectLists/>
 										</RandomSequenceContainer>
+										<Sound Name="Tail Layer Long 1" ID="{8BA6AEA8-5078-404D-8B35-ED555267DE36}" ShortID="193258437">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerWaveGunTail" ID="{A6A75970-8082-4DBF-BE00-F373BFA17523}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Tail Layer Long 1" ID="{1E0FDE3F-608E-4D07-90EA-3B58BCDCD8F5}">
+													<Language>SFX</Language>
+													<AudioFile>PrimaryFireSFX\Tail\Tail Layer Long 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="363765967"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Tail Layer Long 1" ID="{1E0FDE3F-608E-4D07-90EA-3B58BCDCD8F5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<RandomSequenceContainer Name="Mechanical Layer 3" ID="{A63EF6CB-6087-44F4-AAE2-1EAE2D55C7B2}" ShortID="5702283">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerWaveGunFire" ID="{45EEF577-1CB5-4868-8C39-E0083B66009C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="ReverbOutdoors" ID="{FE76474F-9CD6-426A-B992-11863F7E5AD7}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Mechanical Layer 3 - 1" ID="{CEB795F4-3DC5-4F74-B02C-3E2839925229}" ShortID="338697265">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mechanical Layer 3 - 1" ID="{7D8BA33A-9020-4FE9-9265-7A64709B7F2D}">
+															<Language>SFX</Language>
+															<AudioFile>PrimaryFireSFX\Mechanical\Mechanical Layer 3\Mechanical Layer 3 - 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="749705478"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Mechanical Layer 3 - 1" ID="{7D8BA33A-9020-4FE9-9265-7A64709B7F2D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Mechanical Layer 1" ID="{EE6DE0C1-87C6-4A06-9E1B-5950CE35A3F2}" ShortID="784630348">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerWaveGunFire" ID="{45EEF577-1CB5-4868-8C39-E0083B66009C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="ReverbOutdoors" ID="{FE76474F-9CD6-426A-B992-11863F7E5AD7}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Mechanical Layer 1 - 1" ID="{253E9C03-677E-4829-B061-D6471157C5A2}" ShortID="698166839">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mechanical Layer 1 - 1" ID="{7C48EA85-12FE-474E-AB70-2F53DC25CDCE}">
+															<Language>SFX</Language>
+															<AudioFile>PrimaryFireSFX\Mechanical\Mechanical Layer 1\Mechanical Layer 1 - 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="150010056"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Mechanical Layer 1 - 1" ID="{7C48EA85-12FE-474E-AB70-2F53DC25CDCE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Mechanical Layer 2" ID="{3A1A8E3E-2C99-4D1B-B27F-3A3DE3E54068}" ShortID="708491933">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerWaveGunFire" ID="{45EEF577-1CB5-4868-8C39-E0083B66009C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="ReverbOutdoors" ID="{FE76474F-9CD6-426A-B992-11863F7E5AD7}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Mechanical Layer 2 - 1" ID="{CF89A41F-9A81-4108-A576-673EA5D9D0F5}" ShortID="152537685">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mechanical Layer 2 - 1" ID="{4F1A148B-F8C1-4FF5-B341-BB986494F22E}">
+															<Language>SFX</Language>
+															<AudioFile>PrimaryFireSFX\Mechanical\Mechanical Layer 2\Mechanical Layer 2 - 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="164373645"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Mechanical Layer 2 - 1" ID="{4F1A148B-F8C1-4FF5-B341-BB986494F22E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mechanical Layer 2 - 2" ID="{2908C026-98B9-4C2C-BE08-F0FCCABA7868}" ShortID="609997908">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mechanical Layer 2 - 2" ID="{EFA21151-D673-4AF2-887F-A349AC48FCEF}">
+															<Language>SFX</Language>
+															<AudioFile>PrimaryFireSFX\Mechanical\Mechanical Layer 2\Mechanical Layer 2 - 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="901905874"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Mechanical Layer 2 - 2" ID="{EFA21151-D673-4AF2-887F-A349AC48FCEF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mechanical Layer 2 - 3" ID="{8E76E51A-FD68-45A2-8B46-8DDFCC61E2DD}" ShortID="435456725">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mechanical Layer 2 - 3" ID="{251E4334-7AA2-4DF9-8BA9-FAC1B43F1695}">
+															<Language>SFX</Language>
+															<AudioFile>PrimaryFireSFX\Mechanical\Mechanical Layer 2\Mechanical Layer 2 - 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="604548745"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Mechanical Layer 2 - 3" ID="{251E4334-7AA2-4DF9-8BA9-FAC1B43F1695}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mechanical Layer 2 - 4" ID="{A06219F9-26EE-4F14-9D0F-71345CB8FE59}" ShortID="61094381">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mechanical Layer 2 - 4" ID="{5DA99587-184F-4E94-AC59-328C043130FD}">
+															<Language>SFX</Language>
+															<AudioFile>PrimaryFireSFX\Mechanical\Mechanical Layer 2\Mechanical Layer 2 - 4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="96197157"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Mechanical Layer 2 - 4" ID="{5DA99587-184F-4E94-AC59-328C043130FD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
 									</ChildrenList>
 									<ObjectLists/>
-								</ActorMixer>
+									<BlendTrackList>
+										<BlendTrack Name="Mechanical" ID="{600BDAB7-DF27-42BE-A664-912DDAEF6CC6}" ShortID="493623541">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{2E72C7C5-FD91-4CCE-AB04-AC031157D513}" ShortID="132615646">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{2BF9F8E4-D3CC-4038-B650-CFFDF4EC2994}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0.13467</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>-9.81388</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="Mechanical Layer 1" ID="{EE6DE0C1-87C6-4A06-9E1B-5950CE35A3F2}"/>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="Mechanical Layer 2" ID="{3A1A8E3E-2C99-4D1B-B27F-3A3DE3E54068}"/>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="Mechanical Layer 3" ID="{A63EF6CB-6087-44F4-AAE2-1EAE2D55C7B2}"/>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+										<BlendTrack Name="Transient 1" ID="{65F30DA3-8F70-4F34-89AD-7DDC2AE244F1}" ShortID="922576819">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{8E53D38F-304E-4FF2-A5F0-E0524C5427EA}" ShortID="956135989">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{137239B7-5B11-43BE-99C9-314BF3DA2B49}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-1.61039</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.75043</XPos>
+																		<YPos>0.41043</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0.55167</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="Transient Layer 1" ID="{860698A9-A28B-41B1-B76E-886D73D98F55}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>0</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+										<BlendTrack Name="Transient 2" ID="{CB3764CD-5DCD-48A6-8761-315E2A0BF366}" ShortID="632255245">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{E7FA45B8-B201-42E9-AE0E-F7FCADCA314B}" ShortID="879120143">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{3159985E-94CE-479A-ABE9-A7B7C5C3A843}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0.13467</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.04606</XPos>
+																		<YPos>0.12573</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.50086</XPos>
+																		<YPos>-6.71584</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="Transient Layer 3" ID="{B47DBAAF-2784-4C57-9390-5BB9034D9B8E}"/>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+										<BlendTrack Name="Tail" ID="{131F14B7-B5E7-423A-8318-51654343AE42}" ShortID="423966421">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{224997B8-DC4D-477A-BB34-876E456FB5A1}" ShortID="532439799">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{BD75A54A-5491-40EE-AE4E-219FADFA394B}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-13.9794</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="Tail Layer Long 1" ID="{8BA6AEA8-5078-404D-8B35-ED555267DE36}"/>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+										<BlendTrack Name="Transient 3" ID="{E075A078-8254-45E8-9ECE-C9C0409D1536}" ShortID="906350007">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{7F1FF0CE-8783-4EEA-AD1F-1B0E46521FEB}" ShortID="187644640">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{EE6DBCF4-8EBA-44F7-A48B-741A76C474A8}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.4932</XPos>
+																		<YPos>-4.21707</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>-5.13221</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="Transient Layer 2" ID="{FF555D12-3159-4B95-9F5D-2863B913C4E3}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>0</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
 							</ChildrenList>
 							<ObjectLists/>
 						</ActorMixer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+				<ActorMixer Name="PlayerDrawGun" ID="{C40B0B5D-C066-45A9-9F41-6244D70A5BB9}" ShortID="213917358">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="DrawNoise1" ID="{60C64A27-FCDD-47FD-935F-AE4DAF446314}" ShortID="773724214">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937" ID="{56234B8B-5914-48E2-96ED-D74E70F9F6C1}" ShortID="472901616">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937" ID="{1B2738B6-1B80-4CB9-B901-48FE71575D3E}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.456058656898657"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0574275335775337"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.532255189255189"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1034394021"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937" ID="{1B2738B6-1B80-4CB9-B901-48FE71575D3E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 1" ID="{66D10666-BCCF-4DF4-9827-0AFDE381F1E4}" ShortID="196498856">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 1" ID="{489D8E53-F6C1-4B35-BFC5-14A1137BCD64}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.476232478632479"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.0935162393162393"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0861008547008547"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="381731202"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 1" ID="{489D8E53-F6C1-4B35-BFC5-14A1137BCD64}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 2" ID="{248966D1-8F0B-4B03-8635-55537F66A6AE}" ShortID="783171695">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 2" ID="{34BB96A8-F14B-43C7-A869-164C080D0514}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.513651282051282"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.12029304029304"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.639357509157509"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="72889420"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 2" ID="{34BB96A8-F14B-43C7-A869-164C080D0514}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936" ID="{BDCD70EB-FF7A-403B-8BCE-3A874B88B292}" ShortID="480947319">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936" ID="{449DE6D8-4EB1-48B5-B8B1-CF5CDABAA607}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.474694444444444"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.379608134920635"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.947177579365079"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="194534585"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936" ID="{449DE6D8-4EB1-48B5-B8B1-CF5CDABAA607}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936 1" ID="{75A2BBE2-70A0-4F72-8B21-67865000F719}" ShortID="934358567">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936 1" ID="{084E408D-4F87-49CD-894C-DD9D11D02CE9}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.70504761904762"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.310060714285714"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.01510833333333"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="884924529"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936 1" ID="{084E408D-4F87-49CD-894C-DD9D11D02CE9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="ClothMovement" ID="{A8B9840B-2F3F-4F61-922D-F2BABCA8DBBF}" ShortID="138311346">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901" ID="{0443789C-3775-4854-B5BF-EBB662FFBFDA}" ShortID="1016025570">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901" ID="{3E4D971E-123D-4120-A87A-61F4F374045D}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.844926923076923"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.968374038461538"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="820497599"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901" ID="{3E4D971E-123D-4120-A87A-61F4F374045D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 1" ID="{A3AF249B-071B-462A-8E0C-1B9ACA32E26B}" ShortID="232444301">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 1" ID="{3CF1D515-4CC2-4FD4-A2C4-380169B28655}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.606782417582418"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.29197326007326"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.990099267399268"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="760440341"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 1" ID="{3CF1D515-4CC2-4FD4-A2C4-380169B28655}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 2" ID="{DE403874-DF65-4219-8EF4-6992A5E389D7}" ShortID="821631648">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 2" ID="{D199C1AE-4E0B-4862-A62B-1B29887DD818}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.0565418956044"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.136176510989011"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.24437156593407"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="262686026"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 2" ID="{D199C1AE-4E0B-4862-A62B-1B29887DD818}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 3" ID="{6EDCAE75-629C-457D-B681-94DB5B1D7DA8}" ShortID="1010411137">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 3" ID="{CBBA4B8A-4AE0-4938-B7B8-74AB056F77A4}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.808777854090354"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.097745344932845"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.906523199023199"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="236120727"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 3" ID="{CBBA4B8A-4AE0-4938-B7B8-74AB056F77A4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 4" ID="{BEDF355B-E2E3-4466-BEB7-965C13706FEC}" ShortID="919198769">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 4" ID="{B9954E45-FCF3-4DE3-8513-50643C68034D}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.388364194139194"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.082076968864469"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.66729242979243"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="804412954"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 4" ID="{B9954E45-FCF3-4DE3-8513-50643C68034D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 5" ID="{00C7E4CC-8142-4B74-B222-23B3F0B24C96}" ShortID="57007892">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 5" ID="{2B8078F3-3DEB-4AF4-8C00-49DE88A165A6}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.647714285714286"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.204832722832723"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="816899802"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 5" ID="{2B8078F3-3DEB-4AF4-8C00-49DE88A165A6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>

@@ -10,10 +10,13 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	2343802269	PlayerLocomotion			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerLocomotion	
 	2665027521	PlayerWavegun			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerWavegun	
 	2764240573	Combat			\Default Work Unit\Master Audio Bus\Combat	
+	2913609570	EnergyContainer			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerAmbiance\EnergyContainer	
+	3357816818	PlayerAmbiance			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerAmbiance	
 	3538689948	PlayerMaster			\Default Work Unit\Master Audio Bus\PlayerMaster	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	4133562341	PlayerWaveGunFire			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerWavegun\PlayerWaveGunFire	
 	4152869693	2DAmbientBeds			\Default Work Unit\Master Audio Bus\AmbientMaster\AmbientBeds\2DAmbientBeds	
+	4223059400	Cape			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerAmbiance\Cape	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	

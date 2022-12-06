@@ -154,9 +154,6 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{2AEF2245-1C57-409C-939D-0CE8A2C9B85E}" ShortID="915436564">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="0.25"/>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Mechanical Layer 3" ID="{A63EF6CB-6087-44F4-AAE2-1EAE2D55C7B2}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
@@ -192,6 +189,101 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Tail Layer Long 1" ID="{8BA6AEA8-5078-404D-8B35-ED555267DE36}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WaveGunTriggerEmpty" ID="{4DE3BA5B-DF98-43F8-8ADF-F6409FB6DF5C}">
+					<ChildrenList>
+						<Action Name="" ID="{E8A50ADD-4059-4BA5-B327-27C086A39DCC}" ShortID="507481497">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mechanical Layer 1" ID="{EE6DE0C1-87C6-4A06-9E1B-5950CE35A3F2}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FE74A9BC-81F7-4311-ABB5-BAB8C99649FC}" ShortID="96933804">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mechanical Layer 2" ID="{3A1A8E3E-2C99-4D1B-B27F-3A3DE3E54068}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EA826DFD-1600-4693-A297-B5B5FBD0F4BA}" ShortID="541620556">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mechanical Layer 3" ID="{A63EF6CB-6087-44F4-AAE2-1EAE2D55C7B2}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DrawGun" ID="{5D9519DF-4267-46CE-B9DD-5BEB818D6DFD}">
+					<ChildrenList>
+						<Action Name="" ID="{D92382F0-236A-4FA5-967B-92B27EFD31FC}" ShortID="864330987">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Set_Bus_Volume_EnergyContainerDrawn" ID="{77C12983-F2D2-4CCA-9B1A-885E4F34AC08}" WorkUnitID="{81D82911-6D85-4AE0-9DDA-BE8B4DB5FE70}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{161F732E-4253-4C32-952F-2267AB10D450}" ShortID="942115939">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ClothMovement" ID="{A8B9840B-2F3F-4F61-922D-F2BABCA8DBBF}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{173B1AD3-8AA1-4A30-BF88-90A6B6F62CDE}" ShortID="630002789">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DrawNoise1" ID="{60C64A27-FCDD-47FD-935F-AE4DAF446314}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Holstergun" ID="{82BC9CA6-0A67-499C-93A7-312ADEEE1239}">
+					<ChildrenList>
+						<Action Name="" ID="{AE26E2EF-7F0F-4995-B359-5C6E89C40C4D}" ShortID="529665815">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Reset_Bus_Volume_EnergyContainerHolstered" ID="{5BF6DAEE-430D-4058-9F69-A5876488D0AB}" WorkUnitID="{81D82911-6D85-4AE0-9DDA-BE8B4DB5FE70}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EA569A23-C5EA-46B9-A746-52AEB5498C79}" ShortID="37170033">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ClothMovement" ID="{A8B9840B-2F3F-4F61-922D-F2BABCA8DBBF}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{81810283-BBEA-4EDF-B54A-CB21A571F62C}" ShortID="352161159">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DrawNoise1" ID="{60C64A27-FCDD-47FD-935F-AE4DAF446314}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

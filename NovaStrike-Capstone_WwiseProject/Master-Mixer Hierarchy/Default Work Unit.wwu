@@ -37,6 +37,24 @@
 									</ChildrenList>
 									<ObjectLists/>
 								</Bus>
+								<Bus Name="PlayerAmbiance" ID="{93DBCECB-891F-4D86-AFB8-E9E6A79C3C1A}">
+									<ChildrenList>
+										<Bus Name="EnergyContainer" ID="{9B04EADB-4722-43D0-B5DB-1F24EF233F57}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ObjectLists/>
+										</Bus>
+										<Bus Name="Cape" ID="{9749E012-D0BF-4143-A794-33894F4713D5}">
+											<ObjectLists/>
+										</Bus>
+									</ChildrenList>
+									<ObjectLists/>
+								</Bus>
 							</ChildrenList>
 							<ObjectLists/>
 						</Bus>

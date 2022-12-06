@@ -14,6 +14,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Reset_Bus_Volume_EnergyContainerHolstered" ID="{5BF6DAEE-430D-4058-9F69-A5876488D0AB}">
+					<ChildrenList>
+						<Action Name="" ID="{6EA3CC64-2ABC-487C-B0EE-BEAF74F4AEA6}" ShortID="812169594">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="14"/>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EnergyContainer" ID="{9B04EADB-4722-43D0-B5DB-1F24EF233F57}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_Bus_Volume_EnergyContainerDrawn" ID="{77C12983-F2D2-4CCA-9B1A-885E4F34AC08}">
+					<ChildrenList>
+						<Action Name="" ID="{0985F092-0A1E-4085-9506-40C1DB128669}" ShortID="54347907">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="11"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EnergyContainer" ID="{9B04EADB-4722-43D0-B5DB-1F24EF233F57}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -16,15 +16,156 @@
     "Id": "1229948536",
     "GUID": "{4C9ED762-EFBE-48DC-A06F-C68D6729D55A}",
     "Language": "SFX",
-    "Hash": "1265839853",
+    "Hash": "2834052352",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Environment",
     "ShortName": "Environment",
     "Path": "Environment.bnk",
     "IncludedEvents": [
      {
+      "Id": "903081441",
+      "Name": "Play_AmbienceMain",
+      "ObjectPath": "\\Events\\Ambience\\Ambiance\\Play_AmbienceMain",
+      "GUID": "{BF4C797B-AA82-4B2B-AD75-E380DC8F63DA}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "707367044",
+        "Language": "SFX",
+        "ShortName": "Base Ambiance - Outdoors.wav",
+        "Path": "SFX\\Base Ambiance - Outdoors_D79FB2B7.wem"
+       },
+       {
+        "Id": "790679105",
+        "Language": "SFX",
+        "ShortName": "Base Ambiance - Indoors.wav",
+        "Path": "SFX\\Base Ambiance - Indoors_D79FB2B7.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{6741CF09-42E0-48EB-97E4-6145BE5725C1}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{6741CF09-42E0-48EB-97E4-6145BE5725C1}",
+        "Media": [
+         {
+          "Id": "707367044"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{70B7830F-C0CD-412D-B2AF-8723695B13BE}",
+        "Media": [
+         {
+          "Id": "707367044"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{25EA4457-B385-4F55-B88D-F5E6AC32063B}",
+        "Media": [
+         {
+          "Id": "790679105"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{3B44DBD7-540E-48A9-9BDB-F625C43D3C04}",
+        "Media": [
+         {
+          "Id": "707367044"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "3989565022",
+      "Name": "Play_DrawGun",
+      "ObjectPath": "\\Events\\PlayerCombat\\Play_DrawGun",
+      "GUID": "{5D9519DF-4267-46CE-B9DD-5BEB818D6DFD}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.585215",
+      "DurationMax": "1.108195",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "72889420",
+        "Language": "SFX",
+        "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 2.wav",
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 2_8F204C94.wem"
+       },
+       {
+        "Id": "194534585",
+        "Language": "SFX",
+        "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936.wav",
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936_9183D17A.wem"
+       },
+       {
+        "Id": "236120727",
+        "Language": "SFX",
+        "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 3.wav",
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 3_B8FEB9EE.wem"
+       },
+       {
+        "Id": "262686026",
+        "Language": "SFX",
+        "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 2.wav",
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 2_3DB29CD2.wem"
+       },
+       {
+        "Id": "381731202",
+        "Language": "SFX",
+        "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 1.wav",
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 1_85314A54.wem"
+       },
+       {
+        "Id": "760440341",
+        "Language": "SFX",
+        "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 1.wav",
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 1_45D90242.wem"
+       },
+       {
+        "Id": "804412954",
+        "Language": "SFX",
+        "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 4.wav",
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 4_852BBA77.wem"
+       },
+       {
+        "Id": "816899802",
+        "Language": "SFX",
+        "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 5.wav",
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 5_D65E660D.wem"
+       },
+       {
+        "Id": "820497599",
+        "Language": "SFX",
+        "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901.wav",
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901_EE0F25B2.wem"
+       },
+       {
+        "Id": "884924529",
+        "Language": "SFX",
+        "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936 1.wav",
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936 1_F9DA9C3E.wem"
+       },
+       {
+        "Id": "1034394021",
+        "Language": "SFX",
+        "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937.wav",
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937_85B3CADD.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1263003455",
+        "Name": "Set_Bus_Volume_EnergyContainerDrawn",
+        "ObjectPath": "\\Events\\Ambience\\Player_Ambience\\Set_Bus_Volume_EnergyContainerDrawn",
+        "GUID": "{77C12983-F2D2-4CCA-9B1A-885E4F34AC08}"
+       }
+      ]
+     },
+     {
       "Id": "279980751",
       "Name": "Play_EnergyContainer",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_EnergyContainer",
+      "ObjectPath": "\\Events\\Ambience\\Player_Ambience\\Play_EnergyContainer",
       "GUID": "{A31E91E7-29CE-4BD9-915A-49373C7031F2}",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
@@ -69,7 +210,7 @@
      {
       "Id": "1602358412",
       "Name": "Play_Footstep",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footstep",
+      "ObjectPath": "\\Events\\Player_Locomotion\\Play_Footstep",
       "GUID": "{DD22E7DA-50DD-4B46-B9AE-63B7F26C325C}",
       "DurationType": "OneShot",
       "DurationMin": "0.348677",
@@ -88,10 +229,34 @@
         "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-1_10C4C929.wem"
        },
        {
+        "Id": "57506250",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 4.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 4_10C4C929.wem"
+       },
+       {
         "Id": "81904558",
         "Language": "SFX",
         "ShortName": "NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 5.wav",
         "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 5_10C4C929.wem"
+       },
+       {
+        "Id": "118814164",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\Texture\\Variance-Gravel\\FS 1 VarianceGravel-3.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Variance-Gravel\\FS 1 VarianceGravel-3_10C4C929.wem"
+       },
+       {
+        "Id": "123078190",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 1.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 1_10C4C929.wem"
+       },
+       {
+        "Id": "138071412",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-2.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-2_10C4C929.wem"
        },
        {
         "Id": "140730131",
@@ -106,16 +271,22 @@
         "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 3_10C4C929.wem"
        },
        {
+        "Id": "152352733",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-6.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-6_10C4C929.wem"
+       },
+       {
+        "Id": "185378386",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 6.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 6_10C4C929.wem"
+       },
+       {
         "Id": "198665915",
         "Language": "SFX",
         "ShortName": "NovaStrike Footstep Package\\Texture\\Variance-Gravel\\FS 1 VarianceGravel-1.wav",
         "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Variance-Gravel\\FS 1 VarianceGravel-1_10C4C929.wem"
-       },
-       {
-        "Id": "236340964",
-        "Language": "SFX",
-        "ShortName": "NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-2.wav",
-        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-2_10C4C929.wem"
        },
        {
         "Id": "248937897",
@@ -124,22 +295,28 @@
         "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 4_10C4C929.wem"
        },
        {
-        "Id": "352862345",
+        "Id": "268944095",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-3.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-3_10C4C929.wem"
+       },
+       {
+        "Id": "291603426",
         "Language": "SFX",
         "ShortName": "NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-6.wav",
         "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-6_10C4C929.wem"
        },
        {
-        "Id": "365128681",
+        "Id": "321862013",
         "Language": "SFX",
-        "ShortName": "NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-6.wav",
-        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-6_10C4C929.wem"
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 4.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 4_10C4C929.wem"
        },
        {
-        "Id": "380790067",
+        "Id": "350382438",
         "Language": "SFX",
-        "ShortName": "NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 1.wav",
-        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 1_10C4C929.wem"
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 2.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 2_10C4C929.wem"
        },
        {
         "Id": "383861449",
@@ -148,10 +325,10 @@
         "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 3_10C4C929.wem"
        },
        {
-        "Id": "442106981",
+        "Id": "432822066",
         "Language": "SFX",
-        "ShortName": "NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 4.wav",
-        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 4_10C4C929.wem"
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 6.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 6_10C4C929.wem"
        },
        {
         "Id": "485795145",
@@ -166,22 +343,22 @@
         "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 2_10C4C929.wem"
        },
        {
-        "Id": "573691120",
+        "Id": "540815047",
         "Language": "SFX",
-        "ShortName": "NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 2.wav",
-        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 2_10C4C929.wem"
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 2.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 2_10C4C929.wem"
+       },
+       {
+        "Id": "551793092",
+        "Language": "SFX",
+        "ShortName": "NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-3.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-3_10C4C929.wem"
        },
        {
         "Id": "579840248",
         "Language": "SFX",
         "ShortName": "NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 6.wav",
         "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 6_10C4C929.wem"
-       },
-       {
-        "Id": "580374050",
-        "Language": "SFX",
-        "ShortName": "NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 6.wav",
-        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 6_10C4C929.wem"
        },
        {
         "Id": "668170142",
@@ -208,22 +385,16 @@
         "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-2_10C4C929.wem"
        },
        {
-        "Id": "764365220",
+        "Id": "788911061",
         "Language": "SFX",
-        "ShortName": "NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-3.wav",
-        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-3_10C4C929.wem"
+        "ShortName": "NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-4.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-4_10C4C929.wem"
        },
        {
-        "Id": "848755469",
+        "Id": "797775328",
         "Language": "SFX",
-        "ShortName": "NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 2.wav",
-        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M3 Equipment1\\FS 1 M3 Equipment1 - 2_10C4C929.wem"
-       },
-       {
-        "Id": "855070433",
-        "Language": "SFX",
-        "ShortName": "NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 6.wav",
-        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 6_10C4C929.wem"
+        "ShortName": "NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 5.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 5_10C4C929.wem"
        },
        {
         "Id": "865337007",
@@ -232,10 +403,10 @@
         "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M1\\Sound Design Showcase #2_10C4C929.wem"
        },
        {
-        "Id": "867156841",
+        "Id": "880064682",
         "Language": "SFX",
-        "ShortName": "NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 4.wav",
-        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M2\\FS 1 M2 - 4_10C4C929.wem"
+        "ShortName": "NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-1.wav",
+        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-1_10C4C929.wem"
        },
        {
         "Id": "889482195",
@@ -244,43 +415,13 @@
         "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-4_10C4C929.wem"
        },
        {
-        "Id": "912533498",
-        "Language": "SFX",
-        "ShortName": "NovaStrike Footstep Package\\Texture\\Variance-Gravel\\FS 1 VarianceGravel-3.wav",
-        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Variance-Gravel\\FS 1 VarianceGravel-3_10C4C929.wem"
-       },
-       {
         "Id": "917608859",
         "Language": "SFX",
         "ShortName": "NovaStrike Footstep Package\\Texture\\Variance-Gravel\\FS 1 VarianceGravel-2.wav",
         "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Variance-Gravel\\FS 1 VarianceGravel-2_10C4C929.wem"
        },
        {
-        "Id": "938522667",
-        "Language": "SFX",
-        "ShortName": "NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-1.wav",
-        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-1_10C4C929.wem"
-       },
-       {
-        "Id": "944618114",
-        "Language": "SFX",
-        "ShortName": "NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-4.wav",
-        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-4_10C4C929.wem"
-       },
-       {
-        "Id": "948977331",
-        "Language": "SFX",
-        "ShortName": "NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-3.wav",
-        "Path": "SFX\\NovaStrike Footstep Package\\Texture\\Gravel\\FS 1 Gravel-3_10C4C929.wem"
-       },
-       {
-        "Id": "1010739839",
-        "Language": "SFX",
-        "ShortName": "NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 5.wav",
-        "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M4 Equipment2\\FS 1 M4 Equipment2 - 5_10C4C929.wem"
-       },
-       {
-        "Id": "1048956148",
+        "Id": "942946384",
         "Language": "SFX",
         "ShortName": "NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-5.wav",
         "Path": "SFX\\NovaStrike Footstep Package\\FS 1 M1\\FS 1 Bass-5_10C4C929.wem"
@@ -291,34 +432,34 @@
         "SwitchValue": "{8F7941C1-D6CD-4359-8217-A0DAD9EF4008}",
         "Media": [
          {
+          "Id": "118814164"
+         },
+         {
+          "Id": "138071412"
+         },
+         {
           "Id": "140730131"
          },
          {
           "Id": "198665915"
          },
          {
-          "Id": "236340964"
-         },
-         {
-          "Id": "352862345"
+          "Id": "291603426"
          },
          {
           "Id": "485795145"
          },
          {
-          "Id": "912533498"
+          "Id": "551793092"
+         },
+         {
+          "Id": "788911061"
+         },
+         {
+          "Id": "880064682"
          },
          {
           "Id": "917608859"
-         },
-         {
-          "Id": "938522667"
-         },
-         {
-          "Id": "944618114"
-         },
-         {
-          "Id": "948977331"
          }
         ]
        }
@@ -333,9 +474,311 @@
       ]
      },
      {
+      "Id": "3374822339",
+      "Name": "Play_Holstergun",
+      "ObjectPath": "\\Events\\PlayerCombat\\Play_Holstergun",
+      "GUID": "{82BC9CA6-0A67-499C-93A7-312ADEEE1239}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.585215",
+      "DurationMax": "1.108195",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "72889420",
+        "Language": "SFX",
+        "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 2.wav",
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 2_8F204C94.wem"
+       },
+       {
+        "Id": "194534585",
+        "Language": "SFX",
+        "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936.wav",
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936_9183D17A.wem"
+       },
+       {
+        "Id": "236120727",
+        "Language": "SFX",
+        "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 3.wav",
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 3_B8FEB9EE.wem"
+       },
+       {
+        "Id": "262686026",
+        "Language": "SFX",
+        "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 2.wav",
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 2_3DB29CD2.wem"
+       },
+       {
+        "Id": "381731202",
+        "Language": "SFX",
+        "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 1.wav",
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 1_85314A54.wem"
+       },
+       {
+        "Id": "760440341",
+        "Language": "SFX",
+        "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 1.wav",
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 1_45D90242.wem"
+       },
+       {
+        "Id": "804412954",
+        "Language": "SFX",
+        "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 4.wav",
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 4_852BBA77.wem"
+       },
+       {
+        "Id": "816899802",
+        "Language": "SFX",
+        "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 5.wav",
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 5_D65E660D.wem"
+       },
+       {
+        "Id": "820497599",
+        "Language": "SFX",
+        "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901.wav",
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901_EE0F25B2.wem"
+       },
+       {
+        "Id": "884924529",
+        "Language": "SFX",
+        "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936 1.wav",
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936 1_F9DA9C3E.wem"
+       },
+       {
+        "Id": "1034394021",
+        "Language": "SFX",
+        "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937.wav",
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937_85B3CADD.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "3411299036",
+        "Name": "Reset_Bus_Volume_EnergyContainerHolstered",
+        "ObjectPath": "\\Events\\Ambience\\Player_Ambience\\Reset_Bus_Volume_EnergyContainerHolstered",
+        "GUID": "{5BF6DAEE-430D-4058-9F69-A5876488D0AB}"
+       }
+      ]
+     },
+     {
+      "Id": "2067572684",
+      "Name": "Play_Saideed_Attack",
+      "ObjectPath": "\\Events\\Saideed\\SaideedCombat\\Play_Saideed_Attack",
+      "GUID": "{3168B451-59A9-4FAC-B557-F8F20E45D663}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.265298",
+      "DurationMax": "2.542712",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "3247321",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Attack\\Saideed Attack - 2.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Attack\\Saideed Attack - 2_10C4C929.wem"
+       },
+       {
+        "Id": "246918561",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Attack\\Saideed Attack - 4.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Attack\\Saideed Attack - 4_10C4C929.wem"
+       },
+       {
+        "Id": "468115083",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Attack\\Saideed Attack - 5.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Attack\\Saideed Attack - 5_10C4C929.wem"
+       },
+       {
+        "Id": "507738364",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Attack\\Saideed Attack - 3.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Attack\\Saideed Attack - 3_10C4C929.wem"
+       },
+       {
+        "Id": "745869624",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Attack\\Saideed Attack - 1.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Attack\\Saideed Attack - 1_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2566296259",
+      "Name": "Play_Saideed_Buff",
+      "ObjectPath": "\\Events\\Saideed\\SaideedCombat\\Play_Saideed_Buff",
+      "GUID": "{54AE8AE3-540F-4550-A843-D06166A88900}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.4",
+      "DurationMax": "2.4",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "489340103",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Buff\\Saideed Buff - 2.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Buff\\Saideed Buff - 2_10C4C929.wem"
+       },
+       {
+        "Id": "631761262",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Buff\\Saideed Buff - 3.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Buff\\Saideed Buff - 3_10C4C929.wem"
+       },
+       {
+        "Id": "781288737",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Buff\\Saideed Buff - 1.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Buff\\Saideed Buff - 1_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3019852061",
+      "Name": "Play_Saideed_Footsteps",
+      "ObjectPath": "\\Events\\Saideed\\SaideedLocomotion\\Play_Saideed_Footsteps",
+      "GUID": "{1A54F101-C2C7-4293-B926-B92FC2BA6188}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.269889",
+      "DurationMax": "1.271356",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "71490517",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Footsteps\\Saideed FS - 2.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Footsteps\\Saideed FS - 2_10C4C929.wem"
+       },
+       {
+        "Id": "77921177",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Footsteps\\Saideed FS - 5.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Footsteps\\Saideed FS - 5_10C4C929.wem"
+       },
+       {
+        "Id": "425391298",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Footsteps\\Saideed FS - 4.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Footsteps\\Saideed FS - 4_10C4C929.wem"
+       },
+       {
+        "Id": "441923519",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Footsteps\\Saideed FS - 3.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Footsteps\\Saideed FS - 3_10C4C929.wem"
+       },
+       {
+        "Id": "758593360",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Footsteps\\Saideed FS - 7.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Footsteps\\Saideed FS - 7_10C4C929.wem"
+       },
+       {
+        "Id": "911207313",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Footsteps\\Saideed FS - 6.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Footsteps\\Saideed FS - 6_10C4C929.wem"
+       },
+       {
+        "Id": "939000552",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Footsteps\\Saideed FS - 1.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Footsteps\\Saideed FS - 1_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2712836335",
+      "Name": "Play_Saideed_Hit",
+      "ObjectPath": "\\Events\\Saideed\\SaideedCombat\\Play_Saideed_Hit",
+      "GUID": "{BEF80A2A-4628-4CBB-8E56-ED880F8A0AD4}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.4",
+      "DurationMax": "2.4",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "142687313",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Hit\\Saideed Hit - 2.wav",
+        "Path": "SFX\\Saideed Noises\\Hit\\Saideed Hit - 2_10C4C929.wem"
+       },
+       {
+        "Id": "283434337",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Hit\\Saideed Hit - 4.wav",
+        "Path": "SFX\\Saideed Noises\\Hit\\Saideed Hit - 4_10C4C929.wem"
+       },
+       {
+        "Id": "287070893",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Hit\\Saideed Hit - 1.wav",
+        "Path": "SFX\\Saideed Noises\\Hit\\Saideed Hit - 1_10C4C929.wem"
+       },
+       {
+        "Id": "295650557",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Hit\\Saideed Hit - 5.wav",
+        "Path": "SFX\\Saideed Noises\\Hit\\Saideed Hit - 5_10C4C929.wem"
+       },
+       {
+        "Id": "601437060",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Hit\\Saideed Hit - 3.wav",
+        "Path": "SFX\\Saideed Noises\\Hit\\Saideed Hit - 3_10C4C929.wem"
+       },
+       {
+        "Id": "855736734",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Hit\\Saideed Hit - 7.wav",
+        "Path": "SFX\\Saideed Noises\\Hit\\Saideed Hit - 7_10C4C929.wem"
+       },
+       {
+        "Id": "903160509",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Hit\\Saideed Hit - 6.wav",
+        "Path": "SFX\\Saideed Noises\\Hit\\Saideed Hit - 6_10C4C929.wem"
+       },
+       {
+        "Id": "904460127",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Hit\\Saideed Hit - 8.wav",
+        "Path": "SFX\\Saideed Noises\\Hit\\Saideed Hit - 8_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2976310650",
+      "Name": "Play_Saideed_Swing",
+      "ObjectPath": "\\Events\\Saideed\\SaideedCombat\\Play_Saideed_Swing",
+      "GUID": "{03E153F2-2697-48BF-B7A9-5802F380F591}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2",
+      "DurationMax": "1.2",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "29244023",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Swing\\Saideed Swing - 1.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Swing\\Saideed Swing - 1_10C4C929.wem"
+       },
+       {
+        "Id": "230517081",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Swing\\Saideed Swing - 2.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Swing\\Saideed Swing - 2_10C4C929.wem"
+       },
+       {
+        "Id": "497816404",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Swing\\Saideed Swing - 3.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Swing\\Saideed Swing - 3_10C4C929.wem"
+       },
+       {
+        "Id": "882999674",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Swing\\Saideed Swing - 4.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Swing\\Saideed Swing - 4_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "1958090894",
       "Name": "Play_TestSounds",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_TestSounds",
+      "ObjectPath": "\\Events\\Testing\\Play_TestSounds",
       "GUID": "{14CB80BE-D603-4BC1-AF74-41B313B87AFA}",
       "DurationType": "OneShot",
       "DurationMin": "0.406258",
@@ -382,7 +825,7 @@
      {
       "Id": "3509501661",
       "Name": "Play_WaveGunPrimaryFire",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_WaveGunPrimaryFire",
+      "ObjectPath": "\\Events\\PlayerCombat\\Play_WaveGunPrimaryFire",
       "GUID": "{64DD94DD-9B89-44B3-845A-014B5436060E}",
       "DurationType": "OneShot",
       "DurationMin": "7.368146",
@@ -495,9 +938,34 @@
       ]
      },
      {
+      "Id": "3666052522",
+      "Name": "Play_WaveGunTriggerEmpty",
+      "ObjectPath": "\\Events\\PlayerCombat\\Play_WaveGunTriggerEmpty",
+      "GUID": "{4DE3BA5B-DF98-43F8-8ADF-F6409FB6DF5C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.479979",
+      "DurationMax": "0.479979",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "749705478",
+        "Language": "SFX",
+        "ShortName": "PrimaryFireSFX\\Mechanical\\Mechanical Layer 3\\Mechanical Layer 3 - 1.wav",
+        "Path": "SFX\\PrimaryFireSFX\\Mechanical\\Mechanical Layer 3\\Mechanical Layer 3 - 1_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+       }
+      ]
+     },
+     {
       "Id": "2848865453",
       "Name": "Play_WeaponHit",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_WeaponHit",
+      "ObjectPath": "\\Events\\PlayerCombat\\Play_WeaponHit",
       "GUID": "{CF28BA31-90F0-4E7F-ACBC-633E126A96F3}",
       "DurationType": "OneShot",
       "DurationMin": "0.398104",
@@ -822,7 +1290,7 @@
      {
       "Id": "3706368928",
       "Name": "Play_WeaponSwing",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_WeaponSwing",
+      "ObjectPath": "\\Events\\PlayerCombat\\Play_WeaponSwing",
       "GUID": "{67D163C2-2127-4B88-A2BC-9A84E3F0EA23}",
       "DurationType": "OneShot",
       "DurationMin": "0.833257",
@@ -853,22 +1321,52 @@
         "Path": "SFX\\Swing #1\\Swing 4_10C4C929.wem"
        },
        {
+        "Id": "118988992",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 2.wav",
+        "Path": "SFX\\Swing #1\\Swing 2_10C4C929.wem"
+       },
+       {
+        "Id": "140773415",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-7.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-7_10C4C929.wem"
+       },
+       {
         "Id": "157959170",
         "Language": "SFX",
         "ShortName": "Weapons, Sword, Draw, Put Back, Long Blade 02 SND69191.wav",
         "Path": "SFX\\Weapons, Sword, Draw, Put Back, Long Blade 02 SND69191_73A670EA.wem"
        },
        {
-        "Id": "203869449",
+        "Id": "183537508",
         "Language": "SFX",
-        "ShortName": "Swing #2'\\Swing 2-7.wav",
-        "Path": "SFX\\Swing #2'\\Swing 2-7_10C4C929.wem"
+        "ShortName": "Swing #2'\\Swing 2-6.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-6_10C4C929.wem"
+       },
+       {
+        "Id": "226937758",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-4.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-4_10C4C929.wem"
+       },
+       {
+        "Id": "286611772",
+        "Language": "SFX",
+        "ShortName": "Swing #2'\\Swing 2-2.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-2_10C4C929.wem"
        },
        {
         "Id": "343650829",
         "Language": "SFX",
         "ShortName": "Swing #1\\Swing 8.wav",
         "Path": "SFX\\Swing #1\\Swing 8_10C4C929.wem"
+       },
+       {
+        "Id": "344543557",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 3.wav",
+        "Path": "SFX\\Swing #1\\Swing 3_10C4C929.wem"
        },
        {
         "Id": "376603312",
@@ -883,10 +1381,10 @@
         "Path": "SFX\\Swing #1\\Swing 5_10C4C929.wem"
        },
        {
-        "Id": "414563138",
+        "Id": "408041494",
         "Language": "SFX",
-        "ShortName": "Swing #2'\\Swing 2-6.wav",
-        "Path": "SFX\\Swing #2'\\Swing 2-6_10C4C929.wem"
+        "ShortName": "Swing #2'\\Swing 2-5.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-5_10C4C929.wem"
        },
        {
         "Id": "422212681",
@@ -895,16 +1393,22 @@
         "Path": "SFX\\Swing #2'\\Swing 2-3_10C4C929.wem"
        },
        {
-        "Id": "439256201",
-        "Language": "SFX",
-        "ShortName": "Swing #2'\\Swing 2-5.wav",
-        "Path": "SFX\\Swing #2'\\Swing 2-5_10C4C929.wem"
-       },
-       {
         "Id": "448611861",
         "Language": "SFX",
         "ShortName": "Swing #1\\Swing 6.wav",
         "Path": "SFX\\Swing #1\\Swing 6_10C4C929.wem"
+       },
+       {
+        "Id": "456186507",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 7.wav",
+        "Path": "SFX\\Swing #1\\Swing 7_10C4C929.wem"
+       },
+       {
+        "Id": "666426747",
+        "Language": "SFX",
+        "ShortName": "Swing #1\\Swing 1.wav",
+        "Path": "SFX\\Swing #1\\Swing 1_10C4C929.wem"
        },
        {
         "Id": "680427967",
@@ -913,16 +1417,16 @@
         "Path": "SFX\\Weapons, Sword, Draw, Put Back, Long Blade 01 SND69192 1_21770D53.wem"
        },
        {
-        "Id": "739152062",
+        "Id": "696450797",
         "Language": "SFX",
-        "ShortName": "Swing #1\\Swing 1.wav",
-        "Path": "SFX\\Swing #1\\Swing 1_10C4C929.wem"
+        "ShortName": "Swing #2'\\Swing 2-8.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-8_10C4C929.wem"
        },
        {
-        "Id": "761304147",
+        "Id": "702790565",
         "Language": "SFX",
-        "ShortName": "Swing #1\\Swing 7.wav",
-        "Path": "SFX\\Swing #1\\Swing 7_10C4C929.wem"
+        "ShortName": "Swing #2'\\Swing 2-1.wav",
+        "Path": "SFX\\Swing #2'\\Swing 2-1_10C4C929.wem"
        },
        {
         "Id": "790840264",
@@ -931,40 +1435,10 @@
         "Path": "SFX\\Weapons, Sword, Draw, Put Back, Long Blade 01 SND69192_71732554.wem"
        },
        {
-        "Id": "809212293",
-        "Language": "SFX",
-        "ShortName": "Swing #2'\\Swing 2-8.wav",
-        "Path": "SFX\\Swing #2'\\Swing 2-8_10C4C929.wem"
-       },
-       {
-        "Id": "836105287",
-        "Language": "SFX",
-        "ShortName": "Swing #1\\Swing 3.wav",
-        "Path": "SFX\\Swing #1\\Swing 3_10C4C929.wem"
-       },
-       {
-        "Id": "854508787",
-        "Language": "SFX",
-        "ShortName": "Swing #2'\\Swing 2-4.wav",
-        "Path": "SFX\\Swing #2'\\Swing 2-4_10C4C929.wem"
-       },
-       {
-        "Id": "900286488",
-        "Language": "SFX",
-        "ShortName": "Swing #2'\\Swing 2-2.wav",
-        "Path": "SFX\\Swing #2'\\Swing 2-2_10C4C929.wem"
-       },
-       {
         "Id": "930484486",
         "Language": "SFX",
         "ShortName": "HItSFXPackage\\Grunts\\Grunt - 2.wav",
         "Path": "SFX\\HItSFXPackage\\Grunts\\Grunt - 2_10C4C929.wem"
-       },
-       {
-        "Id": "986691368",
-        "Language": "SFX",
-        "ShortName": "Swing #1\\Swing 2.wav",
-        "Path": "SFX\\Swing #1\\Swing 2_10C4C929.wem"
        },
        {
         "Id": "1003469998",
@@ -985,12 +1459,6 @@
         "Path": "SFX\\HItSFXPackage\\Grunts\\Grunt - 3_6A1E79A8.wem"
        },
        {
-        "Id": "1040248817",
-        "Language": "SFX",
-        "ShortName": "Swing #2'\\Swing 2-1.wav",
-        "Path": "SFX\\Swing #2'\\Swing 2-1_10C4C929.wem"
-       },
-       {
         "Id": "1042514970",
         "Language": "SFX",
         "ShortName": "HItSFXPackage\\Grunts\\Grunt - 6.wav",
@@ -1007,9 +1475,29 @@
       ]
      },
      {
+      "Id": "3411299036",
+      "Name": "Reset_Bus_Volume_EnergyContainerHolstered",
+      "ObjectPath": "\\Events\\Ambience\\Player_Ambience\\Reset_Bus_Volume_EnergyContainerHolstered",
+      "GUID": "{5BF6DAEE-430D-4058-9F69-A5876488D0AB}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     },
+     {
+      "Id": "1263003455",
+      "Name": "Set_Bus_Volume_EnergyContainerDrawn",
+      "ObjectPath": "\\Events\\Ambience\\Player_Ambience\\Set_Bus_Volume_EnergyContainerDrawn",
+      "GUID": "{77C12983-F2D2-4CCA-9B1A-885E4F34AC08}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     },
+     {
       "Id": "1067892795",
       "Name": "Set_Game_Parameter_Energy",
-      "ObjectPath": "\\Events\\Default Work Unit\\Set_Game_Parameter_Energy",
+      "ObjectPath": "\\Events\\Parameters & RTPCs\\Set_Game_Parameter_Energy",
       "GUID": "{30643AA2-3A6B-4B85-9996-5DA94523A652}",
       "MaxAttenuation": "0.",
       "DurationType": "OneShot",
@@ -1017,9 +1505,45 @@
       "DurationMax": "0."
      },
      {
+      "Id": "84651515",
+      "Name": "Set_Switch_Indoors",
+      "ObjectPath": "\\Events\\Parameters & RTPCs\\Set_Switch_Indoors",
+      "GUID": "{D8CE504F-E133-4509-861E-FCF13B481699}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionSetSwitch": [
+       {
+        "Id": "4103860031",
+        "Name": "Indoors",
+        "ObjectPath": "\\Switches\\AmbianceSwitches\\AmbEnvironmentTypes\\Indoors",
+        "GUID": "{25EA4457-B385-4F55-B88D-F5E6AC32063B}"
+       }
+      ]
+     },
+     {
+      "Id": "2698743346",
+      "Name": "Set_Switch_Outdoors",
+      "ObjectPath": "\\Events\\Parameters & RTPCs\\Set_Switch_Outdoors",
+      "GUID": "{F5E786C0-DCE1-4762-8C23-645765A0D271}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionSetSwitch": [
+       {
+        "Id": "2730119150",
+        "Name": "Outdoors",
+        "ObjectPath": "\\Switches\\AmbianceSwitches\\AmbEnvironmentTypes\\Outdoors",
+        "GUID": "{6741CF09-42E0-48EB-97E4-6145BE5725C1}"
+       }
+      ]
+     },
+     {
       "Id": "1489914647",
       "Name": "Test_WeaponHit",
-      "ObjectPath": "\\Events\\Default Work Unit\\Test_WeaponHit",
+      "ObjectPath": "\\Events\\Testing\\Test_WeaponHit",
       "GUID": "{D0037BC1-4383-442E-AE57-12D864F22BFD}",
       "MaxAttenuation": "0.",
       "DurationType": "OneShot",
@@ -1027,15 +1551,21 @@
       "DurationMax": "0.",
       "ActionPostEvent": [
        {
+        "Id": "2712836335",
+        "Name": "Play_Saideed_Hit",
+        "ObjectPath": "\\Events\\Saideed\\SaideedCombat\\Play_Saideed_Hit",
+        "GUID": "{BEF80A2A-4628-4CBB-8E56-ED880F8A0AD4}"
+       },
+       {
         "Id": "2848865453",
         "Name": "Play_WeaponHit",
-        "ObjectPath": "\\Events\\Default Work Unit\\Play_WeaponHit",
+        "ObjectPath": "\\Events\\PlayerCombat\\Play_WeaponHit",
         "GUID": "{CF28BA31-90F0-4E7F-ACBC-633E126A96F3}"
        },
        {
         "Id": "3706368928",
         "Name": "Play_WeaponSwing",
-        "ObjectPath": "\\Events\\Default Work Unit\\Play_WeaponSwing",
+        "ObjectPath": "\\Events\\PlayerCombat\\Play_WeaponSwing",
         "GUID": "{67D163C2-2127-4B88-A2BC-9A84E3F0EA23}"
        }
       ]
@@ -1050,6 +1580,45 @@
      }
     ],
     "SwitchGroups": [
+     {
+      "Id": "100240665",
+      "Name": "AmbEnvironmentTypes",
+      "ObjectPath": "\\Switches\\AmbianceSwitches\\AmbEnvironmentTypes",
+      "GUID": "{B33CDD7F-62D2-4450-8A4D-E999F435AB97}",
+      "Switches": [
+       {
+        "Id": "4103860031",
+        "Name": "Indoors",
+        "ObjectPath": "\\Switches\\AmbianceSwitches\\AmbEnvironmentTypes\\Indoors",
+        "GUID": "{25EA4457-B385-4F55-B88D-F5E6AC32063B}"
+       },
+       {
+        "Id": "2730119150",
+        "Name": "Outdoors",
+        "ObjectPath": "\\Switches\\AmbianceSwitches\\AmbEnvironmentTypes\\Outdoors",
+        "GUID": "{6741CF09-42E0-48EB-97E4-6145BE5725C1}"
+       },
+       {
+        "Id": "863743917",
+        "Name": "Trainyard",
+        "ObjectPath": "\\Switches\\AmbianceSwitches\\AmbEnvironmentTypes\\Trainyard",
+        "GUID": "{3B44DBD7-540E-48A9-9BDB-F625C43D3C04}"
+       },
+       {
+        "Id": "3390100962",
+        "Name": "CorporationOutdoors",
+        "ObjectPath": "\\Switches\\AmbianceSwitches\\AmbEnvironmentTypes\\CorporationOutdoors",
+        "GUID": "{70B7830F-C0CD-412D-B2AF-8723695B13BE}"
+       }
+      ]
+     },
+     {
+      "Id": "2730119150",
+      "Name": "Outdoors",
+      "ObjectPath": "\\Switches\\AmbianceSwitches\\AmbEnvironmentTypes\\Outdoors",
+      "GUID": "{6741CF09-42E0-48EB-97E4-6145BE5725C1}",
+      "Switches": []
+     },
      {
       "Id": "3865314626",
       "Name": "Material",
@@ -1069,6 +1638,13 @@
         "GUID": "{0E054AB0-BB48-4D70-B1C4-C06CA92DD551}"
        }
       ]
+     },
+     {
+      "Id": "4103860031",
+      "Name": "Indoors",
+      "ObjectPath": "\\Switches\\AmbianceSwitches\\AmbEnvironmentTypes\\Indoors",
+      "GUID": "{25EA4457-B385-4F55-B88D-F5E6AC32063B}",
+      "Switches": []
      }
     ]
    }
