@@ -26,6 +26,10 @@
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_HealthStablelized" ID="{868CB898-698F-40D4-B9A3-BBD953BFEF08}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_WeaponSwing" ID="{67D163C2-2127-4B88-A2BC-9A84E3F0EA23}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}"/>
 							<Position X="2" Y="0"/>
 						</Module>
@@ -45,15 +49,15 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}"/>
-							<Value>0.67</Value>
+							<Value>0.24</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="PlayerHealth" ID="{B6DD977A-F110-47D2-85FA-818D582C23D2}"/>
-							<Value>17</Value>
+							<Value>0.25</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Critical" ID="{502A2000-F64D-41DD-A426-48D27E5C04C0}"/>
+						<CurrentStateRef Name="Stable" ID="{7065E30F-FAE2-4F54-8D82-EAF6FA8CB343}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="CorporationOutdoors" ID="{70B7830F-C0CD-412D-B2AF-8723695B13BE}"/>
@@ -69,6 +73,10 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_AmbienceMain" ID="{BF4C797B-AA82-4B2B-AD75-E380DC8F63DA}" WorkUnitID="{DA72CB74-6FF2-462F-B647-CFA273543CB8}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_HealthStatus" ID="{9AB882B2-4452-4A99-91C2-5B8F5BAEA219}" WorkUnitID="{07B82889-94CC-4D8B-A757-AEC5E39D7259}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -80,19 +88,23 @@
 							<ObjectRef Name="Play_LowHealth" ID="{1E9EBBE9-67AA-4831-B76F-A3800749F2E5}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}"/>
 							<Position X="3" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_HealthStablelized" ID="{868CB898-698F-40D4-B9A3-BBD953BFEF08}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}"/>
+							<Position X="4" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}"/>
-							<Value>0.35</Value>
+							<Value>0.66</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="PlayerHealth" ID="{B6DD977A-F110-47D2-85FA-818D582C23D2}"/>
-							<Value>49.25</Value>
+							<Value>50</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Critical" ID="{502A2000-F64D-41DD-A426-48D27E5C04C0}"/>
+						<CurrentStateRef Name="Stable" ID="{7065E30F-FAE2-4F54-8D82-EAF6FA8CB343}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="CorporationOutdoors" ID="{70B7830F-C0CD-412D-B2AF-8723695B13BE}"/>

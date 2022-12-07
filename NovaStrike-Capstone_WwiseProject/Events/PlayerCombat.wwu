@@ -335,10 +335,94 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="41"/>
 								<Property Name="Delay" Type="Real64" Value="2"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Play_SuitBeepLoop" ID="{4280C45F-E4A4-43B9-B0CB-4E5188D7DCE4}" WorkUnitID="{07B82889-94CC-4D8B-A757-AEC5E39D7259}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HealthStablelized" ID="{868CB898-698F-40D4-B9A3-BBD953BFEF08}">
+					<ChildrenList>
+						<Action Name="" ID="{CA67376E-9376-4099-84AF-945E11285A18}" ShortID="208958939">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Set_State_Stable" ID="{FEB8B7EB-6AB3-4F57-AA76-C79D26F12D19}" WorkUnitID="{9CC5E171-3908-4CEF-ACD6-9B53FCDBDA9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4180B7D6-E5F6-443F-8997-7257778ED9F0}" ShortID="595366794">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HealthStableized" ID="{FCB7DB87-D365-4124-8E85-5E2FB10115E7}" WorkUnitID="{8FD4B51F-2D1E-49EB-BD93-6EFED3FBFABA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{26F79885-F407-478F-9407-3619A7E080A8}" ShortID="194427364">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LowHealthLoop" ID="{2D3304A5-3698-414F-9C46-6B781589802C}" WorkUnitID="{8FD4B51F-2D1E-49EB-BD93-6EFED3FBFABA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B9A557A2-3FC6-4434-A2E1-88DC3CB746BC}" ShortID="509149063">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_HealthStatus" ID="{9AB882B2-4452-4A99-91C2-5B8F5BAEA219}" WorkUnitID="{07B82889-94CC-4D8B-A757-AEC5E39D7259}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6C4C2F39-E2C0-4FAD-A290-DEFB579AC83A}" ShortID="164126221">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PlayerHealth" ID="{B6DD977A-F110-47D2-85FA-818D582C23D2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6B83A97D-6F61-4F17-AB4B-847562F7616F}" ShortID="232801053">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{04264748-0C5F-4FB5-B6C8-C2087D2EAE5C}" ShortID="168152182">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HealthBeep" ID="{27CA1E08-F0E9-4B09-AF4E-3CAEAE7C0EE8}" WorkUnitID="{BB0C1E83-5078-4C4D-818F-1234439771F5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
