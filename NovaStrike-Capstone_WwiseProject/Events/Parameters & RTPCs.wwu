@@ -73,6 +73,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Set_Game_Parameter_PlayerHealth" ID="{5BF5E3ED-3F87-40BD-A7D6-C03B5BD31DCC}">
+					<ChildrenList>
+						<Action Name="" ID="{A26C81E2-EDA4-4D0C-9410-D05454685D93}" ShortID="542026803">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PlayerHealth" ID="{B6DD977A-F110-47D2-85FA-818D582C23D2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

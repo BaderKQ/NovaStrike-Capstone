@@ -118,6 +118,34 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{5A93FB6D-FF19-4D66-B3FA-828C5330A338}" ShortID="1072672467">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PowerupNoise" ID="{5DB767AD-3579-407C-BDAE-F7C1C938D9E8}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1D326A56-238F-4587-94C9-C92F563A60FA}" ShortID="463438924">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Set_Bus_Volume_EnergyContainerRaise" ID="{FCF7E59B-C6ED-4DC6-90B9-6D8C8E8CA0A5}" WorkUnitID="{81D82911-6D85-4AE0-9DDA-BE8B4DB5FE70}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CB15F48C-2D08-4463-9F1A-B56E93FEEE71}" ShortID="737733919">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Reset_Bus_Volume_EnergyContainerFade" ID="{0309892E-0D26-4202-AACE-275372CAF31A}" WorkUnitID="{81D82911-6D85-4AE0-9DDA-BE8B4DB5FE70}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_WaveGunPrimaryFire" ID="{64DD94DD-9B89-44B3-845A-014B5436060E}">

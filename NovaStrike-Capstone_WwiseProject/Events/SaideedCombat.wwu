@@ -39,9 +39,6 @@
 				<Event Name="Play_Saideed_Hit" ID="{BEF80A2A-4628-4CBB-8E56-ED880F8A0AD4}">
 					<ChildrenList>
 						<Action Name="" ID="{F20003CC-6D41-45D9-B5FC-CDA0D40CDE98}" ShortID="476507801">
-							<PropertyList>
-								<Property Name="Probability" Type="Real64" Value="90"/>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Saideed Hit" ID="{EBF823E2-597A-4A45-857D-174141B66BD7}" WorkUnitID="{11A65CD9-A556-4F21-AEFD-C5381C8349AB}"/>
