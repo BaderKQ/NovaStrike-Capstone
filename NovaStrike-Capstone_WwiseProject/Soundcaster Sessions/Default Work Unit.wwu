@@ -84,11 +84,11 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}"/>
-							<Value>0.35</Value>
+							<Value>0.77</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="PlayerHealth" ID="{B6DD977A-F110-47D2-85FA-818D582C23D2}"/>
-							<Value>49.25</Value>
+							<Value>23.25</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
