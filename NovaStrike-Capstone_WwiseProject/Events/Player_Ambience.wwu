@@ -35,9 +35,42 @@
 						<Action Name="" ID="{0985F092-0A1E-4085-9506-40C1DB128669}" ShortID="54347907">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="11"/>
-								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+								<Property Name="FadeInCurve" Type="int16" Value="0"/>
 								<Property Name="Scope" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EnergyContainer" ID="{9B04EADB-4722-43D0-B5DB-1F24EF233F57}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_Bus_Volume_EnergyContainerRaise" ID="{FCF7E59B-C6ED-4DC6-90B9-6D8C8E8CA0A5}">
+					<ChildrenList>
+						<Action Name="" ID="{1A0CE3C7-9AB6-47EA-930C-8910EA605E37}" ShortID="144780765">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="11"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EnergyContainer" ID="{9B04EADB-4722-43D0-B5DB-1F24EF233F57}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Reset_Bus_Volume_EnergyContainerFade" ID="{0309892E-0D26-4202-AACE-275372CAF31A}">
+					<ChildrenList>
+						<Action Name="" ID="{B9371241-782B-4787-8D69-27903A86CAB8}" ShortID="632385904">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="14"/>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">

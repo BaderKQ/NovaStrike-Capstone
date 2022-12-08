@@ -256,6 +256,27 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Health" ID="{DAD11399-48FE-45EB-AD24-1F82BE616C7B}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Critical" ID="{502A2000-F64D-41DD-A426-48D27E5C04C0}"/>
+										<CustomState Name="" ID="{354891F8-D39F-44B3-8A59-3D2CDE5C14F4}" ShortID="593303931">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Stable" ID="{7065E30F-FAE2-4F54-8D82-EAF6FA8CB343}"/>
+										<CustomState Name="" ID="{4BD68EDB-198C-4C71-AC47-1A268E69450C}" ShortID="1020576914"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists/>
 						</RandomSequenceContainer>
 						<ActorMixer Name="Weapon" ID="{893FE774-D27A-41DA-9F45-8D0961730F9D}" ShortID="721502752">
@@ -1791,6 +1812,121 @@
 									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
+								<BlendContainer Name="PowerupNoise" ID="{5DB767AD-3579-407C-BDAE-F7C1C938D9E8}" ShortID="759180950">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Scifi, Energy, Power 04 SND54485" ID="{9BE271CC-5367-46B4-9CA1-6E95AE3C480C}" ShortID="620535156">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Scifi, Energy, Power 04 SND54485" ID="{FC49DF34-8A37-4086-8C32-D92E2311ACD0}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.48400576923077"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.57539615384615"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Scifi, Energy, Power 04 SND54485.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="204667847"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Scifi, Energy, Power 04 SND54485" ID="{FC49DF34-8A37-4086-8C32-D92E2311ACD0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+									<BlendTrackList>
+										<BlendTrack Name="PowerUp" ID="{5EC8F21C-F9F5-4916-A18B-35205C9FE639}" ShortID="118392358">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<RTPCList>
+														<RTPC Name="" ID="{F8D01844-4741-4D61-84DF-BD47AE2EC4A4}" ShortID="684397607">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{9DCF30CD-488B-4417-A22B-E722816F4AE3}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>1000</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{FF08BBDA-2467-4B2C-80C4-44425499E6A5}" ShortID="905621248">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{126273BC-E01B-426D-BBB5-0362F0F65CED}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-6.71584</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="Scifi, Energy, Power 04 SND54485" ID="{9BE271CC-5367-46B4-9CA1-6E95AE3C480C}"/>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
 							</ChildrenList>
 							<ObjectLists/>
 						</ActorMixer>
