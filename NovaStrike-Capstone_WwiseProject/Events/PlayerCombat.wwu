@@ -289,6 +289,59 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_LowHealth" ID="{1E9EBBE9-67AA-4831-B76F-A3800749F2E5}">
+					<ChildrenList>
+						<Action Name="" ID="{7A5B1230-6522-47E6-A77A-13A0030A7672}" ShortID="165318471">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Set_State_Critical" ID="{2751AFBA-6B3D-447E-A19A-E89B59A9CD94}" WorkUnitID="{9CC5E171-3908-4CEF-ACD6-9B53FCDBDA9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AE37E546-76E5-4DCF-B743-BDAD1AEEDCD0}" ShortID="690629403">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LowHealthImpact" ID="{E05EBB1A-1E1A-40E7-B87C-79139497303A}" WorkUnitID="{8FD4B51F-2D1E-49EB-BD93-6EFED3FBFABA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E8CD7DC5-0FA5-4E7B-BFD3-1BECD10BE5F7}" ShortID="367095503">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LowHealthLoop" ID="{2D3304A5-3698-414F-9C46-6B781589802C}" WorkUnitID="{8FD4B51F-2D1E-49EB-BD93-6EFED3FBFABA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{20B46C0A-8E4B-472B-BC3B-79AD649B4419}" ShortID="771403527">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_HealthStatus" ID="{9AB882B2-4452-4A99-91C2-5B8F5BAEA219}" WorkUnitID="{07B82889-94CC-4D8B-A757-AEC5E39D7259}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5D3751ED-453A-4AF4-B462-3923C4CDDA29}" ShortID="197764188">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_SuitBeepLoop" ID="{4280C45F-E4A4-43B9-B0CB-4E5188D7DCE4}" WorkUnitID="{07B82889-94CC-4D8B-A757-AEC5E39D7259}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

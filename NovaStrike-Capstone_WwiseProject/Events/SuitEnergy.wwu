@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1ACC8EAC-D454-414D-8A75-CF6B4C5EAC90}" SchemaVersion="103" RootDocumentID="{74543DDB-C211-4169-BE8B-A8EB0D0667CB}" ParentDocumentID="{74543DDB-C211-4169-BE8B-A8EB0D0667CB}">
+	<Events>
+		<WorkUnit Name="SuitEnergy" ID="{1ACC8EAC-D454-414D-8A75-CF6B4C5EAC90}" OwnerID="{74543DDB-C211-4169-BE8B-A8EB0D0667CB}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_EnergyStatus" ID="{B3F55644-9944-4543-90C9-CB3E4C591DF8}">
+					<ChildrenList>
+						<Action Name="" ID="{CE13E2A0-59CB-4FDB-B60A-447ED13B9EFB}" ShortID="962225674">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Suit Energy Start" ID="{70114C1E-2A86-4D87-85A0-5B5EA14B8C59}" WorkUnitID="{BB0C1E83-5078-4C4D-818F-1234439771F5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{421F0335-A2B3-4090-AB32-46FD573A571B}" ShortID="491819316">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EnergyPercentages" ID="{BF2BCFE7-DBA3-42B0-8538-CEC4D9FAC145}" WorkUnitID="{BB0C1E83-5078-4C4D-818F-1234439771F5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
