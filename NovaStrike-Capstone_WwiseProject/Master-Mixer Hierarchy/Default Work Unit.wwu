@@ -17,46 +17,6 @@
 										<Value>True</Value>
 									</ValueList>
 								</Property>
-								<Property Name="Lowpass" Type="int16">
-									<RTPCList>
-										<RTPC Name="" ID="{7DE51328-E44F-4E2F-AC3B-C34BAFF4B5C2}" ShortID="953701537">
-											<Comment>Player Health lowpass
-</Comment>
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="PlayerHealth" ID="{B6DD977A-F110-47D2-85FA-818D582C23D2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{2ACFDF66-7D31-49AE-81EC-57A256A57B36}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="65537"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>46</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>24.999</XPos>
-														<YPos>46</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>25.1</XPos>
-														<YPos>0</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
@@ -108,9 +68,37 @@
 									<ObjectLists/>
 								</Bus>
 								<Bus Name="SuitAI" ID="{CD7F8BD4-2D13-434C-8F67-5CB44B1DE0D0}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ObjectLists/>
 								</Bus>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Health" ID="{DAD11399-48FE-45EB-AD24-1F82BE616C7B}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Critical" ID="{502A2000-F64D-41DD-A426-48D27E5C04C0}"/>
+										<CustomState Name="" ID="{9DE755F3-F4DE-4038-B561-6256C0F76268}" ShortID="910933555">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="45"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Stable" ID="{7065E30F-FAE2-4F54-8D82-EAF6FA8CB343}"/>
+										<CustomState Name="" ID="{F0BBF21B-1A04-44F1-AE0F-8E14D3D33FED}" ShortID="32877108"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="NPCMaster" ID="{CDCA502A-0062-483E-B239-C8FBB41EA257}">
@@ -133,51 +121,31 @@
 									<ObjectLists/>
 								</Bus>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Health" ID="{DAD11399-48FE-45EB-AD24-1F82BE616C7B}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Critical" ID="{502A2000-F64D-41DD-A426-48D27E5C04C0}"/>
+										<CustomState Name="" ID="{58F41FE3-752D-4BBC-A25C-F97859B10E26}" ShortID="1006112104">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="45"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Stable" ID="{7065E30F-FAE2-4F54-8D82-EAF6FA8CB343}"/>
+										<CustomState Name="" ID="{704F23CD-2E81-4D88-B4FD-E65289FB2599}" ShortID="803312042"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="Combat" ID="{72AC963F-4D84-4D0F-A4D2-F6D6CBCF2452}">
-							<PropertyList>
-								<Property Name="Lowpass" Type="int16">
-									<RTPCList>
-										<RTPC Name="" ID="{A97FA311-A18C-4306-BAF7-29A9A05A3B42}" ShortID="736013933">
-											<Comment>Player Health lowpass
-</Comment>
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="PlayerHealth" ID="{B6DD977A-F110-47D2-85FA-818D582C23D2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{8BCADBEA-A294-4B5F-8B01-B2A182A6C5E0}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="65537"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>46</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>24.999</XPos>
-														<YPos>46</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>25.1</XPos>
-														<YPos>0</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
-							</PropertyList>
+							<ReferenceList/>
 							<ChildrenList>
 								<Bus Name="EnemySFX" ID="{6696559A-C411-44CF-8839-76CB8B4C7F88}">
 									<ObjectLists/>
@@ -186,6 +154,27 @@
 									<ObjectLists/>
 								</Bus>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Health" ID="{DAD11399-48FE-45EB-AD24-1F82BE616C7B}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Critical" ID="{502A2000-F64D-41DD-A426-48D27E5C04C0}"/>
+										<CustomState Name="" ID="{13090801-1261-4BBE-B7AA-2B11CDD1F074}" ShortID="917097386">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="45"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Stable" ID="{7065E30F-FAE2-4F54-8D82-EAF6FA8CB343}"/>
+										<CustomState Name="" ID="{B0585E4B-2A3A-4906-8AE0-99117C01C348}" ShortID="74371552"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists/>
 						</Bus>
 						<AuxBus Name="Reverb" ID="{EBCAA468-A256-4FEE-97B1-1C80279A2063}">
