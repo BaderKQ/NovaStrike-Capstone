@@ -108,7 +108,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="PlayerHealth" ID="{B6DD977A-F110-47D2-85FA-818D582C23D2}"/>
-							<Value>25</Value>
+							<Value>50</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">

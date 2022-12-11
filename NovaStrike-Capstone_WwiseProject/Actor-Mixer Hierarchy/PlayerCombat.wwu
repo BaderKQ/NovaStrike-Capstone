@@ -1816,7 +1816,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-2</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1830,6 +1830,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="Scifi, Energy, Power 04 SND54485" ID="{9BE271CC-5367-46B4-9CA1-6E95AE3C480C}" ShortID="620535156">
+											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -4478,12 +4481,6 @@
 											<BlendTrackAssocList>
 												<BlendTrackAssoc>
 													<ItemRef Name="Transient Layer 1" ID="{860698A9-A28B-41B1-B76E-886D73D98F55}"/>
-													<CrossfadingInfo>
-														<LeftEdgePos>0</LeftEdgePos>
-														<LeftFadingMode>Automatic</LeftFadingMode>
-														<RightEdgePos>0</RightEdgePos>
-														<RightFadingMode>Automatic</RightFadingMode>
-													</CrossfadingInfo>
 												</BlendTrackAssoc>
 											</BlendTrackAssocList>
 										</BlendTrack>
@@ -4610,12 +4607,6 @@
 											<BlendTrackAssocList>
 												<BlendTrackAssoc>
 													<ItemRef Name="Transient Layer 2" ID="{FF555D12-3159-4B95-9F5D-2863B913C4E3}"/>
-													<CrossfadingInfo>
-														<LeftEdgePos>0</LeftEdgePos>
-														<LeftFadingMode>Automatic</LeftFadingMode>
-														<RightEdgePos>0</RightEdgePos>
-														<RightFadingMode>Automatic</RightFadingMode>
-													</CrossfadingInfo>
 												</BlendTrackAssoc>
 											</BlendTrackAssocList>
 										</BlendTrack>
