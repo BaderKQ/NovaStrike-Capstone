@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4C610E92-6CFE-494A-B84C-D4BD6B2A9D41}" SchemaVersion="103" RootDocumentID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}" ParentDocumentID="{B6C29E51-873B-4F8A-9870-E43FABB28624}">
+	<Events>
+		<WorkUnit Name="Execution" ID="{4C610E92-6CFE-494A-B84C-D4BD6B2A9D41}" OwnerID="{B6C29E51-873B-4F8A-9870-E43FABB28624}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Execution_A" ID="{AF196FFD-AD61-4A5F-ACF3-9C13C337A774}">
+					<ChildrenList>
+						<Action Name="" ID="{3B92AA59-D1EA-4633-9A1F-915EF82BA214}" ShortID="559996716">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Execution A" ID="{1D342337-75D0-49ED-A8D7-FFF58A3A19F8}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Execution_B" ID="{F402F6B0-4BCF-488E-98C1-376D06014A83}">
+					<ChildrenList>
+						<Action Name="" ID="{7F73C879-B2B0-4784-9CC7-CD2F60F1B9C3}" ShortID="1073246236">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Execution B" ID="{4091D9CF-B561-4D5E-AEC4-450A727C2326}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Execution_C" ID="{3C7E230F-0FD2-4ED0-BFD4-35F3FB73511F}">
+					<ChildrenList>
+						<Action Name="" ID="{20539529-0610-4024-A71F-4002873E8951}" ShortID="983498923">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Execution C" ID="{4F806336-6A54-43FB-A7BD-5149872D935F}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

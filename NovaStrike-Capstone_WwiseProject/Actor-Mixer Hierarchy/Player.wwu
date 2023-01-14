@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{BACEE95A-0A53-4830-BED5-9E31C03BC42A}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{BACEE95A-0A53-4830-BED5-9E31C03BC42A}" SchemaVersion="103" RootDocumentID="{B1215105-B176-4B46-94FD-6C28906D3043}" ParentDocumentID="{B1215105-B176-4B46-94FD-6C28906D3043}">
 	<AudioObjects>
-		<WorkUnit Name="Player" ID="{BACEE95A-0A53-4830-BED5-9E31C03BC42A}" PersistMode="Standalone">
+		<WorkUnit Name="Player" ID="{BACEE95A-0A53-4830-BED5-9E31C03BC42A}" OwnerID="{B1215105-B176-4B46-94FD-6C28906D3043}" PersistMode="Nested">
 			<ChildrenList>
 				<WorkUnit Name="PlayerCombat" ID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}" PersistMode="Reference"/>
 				<WorkUnit Name="PlayerLocomotion" ID="{06AAF9FA-B8A7-4FB6-B428-C9C586E480C9}" PersistMode="Reference"/>

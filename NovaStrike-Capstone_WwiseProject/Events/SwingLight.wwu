@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1115084B-DB7D-4021-8E2B-56136BDFF1F7}" SchemaVersion="103" RootDocumentID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}" ParentDocumentID="{B6C29E51-873B-4F8A-9870-E43FABB28624}">
+	<Events>
+		<WorkUnit Name="SwingLight" ID="{1115084B-DB7D-4021-8E2B-56136BDFF1F7}" OwnerID="{B6C29E51-873B-4F8A-9870-E43FABB28624}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_SwingLight1" ID="{879FBCC0-5233-42CD-B659-B31A3C9A516F}">
+					<ChildrenList>
+						<Action Name="" ID="{B1A762EE-7B2E-40F3-B842-0A6B01542E02}" ShortID="726934349">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swing Light 1" ID="{A6E09B09-E87C-47E9-8C10-A161C8838557}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SwingLight2" ID="{D6E47159-6726-435D-B533-8BA8C81E772C}">
+					<ChildrenList>
+						<Action Name="" ID="{F5D3E9B1-A7CC-45BF-A411-3C542F3E33C8}" ShortID="408035786">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swing Light 2" ID="{04D303A5-E642-4CB4-A647-8CF6D8036218}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SwingLight3" ID="{1120D61F-81EC-458E-A96A-2214B7FBB8CA}">
+					<ChildrenList>
+						<Action Name="" ID="{C713206C-9795-4BBF-BF98-4DD1241E2412}" ShortID="607172097">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swing Light 3" ID="{37950524-10B5-4575-B6A8-23B033ED4C95}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

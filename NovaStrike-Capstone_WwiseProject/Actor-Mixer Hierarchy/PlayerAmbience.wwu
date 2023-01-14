@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{8FD4B51F-2D1E-49EB-BD93-6EFED3FBFABA}" SchemaVersion="103" RootDocumentID="{BACEE95A-0A53-4830-BED5-9E31C03BC42A}" ParentDocumentID="{BACEE95A-0A53-4830-BED5-9E31C03BC42A}">
+<WwiseDocument Type="WorkUnit" ID="{8FD4B51F-2D1E-49EB-BD93-6EFED3FBFABA}" SchemaVersion="103" RootDocumentID="{B1215105-B176-4B46-94FD-6C28906D3043}" ParentDocumentID="{BACEE95A-0A53-4830-BED5-9E31C03BC42A}">
 	<AudioObjects>
 		<WorkUnit Name="PlayerAmbience" ID="{8FD4B51F-2D1E-49EB-BD93-6EFED3FBFABA}" OwnerID="{BACEE95A-0A53-4830-BED5-9E31C03BC42A}" PersistMode="Nested">
 			<ChildrenList>

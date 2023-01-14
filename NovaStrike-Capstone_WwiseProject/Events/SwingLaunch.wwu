@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8384685B-C51F-4028-9E24-7CF9D40D70E8}" SchemaVersion="103" RootDocumentID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}" ParentDocumentID="{B6C29E51-873B-4F8A-9870-E43FABB28624}">
+	<Events>
+		<WorkUnit Name="SwingLaunch" ID="{8384685B-C51F-4028-9E24-7CF9D40D70E8}" OwnerID="{B6C29E51-873B-4F8A-9870-E43FABB28624}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_SwingLaunch1" ID="{AB9CBB4C-FE9E-4652-83C9-0C1995709E3D}">
+					<ChildrenList>
+						<Action Name="" ID="{C3256CAA-85DF-4D3A-8C76-6836711A08FD}" ShortID="290515492">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swing Launcher 1" ID="{1870A581-1234-4542-9669-8A761E35F3A7}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SwingLaunch2" ID="{179C6178-3C44-4D76-9DFF-F49FADD96581}">
+					<ChildrenList>
+						<Action Name="" ID="{2F28B3C5-6BC4-4A24-81D1-71A3778EADDB}" ShortID="634445951">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swing Launcher 2" ID="{B46A9B26-0559-47E6-B9BE-3360EC88F32C}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SwingLaunch3" ID="{7EA3F774-DEF1-4344-9A58-0E162490689A}">
+					<ChildrenList>
+						<Action Name="" ID="{A16C466C-1475-439F-87CF-70CA948C38BE}" ShortID="744492666">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swing Launcher 3" ID="{32A3ADD6-E808-43E3-94B7-541D643CDF42}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

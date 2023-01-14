@@ -14,7 +14,7 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_LowHealth" ID="{1E9EBBE9-67AA-4831-B76F-A3800749F2E5}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}"/>
+							<ObjectRef Name="Play_LowHealth" ID="{1E9EBBE9-67AA-4831-B76F-A3800749F2E5}" WorkUnitID="{9E9936B3-EC6D-4789-BCE0-33B5EAC30492}"/>
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
@@ -22,19 +22,19 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_DrawGun" ID="{5D9519DF-4267-46CE-B9DD-5BEB818D6DFD}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}"/>
+							<ObjectRef Name="Play_DrawGun" ID="{5D9519DF-4267-46CE-B9DD-5BEB818D6DFD}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}"/>
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_HealthStablelized" ID="{868CB898-698F-40D4-B9A3-BBD953BFEF08}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}"/>
+							<ObjectRef Name="Play_HealthStablelized" ID="{868CB898-698F-40D4-B9A3-BBD953BFEF08}" WorkUnitID="{9E9936B3-EC6D-4789-BCE0-33B5EAC30492}"/>
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_WeaponSwing" ID="{67D163C2-2127-4B88-A2BC-9A84E3F0EA23}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}"/>
+							<ObjectRef Name="Play_WeaponSwing" ID="{67D163C2-2127-4B88-A2BC-9A84E3F0EA23}" WorkUnitID="{305A3E2E-3B85-48B4-AF2E-64E5FC2FE4B1}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Holstergun" ID="{82BC9CA6-0A67-499C-93A7-312ADEEE1239}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}"/>
+							<ObjectRef Name="Play_Holstergun" ID="{82BC9CA6-0A67-499C-93A7-312ADEEE1239}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}"/>
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
@@ -42,7 +42,7 @@
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_WaveGunPrimaryFire" ID="{64DD94DD-9B89-44B3-845A-014B5436060E}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}"/>
+							<ObjectRef Name="Play_WaveGunPrimaryFire" ID="{64DD94DD-9B89-44B3-845A-014B5436060E}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
@@ -93,11 +93,11 @@
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_LowHealth" ID="{1E9EBBE9-67AA-4831-B76F-A3800749F2E5}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}"/>
+							<ObjectRef Name="Play_LowHealth" ID="{1E9EBBE9-67AA-4831-B76F-A3800749F2E5}" WorkUnitID="{9E9936B3-EC6D-4789-BCE0-33B5EAC30492}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_HealthStablelized" ID="{868CB898-698F-40D4-B9A3-BBD953BFEF08}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}"/>
+							<ObjectRef Name="Play_HealthStablelized" ID="{868CB898-698F-40D4-B9A3-BBD953BFEF08}" WorkUnitID="{9E9936B3-EC6D-4789-BCE0-33B5EAC30492}"/>
 							<Position X="4" Y="0"/>
 						</Module>
 					</ModuleList>

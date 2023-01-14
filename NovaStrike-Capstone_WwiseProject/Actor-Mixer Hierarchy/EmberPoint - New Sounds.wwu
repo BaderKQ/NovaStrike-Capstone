@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2353C102-E716-422F-9F91-4241B036806A}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="EmberPoint - New Sounds" ID="{2353C102-E716-422F-9F91-4241B036806A}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Gravitus Melee Attacks" ID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

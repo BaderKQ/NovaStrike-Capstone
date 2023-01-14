@@ -7,35 +7,52 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Reset_Bus_Volume_EnergyContainerHolstered" ID="{5BF6DAEE-430D-4058-9F69-A5876488D0AB}" WorkUnitID="{81D82911-6D85-4AE0-9DDA-BE8B4DB5FE70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_Game_Parameter_PlayerHealth" ID="{5BF5E3ED-3F87-40BD-A7D6-C03B5BD31DCC}" WorkUnitID="{9CC5E171-3908-4CEF-ACD6-9B53FCDBDA9F}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_HealthStablelized" ID="{868CB898-698F-40D4-B9A3-BBD953BFEF08}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HealthStablelized" ID="{868CB898-698F-40D4-B9A3-BBD953BFEF08}" WorkUnitID="{9E9936B3-EC6D-4789-BCE0-33B5EAC30492}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Reset_Bus_Volume_EnergyContainerFade" ID="{0309892E-0D26-4202-AACE-275372CAF31A}" WorkUnitID="{81D82911-6D85-4AE0-9DDA-BE8B4DB5FE70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Saideed_Footsteps" ID="{1A54F101-C2C7-4293-B926-B92FC2BA6188}" WorkUnitID="{EA136EFD-40C8-49CF-A2D7-478E3C8521D4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SuitBeepLoop" ID="{4280C45F-E4A4-43B9-B0CB-4E5188D7DCE4}" WorkUnitID="{07B82889-94CC-4D8B-A757-AEC5E39D7259}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_WaveGunTriggerEmpty" ID="{4DE3BA5B-DF98-43F8-8ADF-F6409FB6DF5C}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_WaveGunTriggerEmpty" ID="{4DE3BA5B-DF98-43F8-8ADF-F6409FB6DF5C}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Test_WeaponHit" ID="{D0037BC1-4383-442E-AE57-12D864F22BFD}" WorkUnitID="{DEABBB02-87E5-48B5-83EE-94A62E9A31B8}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_State_Critical" ID="{2751AFBA-6B3D-447E-A19A-E89B59A9CD94}" WorkUnitID="{9CC5E171-3908-4CEF-ACD6-9B53FCDBDA9F}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_WaveGunPrimaryFire" ID="{64DD94DD-9B89-44B3-845A-014B5436060E}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_WaveGunPrimaryFire" ID="{64DD94DD-9B89-44B3-845A-014B5436060E}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_Switch_Indoors" ID="{D8CE504F-E133-4509-861E-FCF13B481699}" WorkUnitID="{9CC5E171-3908-4CEF-ACD6-9B53FCDBDA9F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_EnergyStatus" ID="{B3F55644-9944-4543-90C9-CB3E4C591DF8}" WorkUnitID="{1ACC8EAC-D454-414D-8A75-CF6B4C5EAC90}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Saideed_Buff" ID="{54AE8AE3-540F-4550-A843-D06166A88900}" WorkUnitID="{D8D77032-1570-4105-B952-6B372DE0DE17}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_DrawGun" ID="{5D9519DF-4267-46CE-B9DD-5BEB818D6DFD}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_DrawGun" ID="{5D9519DF-4267-46CE-B9DD-5BEB818D6DFD}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_Switch_Outdoors" ID="{F5E786C0-DCE1-4762-8C23-645765A0D271}" WorkUnitID="{9CC5E171-3908-4CEF-ACD6-9B53FCDBDA9F}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_LowHealth" ID="{1E9EBBE9-67AA-4831-B76F-A3800749F2E5}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_LowHealth" ID="{1E9EBBE9-67AA-4831-B76F-A3800749F2E5}" WorkUnitID="{9E9936B3-EC6D-4789-BCE0-33B5EAC30492}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Saideed_Swing" ID="{03E153F2-2697-48BF-B7A9-5802F380F591}" WorkUnitID="{D8D77032-1570-4105-B952-6B372DE0DE17}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Holstergun" ID="{82BC9CA6-0A67-499C-93A7-312ADEEE1239}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Holstergun" ID="{82BC9CA6-0A67-499C-93A7-312ADEEE1239}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HealthStatus" ID="{9AB882B2-4452-4A99-91C2-5B8F5BAEA219}" WorkUnitID="{07B82889-94CC-4D8B-A757-AEC5E39D7259}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AmbienceMain" ID="{BF4C797B-AA82-4B2B-AD75-E380DC8F63DA}" WorkUnitID="{DA72CB74-6FF2-462F-B647-CFA273543CB8}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footstep" ID="{DD22E7DA-50DD-4B46-B9AE-63B7F26C325C}" WorkUnitID="{5180ADD5-C300-45A7-BCDC-867E496431AC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_Game_Parameter_Energy" ID="{30643AA2-3A6B-4B85-9996-5DA94523A652}" WorkUnitID="{9CC5E171-3908-4CEF-ACD6-9B53FCDBDA9F}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_WeaponSwing" ID="{67D163C2-2127-4B88-A2BC-9A84E3F0EA23}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_WeaponSwing" ID="{67D163C2-2127-4B88-A2BC-9A84E3F0EA23}" WorkUnitID="{305A3E2E-3B85-48B4-AF2E-64E5FC2FE4B1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_TestSounds" ID="{14CB80BE-D603-4BC1-AF74-41B313B87AFA}" WorkUnitID="{DEABBB02-87E5-48B5-83EE-94A62E9A31B8}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_EnergyContainer" ID="{A31E91E7-29CE-4BD9-915A-49373C7031F2}" WorkUnitID="{81D82911-6D85-4AE0-9DDA-BE8B4DB5FE70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Saideed_Hit" ID="{BEF80A2A-4628-4CBB-8E56-ED880F8A0AD4}" WorkUnitID="{D8D77032-1570-4105-B952-6B372DE0DE17}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_Bus_Volume_EnergyContainerDrawn" ID="{77C12983-F2D2-4CCA-9B1A-885E4F34AC08}" WorkUnitID="{81D82911-6D85-4AE0-9DDA-BE8B4DB5FE70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_Bus_Volume_EnergyContainerRaise" ID="{FCF7E59B-C6ED-4DC6-90B9-6D8C8E8CA0A5}" WorkUnitID="{81D82911-6D85-4AE0-9DDA-BE8B4DB5FE70}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_WeaponHit" ID="{CF28BA31-90F0-4E7F-ACBC-633E126A96F3}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_WeaponHit" ID="{CF28BA31-90F0-4E7F-ACBC-633E126A96F3}" WorkUnitID="{305A3E2E-3B85-48B4-AF2E-64E5FC2FE4B1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_State_Stable" ID="{FEB8B7EB-6AB3-4F57-AA76-C79D26F12D19}" WorkUnitID="{9CC5E171-3908-4CEF-ACD6-9B53FCDBDA9F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Saideed_Attack" ID="{3168B451-59A9-4FAC-B557-F8F20E45D663}" WorkUnitID="{D8D77032-1570-4105-B952-6B372DE0DE17}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="GravitusMelee" ID="{90F895D2-1DF9-488E-8932-0D5EFF01DB0D}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_SwingLight1" ID="{879FBCC0-5233-42CD-B659-B31A3C9A516F}" WorkUnitID="{1115084B-DB7D-4021-8E2B-56136BDFF1F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SwingLaunch3" ID="{7EA3F774-DEF1-4344-9A58-0E162490689A}" WorkUnitID="{8384685B-C51F-4028-9E24-7CF9D40D70E8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SwingLight2" ID="{D6E47159-6726-435D-B533-8BA8C81E772C}" WorkUnitID="{1115084B-DB7D-4021-8E2B-56136BDFF1F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SwingLight3" ID="{1120D61F-81EC-458E-A96A-2214B7FBB8CA}" WorkUnitID="{1115084B-DB7D-4021-8E2B-56136BDFF1F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AttackLight" ID="{BDB53A74-777A-4648-848F-3FD3AE5C74A7}" WorkUnitID="{B6C29E51-873B-4F8A-9870-E43FABB28624}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SwingLaunch1" ID="{AB9CBB4C-FE9E-4652-83C9-0C1995709E3D}" WorkUnitID="{8384685B-C51F-4028-9E24-7CF9D40D70E8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Execution_B" ID="{F402F6B0-4BCF-488E-98C1-376D06014A83}" WorkUnitID="{4C610E92-6CFE-494A-B84C-D4BD6B2A9D41}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Execution_A" ID="{AF196FFD-AD61-4A5F-ACF3-9C13C337A774}" WorkUnitID="{4C610E92-6CFE-494A-B84C-D4BD6B2A9D41}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AttackHeavy" ID="{3C69F7F7-252D-4A8C-8AAB-A2A5B8EAA952}" WorkUnitID="{B6C29E51-873B-4F8A-9870-E43FABB28624}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SwingLaunch2" ID="{179C6178-3C44-4D76-9DFF-F49FADD96581}" WorkUnitID="{8384685B-C51F-4028-9E24-7CF9D40D70E8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Execution_C" ID="{3C7E230F-0FD2-4ED0-BFD4-35F3FB73511F}" WorkUnitID="{4C610E92-6CFE-494A-B84C-D4BD6B2A9D41}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

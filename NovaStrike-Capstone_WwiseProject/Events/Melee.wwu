@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B6C29E51-873B-4F8A-9870-E43FABB28624}" SchemaVersion="103" RootDocumentID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}" ParentDocumentID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}">
+	<Events>
+		<WorkUnit Name="Melee" ID="{B6C29E51-873B-4F8A-9870-E43FABB28624}" OwnerID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="Legacy" ID="{305A3E2E-3B85-48B4-AF2E-64E5FC2FE4B1}" PersistMode="Reference"/>
+				<WorkUnit Name="Execution" ID="{4C610E92-6CFE-494A-B84C-D4BD6B2A9D41}" PersistMode="Reference"/>
+				<Event Name="Play_AttackLight" ID="{BDB53A74-777A-4648-848F-3FD3AE5C74A7}">
+					<ChildrenList>
+						<Action Name="" ID="{BF26902F-4432-4203-B15C-01CA55FACADE}" ShortID="235645406">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Light Attack" ID="{2961FD84-B669-42C4-9CEF-C443105E53AE}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AttackHeavy" ID="{3C69F7F7-252D-4A8C-8AAB-A2A5B8EAA952}">
+					<ChildrenList>
+						<Action Name="" ID="{B353D861-311C-4079-8011-38B177607A7A}" ShortID="948329581">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Heavy Attack" ID="{DCE10694-2B23-4D79-B770-614CE4C317C6}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<WorkUnit Name="SwingLaunch" ID="{8384685B-C51F-4028-9E24-7CF9D40D70E8}" PersistMode="Reference"/>
+				<WorkUnit Name="SwingLight" ID="{1115084B-DB7D-4021-8E2B-56136BDFF1F7}" PersistMode="Reference"/>
+				<WorkUnit Name="Debug" ID="{4303AF45-7DCF-4BC0-9C78-DDEC982D9535}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

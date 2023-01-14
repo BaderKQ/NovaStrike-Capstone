@@ -8,7 +8,7 @@
 						<Action Name="" ID="{3C8CEE5C-DB7C-4E50-B025-79829E776E69}" ShortID="525545995">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="TestSounds" ID="{0406C740-495F-43D9-9ED2-F478A4901441}" WorkUnitID="{6B950275-FAC6-4D3D-8417-DD0CE6969EDF}"/>
+									<ObjectRef Name="TestSounds" ID="{0406C740-495F-43D9-9ED2-F478A4901441}" WorkUnitID="{B1215105-B176-4B46-94FD-6C28906D3043}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -22,7 +22,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Play_WeaponSwing" ID="{67D163C2-2127-4B88-A2BC-9A84E3F0EA23}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}"/>
+									<ObjectRef Name="Play_WeaponSwing" ID="{67D163C2-2127-4B88-A2BC-9A84E3F0EA23}" WorkUnitID="{305A3E2E-3B85-48B4-AF2E-64E5FC2FE4B1}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -33,7 +33,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Play_WeaponHit" ID="{CF28BA31-90F0-4E7F-ACBC-633E126A96F3}" WorkUnitID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}"/>
+									<ObjectRef Name="Play_WeaponHit" ID="{CF28BA31-90F0-4E7F-ACBC-633E126A96F3}" WorkUnitID="{305A3E2E-3B85-48B4-AF2E-64E5FC2FE4B1}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

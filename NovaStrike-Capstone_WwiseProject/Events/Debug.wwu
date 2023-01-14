@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4303AF45-7DCF-4BC0-9C78-DDEC982D9535}" SchemaVersion="103" RootDocumentID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}" ParentDocumentID="{B6C29E51-873B-4F8A-9870-E43FABB28624}">
+	<Events>
+		<WorkUnit Name="Debug" ID="{4303AF45-7DCF-4BC0-9C78-DDEC982D9535}" OwnerID="{B6C29E51-873B-4F8A-9870-E43FABB28624}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_TestMelee" ID="{9675B9FA-0DD5-4240-BA54-D8204E3920C2}">
+					<ChildrenList>
+						<Action Name="" ID="{B06BD6E4-27E7-41A2-B74C-A8FB1C6BD912}" ShortID="916218621">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_SwingLight1" ID="{879FBCC0-5233-42CD-B659-B31A3C9A516F}" WorkUnitID="{1115084B-DB7D-4021-8E2B-56136BDFF1F7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AEB24A72-3E90-4E4C-9809-3E2FA7AFB0B9}" ShortID="350624770">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_AttackLight" ID="{BDB53A74-777A-4648-848F-3FD3AE5C74A7}" WorkUnitID="{B6C29E51-873B-4F8A-9870-E43FABB28624}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{21D5CB6E-376A-47A4-8BB0-B6D754A27D1C}" ShortID="368721269">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swing Light" ID="{68DBA971-4730-4426-BEB5-D9A2B8712D35}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

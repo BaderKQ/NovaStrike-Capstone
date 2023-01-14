@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{218B369A-B6FB-4CE9-AFA3-E17B4528807E}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{218B369A-B6FB-4CE9-AFA3-E17B4528807E}" SchemaVersion="103" RootDocumentID="{B1215105-B176-4B46-94FD-6C28906D3043}" ParentDocumentID="{B1215105-B176-4B46-94FD-6C28906D3043}">
 	<AudioObjects>
-		<WorkUnit Name="Saideed" ID="{218B369A-B6FB-4CE9-AFA3-E17B4528807E}" PersistMode="Standalone">
+		<WorkUnit Name="Saideed" ID="{218B369A-B6FB-4CE9-AFA3-E17B4528807E}" OwnerID="{B1215105-B176-4B46-94FD-6C28906D3043}" PersistMode="Nested">
 			<ChildrenList>
 				<WorkUnit Name="SaideedCombat" ID="{11A65CD9-A556-4F21-AEFD-C5381C8349AB}" PersistMode="Reference"/>
 				<WorkUnit Name="SaideedLocomotion" ID="{2387BBA9-8B5E-426E-8EFC-476AEBA3BDBF}" PersistMode="Reference"/>

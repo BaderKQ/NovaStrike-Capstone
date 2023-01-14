@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{BB0C1E83-5078-4C4D-818F-1234439771F5}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{BB0C1E83-5078-4C4D-818F-1234439771F5}" SchemaVersion="103" RootDocumentID="{B1215105-B176-4B46-94FD-6C28906D3043}" ParentDocumentID="{B1215105-B176-4B46-94FD-6C28906D3043}">
 	<AudioObjects>
-		<WorkUnit Name="AI Suit" ID="{BB0C1E83-5078-4C4D-818F-1234439771F5}" PersistMode="Standalone">
+		<WorkUnit Name="AI Suit" ID="{BB0C1E83-5078-4C4D-818F-1234439771F5}" OwnerID="{B1215105-B176-4B46-94FD-6C28906D3043}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="Suit" ID="{88684780-DDE1-4B8A-91A6-01431272E713}" ShortID="1005506773">
 					<ReferenceList>

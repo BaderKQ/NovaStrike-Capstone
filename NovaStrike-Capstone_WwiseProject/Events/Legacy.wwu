@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{305A3E2E-3B85-48B4-AF2E-64E5FC2FE4B1}" SchemaVersion="103" RootDocumentID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}" ParentDocumentID="{B6C29E51-873B-4F8A-9870-E43FABB28624}">
+	<Events>
+		<WorkUnit Name="Legacy" ID="{305A3E2E-3B85-48B4-AF2E-64E5FC2FE4B1}" OwnerID="{B6C29E51-873B-4F8A-9870-E43FABB28624}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_WeaponSwing" ID="{67D163C2-2127-4B88-A2BC-9A84E3F0EA23}">
+					<ChildrenList>
+						<Action Name="" ID="{31F2AADB-D272-443D-83AB-363A0857BF87}" ShortID="730106120">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TempGrunts" ID="{0AC65CD5-958B-4710-A6E7-40683D1D9E71}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WeaponHit" ID="{CF28BA31-90F0-4E7F-ACBC-633E126A96F3}">
+					<ChildrenList>
+						<Action Name="" ID="{4B5A0E10-266C-4E47-8EE6-0FE8EAB39172}" ShortID="481505783">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swing #1" ID="{CBCD27B9-1A9C-44D2-AC5B-0782E5B254C0}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{05489147-CEEE-4231-96A8-13BE32ED573B}" ShortID="872309716">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swing #2'" ID="{5163AE27-914A-4C5F-A255-5B5EB6386DE9}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3D4E3E67-498C-4E45-A309-71118FEFAC23}" ShortID="559219289">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WeaponDrawHeavy" ID="{3B945240-52DC-41B8-91DD-D6651ED879F5}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{628DEFC4-28D3-4B2D-8BE9-93FAF80E1F65}" ShortID="213334850">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Layer1 - Punch" ID="{D125D03C-6451-495F-A132-309052F67E42}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2DB735C7-8951-436E-AEBE-51B9870EFB20}" ShortID="116065658">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Layer2 - Punch" ID="{D0AEABEB-61AA-4483-B92E-4B8223777259}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2BDB16D7-092F-4430-A37C-375B2A51B8F4}" ShortID="668574894">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Layer 3 - Punch" ID="{F539B3A5-6C45-4C89-BEBE-DAA61EDF5B65}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9743674E-0A09-42B4-A8DE-840D7E67013D}" ShortID="858307773">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Blood Splat" ID="{53258EDF-74AB-414A-8CC7-DE962B4F6E68}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B60C1EF2-6277-4E92-A94D-12FF8610B218}" ShortID="222717192">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bone" ID="{7674991B-52CD-4CE7-A7C7-6DAB9249AA62}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{06745A3D-C5F3-408D-8389-D28F2F3D7A3D}" ShortID="162087691">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gore" ID="{52E9D74F-0ACC-4E1A-ADB7-E5E1B37A1FD7}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5A93FB6D-FF19-4D66-B3FA-828C5330A338}" ShortID="1072672467">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PowerupNoise" ID="{5DB767AD-3579-407C-BDAE-F7C1C938D9E8}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1D326A56-238F-4587-94C9-C92F563A60FA}" ShortID="463438924">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Set_Bus_Volume_EnergyContainerRaise" ID="{FCF7E59B-C6ED-4DC6-90B9-6D8C8E8CA0A5}" WorkUnitID="{81D82911-6D85-4AE0-9DDA-BE8B4DB5FE70}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CB15F48C-2D08-4463-9F1A-B56E93FEEE71}" ShortID="737733919">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Reset_Bus_Volume_EnergyContainerFade" ID="{0309892E-0D26-4202-AACE-275372CAF31A}" WorkUnitID="{81D82911-6D85-4AE0-9DDA-BE8B4DB5FE70}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
