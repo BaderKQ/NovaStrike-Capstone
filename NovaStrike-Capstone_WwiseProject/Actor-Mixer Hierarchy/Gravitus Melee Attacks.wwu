@@ -57,6 +57,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Execution B" ID="{4091D9CF-B561-4D5E-AEC4-450A727C2326}" ShortID="23354096">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -482,6 +489,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="Swing Light 3" ID="{37950524-10B5-4575-B6A8-23B033ED4C95}" ShortID="263635595">
+											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="75"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -499,6 +510,68 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{C81FB8F2-A104-4373-A1E6-F6DCD72318C6}"/>
+												<Position Name="" ID="{236B5E42-F364-48DC-BBD4-0850C14202B0}">
+													<ChildrenList>
+														<Path2D Name="Swing Light 3_Path" ID="{91E82675-0099-4C00-B2D0-70E90B4FA65B}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="850"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-1.52284</XPos>
+																	<YPos>0.84746</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>5.58375</XPos>
+																	<YPos>16.38418</YPos>
+																	<Flags>0</Flags>
+																	<Time>121</Time>
+																</Point>
+																<Point>
+																	<XPos>8.62944</XPos>
+																	<YPos>31.07344</YPos>
+																	<Flags>0</Flags>
+																	<Time>242</Time>
+																</Point>
+																<Point>
+																	<XPos>5.58376</XPos>
+																	<YPos>40.11299</YPos>
+																	<Flags>0</Flags>
+																	<Time>364</Time>
+																</Point>
+																<Point>
+																	<XPos>-1.5228426395939</XPos>
+																	<YPos>44.6327683615819</YPos>
+																	<Flags>0</Flags>
+																	<Time>485</Time>
+																</Point>
+																<Point>
+																	<XPos>-37.05584</XPos>
+																	<YPos>42.37288</YPos>
+																	<Flags>0</Flags>
+																	<Time>607</Time>
+																</Point>
+																<Point>
+																	<XPos>-56.85279</XPos>
+																	<YPos>25.42373</YPos>
+																	<Flags>0</Flags>
+																	<Time>728</Time>
+																</Point>
+																<Point>
+																	<XPos>-70.55838</XPos>
+																	<YPos>0</YPos>
+																	<Flags>0</Flags>
+																	<Time>850</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
 											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="-017" ID="{3CF0B5A5-BD13-4CAD-9C4E-A4897A1D910F}" Platform="Linked"/>
