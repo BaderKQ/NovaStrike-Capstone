@@ -1,0 +1,55 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2298528406",
+    "GUID": "{8900C296-C296-1296-9696-969696969696}",
+    "Language": "SFX",
+    "Hash": "3023519095",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_D8CE504FE1334509861EFCF13B481699",
+    "ShortName": "SB_D8CE504FE1334509861EFCF13B481699",
+    "Path": "SB_D8CE504FE1334509861EFCF13B481699.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "84651515",
+      "Name": "Set_Switch_Indoors",
+      "ObjectPath": "\\Events\\Parameters & RTPCs\\Set_Switch_Indoors",
+      "GUID": "{D8CE504F-E133-4509-861E-FCF13B481699}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionSetSwitch": [
+       {
+        "Id": "4103860031",
+        "Name": "Indoors",
+        "ObjectPath": "\\Switches\\AmbianceSwitches\\AmbEnvironmentTypes\\Indoors",
+        "GUID": "{25EA4457-B385-4F55-B88D-F5E6AC32063B}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "4103860031",
+      "Name": "Indoors",
+      "ObjectPath": "\\Switches\\AmbianceSwitches\\AmbEnvironmentTypes\\Indoors",
+      "GUID": "{25EA4457-B385-4F55-B88D-F5E6AC32063B}",
+      "Switches": []
+     }
+    ]
+   }
+  ]
+ }
+}

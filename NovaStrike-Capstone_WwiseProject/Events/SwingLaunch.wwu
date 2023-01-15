@@ -12,6 +12,17 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{20BA4DD0-BB52-45A9-B51E-CDB02E563207}" ShortID="115478721">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_HeavyGrunt" ID="{A6F2CA93-1ED8-4180-83D1-CA596C37AF21}" WorkUnitID="{5096038B-9C07-4B7C-958E-5BDE8AA30AF9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_SwingLaunch2" ID="{179C6178-3C44-4D76-9DFF-F49FADD96581}">
@@ -23,6 +34,17 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{8089256B-F891-452F-AD76-7756688BF0BB}" ShortID="897508349">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_HeavyGrunt" ID="{A6F2CA93-1ED8-4180-83D1-CA596C37AF21}" WorkUnitID="{5096038B-9C07-4B7C-958E-5BDE8AA30AF9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_SwingLaunch3" ID="{7EA3F774-DEF1-4344-9A58-0E162490689A}">
@@ -31,6 +53,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Swing Launcher 3" ID="{32A3ADD6-E808-43E3-94B7-541D643CDF42}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8EFBE8F3-70ED-468D-BA11-CA9B0C067E7C}" ShortID="46876994">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_HeavyGrunt" ID="{A6F2CA93-1ED8-4180-83D1-CA596C37AF21}" WorkUnitID="{5096038B-9C07-4B7C-958E-5BDE8AA30AF9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

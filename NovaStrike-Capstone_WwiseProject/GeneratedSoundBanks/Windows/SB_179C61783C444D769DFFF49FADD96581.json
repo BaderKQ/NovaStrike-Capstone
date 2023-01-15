@@ -1,0 +1,53 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3543080862",
+    "GUID": "{D32F1F9E-1F9E-1F9E-9E9E-9E9E9E9E9E9E}",
+    "Language": "SFX",
+    "Hash": "1760364002",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_179C61783C444D769DFFF49FADD96581",
+    "ShortName": "SB_179C61783C444D769DFFF49FADD96581",
+    "Path": "SB_179C61783C444D769DFFF49FADD96581.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2807767345",
+      "Name": "Play_SwingLaunch2",
+      "ObjectPath": "\\Events\\PlayerCombat\\Melee\\SwingLaunch\\Play_SwingLaunch2",
+      "GUID": "{179C6178-3C44-4D76-9DFF-F49FADD96581}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.78653",
+      "DurationMax": "2.250887",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "1052887449",
+        "Language": "SFX",
+        "ShortName": "-019.wav",
+        "Path": "SFX\\-019_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

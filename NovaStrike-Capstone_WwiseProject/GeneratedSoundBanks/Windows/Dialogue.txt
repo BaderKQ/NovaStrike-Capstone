@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	417073110	Play_AI_Debug_Subtitles			\SuitAI\Dialogue\Play_AI_Debug_Subtitles	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	545267387	Debug Subtitles	E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\.cache\Windows\SFX\Debug Subtitles _10C4C929.wem		\Actor-Mixer Hierarchy\EmberPoint - New Sounds\AI VO\AI Combat VO\Dialogue\Debug Subtitles		1787972
+

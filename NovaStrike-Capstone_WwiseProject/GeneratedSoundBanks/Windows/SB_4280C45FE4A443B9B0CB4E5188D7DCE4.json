@@ -1,0 +1,51 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2124605830",
+    "GUID": "{7EA2E986-E986-1986-8686-868686868686}",
+    "Language": "SFX",
+    "Hash": "418577446",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_4280C45FE4A443B9B0CB4E5188D7DCE4",
+    "ShortName": "SB_4280C45FE4A443B9B0CB4E5188D7DCE4",
+    "Path": "SB_4280C45FE4A443B9B0CB4E5188D7DCE4.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3375703639",
+      "Name": "Play_SuitBeepLoop",
+      "ObjectPath": "\\Events\\SuitAI\\SuitHealth\\Play_SuitBeepLoop",
+      "GUID": "{4280C45F-E4A4-43B9-B0CB-4E5188D7DCE4}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "504208030",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Suit - BeepLoop.wav",
+        "Path": "SFX\\Suit AI\\Suit - BeepLoop_D79FB2B7.wem"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "151362964",
+      "Name": "PlayerHealth",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerHealth",
+      "GUID": "{B6DD977A-F110-47D2-85FA-818D582C23D2}"
+     }
+    ]
+   }
+  ]
+ }
+}

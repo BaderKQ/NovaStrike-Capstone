@@ -1,0 +1,63 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1486643442",
+    "GUID": "{589C60F2-60F2-10F2-F2F2-F2F2F2F2F2F2}",
+    "Language": "SFX",
+    "Hash": "2165647520",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_03E153F2269748BFB7A95802F380F591",
+    "ShortName": "SB_03E153F2269748BFB7A95802F380F591",
+    "Path": "SB_03E153F2269748BFB7A95802F380F591.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2976310650",
+      "Name": "Play_Saideed_Swing",
+      "ObjectPath": "\\Events\\Saideed\\SaideedCombat\\Play_Saideed_Swing",
+      "GUID": "{03E153F2-2697-48BF-B7A9-5802F380F591}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2",
+      "DurationMax": "1.2",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "29244023",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Swing\\Saideed Swing - 1.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Swing\\Saideed Swing - 1_10C4C929.wem"
+       },
+       {
+        "Id": "230517081",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Swing\\Saideed Swing - 2.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Swing\\Saideed Swing - 2_10C4C929.wem"
+       },
+       {
+        "Id": "497816404",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Swing\\Saideed Swing - 3.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Swing\\Saideed Swing - 3_10C4C929.wem"
+       },
+       {
+        "Id": "882999674",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Swing\\Saideed Swing - 4.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Swing\\Saideed Swing - 4_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

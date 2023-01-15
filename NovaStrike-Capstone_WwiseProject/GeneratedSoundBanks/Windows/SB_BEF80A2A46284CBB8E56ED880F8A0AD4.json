@@ -1,0 +1,87 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1453874468",
+    "GUID": "{56A85D24-5D24-1D24-2424-242424242424}",
+    "Language": "SFX",
+    "Hash": "4067463083",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_BEF80A2A46284CBB8E56ED880F8A0AD4",
+    "ShortName": "SB_BEF80A2A46284CBB8E56ED880F8A0AD4",
+    "Path": "SB_BEF80A2A46284CBB8E56ED880F8A0AD4.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2712836335",
+      "Name": "Play_Saideed_Hit",
+      "ObjectPath": "\\Events\\Saideed\\SaideedCombat\\Play_Saideed_Hit",
+      "GUID": "{BEF80A2A-4628-4CBB-8E56-ED880F8A0AD4}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.4",
+      "DurationMax": "2.4",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "142687313",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Hit\\Saideed Hit - 2.wav",
+        "Path": "SFX\\Saideed Noises\\Hit\\Saideed Hit - 2_10C4C929.wem"
+       },
+       {
+        "Id": "283434337",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Hit\\Saideed Hit - 4.wav",
+        "Path": "SFX\\Saideed Noises\\Hit\\Saideed Hit - 4_10C4C929.wem"
+       },
+       {
+        "Id": "287070893",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Hit\\Saideed Hit - 1.wav",
+        "Path": "SFX\\Saideed Noises\\Hit\\Saideed Hit - 1_10C4C929.wem"
+       },
+       {
+        "Id": "295650557",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Hit\\Saideed Hit - 5.wav",
+        "Path": "SFX\\Saideed Noises\\Hit\\Saideed Hit - 5_10C4C929.wem"
+       },
+       {
+        "Id": "601437060",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Hit\\Saideed Hit - 3.wav",
+        "Path": "SFX\\Saideed Noises\\Hit\\Saideed Hit - 3_10C4C929.wem"
+       },
+       {
+        "Id": "855736734",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Hit\\Saideed Hit - 7.wav",
+        "Path": "SFX\\Saideed Noises\\Hit\\Saideed Hit - 7_10C4C929.wem"
+       },
+       {
+        "Id": "903160509",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Hit\\Saideed Hit - 6.wav",
+        "Path": "SFX\\Saideed Noises\\Hit\\Saideed Hit - 6_10C4C929.wem"
+       },
+       {
+        "Id": "904460127",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Hit\\Saideed Hit - 8.wav",
+        "Path": "SFX\\Saideed Noises\\Hit\\Saideed Hit - 8_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

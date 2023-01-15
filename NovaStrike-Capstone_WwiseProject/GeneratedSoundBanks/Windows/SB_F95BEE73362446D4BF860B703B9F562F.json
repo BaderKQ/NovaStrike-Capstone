@@ -1,0 +1,40 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2157611198",
+    "GUID": "{809A88BE-88BE-18BE-BEBE-BEBEBEBEBEBE}",
+    "Language": "SFX",
+    "Hash": "1151842993",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_F95BEE73362446D4BF860B703B9F562F",
+    "ShortName": "SB_F95BEE73362446D4BF860B703B9F562F",
+    "Path": "SB_F95BEE73362446D4BF860B703B9F562F.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "348963605",
+      "Name": "Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb",
+      "GUID": "{EBCAA468-A256-4FEE-97B1-1C80279A2063}"
+     },
+     {
+      "Id": "2495704813",
+      "Name": "ReverbRoomMedium",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbRoomMedium",
+      "GUID": "{F95BEE73-3624-46D4-BF86-0B703B9F562F}"
+     }
+    ]
+   }
+  ]
+ }
+}

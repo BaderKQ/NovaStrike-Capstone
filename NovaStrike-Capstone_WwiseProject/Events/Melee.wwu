@@ -14,14 +14,79 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{D3722E91-7153-42F0-AAAD-395ABA4440D3}" ShortID="653278625">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swing Light" ID="{68DBA971-4730-4426-BEB5-D9A2B8712D35}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D6DFCC09-E457-4113-8410-47D874D8D75F}" ShortID="216834261">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_LightGruntConfirm" ID="{0D873880-D35C-4549-85A7-01BEFF4F080F}" WorkUnitID="{5096038B-9C07-4B7C-958E-5BDE8AA30AF9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_AttackHeavy" ID="{3C69F7F7-252D-4A8C-8AAB-A2A5B8EAA952}">
 					<ChildrenList>
+						<Action Name="" ID="{E1F864B0-3738-4233-B7C3-A6DA1DF1C19B}" ShortID="872569429">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Heavy Grunt" ID="{5CC726B0-19C8-4D9E-9987-6BF8B0C60E77}" WorkUnitID="{AA6BA01B-3652-4A42-BF08-A409270614A9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9A7413E8-F146-40B2-AF8A-DEC608F4D3EA}" ShortID="644333107">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swing Launch" ID="{873E7B67-24F1-4D89-8ED4-8ED0B18217D1}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{B353D861-311C-4079-8011-38B177607A7A}" ShortID="948329581">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Heavy Attack" ID="{DCE10694-2B23-4D79-B770-614CE4C317C6}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{40C90044-6363-4D1E-B341-A9B70576E04C}" ShortID="397349152">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Heavy Grunt Confirm" ID="{BFF0DA78-E500-4332-9488-CDB86B1F143A}" WorkUnitID="{AA6BA01B-3652-4A42-BF08-A409270614A9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{61840826-CCF5-4A51-847F-8931EC16E127}" ShortID="222492065">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_HeavyGruntConfirm" ID="{07BFF505-2379-46CE-8DDA-7A676C781C31}" WorkUnitID="{5096038B-9C07-4B7C-958E-5BDE8AA30AF9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

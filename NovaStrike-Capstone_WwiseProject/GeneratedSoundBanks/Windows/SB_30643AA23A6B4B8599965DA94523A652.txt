@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1067892795	Set_Game_Parameter_Energy			\Parameters & RTPCs\Set_Game_Parameter_Energy	
+

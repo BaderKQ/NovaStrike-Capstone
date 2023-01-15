@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2566296259	Play_Saideed_Buff			\Saideed\SaideedCombat\Play_Saideed_Buff	
+

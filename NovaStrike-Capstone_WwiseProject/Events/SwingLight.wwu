@@ -12,6 +12,29 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{9963ED9F-1C16-4CFD-9036-AB471A5E57C6}" ShortID="546755072">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.15"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Light Grunt" ID="{0574266A-77BE-42A5-AC6C-4E474C477BD6}" WorkUnitID="{AA6BA01B-3652-4A42-BF08-A409270614A9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{25B638C6-42AB-42E1-B692-9D64FAA3F370}" ShortID="512052308">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_LightGrunt" ID="{76A68724-AA5C-44EF-B9C8-4744C1ACE675}" WorkUnitID="{5096038B-9C07-4B7C-958E-5BDE8AA30AF9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_SwingLight2" ID="{D6E47159-6726-435D-B533-8BA8C81E772C}">
@@ -23,6 +46,17 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{A8F1FB25-F922-4C50-B061-74FA62BC0ABA}" ShortID="569664633">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_LightGrunt" ID="{76A68724-AA5C-44EF-B9C8-4744C1ACE675}" WorkUnitID="{5096038B-9C07-4B7C-958E-5BDE8AA30AF9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_SwingLight3" ID="{1120D61F-81EC-458E-A96A-2214B7FBB8CA}">
@@ -31,6 +65,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Swing Light 3" ID="{37950524-10B5-4575-B6A8-23B033ED4C95}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{47D916D4-3403-41F3-AE75-19A5F16C42D1}" ShortID="1067754241">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_LightGrunt" ID="{76A68724-AA5C-44EF-B9C8-4744C1ACE675}" WorkUnitID="{5096038B-9C07-4B7C-958E-5BDE8AA30AF9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

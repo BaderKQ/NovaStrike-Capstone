@@ -1,0 +1,466 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3420319158",
+    "GUID": "{CBDDEDB6-EDB6-1DB6-B6B6-B6B6B6B6B6B6}",
+    "Language": "SFX",
+    "Hash": "1346901337",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_B3F556449944454390C9CB3E4C591DF8",
+    "ShortName": "SB_B3F556449944454390C9CB3E4C591DF8",
+    "Path": "SB_B3F556449944454390C9CB3E4C591DF8.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "4176239568",
+      "Name": "Play_EnergyStatus",
+      "ObjectPath": "\\Events\\SuitAI\\SuitEnergy\\Play_EnergyStatus",
+      "GUID": "{B3F55644-9944-4543-90C9-CB3E4C591DF8}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.805333",
+      "DurationMax": "5.6",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "8105765",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 50Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 50Percent_10C4C929.wem"
+       },
+       {
+        "Id": "10474873",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 75Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 75Percent_10C4C929.wem"
+       },
+       {
+        "Id": "10784390",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 85Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 85Percent_10C4C929.wem"
+       },
+       {
+        "Id": "83405443",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 70Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 70Percent_10C4C929.wem"
+       },
+       {
+        "Id": "101522411",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 30Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 30Percent_10C4C929.wem"
+       },
+       {
+        "Id": "104587653",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Suit Energy Start.wav",
+        "Path": "SFX\\Suit AI\\Suit Energy Start_10C4C929.wem"
+       },
+       {
+        "Id": "148423409",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 95Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 95Percent_10C4C929.wem"
+       },
+       {
+        "Id": "184503678",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 25Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 25Percent_10C4C929.wem"
+       },
+       {
+        "Id": "194961571",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 65Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 65Percent_10C4C929.wem"
+       },
+       {
+        "Id": "243020510",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 15Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 15Percent_10C4C929.wem"
+       },
+       {
+        "Id": "279542793",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 5Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 5Percent_10C4C929.wem"
+       },
+       {
+        "Id": "587246153",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 40Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 40Percent_10C4C929.wem"
+       },
+       {
+        "Id": "681933414",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 20Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 20Percent_10C4C929.wem"
+       },
+       {
+        "Id": "694710752",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 60Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 60Percent_10C4C929.wem"
+       },
+       {
+        "Id": "746334606",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 35Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 35Percent_10C4C929.wem"
+       },
+       {
+        "Id": "764543334",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 55Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 55Percent_10C4C929.wem"
+       },
+       {
+        "Id": "771712282",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 10Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 10Percent_10C4C929.wem"
+       },
+       {
+        "Id": "850768528",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 90Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 90Percent_10C4C929.wem"
+       },
+       {
+        "Id": "854131991",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 80Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 80Percent_10C4C929.wem"
+       },
+       {
+        "Id": "854832671",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 45Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 45Percent_10C4C929.wem"
+       },
+       {
+        "Id": "967028752",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 100Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 100Percent_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{FD9F3227-48AA-4042-948B-750D5E7A120E}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{FD9F3227-48AA-4042-948B-750D5E7A120E}",
+        "Media": [
+         {
+          "Id": "771712282"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{F8393931-D7E9-4742-A0BB-5B5142759328}",
+        "Media": [
+         {
+          "Id": "279542793"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{2732874C-A4D0-4607-B69C-8C26C7FD1507}",
+        "Media": [
+         {
+          "Id": "184503678"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{D52AF152-A439-43E6-A433-E13FE23B98D5}",
+        "Media": [
+         {
+          "Id": "194961571"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{3AEAEF54-858D-43CF-8347-71604BDD58A0}",
+        "Media": [
+         {
+          "Id": "243020510"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{909E9D55-9FE8-46C3-9519-66FCA960706A}",
+        "Media": [
+         {
+          "Id": "854131991"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{AC954B6A-ECDE-4A27-A16F-0AAEEE885A8D}",
+        "Media": [
+         {
+          "Id": "854832671"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{3CA8FE76-2DC4-4846-9F51-80823A0340C5}",
+        "Media": [
+         {
+          "Id": "967028752"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{791CBA8E-BE16-4F52-A636-663FD5045C64}",
+        "Media": [
+         {
+          "Id": "587246153"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{084BEA92-1974-4D10-BD64-DE26B26B7188}",
+        "Media": [
+         {
+          "Id": "850768528"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{E60FB594-6718-421D-A32F-C320633983B1}",
+        "Media": [
+         {
+          "Id": "10784390"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{3E56EEC1-7BDC-4818-AB34-0C1A014C5B29}",
+        "Media": [
+         {
+          "Id": "681933414"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{18DAAEC2-7253-491B-9D0D-E039955DC67C}",
+        "Media": [
+         {
+          "Id": "764543334"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{B5ACD4CB-C1F4-46B0-8CD0-147D362A0D1F}",
+        "Media": [
+         {
+          "Id": "8105765"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{4C8ED9CD-4C03-4C06-B60C-BEDE73182FCB}",
+        "Media": [
+         {
+          "Id": "10474873"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{A2E694D4-1679-4F29-8E4D-8F144970D670}",
+        "Media": [
+         {
+          "Id": "101522411"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{350778D6-F614-4522-AEAA-09956C45B6DF}",
+        "Media": [
+         {
+          "Id": "148423409"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{B04065D8-A9FC-4D5C-87C3-F25B60E795EA}",
+        "Media": [
+         {
+          "Id": "83405443"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{D77162E3-8C76-4169-8CA5-ADF9C4B3DE87}",
+        "Media": [
+         {
+          "Id": "746334606"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{B7785BFC-971A-46F0-A2BB-99490A58E9D2}",
+        "Media": [
+         {
+          "Id": "694710752"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1345584937",
+      "Name": "Energy",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Energy",
+      "GUID": "{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "636447081",
+      "Name": "EnergySwitches",
+      "ObjectPath": "\\Switches\\AISuit\\EnergySwitches",
+      "GUID": "{A3B3BFD5-0052-4ABD-A8C3-8CF5688EE05F}",
+      "Switches": [
+       {
+        "Id": "3312564348",
+        "Name": "FivePercent",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\FivePercent",
+        "GUID": "{F8393931-D7E9-4742-A0BB-5B5142759328}"
+       },
+       {
+        "Id": "3031318901",
+        "Name": "TenPercent",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\TenPercent",
+        "GUID": "{FD9F3227-48AA-4042-948B-750D5E7A120E}"
+       },
+       {
+        "Id": "787714852",
+        "Name": "Fifteen",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\Fifteen",
+        "GUID": "{3AEAEF54-858D-43CF-8347-71604BDD58A0}"
+       },
+       {
+        "Id": "855561750",
+        "Name": "Twenty",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\Twenty",
+        "GUID": "{3E56EEC1-7BDC-4818-AB34-0C1A014C5B29}"
+       },
+       {
+        "Id": "2929686485",
+        "Name": "TwentFive",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\TwentFive",
+        "GUID": "{2732874C-A4D0-4607-B69C-8C26C7FD1507}"
+       },
+       {
+        "Id": "1461439505",
+        "Name": "Thirty",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\Thirty",
+        "GUID": "{A2E694D4-1679-4F29-8E4D-8F144970D670}"
+       },
+       {
+        "Id": "3224124825",
+        "Name": "ThirtyFive",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\ThirtyFive",
+        "GUID": "{D77162E3-8C76-4169-8CA5-ADF9C4B3DE87}"
+       },
+       {
+        "Id": "4215888580",
+        "Name": "Fourty",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\Fourty",
+        "GUID": "{791CBA8E-BE16-4F52-A636-663FD5045C64}"
+       },
+       {
+        "Id": "859499836",
+        "Name": "FourtyFive",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\FourtyFive",
+        "GUID": "{AC954B6A-ECDE-4A27-A16F-0AAEEE885A8D}"
+       },
+       {
+        "Id": "614582933",
+        "Name": "Fifty",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\Fifty",
+        "GUID": "{B5ACD4CB-C1F4-46B0-8CD0-147D362A0D1F}"
+       },
+       {
+        "Id": "300626741",
+        "Name": "FiftyFive",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\FiftyFive",
+        "GUID": "{18DAAEC2-7253-491B-9D0D-E039955DC67C}"
+       },
+       {
+        "Id": "416905362",
+        "Name": "Sixty",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\Sixty",
+        "GUID": "{B7785BFC-971A-46F0-A2BB-99490A58E9D2}"
+       },
+       {
+        "Id": "1459214866",
+        "Name": "SixtyFive",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\SixtyFive",
+        "GUID": "{D52AF152-A439-43E6-A433-E13FE23B98D5}"
+       },
+       {
+        "Id": "917820997",
+        "Name": "Seventy",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\Seventy",
+        "GUID": "{B04065D8-A9FC-4D5C-87C3-F25B60E795EA}"
+       },
+       {
+        "Id": "3601838981",
+        "Name": "SeventyFive",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\SeventyFive",
+        "GUID": "{4C8ED9CD-4C03-4C06-B60C-BEDE73182FCB}"
+       },
+       {
+        "Id": "4288211107",
+        "Name": "Eighty",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\Eighty",
+        "GUID": "{909E9D55-9FE8-46C3-9519-66FCA960706A}"
+       },
+       {
+        "Id": "3981618731",
+        "Name": "EightyFive",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\EightyFive",
+        "GUID": "{E60FB594-6718-421D-A32F-C320633983B1}"
+       },
+       {
+        "Id": "2533513560",
+        "Name": "Ninety",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\Ninety",
+        "GUID": "{084BEA92-1974-4D10-BD64-DE26B26B7188}"
+       },
+       {
+        "Id": "3530380408",
+        "Name": "NinetyFive",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\NinetyFive",
+        "GUID": "{350778D6-F614-4522-AEAA-09956C45B6DF}"
+       },
+       {
+        "Id": "1048449613",
+        "Name": "Max",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\Max",
+        "GUID": "{3CA8FE76-2DC4-4846-9F51-80823A0340C5}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

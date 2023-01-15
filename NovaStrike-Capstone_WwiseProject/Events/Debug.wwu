@@ -44,6 +44,47 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_TestMeleeHEAVY" ID="{EA881E73-FCB8-42EA-AE01-DBB093889A46}">
+					<ChildrenList>
+						<Action Name="" ID="{8AADB019-D814-4EF1-97FC-61ACD8FEDA9D}" ShortID="950336701">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_SwingLaunch1" ID="{AB9CBB4C-FE9E-4652-83C9-0C1995709E3D}" WorkUnitID="{8384685B-C51F-4028-9E24-7CF9D40D70E8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9D50F28D-8A58-4BE5-98C9-84F1B844F9AC}" ShortID="639931162">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_AttackHeavy" ID="{3C69F7F7-252D-4A8C-8AAB-A2A5B8EAA952}" WorkUnitID="{B6C29E51-873B-4F8A-9870-E43FABB28624}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{54A6E995-0327-46A1-8226-40292E2EDD34}" ShortID="443188518">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swing Light" ID="{68DBA971-4730-4426-BEB5-D9A2B8712D35}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

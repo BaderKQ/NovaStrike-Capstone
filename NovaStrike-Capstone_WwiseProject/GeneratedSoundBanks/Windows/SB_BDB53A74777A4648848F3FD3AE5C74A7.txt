@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	325099330	Play_AttackLight			\PlayerCombat\Melee\Play_AttackLight	
+

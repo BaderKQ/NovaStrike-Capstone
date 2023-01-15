@@ -1,0 +1,691 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1353710484",
+    "GUID": "{90F895D2-1DF9-488E-8932-0D5EFF01DB0D}",
+    "Language": "SFX",
+    "Hash": "135015044",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\GravitusMelee",
+    "ShortName": "GravitusMelee",
+    "Path": "GravitusMelee.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2391757467",
+      "Name": "Play_AttackHeavy",
+      "ObjectPath": "\\Events\\PlayerCombat\\Melee\\Play_AttackHeavy",
+      "GUID": "{3C69F7F7-252D-4A8C-8AAB-A2A5B8EAA952}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.925644",
+      "DurationMax": "2.237698",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "126243041",
+        "Language": "SFX",
+        "ShortName": "-009.wav",
+        "Path": "SFX\\-009_10C4C929.wem"
+       },
+       {
+        "Id": "296878417",
+        "Language": "SFX",
+        "ShortName": "-010.wav",
+        "Path": "SFX\\-010_10C4C929.wem"
+       },
+       {
+        "Id": "692734259",
+        "Language": "SFX",
+        "ShortName": "-011.wav",
+        "Path": "SFX\\-011_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+       }
+      ]
+     },
+     {
+      "Id": "325099330",
+      "Name": "Play_AttackLight",
+      "ObjectPath": "\\Events\\PlayerCombat\\Melee\\Play_AttackLight",
+      "GUID": "{BDB53A74-777A-4648-848F-3FD3AE5C74A7}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.730563",
+      "DurationMax": "1.009833",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "38871183",
+        "Language": "SFX",
+        "ShortName": "-008.wav",
+        "Path": "SFX\\-008_10C4C929.wem"
+       },
+       {
+        "Id": "509653819",
+        "Language": "SFX",
+        "ShortName": "-005.wav",
+        "Path": "SFX\\-005_10C4C929.wem"
+       },
+       {
+        "Id": "580143778",
+        "Language": "SFX",
+        "ShortName": "-002.wav",
+        "Path": "SFX\\-002_10C4C929.wem"
+       },
+       {
+        "Id": "645591439",
+        "Language": "SFX",
+        "ShortName": "-003.wav",
+        "Path": "SFX\\-003_10C4C929.wem"
+       },
+       {
+        "Id": "649911513",
+        "Language": "SFX",
+        "ShortName": "-007.wav",
+        "Path": "SFX\\-007_10C4C929.wem"
+       },
+       {
+        "Id": "713226411",
+        "Language": "SFX",
+        "ShortName": "-004.wav",
+        "Path": "SFX\\-004_10C4C929.wem"
+       },
+       {
+        "Id": "1014988109",
+        "Language": "SFX",
+        "ShortName": "-001.wav",
+        "Path": "SFX\\-001_10C4C929.wem"
+       },
+       {
+        "Id": "1061860930",
+        "Language": "SFX",
+        "ShortName": "-006.wav",
+        "Path": "SFX\\-006_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+       }
+      ]
+     },
+     {
+      "Id": "635850072",
+      "Name": "Play_Execution_A",
+      "ObjectPath": "\\Events\\PlayerCombat\\Melee\\Execution\\Play_Execution_A",
+      "GUID": "{AF196FFD-AD61-4A5F-ACF3-9C13C337A774}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.0665",
+      "DurationMax": "4.0665",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "738589518",
+        "Language": "SFX",
+        "ShortName": "-012.wav",
+        "Path": "SFX\\-012_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+       }
+      ]
+     },
+     {
+      "Id": "635850075",
+      "Name": "Play_Execution_B",
+      "ObjectPath": "\\Events\\PlayerCombat\\Melee\\Execution\\Play_Execution_B",
+      "GUID": "{F402F6B0-4BCF-488E-98C1-376D06014A83}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.91075",
+      "DurationMax": "3.91075",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "798823340",
+        "Language": "SFX",
+        "ShortName": "-013.wav",
+        "Path": "SFX\\-013_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+       }
+      ]
+     },
+     {
+      "Id": "635850074",
+      "Name": "Play_Execution_C",
+      "ObjectPath": "\\Events\\PlayerCombat\\Melee\\Execution\\Play_Execution_C",
+      "GUID": "{3C7E230F-0FD2-4ED0-BFD4-35F3FB73511F}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.974875",
+      "DurationMax": "3.974875",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "468433077",
+        "Language": "SFX",
+        "ShortName": "-014.wav",
+        "Path": "SFX\\-014_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+       }
+      ]
+     },
+     {
+      "Id": "1237304139",
+      "Name": "Play_Exhausted",
+      "ObjectPath": "\\Events\\PlayerCombat\\Melee\\GravitusMeleeVO\\Play_Exhausted",
+      "GUID": "{910E1A35-5382-4722-9B83-42410847324E}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "102227114",
+        "Language": "SFX",
+        "ShortName": "Exhaustion Loop\\-037.wav",
+        "Path": "SFX\\Exhaustion Loop\\-037_D79FB2B7.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+       }
+      ]
+     },
+     {
+      "Id": "2123312499",
+      "Name": "Play_HeavyGrunt",
+      "ObjectPath": "\\Events\\PlayerCombat\\Melee\\GravitusMeleeVO\\Play_HeavyGrunt",
+      "GUID": "{A6F2CA93-1ED8-4180-83D1-CA596C37AF21}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.733979",
+      "DurationMax": "1.993562",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "157358296",
+        "Language": "SFX",
+        "ShortName": "Heavy Grunt 2\\-010.wav",
+        "Path": "SFX\\Heavy Grunt 2\\-010_10C4C929.wem"
+       },
+       {
+        "Id": "180121162",
+        "Language": "SFX",
+        "ShortName": "Heavy Grunt 5\\-013.wav",
+        "Path": "SFX\\Heavy Grunt 5\\-013_10C4C929.wem"
+       },
+       {
+        "Id": "501008095",
+        "Language": "SFX",
+        "ShortName": "Heavy Grunt 4\\-012.wav",
+        "Path": "SFX\\Heavy Grunt 4\\-012_10C4C929.wem"
+       },
+       {
+        "Id": "600279479",
+        "Language": "SFX",
+        "ShortName": "Heavy Grunt 3\\-011.wav",
+        "Path": "SFX\\Heavy Grunt 3\\-011_10C4C929.wem"
+       },
+       {
+        "Id": "668944030",
+        "Language": "SFX",
+        "ShortName": "Heavy Grunt 7\\-015.wav",
+        "Path": "SFX\\Heavy Grunt 7\\-015_10C4C929.wem"
+       },
+       {
+        "Id": "791601451",
+        "Language": "SFX",
+        "ShortName": "Heavy Grunt 1\\-009.wav",
+        "Path": "SFX\\Heavy Grunt 1\\-009_10C4C929.wem"
+       },
+       {
+        "Id": "824335812",
+        "Language": "SFX",
+        "ShortName": "Heavy Grunt 6\\-014.wav",
+        "Path": "SFX\\Heavy Grunt 6\\-014_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+       }
+      ]
+     },
+     {
+      "Id": "3535846313",
+      "Name": "Play_HeavyGruntConfirm",
+      "ObjectPath": "\\Events\\PlayerCombat\\Melee\\GravitusMeleeVO\\Play_HeavyGruntConfirm",
+      "GUID": "{07BFF505-2379-46CE-8DDA-7A676C781C31}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.756",
+      "DurationMax": "1.6115",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "148253273",
+        "Language": "SFX",
+        "ShortName": "Heavy Grunt Confirm 2\\-029.wav",
+        "Path": "SFX\\Heavy Grunt Confirm 2\\-029_10C4C929.wem"
+       },
+       {
+        "Id": "297914475",
+        "Language": "SFX",
+        "ShortName": "Heavy Grunt Confirm 3\\-030.wav",
+        "Path": "SFX\\Heavy Grunt Confirm 3\\-030_10C4C929.wem"
+       },
+       {
+        "Id": "725957601",
+        "Language": "SFX",
+        "ShortName": "Heavy Grunt Confirm 4\\-031.wav",
+        "Path": "SFX\\Heavy Grunt Confirm 4\\-031_10C4C929.wem"
+       },
+       {
+        "Id": "727571780",
+        "Language": "SFX",
+        "ShortName": "Heavy Grunt Confirm 1\\-028.wav",
+        "Path": "SFX\\Heavy Grunt Confirm 1\\-028_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+       }
+      ]
+     },
+     {
+      "Id": "3039779601",
+      "Name": "Play_Injured",
+      "ObjectPath": "\\Events\\PlayerCombat\\Melee\\GravitusMeleeVO\\Play_Injured",
+      "GUID": "{A2492AE2-6523-4B5A-A2E4-2E406C999CDB}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.561646",
+      "DurationMax": "1.6185",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "65876411",
+        "Language": "SFX",
+        "ShortName": "Injured 4\\-035.wav",
+        "Path": "SFX\\Injured 4\\-035_10C4C929.wem"
+       },
+       {
+        "Id": "331192909",
+        "Language": "SFX",
+        "ShortName": "Injured 2\\-033.wav",
+        "Path": "SFX\\Injured 2\\-033_10C4C929.wem"
+       },
+       {
+        "Id": "496318734",
+        "Language": "SFX",
+        "ShortName": "Injured 1\\-032.wav",
+        "Path": "SFX\\Injured 1\\-032_10C4C929.wem"
+       },
+       {
+        "Id": "519462166",
+        "Language": "SFX",
+        "ShortName": "Injured 3\\-034.wav",
+        "Path": "SFX\\Injured 3\\-034_10C4C929.wem"
+       },
+       {
+        "Id": "999222285",
+        "Language": "SFX",
+        "ShortName": "Injured 5\\-036.wav",
+        "Path": "SFX\\Injured 5\\-036_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+       }
+      ]
+     },
+     {
+      "Id": "3825402580",
+      "Name": "Play_LightGrunt",
+      "ObjectPath": "\\Events\\PlayerCombat\\Melee\\GravitusMeleeVO\\Play_LightGrunt",
+      "GUID": "{76A68724-AA5C-44EF-B9C8-4744C1ACE675}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.730563",
+      "DurationMax": "1.009833",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "21593280",
+        "Language": "SFX",
+        "ShortName": "Light Grunt 8\\-008.wav",
+        "Path": "SFX\\Light Grunt 8\\-008_10C4C929.wem"
+       },
+       {
+        "Id": "289445165",
+        "Language": "SFX",
+        "ShortName": "Light Grunt 7\\-007.wav",
+        "Path": "SFX\\Light Grunt 7\\-007_10C4C929.wem"
+       },
+       {
+        "Id": "294302560",
+        "Language": "SFX",
+        "ShortName": "Light Grunt 5\\-005.wav",
+        "Path": "SFX\\Light Grunt 5\\-005_10C4C929.wem"
+       },
+       {
+        "Id": "300463064",
+        "Language": "SFX",
+        "ShortName": "Light Grunt 3\\-003.wav",
+        "Path": "SFX\\Light Grunt 3\\-003_10C4C929.wem"
+       },
+       {
+        "Id": "650838910",
+        "Language": "SFX",
+        "ShortName": "Light Grunt 4\\-004.wav",
+        "Path": "SFX\\Light Grunt 4\\-004_10C4C929.wem"
+       },
+       {
+        "Id": "782041682",
+        "Language": "SFX",
+        "ShortName": "Light Grunt 6\\-006.wav",
+        "Path": "SFX\\Light Grunt 6\\-006_10C4C929.wem"
+       },
+       {
+        "Id": "862919543",
+        "Language": "SFX",
+        "ShortName": "Light Grunt 1\\-001.wav",
+        "Path": "SFX\\Light Grunt 1\\-001_10C4C929.wem"
+       },
+       {
+        "Id": "1071147731",
+        "Language": "SFX",
+        "ShortName": "Light Grunt 2\\-002.wav",
+        "Path": "SFX\\Light Grunt 2\\-002_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+       }
+      ]
+     },
+     {
+      "Id": "4288382764",
+      "Name": "Play_LightGruntConfirm",
+      "ObjectPath": "\\Events\\PlayerCombat\\Melee\\GravitusMeleeVO\\Play_LightGruntConfirm",
+      "GUID": "{0D873880-D35C-4549-85A7-01BEFF4F080F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.315042",
+      "DurationMax": "0.916917",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "37034537",
+        "Language": "SFX",
+        "ShortName": "Light Grunt Confirm 2\\-017.wav",
+        "Path": "SFX\\Light Grunt Confirm 2\\-017_10C4C929.wem"
+       },
+       {
+        "Id": "52109218",
+        "Language": "SFX",
+        "ShortName": "Light Grunt Confirm 3\\-018.wav",
+        "Path": "SFX\\Light Grunt Confirm 3\\-018_10C4C929.wem"
+       },
+       {
+        "Id": "86567352",
+        "Language": "SFX",
+        "ShortName": "Light Grunt Confirm 4\\-019.wav",
+        "Path": "SFX\\Light Grunt Confirm 4\\-019_10C4C929.wem"
+       },
+       {
+        "Id": "354513204",
+        "Language": "SFX",
+        "ShortName": "Light Grunt Confirm 5\\-020.wav",
+        "Path": "SFX\\Light Grunt Confirm 5\\-020_10C4C929.wem"
+       },
+       {
+        "Id": "399922565",
+        "Language": "SFX",
+        "ShortName": "Light Grunt Confirm 10\\-025.wav",
+        "Path": "SFX\\Light Grunt Confirm 10\\-025_10C4C929.wem"
+       },
+       {
+        "Id": "515560203",
+        "Language": "SFX",
+        "ShortName": "Light Grunt Confirm 12\\-027.wav",
+        "Path": "SFX\\Light Grunt Confirm 12\\-027_10C4C929.wem"
+       },
+       {
+        "Id": "541125425",
+        "Language": "SFX",
+        "ShortName": "Light Grunt Confirm 8\\-023.wav",
+        "Path": "SFX\\Light Grunt Confirm 8\\-023_10C4C929.wem"
+       },
+       {
+        "Id": "590327095",
+        "Language": "SFX",
+        "ShortName": "Light Grunt Confirm 1\\-016.wav",
+        "Path": "SFX\\Light Grunt Confirm 1\\-016_10C4C929.wem"
+       },
+       {
+        "Id": "755616884",
+        "Language": "SFX",
+        "ShortName": "Light Grunt Confirm 6\\-021.wav",
+        "Path": "SFX\\Light Grunt Confirm 6\\-021_10C4C929.wem"
+       },
+       {
+        "Id": "973359529",
+        "Language": "SFX",
+        "ShortName": "Light Grunt Confirm 9\\-024.wav",
+        "Path": "SFX\\Light Grunt Confirm 9\\-024_10C4C929.wem"
+       },
+       {
+        "Id": "1064872668",
+        "Language": "SFX",
+        "ShortName": "Light Grunt Confirm 7\\-022.wav",
+        "Path": "SFX\\Light Grunt Confirm 7\\-022_10C4C929.wem"
+       },
+       {
+        "Id": "1065619600",
+        "Language": "SFX",
+        "ShortName": "Light Grunt Confirm 11\\-026.wav",
+        "Path": "SFX\\Light Grunt Confirm 11\\-026_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+       }
+      ]
+     },
+     {
+      "Id": "2807767346",
+      "Name": "Play_SwingLaunch1",
+      "ObjectPath": "\\Events\\PlayerCombat\\Melee\\SwingLaunch\\Play_SwingLaunch1",
+      "GUID": "{AB9CBB4C-FE9E-4652-83C9-0C1995709E3D}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.723722",
+      "DurationMax": "2.171754",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "371232847",
+        "Language": "SFX",
+        "ShortName": "-018.wav",
+        "Path": "SFX\\-018_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+       }
+      ]
+     },
+     {
+      "Id": "2807767345",
+      "Name": "Play_SwingLaunch2",
+      "ObjectPath": "\\Events\\PlayerCombat\\Melee\\SwingLaunch\\Play_SwingLaunch2",
+      "GUID": "{179C6178-3C44-4D76-9DFF-F49FADD96581}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.78653",
+      "DurationMax": "2.250887",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1052887449",
+        "Language": "SFX",
+        "ShortName": "-019.wav",
+        "Path": "SFX\\-019_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+       }
+      ]
+     },
+     {
+      "Id": "2807767344",
+      "Name": "Play_SwingLaunch3",
+      "ObjectPath": "\\Events\\PlayerCombat\\Melee\\SwingLaunch\\Play_SwingLaunch3",
+      "GUID": "{7EA3F774-DEF1-4344-9A58-0E162490689A}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.311978",
+      "DurationMax": "1.652989",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "370828724",
+        "Language": "SFX",
+        "ShortName": "-020.wav",
+        "Path": "SFX\\-020_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+       }
+      ]
+     },
+     {
+      "Id": "1471594133",
+      "Name": "Play_SwingLight1",
+      "ObjectPath": "\\Events\\PlayerCombat\\Melee\\SwingLight\\Play_SwingLight1",
+      "GUID": "{879FBCC0-5233-42CD-B659-B31A3C9A516F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.893274",
+      "DurationMax": "1.125455",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "599883154",
+        "Language": "SFX",
+        "ShortName": "-015.wav",
+        "Path": "SFX\\-015_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+       }
+      ]
+     },
+     {
+      "Id": "1471594134",
+      "Name": "Play_SwingLight2",
+      "ObjectPath": "\\Events\\PlayerCombat\\Melee\\SwingLight\\Play_SwingLight2",
+      "GUID": "{D6E47159-6726-435D-B533-8BA8C81E772C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.844424",
+      "DurationMax": "1.063907",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "115080787",
+        "Language": "SFX",
+        "ShortName": "-016.wav",
+        "Path": "SFX\\-016_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+       }
+      ]
+     },
+     {
+      "Id": "1471594135",
+      "Name": "Play_SwingLight3",
+      "ObjectPath": "\\Events\\PlayerCombat\\Melee\\SwingLight\\Play_SwingLight3",
+      "GUID": "{1120D61F-81EC-458E-A96A-2214B7FBB8CA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.767658",
+      "DurationMax": "0.967188",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "989473865",
+        "Language": "SFX",
+        "ShortName": "-017.wav",
+        "Path": "SFX\\-017_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,118 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4199553165",
+    "GUID": "{FA50188D-188D-188D-8D8D-8D8D8D8D8D8D}",
+    "Language": "SFX",
+    "Hash": "1363188841",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_BF4C797BAA824B2BAD75E380DC8F63DA",
+    "ShortName": "SB_BF4C797BAA824B2BAD75E380DC8F63DA",
+    "Path": "SB_BF4C797BAA824B2BAD75E380DC8F63DA.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "903081441",
+      "Name": "Play_AmbienceMain",
+      "ObjectPath": "\\Events\\Ambience\\Ambiance\\Play_AmbienceMain",
+      "GUID": "{BF4C797B-AA82-4B2B-AD75-E380DC8F63DA}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "707367044",
+        "Language": "SFX",
+        "ShortName": "Base Ambiance - Outdoors.wav",
+        "Path": "SFX\\Base Ambiance - Outdoors_D79FB2B7.wem"
+       },
+       {
+        "Id": "790679105",
+        "Language": "SFX",
+        "ShortName": "Base Ambiance - Indoors.wav",
+        "Path": "SFX\\Base Ambiance - Indoors_D79FB2B7.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{6741CF09-42E0-48EB-97E4-6145BE5725C1}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{6741CF09-42E0-48EB-97E4-6145BE5725C1}",
+        "Media": [
+         {
+          "Id": "707367044"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{70B7830F-C0CD-412D-B2AF-8723695B13BE}",
+        "Media": [
+         {
+          "Id": "707367044"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{25EA4457-B385-4F55-B88D-F5E6AC32063B}",
+        "Media": [
+         {
+          "Id": "790679105"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{3B44DBD7-540E-48A9-9BDB-F625C43D3C04}",
+        "Media": [
+         {
+          "Id": "707367044"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "100240665",
+      "Name": "AmbEnvironmentTypes",
+      "ObjectPath": "\\Switches\\AmbianceSwitches\\AmbEnvironmentTypes",
+      "GUID": "{B33CDD7F-62D2-4450-8A4D-E999F435AB97}",
+      "Switches": [
+       {
+        "Id": "4103860031",
+        "Name": "Indoors",
+        "ObjectPath": "\\Switches\\AmbianceSwitches\\AmbEnvironmentTypes\\Indoors",
+        "GUID": "{25EA4457-B385-4F55-B88D-F5E6AC32063B}"
+       },
+       {
+        "Id": "2730119150",
+        "Name": "Outdoors",
+        "ObjectPath": "\\Switches\\AmbianceSwitches\\AmbEnvironmentTypes\\Outdoors",
+        "GUID": "{6741CF09-42E0-48EB-97E4-6145BE5725C1}"
+       },
+       {
+        "Id": "863743917",
+        "Name": "Trainyard",
+        "ObjectPath": "\\Switches\\AmbianceSwitches\\AmbEnvironmentTypes\\Trainyard",
+        "GUID": "{3B44DBD7-540E-48A9-9BDB-F625C43D3C04}"
+       },
+       {
+        "Id": "3390100962",
+        "Name": "CorporationOutdoors",
+        "ObjectPath": "\\Switches\\AmbianceSwitches\\AmbEnvironmentTypes\\CorporationOutdoors",
+        "GUID": "{70B7830F-C0CD-412D-B2AF-8723695B13BE}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

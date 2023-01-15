@@ -1,0 +1,65 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1294646967",
+    "GUID": "{4D2ABEB7-BEB7-1EB7-B7B7-B7B7B7B7B7B7}",
+    "Language": "SFX",
+    "Hash": "4277399515",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_3C69F7F7252D4A8C8AABA2A5B8EAA952",
+    "ShortName": "SB_3C69F7F7252D4A8C8AABA2A5B8EAA952",
+    "Path": "SB_3C69F7F7252D4A8C8AABA2A5B8EAA952.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2391757467",
+      "Name": "Play_AttackHeavy",
+      "ObjectPath": "\\Events\\PlayerCombat\\Melee\\Play_AttackHeavy",
+      "GUID": "{3C69F7F7-252D-4A8C-8AAB-A2A5B8EAA952}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.925644",
+      "DurationMax": "2.237698",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "126243041",
+        "Language": "SFX",
+        "ShortName": "-009.wav",
+        "Path": "SFX\\-009_10C4C929.wem"
+       },
+       {
+        "Id": "296878417",
+        "Language": "SFX",
+        "ShortName": "-010.wav",
+        "Path": "SFX\\-010_10C4C929.wem"
+       },
+       {
+        "Id": "692734259",
+        "Language": "SFX",
+        "ShortName": "-011.wav",
+        "Path": "SFX\\-011_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

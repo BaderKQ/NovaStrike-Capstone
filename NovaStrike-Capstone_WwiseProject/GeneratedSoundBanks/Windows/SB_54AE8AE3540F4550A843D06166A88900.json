@@ -1,0 +1,57 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4172386355",
+    "GUID": "{F8B19033-9033-1033-3333-333333333333}",
+    "Language": "SFX",
+    "Hash": "3017883074",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_54AE8AE3540F4550A843D06166A88900",
+    "ShortName": "SB_54AE8AE3540F4550A843D06166A88900",
+    "Path": "SB_54AE8AE3540F4550A843D06166A88900.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2566296259",
+      "Name": "Play_Saideed_Buff",
+      "ObjectPath": "\\Events\\Saideed\\SaideedCombat\\Play_Saideed_Buff",
+      "GUID": "{54AE8AE3-540F-4550-A843-D06166A88900}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.4",
+      "DurationMax": "2.4",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "489340103",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Buff\\Saideed Buff - 2.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Buff\\Saideed Buff - 2_10C4C929.wem"
+       },
+       {
+        "Id": "631761262",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Buff\\Saideed Buff - 3.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Buff\\Saideed Buff - 3_10C4C929.wem"
+       },
+       {
+        "Id": "781288737",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Buff\\Saideed Buff - 1.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Buff\\Saideed Buff - 1_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

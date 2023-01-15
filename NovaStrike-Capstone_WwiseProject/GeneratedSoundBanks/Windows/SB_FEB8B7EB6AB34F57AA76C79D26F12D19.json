@@ -1,0 +1,55 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "446523439",
+    "GUID": "{1A9D682F-682F-182F-2F2F-2F2F2F2F2F2F}",
+    "Language": "SFX",
+    "Hash": "2137333166",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_FEB8B7EB6AB34F57AA76C79D26F12D19",
+    "ShortName": "SB_FEB8B7EB6AB34F57AA76C79D26F12D19",
+    "Path": "SB_FEB8B7EB6AB34F57AA76C79D26F12D19.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2348797877",
+      "Name": "Set_State_Stable",
+      "ObjectPath": "\\Events\\Parameters & RTPCs\\Set_State_Stable",
+      "GUID": "{FEB8B7EB-6AB3-4F57-AA76-C79D26F12D19}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionSetState": [
+       {
+        "Id": "1422736200",
+        "Name": "Stable",
+        "ObjectPath": "\\States\\PlayerStates\\Health\\Stable",
+        "GUID": "{7065E30F-FAE2-4F54-8D82-EAF6FA8CB343}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1422736200",
+      "Name": "Stable",
+      "ObjectPath": "\\States\\PlayerStates\\Health\\Stable",
+      "GUID": "{7065E30F-FAE2-4F54-8D82-EAF6FA8CB343}",
+      "States": []
+     }
+    ]
+   }
+  ]
+ }
+}

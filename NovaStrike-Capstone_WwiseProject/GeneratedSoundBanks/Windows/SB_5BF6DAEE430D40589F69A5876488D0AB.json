@@ -1,0 +1,38 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3492294447",
+    "GUID": "{D0282F2F-2F2F-1F2F-2F2F-2F2F2F2F2F2F}",
+    "Language": "SFX",
+    "Hash": "1146329305",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_5BF6DAEE430D40589F69A5876488D0AB",
+    "ShortName": "SB_5BF6DAEE430D40589F69A5876488D0AB",
+    "Path": "SB_5BF6DAEE430D40589F69A5876488D0AB.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3411299036",
+      "Name": "Reset_Bus_Volume_EnergyContainerHolstered",
+      "ObjectPath": "\\Events\\Ambience\\Player_Ambience\\Reset_Bus_Volume_EnergyContainerHolstered",
+      "GUID": "{5BF6DAEE-430D-4058-9F69-A5876488D0AB}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2976310650	Play_Saideed_Swing			\Saideed\SaideedCombat\Play_Saideed_Swing	
+

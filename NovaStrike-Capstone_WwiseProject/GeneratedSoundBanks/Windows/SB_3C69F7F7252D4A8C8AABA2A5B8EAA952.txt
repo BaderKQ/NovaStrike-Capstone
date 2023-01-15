@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2391757467	Play_AttackHeavy			\PlayerCombat\Melee\Play_AttackHeavy	
+

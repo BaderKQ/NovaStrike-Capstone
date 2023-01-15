@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3930136735",
+    "GUID": "{4ACB0E8A-A30E-4A34-95E0-B7E31D62E311}",
+    "Language": "SFX",
+    "Hash": "1066035284",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Dialogue",
+    "ShortName": "Dialogue",
+    "Path": "Dialogue.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "417073110",
+      "Name": "Play_AI_Debug_Subtitles",
+      "ObjectPath": "\\Events\\SuitAI\\Dialogue\\Play_AI_Debug_Subtitles",
+      "GUID": "{8715A22F-451D-4297-A450-6BD4D73AE802}",
+      "DurationType": "OneShot",
+      "DurationMin": "9.312021",
+      "DurationMax": "9.312021",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "545267387",
+        "Language": "SFX",
+        "ShortName": "Debug Subtitles .wav",
+        "Path": "SFX\\Debug Subtitles _10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

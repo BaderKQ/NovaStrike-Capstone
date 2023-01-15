@@ -1,0 +1,31 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4176239568	Play_EnergyStatus			\SuitAI\SuitEnergy\Play_EnergyStatus	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	636447081	EnergySwitches			\AISuit\EnergySwitches	
+
+Switch	ID	Name	Switch Group			Notes
+	300626741	FiftyFive	EnergySwitches			
+	416905362	Sixty	EnergySwitches			
+	614582933	Fifty	EnergySwitches			
+	787714852	Fifteen	EnergySwitches			
+	855561750	Twenty	EnergySwitches			
+	859499836	FourtyFive	EnergySwitches			
+	917820997	Seventy	EnergySwitches			
+	1048449613	Max	EnergySwitches			
+	1459214866	SixtyFive	EnergySwitches			
+	1461439505	Thirty	EnergySwitches			
+	2533513560	Ninety	EnergySwitches			
+	2929686485	TwentFive	EnergySwitches			
+	3031318901	TenPercent	EnergySwitches			
+	3224124825	ThirtyFive	EnergySwitches			
+	3312564348	FivePercent	EnergySwitches			
+	3530380408	NinetyFive	EnergySwitches			
+	3601838981	SeventyFive	EnergySwitches			
+	3981618731	EightyFive	EnergySwitches			
+	4215888580	Fourty	EnergySwitches			
+	4288211107	Eighty	EnergySwitches			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1345584937	Energy			\Default Work Unit\Energy	
+

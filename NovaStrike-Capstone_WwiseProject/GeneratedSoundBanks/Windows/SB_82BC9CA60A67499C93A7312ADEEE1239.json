@@ -1,0 +1,123 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2125553531",
+    "GUID": "{7EB15F7B-5F7B-1F7B-7B7B-7B7B7B7B7B7B}",
+    "Language": "SFX",
+    "Hash": "3941715391",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_82BC9CA60A67499C93A7312ADEEE1239",
+    "ShortName": "SB_82BC9CA60A67499C93A7312ADEEE1239",
+    "Path": "SB_82BC9CA60A67499C93A7312ADEEE1239.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3374822339",
+      "Name": "Play_Holstergun",
+      "ObjectPath": "\\Events\\PlayerCombat\\Ranged\\Play_Holstergun",
+      "GUID": "{82BC9CA6-0A67-499C-93A7-312ADEEE1239}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.585215",
+      "DurationMax": "1.108195",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "72889420",
+        "Language": "SFX",
+        "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 2.wav",
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 2_F96BA2C7.wem"
+       },
+       {
+        "Id": "194534585",
+        "Language": "SFX",
+        "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936.wav",
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936_D62422D1.wem"
+       },
+       {
+        "Id": "236120727",
+        "Language": "SFX",
+        "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 3.wav",
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 3_CC450997.wem"
+       },
+       {
+        "Id": "262686026",
+        "Language": "SFX",
+        "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 2.wav",
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 2_3BAC3DAE.wem"
+       },
+       {
+        "Id": "381731202",
+        "Language": "SFX",
+        "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 1.wav",
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 1_BA7FC22F.wem"
+       },
+       {
+        "Id": "760440341",
+        "Language": "SFX",
+        "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 1.wav",
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 1_FB13E634.wem"
+       },
+       {
+        "Id": "804412954",
+        "Language": "SFX",
+        "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 4.wav",
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 4_13147238.wem"
+       },
+       {
+        "Id": "816899802",
+        "Language": "SFX",
+        "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 5.wav",
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 5_0018D74E.wem"
+       },
+       {
+        "Id": "820497599",
+        "Language": "SFX",
+        "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901.wav",
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901_0BF89AB8.wem"
+       },
+       {
+        "Id": "884924529",
+        "Language": "SFX",
+        "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936 1.wav",
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936 1_B5EC082A.wem"
+       },
+       {
+        "Id": "1034394021",
+        "Language": "SFX",
+        "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937.wav",
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937_4C12614A.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "3411299036",
+        "Name": "Reset_Bus_Volume_EnergyContainerHolstered",
+        "ObjectPath": "\\Events\\Ambience\\Player_Ambience\\Reset_Bus_Volume_EnergyContainerHolstered",
+        "GUID": "{5BF6DAEE-430D-4058-9F69-A5876488D0AB}"
+       }
+      ]
+     },
+     {
+      "Id": "3411299036",
+      "Name": "Reset_Bus_Volume_EnergyContainerHolstered",
+      "ObjectPath": "\\Events\\Ambience\\Player_Ambience\\Reset_Bus_Volume_EnergyContainerHolstered",
+      "GUID": "{5BF6DAEE-430D-4058-9F69-A5876488D0AB}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     }
+    ]
+   }
+  ]
+ }
+}

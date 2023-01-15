@@ -1,0 +1,4 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1263003455	Set_Bus_Volume_EnergyContainerDrawn			\Ambience\Player_Ambience\Set_Bus_Volume_EnergyContainerDrawn	
+	3989565022	Play_DrawGun			\PlayerCombat\Ranged\Play_DrawGun	
+

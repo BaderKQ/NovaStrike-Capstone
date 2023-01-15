@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	903081441	Play_AmbienceMain			\Ambience\Ambiance\Play_AmbienceMain	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	100240665	AmbEnvironmentTypes			\AmbianceSwitches\AmbEnvironmentTypes	
+
+Switch	ID	Name	Switch Group			Notes
+	863743917	Trainyard	AmbEnvironmentTypes			
+	2730119150	Outdoors	AmbEnvironmentTypes			
+	3390100962	CorporationOutdoors	AmbEnvironmentTypes			
+	4103860031	Indoors	AmbEnvironmentTypes			
+

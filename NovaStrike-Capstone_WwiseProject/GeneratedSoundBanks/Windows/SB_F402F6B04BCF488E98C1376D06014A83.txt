@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	635850075	Play_Execution_B			\PlayerCombat\Melee\Execution\Play_Execution_B	
+

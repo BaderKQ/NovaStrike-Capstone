@@ -78,6 +78,13 @@
 									<ObjectLists/>
 								</Bus>
 								<Bus Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ObjectLists/>
 								</Bus>
 							</ChildrenList>
@@ -153,6 +160,13 @@
 									<ObjectLists/>
 								</Bus>
 								<Bus Name="PlayerCombat" ID="{2C1862CC-BC02-4FF6-9193-8128FDEE7694}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ObjectLists/>
 								</Bus>
 							</ChildrenList>

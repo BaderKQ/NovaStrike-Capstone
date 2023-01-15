@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3375703639	Play_SuitBeepLoop			\SuitAI\SuitHealth\Play_SuitBeepLoop	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	151362964	PlayerHealth			\Default Work Unit\PlayerHealth	
+

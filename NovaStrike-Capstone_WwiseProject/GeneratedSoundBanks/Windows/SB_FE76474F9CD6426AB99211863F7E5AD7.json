@@ -1,0 +1,40 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2882588583",
+    "GUID": "{ABD0CFA7-CFA7-1FA7-A7A7-A7A7A7A7A7A7}",
+    "Language": "SFX",
+    "Hash": "3152930648",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_FE76474F9CD6426AB99211863F7E5AD7",
+    "ShortName": "SB_FE76474F9CD6426AB99211863F7E5AD7",
+    "Path": "SB_FE76474F9CD6426AB99211863F7E5AD7.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "348963605",
+      "Name": "Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb",
+      "GUID": "{EBCAA468-A256-4FEE-97B1-1C80279A2063}"
+     },
+     {
+      "Id": "1330453310",
+      "Name": "ReverbOutdoors",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+      "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+     }
+    ]
+   }
+  ]
+ }
+}

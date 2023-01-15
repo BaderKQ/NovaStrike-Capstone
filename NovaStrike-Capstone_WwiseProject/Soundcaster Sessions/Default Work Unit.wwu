@@ -18,6 +18,10 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_AttackHeavy" ID="{3C69F7F7-252D-4A8C-8AAB-A2A5B8EAA952}" WorkUnitID="{B6C29E51-873B-4F8A-9870-E43FABB28624}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Footstep" ID="{DD22E7DA-50DD-4B46-B9AE-63B7F26C325C}" WorkUnitID="{5180ADD5-C300-45A7-BCDC-867E496431AC}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -28,6 +32,10 @@
 						<Module>
 							<ObjectRef Name="Play_HealthStablelized" ID="{868CB898-698F-40D4-B9A3-BBD953BFEF08}" WorkUnitID="{9E9936B3-EC6D-4789-BCE0-33B5EAC30492}"/>
 							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_AttackLight" ID="{BDB53A74-777A-4648-848F-3FD3AE5C74A7}" WorkUnitID="{B6C29E51-873B-4F8A-9870-E43FABB28624}"/>
+							<Position X="1" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_WeaponSwing" ID="{67D163C2-2127-4B88-A2BC-9A84E3F0EA23}" WorkUnitID="{305A3E2E-3B85-48B4-AF2E-64E5FC2FE4B1}"/>
@@ -42,6 +50,10 @@
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_TestMelee" ID="{9675B9FA-0DD5-4240-BA54-D8204E3920C2}" WorkUnitID="{4303AF45-7DCF-4BC0-9C78-DDEC982D9535}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_WaveGunPrimaryFire" ID="{64DD94DD-9B89-44B3-845A-014B5436060E}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}"/>
 							<Position X="3" Y="0"/>
 						</Module>
@@ -52,6 +64,10 @@
 						<Module>
 							<ObjectRef Name="Reset_Bus_Volume_EnergyContainerFade" ID="{0309892E-0D26-4202-AACE-275372CAF31A}" WorkUnitID="{81D82911-6D85-4AE0-9DDA-BE8B4DB5FE70}"/>
 							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_TestMeleeHEAVY" ID="{EA881E73-FCB8-42EA-AE01-DBB093889A46}" WorkUnitID="{4303AF45-7DCF-4BC0-9C78-DDEC982D9535}"/>
+							<Position X="3" Y="3"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">

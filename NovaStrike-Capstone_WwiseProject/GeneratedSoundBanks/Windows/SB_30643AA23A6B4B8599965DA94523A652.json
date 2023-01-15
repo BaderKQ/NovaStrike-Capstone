@@ -1,0 +1,38 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "817195302",
+    "GUID": "{30B56926-6926-1926-2626-262626262626}",
+    "Language": "SFX",
+    "Hash": "2135167182",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_30643AA23A6B4B8599965DA94523A652",
+    "ShortName": "SB_30643AA23A6B4B8599965DA94523A652",
+    "Path": "SB_30643AA23A6B4B8599965DA94523A652.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1067892795",
+      "Name": "Set_Game_Parameter_Energy",
+      "ObjectPath": "\\Events\\Parameters & RTPCs\\Set_Game_Parameter_Energy",
+      "GUID": "{30643AA2-3A6B-4B85-9996-5DA94523A652}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     }
+    ]
+   }
+  ]
+ }
+}

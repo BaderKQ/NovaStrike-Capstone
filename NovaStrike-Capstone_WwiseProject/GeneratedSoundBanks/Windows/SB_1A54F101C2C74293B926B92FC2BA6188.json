@@ -1,0 +1,81 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3255436578",
+    "GUID": "{C20A0522-0522-1522-2222-222222222222}",
+    "Language": "SFX",
+    "Hash": "4155405026",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_1A54F101C2C74293B926B92FC2BA6188",
+    "ShortName": "SB_1A54F101C2C74293B926B92FC2BA6188",
+    "Path": "SB_1A54F101C2C74293B926B92FC2BA6188.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3019852061",
+      "Name": "Play_Saideed_Footsteps",
+      "ObjectPath": "\\Events\\Saideed\\SaideedLocomotion\\Play_Saideed_Footsteps",
+      "GUID": "{1A54F101-C2C7-4293-B926-B92FC2BA6188}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.269889",
+      "DurationMax": "1.271356",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "71490517",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Footsteps\\Saideed FS - 2.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Footsteps\\Saideed FS - 2_10C4C929.wem"
+       },
+       {
+        "Id": "77921177",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Footsteps\\Saideed FS - 5.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Footsteps\\Saideed FS - 5_10C4C929.wem"
+       },
+       {
+        "Id": "425391298",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Footsteps\\Saideed FS - 4.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Footsteps\\Saideed FS - 4_10C4C929.wem"
+       },
+       {
+        "Id": "441923519",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Footsteps\\Saideed FS - 3.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Footsteps\\Saideed FS - 3_10C4C929.wem"
+       },
+       {
+        "Id": "758593360",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Footsteps\\Saideed FS - 7.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Footsteps\\Saideed FS - 7_10C4C929.wem"
+       },
+       {
+        "Id": "911207313",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Footsteps\\Saideed FS - 6.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Footsteps\\Saideed FS - 6_10C4C929.wem"
+       },
+       {
+        "Id": "939000552",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Footsteps\\Saideed FS - 1.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Footsteps\\Saideed FS - 1_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

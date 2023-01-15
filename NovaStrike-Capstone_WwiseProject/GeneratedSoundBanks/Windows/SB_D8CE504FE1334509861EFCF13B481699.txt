@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	84651515	Set_Switch_Indoors			\Parameters & RTPCs\Set_Switch_Indoors	
+

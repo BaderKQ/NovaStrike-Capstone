@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1471594133	Play_SwingLight1			\PlayerCombat\Melee\SwingLight\Play_SwingLight1	
+

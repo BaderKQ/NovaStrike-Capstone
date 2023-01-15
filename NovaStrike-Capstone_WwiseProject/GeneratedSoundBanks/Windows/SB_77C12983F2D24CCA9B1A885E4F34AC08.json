@@ -1,0 +1,38 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3509411268",
+    "GUID": "{D12D5DC4-5DC4-1DC4-C4C4-C4C4C4C4C4C4}",
+    "Language": "SFX",
+    "Hash": "3946335195",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_77C12983F2D24CCA9B1A885E4F34AC08",
+    "ShortName": "SB_77C12983F2D24CCA9B1A885E4F34AC08",
+    "Path": "SB_77C12983F2D24CCA9B1A885E4F34AC08.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1263003455",
+      "Name": "Set_Bus_Volume_EnergyContainerDrawn",
+      "ObjectPath": "\\Events\\Ambience\\Player_Ambience\\Set_Bus_Volume_EnergyContainerDrawn",
+      "GUID": "{77C12983-F2D2-4CCA-9B1A-885E4F34AC08}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     }
+    ]
+   }
+  ]
+ }
+}

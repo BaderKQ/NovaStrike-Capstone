@@ -16,7 +16,7 @@
     "Id": "1229948536",
     "GUID": "{4C9ED762-EFBE-48DC-A06F-C68D6729D55A}",
     "Language": "SFX",
-    "Hash": "2834052352",
+    "Hash": "205158083",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Environment",
     "ShortName": "Environment",
     "Path": "Environment.bnk",
@@ -80,7 +80,7 @@
      {
       "Id": "3989565022",
       "Name": "Play_DrawGun",
-      "ObjectPath": "\\Events\\PlayerCombat\\Play_DrawGun",
+      "ObjectPath": "\\Events\\PlayerCombat\\Ranged\\Play_DrawGun",
       "GUID": "{5D9519DF-4267-46CE-B9DD-5BEB818D6DFD}",
       "DurationType": "OneShot",
       "DurationMin": "0.585215",
@@ -90,67 +90,67 @@
         "Id": "72889420",
         "Language": "SFX",
         "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 2.wav",
-        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 2_8F204C94.wem"
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 2_F96BA2C7.wem"
        },
        {
         "Id": "194534585",
         "Language": "SFX",
         "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936.wav",
-        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936_9183D17A.wem"
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936_D62422D1.wem"
        },
        {
         "Id": "236120727",
         "Language": "SFX",
         "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 3.wav",
-        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 3_B8FEB9EE.wem"
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 3_CC450997.wem"
        },
        {
         "Id": "262686026",
         "Language": "SFX",
         "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 2.wav",
-        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 2_3DB29CD2.wem"
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 2_3BAC3DAE.wem"
        },
        {
         "Id": "381731202",
         "Language": "SFX",
         "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 1.wav",
-        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 1_85314A54.wem"
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 1_BA7FC22F.wem"
        },
        {
         "Id": "760440341",
         "Language": "SFX",
         "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 1.wav",
-        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 1_45D90242.wem"
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 1_FB13E634.wem"
        },
        {
         "Id": "804412954",
         "Language": "SFX",
         "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 4.wav",
-        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 4_852BBA77.wem"
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 4_13147238.wem"
        },
        {
         "Id": "816899802",
         "Language": "SFX",
         "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 5.wav",
-        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 5_D65E660D.wem"
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 5_0018D74E.wem"
        },
        {
         "Id": "820497599",
         "Language": "SFX",
         "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901.wav",
-        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901_EE0F25B2.wem"
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901_0BF89AB8.wem"
        },
        {
         "Id": "884924529",
         "Language": "SFX",
         "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936 1.wav",
-        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936 1_F9DA9C3E.wem"
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936 1_B5EC082A.wem"
        },
        {
         "Id": "1034394021",
         "Language": "SFX",
         "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937.wav",
-        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937_85B3CADD.wem"
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937_4C12614A.wem"
        }
       ],
       "ActionPostEvent": [
@@ -204,6 +204,306 @@
         "Language": "SFX",
         "ShortName": "EnergyContainer\\Energy-Spinner2.wav",
         "Path": "SFX\\EnergyContainer\\Energy-Spinner2_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4176239568",
+      "Name": "Play_EnergyStatus",
+      "ObjectPath": "\\Events\\SuitAI\\SuitEnergy\\Play_EnergyStatus",
+      "GUID": "{B3F55644-9944-4543-90C9-CB3E4C591DF8}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.805333",
+      "DurationMax": "5.6",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "8105765",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 50Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 50Percent_10C4C929.wem"
+       },
+       {
+        "Id": "10474873",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 75Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 75Percent_10C4C929.wem"
+       },
+       {
+        "Id": "10784390",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 85Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 85Percent_10C4C929.wem"
+       },
+       {
+        "Id": "83405443",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 70Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 70Percent_10C4C929.wem"
+       },
+       {
+        "Id": "101522411",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 30Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 30Percent_10C4C929.wem"
+       },
+       {
+        "Id": "104587653",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Suit Energy Start.wav",
+        "Path": "SFX\\Suit AI\\Suit Energy Start_10C4C929.wem"
+       },
+       {
+        "Id": "148423409",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 95Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 95Percent_10C4C929.wem"
+       },
+       {
+        "Id": "184503678",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 25Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 25Percent_10C4C929.wem"
+       },
+       {
+        "Id": "194961571",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 65Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 65Percent_10C4C929.wem"
+       },
+       {
+        "Id": "243020510",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 15Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 15Percent_10C4C929.wem"
+       },
+       {
+        "Id": "279542793",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 5Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 5Percent_10C4C929.wem"
+       },
+       {
+        "Id": "587246153",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 40Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 40Percent_10C4C929.wem"
+       },
+       {
+        "Id": "681933414",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 20Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 20Percent_10C4C929.wem"
+       },
+       {
+        "Id": "694710752",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 60Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 60Percent_10C4C929.wem"
+       },
+       {
+        "Id": "746334606",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 35Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 35Percent_10C4C929.wem"
+       },
+       {
+        "Id": "764543334",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 55Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 55Percent_10C4C929.wem"
+       },
+       {
+        "Id": "771712282",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 10Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 10Percent_10C4C929.wem"
+       },
+       {
+        "Id": "850768528",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 90Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 90Percent_10C4C929.wem"
+       },
+       {
+        "Id": "854131991",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 80Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 80Percent_10C4C929.wem"
+       },
+       {
+        "Id": "854832671",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 45Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 45Percent_10C4C929.wem"
+       },
+       {
+        "Id": "967028752",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Percentages\\Suit - 100Percent.wav",
+        "Path": "SFX\\Suit AI\\Percentages\\Suit - 100Percent_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{FD9F3227-48AA-4042-948B-750D5E7A120E}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{FD9F3227-48AA-4042-948B-750D5E7A120E}",
+        "Media": [
+         {
+          "Id": "771712282"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{F8393931-D7E9-4742-A0BB-5B5142759328}",
+        "Media": [
+         {
+          "Id": "279542793"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{2732874C-A4D0-4607-B69C-8C26C7FD1507}",
+        "Media": [
+         {
+          "Id": "184503678"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{D52AF152-A439-43E6-A433-E13FE23B98D5}",
+        "Media": [
+         {
+          "Id": "194961571"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{3AEAEF54-858D-43CF-8347-71604BDD58A0}",
+        "Media": [
+         {
+          "Id": "243020510"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{909E9D55-9FE8-46C3-9519-66FCA960706A}",
+        "Media": [
+         {
+          "Id": "854131991"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{AC954B6A-ECDE-4A27-A16F-0AAEEE885A8D}",
+        "Media": [
+         {
+          "Id": "854832671"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{3CA8FE76-2DC4-4846-9F51-80823A0340C5}",
+        "Media": [
+         {
+          "Id": "967028752"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{791CBA8E-BE16-4F52-A636-663FD5045C64}",
+        "Media": [
+         {
+          "Id": "587246153"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{084BEA92-1974-4D10-BD64-DE26B26B7188}",
+        "Media": [
+         {
+          "Id": "850768528"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{E60FB594-6718-421D-A32F-C320633983B1}",
+        "Media": [
+         {
+          "Id": "10784390"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{3E56EEC1-7BDC-4818-AB34-0C1A014C5B29}",
+        "Media": [
+         {
+          "Id": "681933414"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{18DAAEC2-7253-491B-9D0D-E039955DC67C}",
+        "Media": [
+         {
+          "Id": "764543334"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{B5ACD4CB-C1F4-46B0-8CD0-147D362A0D1F}",
+        "Media": [
+         {
+          "Id": "8105765"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{4C8ED9CD-4C03-4C06-B60C-BEDE73182FCB}",
+        "Media": [
+         {
+          "Id": "10474873"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{A2E694D4-1679-4F29-8E4D-8F144970D670}",
+        "Media": [
+         {
+          "Id": "101522411"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{350778D6-F614-4522-AEAA-09956C45B6DF}",
+        "Media": [
+         {
+          "Id": "148423409"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{B04065D8-A9FC-4D5C-87C3-F25B60E795EA}",
+        "Media": [
+         {
+          "Id": "83405443"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{D77162E3-8C76-4169-8CA5-ADF9C4B3DE87}",
+        "Media": [
+         {
+          "Id": "746334606"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{B7785BFC-971A-46F0-A2BB-99490A58E9D2}",
+        "Media": [
+         {
+          "Id": "694710752"
+         }
+        ]
        }
       ]
      },
@@ -474,9 +774,102 @@
       ]
      },
      {
+      "Id": "807691333",
+      "Name": "Play_HealthStablelized",
+      "ObjectPath": "\\Events\\PlayerCombat\\Health & Status\\Play_HealthStablelized",
+      "GUID": "{868CB898-698F-40D4-B9A3-BBD953BFEF08}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8",
+      "DurationMax": "1.8",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "853514965",
+        "Language": "SFX",
+        "ShortName": "HealthStableized.wav",
+        "Path": "SFX\\HealthStableized_10C4C929.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "2348797877",
+        "Name": "Set_State_Stable",
+        "ObjectPath": "\\Events\\Parameters & RTPCs\\Set_State_Stable",
+        "GUID": "{FEB8B7EB-6AB3-4F57-AA76-C79D26F12D19}"
+       },
+       {
+        "Id": "3458063322",
+        "Name": "Play_HealthStatus",
+        "ObjectPath": "\\Events\\SuitAI\\SuitHealth\\Play_HealthStatus",
+        "GUID": "{9AB882B2-4452-4A99-91C2-5B8F5BAEA219}"
+       }
+      ]
+     },
+     {
+      "Id": "3458063322",
+      "Name": "Play_HealthStatus",
+      "ObjectPath": "\\Events\\SuitAI\\SuitHealth\\Play_HealthStatus",
+      "GUID": "{9AB882B2-4452-4A99-91C2-5B8F5BAEA219}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.1",
+      "DurationMax": "7.1",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "53484955",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Suit - Low.wav",
+        "Path": "SFX\\Suit AI\\Suit - Low_10C4C929.wem"
+       },
+       {
+        "Id": "77232466",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Suit - Medical Needed.wav",
+        "Path": "SFX\\Suit AI\\Suit - Medical Needed_10C4C929.wem"
+       },
+       {
+        "Id": "213077831",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Suit - Vitals.wav",
+        "Path": "SFX\\Suit AI\\Suit - Vitals_10C4C929.wem"
+       },
+       {
+        "Id": "512333820",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Suit - Stabilized.wav",
+        "Path": "SFX\\Suit AI\\Suit - Stabilized_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{E46B07A8-E6C7-40CC-BDF6-DA3CF6A86238}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{A3C06D46-E063-4130-B943-B9E6C7152C6A}",
+        "Media": [
+         {
+          "Id": "53484955"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{E46B07A8-E6C7-40CC-BDF6-DA3CF6A86238}",
+        "Media": [
+         {
+          "Id": "512333820"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{A3C06D46-E063-4130-B943-B9E6C7152C6A}",
+        "Media": [
+         {
+          "Id": "77232466"
+         }
+        ]
+       }
+      ]
+     },
+     {
       "Id": "3374822339",
       "Name": "Play_Holstergun",
-      "ObjectPath": "\\Events\\PlayerCombat\\Play_Holstergun",
+      "ObjectPath": "\\Events\\PlayerCombat\\Ranged\\Play_Holstergun",
       "GUID": "{82BC9CA6-0A67-499C-93A7-312ADEEE1239}",
       "DurationType": "OneShot",
       "DurationMin": "0.585215",
@@ -486,67 +879,67 @@
         "Id": "72889420",
         "Language": "SFX",
         "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 2.wav",
-        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 2_8F204C94.wem"
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 2_F96BA2C7.wem"
        },
        {
         "Id": "194534585",
         "Language": "SFX",
         "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936.wav",
-        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936_9183D17A.wem"
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936_D62422D1.wem"
        },
        {
         "Id": "236120727",
         "Language": "SFX",
         "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 3.wav",
-        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 3_B8FEB9EE.wem"
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 3_CC450997.wem"
        },
        {
         "Id": "262686026",
         "Language": "SFX",
         "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 2.wav",
-        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 2_3DB29CD2.wem"
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 2_3BAC3DAE.wem"
        },
        {
         "Id": "381731202",
         "Language": "SFX",
         "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 1.wav",
-        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 1_85314A54.wem"
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937 1_BA7FC22F.wem"
        },
        {
         "Id": "760440341",
         "Language": "SFX",
         "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 1.wav",
-        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 1_45D90242.wem"
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 1_FB13E634.wem"
        },
        {
         "Id": "804412954",
         "Language": "SFX",
         "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 4.wav",
-        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 4_852BBA77.wem"
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 4_13147238.wem"
        },
        {
         "Id": "816899802",
         "Language": "SFX",
         "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 5.wav",
-        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 5_D65E660D.wem"
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901 5_0018D74E.wem"
        },
        {
         "Id": "820497599",
         "Language": "SFX",
         "ShortName": "Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901.wav",
-        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901_EE0F25B2.wem"
+        "Path": "SFX\\Cloth, Movement, Jacket, Thick, Rapid Actions, Slow Walk SND50901_0BF89AB8.wem"
        },
        {
         "Id": "884924529",
         "Language": "SFX",
         "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936 1.wav",
-        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936 1_F9DA9C3E.wem"
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 02 SND50936 1_B5EC082A.wem"
        },
        {
         "Id": "1034394021",
         "Language": "SFX",
         "ShortName": "Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937.wav",
-        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937_85B3CADD.wem"
+        "Path": "SFX\\Guns, Handle, Rifle, Old, Handling, Misc Movement 01 SND50937_4C12614A.wem"
        }
       ],
       "ActionPostEvent": [
@@ -555,6 +948,41 @@
         "Name": "Reset_Bus_Volume_EnergyContainerHolstered",
         "ObjectPath": "\\Events\\Ambience\\Player_Ambience\\Reset_Bus_Volume_EnergyContainerHolstered",
         "GUID": "{5BF6DAEE-430D-4058-9F69-A5876488D0AB}"
+       }
+      ]
+     },
+     {
+      "Id": "1279037710",
+      "Name": "Play_LowHealth",
+      "ObjectPath": "\\Events\\PlayerCombat\\Health & Status\\Play_LowHealth",
+      "GUID": "{1E9EBBE9-67AA-4831-B76F-A3800749F2E5}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "260842554",
+        "Language": "SFX",
+        "ShortName": "LowHealthLoop.wav",
+        "Path": "SFX\\LowHealthLoop_D79FB2B7.wem"
+       },
+       {
+        "Id": "761327914",
+        "Language": "SFX",
+        "ShortName": "LowHealthImpact.wav",
+        "Path": "SFX\\LowHealthImpact_5942DC29.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1790218583",
+        "Name": "Set_State_Critical",
+        "ObjectPath": "\\Events\\Parameters & RTPCs\\Set_State_Critical",
+        "GUID": "{2751AFBA-6B3D-447E-A19A-E89B59A9CD94}"
+       },
+       {
+        "Id": "3458063322",
+        "Name": "Play_HealthStatus",
+        "ObjectPath": "\\Events\\SuitAI\\SuitHealth\\Play_HealthStatus",
+        "GUID": "{9AB882B2-4452-4A99-91C2-5B8F5BAEA219}"
        }
       ]
      },
@@ -776,6 +1204,21 @@
       ]
      },
      {
+      "Id": "3375703639",
+      "Name": "Play_SuitBeepLoop",
+      "ObjectPath": "\\Events\\SuitAI\\SuitHealth\\Play_SuitBeepLoop",
+      "GUID": "{4280C45F-E4A4-43B9-B0CB-4E5188D7DCE4}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "504208030",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Suit - BeepLoop.wav",
+        "Path": "SFX\\Suit AI\\Suit - BeepLoop_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
       "Id": "1958090894",
       "Name": "Play_TestSounds",
       "ObjectPath": "\\Events\\Testing\\Play_TestSounds",
@@ -825,7 +1268,7 @@
      {
       "Id": "3509501661",
       "Name": "Play_WaveGunPrimaryFire",
-      "ObjectPath": "\\Events\\PlayerCombat\\Play_WaveGunPrimaryFire",
+      "ObjectPath": "\\Events\\PlayerCombat\\Ranged\\Play_WaveGunPrimaryFire",
       "GUID": "{64DD94DD-9B89-44B3-845A-014B5436060E}",
       "DurationType": "OneShot",
       "DurationMin": "7.368146",
@@ -940,7 +1383,7 @@
      {
       "Id": "3666052522",
       "Name": "Play_WaveGunTriggerEmpty",
-      "ObjectPath": "\\Events\\PlayerCombat\\Play_WaveGunTriggerEmpty",
+      "ObjectPath": "\\Events\\PlayerCombat\\Ranged\\Play_WaveGunTriggerEmpty",
       "GUID": "{4DE3BA5B-DF98-43F8-8ADF-F6409FB6DF5C}",
       "DurationType": "OneShot",
       "DurationMin": "0.479979",
@@ -965,11 +1408,11 @@
      {
       "Id": "2848865453",
       "Name": "Play_WeaponHit",
-      "ObjectPath": "\\Events\\PlayerCombat\\Play_WeaponHit",
+      "ObjectPath": "\\Events\\PlayerCombat\\Melee\\Legacy\\Play_WeaponHit",
       "GUID": "{CF28BA31-90F0-4E7F-ACBC-633E126A96F3}",
       "DurationType": "OneShot",
-      "DurationMin": "0.398104",
-      "DurationMax": "1.335752",
+      "DurationMin": "1.575396",
+      "DurationMax": "1.575396",
       "IncludedMemoryFiles": [
        {
         "Id": "32156745",
@@ -1024,6 +1467,12 @@
         "Language": "SFX",
         "ShortName": "HItSFXPackage\\BaseHit\\Layer1 - Punch\\Layer1 - Punch 9.wav",
         "Path": "SFX\\HItSFXPackage\\BaseHit\\Layer1 - Punch\\Layer1 - Punch 9_10C4C929.wem"
+       },
+       {
+        "Id": "204667847",
+        "Language": "SFX",
+        "ShortName": "Scifi, Energy, Power 04 SND54485.wav",
+        "Path": "SFX\\Scifi, Energy, Power 04 SND54485_64D3A012.wem"
        },
        {
         "Id": "242062155",
@@ -1278,6 +1727,20 @@
         "Path": "SFX\\HItSFXPackage\\Blood Splat\\BloodSplat - 8_10C4C929.wem"
        }
       ],
+      "ActionPostEvent": [
+       {
+        "Id": "232771087",
+        "Name": "Set_Bus_Volume_EnergyContainerRaise",
+        "ObjectPath": "\\Events\\Ambience\\Player_Ambience\\Set_Bus_Volume_EnergyContainerRaise",
+        "GUID": "{FCF7E59B-C6ED-4DC6-90B9-6D8C8E8CA0A5}"
+       },
+       {
+        "Id": "2023464044",
+        "Name": "Reset_Bus_Volume_EnergyContainerFade",
+        "ObjectPath": "\\Events\\Ambience\\Player_Ambience\\Reset_Bus_Volume_EnergyContainerFade",
+        "GUID": "{0309892E-0D26-4202-AACE-275372CAF31A}"
+       }
+      ],
       "AuxBusSends": [
        {
         "Id": "1330453310",
@@ -1290,189 +1753,22 @@
      {
       "Id": "3706368928",
       "Name": "Play_WeaponSwing",
-      "ObjectPath": "\\Events\\PlayerCombat\\Play_WeaponSwing",
+      "ObjectPath": "\\Events\\PlayerCombat\\Melee\\Legacy\\Play_WeaponSwing",
       "GUID": "{67D163C2-2127-4B88-A2BC-9A84E3F0EA23}",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.833257",
-      "DurationMax": "1.410934",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "2067372",
-        "Language": "SFX",
-        "ShortName": "HItSFXPackage\\Grunts\\Grunt - 5.wav",
-        "Path": "SFX\\HItSFXPackage\\Grunts\\Grunt - 5_81D0572F.wem"
-       },
-       {
-        "Id": "42644540",
-        "Language": "SFX",
-        "ShortName": "HItSFXPackage\\Grunts\\Grunt - 1.wav",
-        "Path": "SFX\\HItSFXPackage\\Grunts\\Grunt - 1_10C4C929.wem"
-       },
-       {
-        "Id": "74828397",
-        "Language": "SFX",
-        "ShortName": "HItSFXPackage\\Grunts\\Grunt - 7.wav",
-        "Path": "SFX\\HItSFXPackage\\Grunts\\Grunt - 7_10C4C929.wem"
-       },
-       {
-        "Id": "102371403",
-        "Language": "SFX",
-        "ShortName": "Swing #1\\Swing 4.wav",
-        "Path": "SFX\\Swing #1\\Swing 4_10C4C929.wem"
-       },
-       {
-        "Id": "118988992",
-        "Language": "SFX",
-        "ShortName": "Swing #1\\Swing 2.wav",
-        "Path": "SFX\\Swing #1\\Swing 2_10C4C929.wem"
-       },
-       {
-        "Id": "140773415",
-        "Language": "SFX",
-        "ShortName": "Swing #2'\\Swing 2-7.wav",
-        "Path": "SFX\\Swing #2'\\Swing 2-7_10C4C929.wem"
-       },
-       {
-        "Id": "157959170",
-        "Language": "SFX",
-        "ShortName": "Weapons, Sword, Draw, Put Back, Long Blade 02 SND69191.wav",
-        "Path": "SFX\\Weapons, Sword, Draw, Put Back, Long Blade 02 SND69191_73A670EA.wem"
-       },
-       {
-        "Id": "183537508",
-        "Language": "SFX",
-        "ShortName": "Swing #2'\\Swing 2-6.wav",
-        "Path": "SFX\\Swing #2'\\Swing 2-6_10C4C929.wem"
-       },
-       {
-        "Id": "226937758",
-        "Language": "SFX",
-        "ShortName": "Swing #2'\\Swing 2-4.wav",
-        "Path": "SFX\\Swing #2'\\Swing 2-4_10C4C929.wem"
-       },
-       {
-        "Id": "286611772",
-        "Language": "SFX",
-        "ShortName": "Swing #2'\\Swing 2-2.wav",
-        "Path": "SFX\\Swing #2'\\Swing 2-2_10C4C929.wem"
-       },
-       {
-        "Id": "343650829",
-        "Language": "SFX",
-        "ShortName": "Swing #1\\Swing 8.wav",
-        "Path": "SFX\\Swing #1\\Swing 8_10C4C929.wem"
-       },
-       {
-        "Id": "344543557",
-        "Language": "SFX",
-        "ShortName": "Swing #1\\Swing 3.wav",
-        "Path": "SFX\\Swing #1\\Swing 3_10C4C929.wem"
-       },
-       {
-        "Id": "376603312",
-        "Language": "SFX",
-        "ShortName": "HItSFXPackage\\Grunts\\Grunt - 4.wav",
-        "Path": "SFX\\HItSFXPackage\\Grunts\\Grunt - 4_2540A608.wem"
-       },
-       {
-        "Id": "398166433",
-        "Language": "SFX",
-        "ShortName": "Swing #1\\Swing 5.wav",
-        "Path": "SFX\\Swing #1\\Swing 5_10C4C929.wem"
-       },
-       {
-        "Id": "408041494",
-        "Language": "SFX",
-        "ShortName": "Swing #2'\\Swing 2-5.wav",
-        "Path": "SFX\\Swing #2'\\Swing 2-5_10C4C929.wem"
-       },
-       {
-        "Id": "422212681",
-        "Language": "SFX",
-        "ShortName": "Swing #2'\\Swing 2-3.wav",
-        "Path": "SFX\\Swing #2'\\Swing 2-3_10C4C929.wem"
-       },
-       {
-        "Id": "448611861",
-        "Language": "SFX",
-        "ShortName": "Swing #1\\Swing 6.wav",
-        "Path": "SFX\\Swing #1\\Swing 6_10C4C929.wem"
-       },
-       {
-        "Id": "456186507",
-        "Language": "SFX",
-        "ShortName": "Swing #1\\Swing 7.wav",
-        "Path": "SFX\\Swing #1\\Swing 7_10C4C929.wem"
-       },
-       {
-        "Id": "666426747",
-        "Language": "SFX",
-        "ShortName": "Swing #1\\Swing 1.wav",
-        "Path": "SFX\\Swing #1\\Swing 1_10C4C929.wem"
-       },
-       {
-        "Id": "680427967",
-        "Language": "SFX",
-        "ShortName": "Weapons, Sword, Draw, Put Back, Long Blade 01 SND69192 1.wav",
-        "Path": "SFX\\Weapons, Sword, Draw, Put Back, Long Blade 01 SND69192 1_21770D53.wem"
-       },
-       {
-        "Id": "696450797",
-        "Language": "SFX",
-        "ShortName": "Swing #2'\\Swing 2-8.wav",
-        "Path": "SFX\\Swing #2'\\Swing 2-8_10C4C929.wem"
-       },
-       {
-        "Id": "702790565",
-        "Language": "SFX",
-        "ShortName": "Swing #2'\\Swing 2-1.wav",
-        "Path": "SFX\\Swing #2'\\Swing 2-1_10C4C929.wem"
-       },
-       {
-        "Id": "790840264",
-        "Language": "SFX",
-        "ShortName": "Weapons, Sword, Draw, Put Back, Long Blade 01 SND69192.wav",
-        "Path": "SFX\\Weapons, Sword, Draw, Put Back, Long Blade 01 SND69192_71732554.wem"
-       },
-       {
-        "Id": "930484486",
-        "Language": "SFX",
-        "ShortName": "HItSFXPackage\\Grunts\\Grunt - 2.wav",
-        "Path": "SFX\\HItSFXPackage\\Grunts\\Grunt - 2_10C4C929.wem"
-       },
-       {
-        "Id": "1003469998",
-        "Language": "SFX",
-        "ShortName": "Weapons, Sword, Draw, Put Back, Long Blade 02 SND69191 1.wav",
-        "Path": "SFX\\Weapons, Sword, Draw, Put Back, Long Blade 02 SND69191 1_1DD544B1.wem"
-       },
-       {
-        "Id": "1007036534",
-        "Language": "SFX",
-        "ShortName": "HItSFXPackage\\Grunts\\Grunt - 8.wav",
-        "Path": "SFX\\HItSFXPackage\\Grunts\\Grunt - 8_BB21BE8C.wem"
-       },
-       {
-        "Id": "1028328296",
-        "Language": "SFX",
-        "ShortName": "HItSFXPackage\\Grunts\\Grunt - 3.wav",
-        "Path": "SFX\\HItSFXPackage\\Grunts\\Grunt - 3_6A1E79A8.wem"
-       },
-       {
-        "Id": "1042514970",
-        "Language": "SFX",
-        "ShortName": "HItSFXPackage\\Grunts\\Grunt - 6.wav",
-        "Path": "SFX\\HItSFXPackage\\Grunts\\Grunt - 6_524A157E.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "1330453310",
-        "Name": "ReverbOutdoors",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
-        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
-       }
-      ]
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     },
+     {
+      "Id": "2023464044",
+      "Name": "Reset_Bus_Volume_EnergyContainerFade",
+      "ObjectPath": "\\Events\\Ambience\\Player_Ambience\\Reset_Bus_Volume_EnergyContainerFade",
+      "GUID": "{0309892E-0D26-4202-AACE-275372CAF31A}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "3411299036",
@@ -1495,6 +1791,16 @@
       "DurationMax": "0."
      },
      {
+      "Id": "232771087",
+      "Name": "Set_Bus_Volume_EnergyContainerRaise",
+      "ObjectPath": "\\Events\\Ambience\\Player_Ambience\\Set_Bus_Volume_EnergyContainerRaise",
+      "GUID": "{FCF7E59B-C6ED-4DC6-90B9-6D8C8E8CA0A5}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     },
+     {
       "Id": "1067892795",
       "Name": "Set_Game_Parameter_Energy",
       "ObjectPath": "\\Events\\Parameters & RTPCs\\Set_Game_Parameter_Energy",
@@ -1503,6 +1809,52 @@
       "DurationType": "OneShot",
       "DurationMin": "0.",
       "DurationMax": "0."
+     },
+     {
+      "Id": "1940605390",
+      "Name": "Set_Game_Parameter_PlayerHealth",
+      "ObjectPath": "\\Events\\Parameters & RTPCs\\Set_Game_Parameter_PlayerHealth",
+      "GUID": "{5BF5E3ED-3F87-40BD-A7D6-C03B5BD31DCC}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     },
+     {
+      "Id": "1790218583",
+      "Name": "Set_State_Critical",
+      "ObjectPath": "\\Events\\Parameters & RTPCs\\Set_State_Critical",
+      "GUID": "{2751AFBA-6B3D-447E-A19A-E89B59A9CD94}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionSetState": [
+       {
+        "Id": "2534871658",
+        "Name": "Critical",
+        "ObjectPath": "\\States\\PlayerStates\\Health\\Critical",
+        "GUID": "{502A2000-F64D-41DD-A426-48D27E5C04C0}"
+       }
+      ]
+     },
+     {
+      "Id": "2348797877",
+      "Name": "Set_State_Stable",
+      "ObjectPath": "\\Events\\Parameters & RTPCs\\Set_State_Stable",
+      "GUID": "{FEB8B7EB-6AB3-4F57-AA76-C79D26F12D19}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionSetState": [
+       {
+        "Id": "1422736200",
+        "Name": "Stable",
+        "ObjectPath": "\\States\\PlayerStates\\Health\\Stable",
+        "GUID": "{7065E30F-FAE2-4F54-8D82-EAF6FA8CB343}"
+       }
+      ]
      },
      {
       "Id": "84651515",
@@ -1559,13 +1911,13 @@
        {
         "Id": "2848865453",
         "Name": "Play_WeaponHit",
-        "ObjectPath": "\\Events\\PlayerCombat\\Play_WeaponHit",
+        "ObjectPath": "\\Events\\PlayerCombat\\Melee\\Legacy\\Play_WeaponHit",
         "GUID": "{CF28BA31-90F0-4E7F-ACBC-633E126A96F3}"
        },
        {
         "Id": "3706368928",
         "Name": "Play_WeaponSwing",
-        "ObjectPath": "\\Events\\PlayerCombat\\Play_WeaponSwing",
+        "ObjectPath": "\\Events\\PlayerCombat\\Melee\\Legacy\\Play_WeaponSwing",
         "GUID": "{67D163C2-2127-4B88-A2BC-9A84E3F0EA23}"
        }
       ]
@@ -1573,10 +1925,32 @@
     ],
     "GameParameters": [
      {
+      "Id": "151362964",
+      "Name": "PlayerHealth",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerHealth",
+      "GUID": "{B6DD977A-F110-47D2-85FA-818D582C23D2}"
+     },
+     {
       "Id": "1345584937",
       "Name": "Energy",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Energy",
       "GUID": "{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1422736200",
+      "Name": "Stable",
+      "ObjectPath": "\\States\\PlayerStates\\Health\\Stable",
+      "GUID": "{7065E30F-FAE2-4F54-8D82-EAF6FA8CB343}",
+      "States": []
+     },
+     {
+      "Id": "2534871658",
+      "Name": "Critical",
+      "ObjectPath": "\\States\\PlayerStates\\Health\\Critical",
+      "GUID": "{502A2000-F64D-41DD-A426-48D27E5C04C0}",
+      "States": []
      }
     ],
     "SwitchGroups": [
@@ -1609,6 +1983,154 @@
         "Name": "CorporationOutdoors",
         "ObjectPath": "\\Switches\\AmbianceSwitches\\AmbEnvironmentTypes\\CorporationOutdoors",
         "GUID": "{70B7830F-C0CD-412D-B2AF-8723695B13BE}"
+       }
+      ]
+     },
+     {
+      "Id": "636447081",
+      "Name": "EnergySwitches",
+      "ObjectPath": "\\Switches\\AISuit\\EnergySwitches",
+      "GUID": "{A3B3BFD5-0052-4ABD-A8C3-8CF5688EE05F}",
+      "Switches": [
+       {
+        "Id": "3312564348",
+        "Name": "FivePercent",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\FivePercent",
+        "GUID": "{F8393931-D7E9-4742-A0BB-5B5142759328}"
+       },
+       {
+        "Id": "3031318901",
+        "Name": "TenPercent",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\TenPercent",
+        "GUID": "{FD9F3227-48AA-4042-948B-750D5E7A120E}"
+       },
+       {
+        "Id": "787714852",
+        "Name": "Fifteen",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\Fifteen",
+        "GUID": "{3AEAEF54-858D-43CF-8347-71604BDD58A0}"
+       },
+       {
+        "Id": "855561750",
+        "Name": "Twenty",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\Twenty",
+        "GUID": "{3E56EEC1-7BDC-4818-AB34-0C1A014C5B29}"
+       },
+       {
+        "Id": "2929686485",
+        "Name": "TwentFive",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\TwentFive",
+        "GUID": "{2732874C-A4D0-4607-B69C-8C26C7FD1507}"
+       },
+       {
+        "Id": "1461439505",
+        "Name": "Thirty",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\Thirty",
+        "GUID": "{A2E694D4-1679-4F29-8E4D-8F144970D670}"
+       },
+       {
+        "Id": "3224124825",
+        "Name": "ThirtyFive",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\ThirtyFive",
+        "GUID": "{D77162E3-8C76-4169-8CA5-ADF9C4B3DE87}"
+       },
+       {
+        "Id": "4215888580",
+        "Name": "Fourty",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\Fourty",
+        "GUID": "{791CBA8E-BE16-4F52-A636-663FD5045C64}"
+       },
+       {
+        "Id": "859499836",
+        "Name": "FourtyFive",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\FourtyFive",
+        "GUID": "{AC954B6A-ECDE-4A27-A16F-0AAEEE885A8D}"
+       },
+       {
+        "Id": "614582933",
+        "Name": "Fifty",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\Fifty",
+        "GUID": "{B5ACD4CB-C1F4-46B0-8CD0-147D362A0D1F}"
+       },
+       {
+        "Id": "300626741",
+        "Name": "FiftyFive",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\FiftyFive",
+        "GUID": "{18DAAEC2-7253-491B-9D0D-E039955DC67C}"
+       },
+       {
+        "Id": "416905362",
+        "Name": "Sixty",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\Sixty",
+        "GUID": "{B7785BFC-971A-46F0-A2BB-99490A58E9D2}"
+       },
+       {
+        "Id": "1459214866",
+        "Name": "SixtyFive",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\SixtyFive",
+        "GUID": "{D52AF152-A439-43E6-A433-E13FE23B98D5}"
+       },
+       {
+        "Id": "917820997",
+        "Name": "Seventy",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\Seventy",
+        "GUID": "{B04065D8-A9FC-4D5C-87C3-F25B60E795EA}"
+       },
+       {
+        "Id": "3601838981",
+        "Name": "SeventyFive",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\SeventyFive",
+        "GUID": "{4C8ED9CD-4C03-4C06-B60C-BEDE73182FCB}"
+       },
+       {
+        "Id": "4288211107",
+        "Name": "Eighty",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\Eighty",
+        "GUID": "{909E9D55-9FE8-46C3-9519-66FCA960706A}"
+       },
+       {
+        "Id": "3981618731",
+        "Name": "EightyFive",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\EightyFive",
+        "GUID": "{E60FB594-6718-421D-A32F-C320633983B1}"
+       },
+       {
+        "Id": "2533513560",
+        "Name": "Ninety",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\Ninety",
+        "GUID": "{084BEA92-1974-4D10-BD64-DE26B26B7188}"
+       },
+       {
+        "Id": "3530380408",
+        "Name": "NinetyFive",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\NinetyFive",
+        "GUID": "{350778D6-F614-4522-AEAA-09956C45B6DF}"
+       },
+       {
+        "Id": "1048449613",
+        "Name": "Max",
+        "ObjectPath": "\\Switches\\AISuit\\EnergySwitches\\Max",
+        "GUID": "{3CA8FE76-2DC4-4846-9F51-80823A0340C5}"
+       }
+      ]
+     },
+     {
+      "Id": "2433516787",
+      "Name": "HealthSwitches",
+      "ObjectPath": "\\Switches\\AISuit\\HealthSwitches",
+      "GUID": "{9DE050AC-C397-4FD6-A335-AD7F3B5487AB}",
+      "Switches": [
+       {
+        "Id": "1422736200",
+        "Name": "Stable",
+        "ObjectPath": "\\Switches\\AISuit\\HealthSwitches\\Stable",
+        "GUID": "{E46B07A8-E6C7-40CC-BDF6-DA3CF6A86238}"
+       },
+       {
+        "Id": "545371365",
+        "Name": "Low",
+        "ObjectPath": "\\Switches\\AISuit\\HealthSwitches\\Low",
+        "GUID": "{A3C06D46-E063-4130-B943-B9E6C7152C6A}"
        }
       ]
      },

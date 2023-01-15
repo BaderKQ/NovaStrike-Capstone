@@ -1,0 +1,55 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2489627753",
+    "GUID": "{9464B469-B469-1469-6969-696969696969}",
+    "Language": "SFX",
+    "Hash": "2255437347",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_F5E786C0DCE147628C23645765A0D271",
+    "ShortName": "SB_F5E786C0DCE147628C23645765A0D271",
+    "Path": "SB_F5E786C0DCE147628C23645765A0D271.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2698743346",
+      "Name": "Set_Switch_Outdoors",
+      "ObjectPath": "\\Events\\Parameters & RTPCs\\Set_Switch_Outdoors",
+      "GUID": "{F5E786C0-DCE1-4762-8C23-645765A0D271}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionSetSwitch": [
+       {
+        "Id": "2730119150",
+        "Name": "Outdoors",
+        "ObjectPath": "\\Switches\\AmbianceSwitches\\AmbEnvironmentTypes\\Outdoors",
+        "GUID": "{6741CF09-42E0-48EB-97E4-6145BE5725C1}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2730119150",
+      "Name": "Outdoors",
+      "ObjectPath": "\\Switches\\AmbianceSwitches\\AmbEnvironmentTypes\\Outdoors",
+      "GUID": "{6741CF09-42E0-48EB-97E4-6145BE5725C1}",
+      "Switches": []
+     }
+    ]
+   }
+  ]
+ }
+}

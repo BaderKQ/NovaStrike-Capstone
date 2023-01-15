@@ -1,0 +1,26 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2968858655",
+    "GUID": "{B0F5301F-301F-101F-1F1F-1F1F1F1F1F1F}",
+    "Language": "SFX",
+    "Hash": "2692088852",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_4622EE15B8EA4B12A5E52D128AC97431",
+    "ShortName": "SB_4622EE15B8EA4B12A5E52D128AC97431",
+    "Path": "SB_4622EE15B8EA4B12A5E52D128AC97431.bnk"
+   }
+  ]
+ }
+}

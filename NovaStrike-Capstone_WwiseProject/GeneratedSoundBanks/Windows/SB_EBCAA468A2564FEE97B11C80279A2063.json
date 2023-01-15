@@ -1,0 +1,52 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "380648082",
+    "GUID": "{16B03A92-3A92-1A92-9292-929292929292}",
+    "Language": "SFX",
+    "Hash": "2431795794",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_EBCAA468A2564FEE97B11C80279A2063",
+    "ShortName": "SB_EBCAA468A2564FEE97B11C80279A2063",
+    "Path": "SB_EBCAA468A2564FEE97B11C80279A2063.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "348963605",
+      "Name": "Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb",
+      "GUID": "{EBCAA468-A256-4FEE-97B1-1C80279A2063}"
+     },
+     {
+      "Id": "1330453310",
+      "Name": "ReverbOutdoors",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+      "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+     },
+     {
+      "Id": "2287215461",
+      "Name": "ReverbRoomSmall",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbRoomSmall",
+      "GUID": "{4622EE15-B8EA-4B12-A5E5-2D128AC97431}"
+     },
+     {
+      "Id": "2495704813",
+      "Name": "ReverbRoomMedium",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbRoomMedium",
+      "GUID": "{F95BEE73-3624-46D4-BF86-0B703B9F562F}"
+     }
+    ]
+   }
+  ]
+ }
+}

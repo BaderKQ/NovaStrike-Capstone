@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2698743346	Set_Switch_Outdoors			\Parameters & RTPCs\Set_Switch_Outdoors	
+

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2807767346	Play_SwingLaunch1			\PlayerCombat\Melee\SwingLaunch\Play_SwingLaunch1	
+

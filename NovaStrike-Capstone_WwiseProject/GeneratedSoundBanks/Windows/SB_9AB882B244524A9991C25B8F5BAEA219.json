@@ -1,0 +1,120 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1374129155",
+    "GUID": "{51E78C03-8C03-1C03-0303-030303030303}",
+    "Language": "SFX",
+    "Hash": "14449227",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_9AB882B244524A9991C25B8F5BAEA219",
+    "ShortName": "SB_9AB882B244524A9991C25B8F5BAEA219",
+    "Path": "SB_9AB882B244524A9991C25B8F5BAEA219.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3458063322",
+      "Name": "Play_HealthStatus",
+      "ObjectPath": "\\Events\\SuitAI\\SuitHealth\\Play_HealthStatus",
+      "GUID": "{9AB882B2-4452-4A99-91C2-5B8F5BAEA219}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.1",
+      "DurationMax": "7.1",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "53484955",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Suit - Low.wav",
+        "Path": "SFX\\Suit AI\\Suit - Low_10C4C929.wem"
+       },
+       {
+        "Id": "77232466",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Suit - Medical Needed.wav",
+        "Path": "SFX\\Suit AI\\Suit - Medical Needed_10C4C929.wem"
+       },
+       {
+        "Id": "213077831",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Suit - Vitals.wav",
+        "Path": "SFX\\Suit AI\\Suit - Vitals_10C4C929.wem"
+       },
+       {
+        "Id": "512333820",
+        "Language": "SFX",
+        "ShortName": "Suit AI\\Suit - Stabilized.wav",
+        "Path": "SFX\\Suit AI\\Suit - Stabilized_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{E46B07A8-E6C7-40CC-BDF6-DA3CF6A86238}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{A3C06D46-E063-4130-B943-B9E6C7152C6A}",
+        "Media": [
+         {
+          "Id": "53484955"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{E46B07A8-E6C7-40CC-BDF6-DA3CF6A86238}",
+        "Media": [
+         {
+          "Id": "512333820"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{A3C06D46-E063-4130-B943-B9E6C7152C6A}",
+        "Media": [
+         {
+          "Id": "77232466"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "151362964",
+      "Name": "PlayerHealth",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerHealth",
+      "GUID": "{B6DD977A-F110-47D2-85FA-818D582C23D2}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2433516787",
+      "Name": "HealthSwitches",
+      "ObjectPath": "\\Switches\\AISuit\\HealthSwitches",
+      "GUID": "{9DE050AC-C397-4FD6-A335-AD7F3B5487AB}",
+      "Switches": [
+       {
+        "Id": "1422736200",
+        "Name": "Stable",
+        "ObjectPath": "\\Switches\\AISuit\\HealthSwitches\\Stable",
+        "GUID": "{E46B07A8-E6C7-40CC-BDF6-DA3CF6A86238}"
+       },
+       {
+        "Id": "545371365",
+        "Name": "Low",
+        "ObjectPath": "\\Switches\\AISuit\\HealthSwitches\\Low",
+        "GUID": "{A3C06D46-E063-4130-B943-B9E6C7152C6A}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

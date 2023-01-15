@@ -1,0 +1,69 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "930451431",
+    "GUID": "{37758FE7-8FE7-1FE7-E7E7-E7E7E7E7E7E7}",
+    "Language": "SFX",
+    "Hash": "1089643697",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_3168B45159A94FACB557F8F20E45D663",
+    "ShortName": "SB_3168B45159A94FACB557F8F20E45D663",
+    "Path": "SB_3168B45159A94FACB557F8F20E45D663.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2067572684",
+      "Name": "Play_Saideed_Attack",
+      "ObjectPath": "\\Events\\Saideed\\SaideedCombat\\Play_Saideed_Attack",
+      "GUID": "{3168B451-59A9-4FAC-B557-F8F20E45D663}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.265298",
+      "DurationMax": "2.542712",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "3247321",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Attack\\Saideed Attack - 2.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Attack\\Saideed Attack - 2_10C4C929.wem"
+       },
+       {
+        "Id": "246918561",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Attack\\Saideed Attack - 4.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Attack\\Saideed Attack - 4_10C4C929.wem"
+       },
+       {
+        "Id": "468115083",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Attack\\Saideed Attack - 5.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Attack\\Saideed Attack - 5_10C4C929.wem"
+       },
+       {
+        "Id": "507738364",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Attack\\Saideed Attack - 3.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Attack\\Saideed Attack - 3_10C4C929.wem"
+       },
+       {
+        "Id": "745869624",
+        "Language": "SFX",
+        "ShortName": "Saideed Noises\\Saideed Attack\\Saideed Attack - 1.wav",
+        "Path": "SFX\\Saideed Noises\\Saideed Attack\\Saideed Attack - 1_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

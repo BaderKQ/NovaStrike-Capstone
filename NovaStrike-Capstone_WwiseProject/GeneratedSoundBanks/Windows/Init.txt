@@ -1,11 +1,56 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	636447081	EnergySwitches			\AISuit\EnergySwitches	
+	2433516787	HealthSwitches			\AISuit\HealthSwitches	
+
+Switch	ID	Name	Switch Group			Notes
+	300626741	FiftyFive	EnergySwitches			
+	416905362	Sixty	EnergySwitches			
+	614582933	Fifty	EnergySwitches			
+	787714852	Fifteen	EnergySwitches			
+	855561750	Twenty	EnergySwitches			
+	859499836	FourtyFive	EnergySwitches			
+	917820997	Seventy	EnergySwitches			
+	1048449613	Max	EnergySwitches			
+	1459214866	SixtyFive	EnergySwitches			
+	1461439505	Thirty	EnergySwitches			
+	2533513560	Ninety	EnergySwitches			
+	2929686485	TwentFive	EnergySwitches			
+	3031318901	TenPercent	EnergySwitches			
+	3224124825	ThirtyFive	EnergySwitches			
+	3312564348	FivePercent	EnergySwitches			
+	3530380408	NinetyFive	EnergySwitches			
+	3601838981	SeventyFive	EnergySwitches			
+	3981618731	EightyFive	EnergySwitches			
+	4215888580	Fourty	EnergySwitches			
+	4288211107	Eighty	EnergySwitches			
+	545371365	Low	HealthSwitches			
+	1422736200	Stable	HealthSwitches			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3677180323	Health			\PlayerStates\Health	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Health			
+	1422736200	Stable	Health			
+	2534871658	Critical	Health			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	910933555	Critical	Health	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\PlayerMaster		
+	917097386	Critical	Health	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Combat		
+	1006112104	Critical	Health	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\AmbientMaster		
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	14131923	PlayerWaveGunTail			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerWavegun\PlayerWaveGunTail	
 	309309195	2DAmbience			\Default Work Unit\Master Audio Bus\AmbientMaster\AmbientBeds\2DAmbience	
+	406817756	EnemySFX			\Default Work Unit\Master Audio Bus\Combat\EnemySFX	
+	628409645	Gravitus VO			\Default Work Unit\Master Audio Bus\PlayerMaster\Gravitus VO	
 	765206498	PlayerCloth			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerCloth	
 	1182634443	AmbientBeds			\Default Work Unit\Master Audio Bus\AmbientMaster\AmbientBeds	
 	1301074112	3DAmbience			\Default Work Unit\Master Audio Bus\AmbientMaster\AmbientBeds\3DAmbience	
 	1459460693	AmbientMaster			\Default Work Unit\Master Audio Bus\AmbientMaster	
+	1634810678	PlayerCombat			\Default Work Unit\Master Audio Bus\Combat\PlayerCombat	
 	1681012287	PlayerFootsteps			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerLocomotion\PlayerFootsteps	
+	1837615524	SuitAI			\Default Work Unit\Master Audio Bus\PlayerMaster\SuitAI	
 	2033911932	NPCMaster			\Default Work Unit\Master Audio Bus\NPCMaster	
 	2343802269	PlayerLocomotion			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerLocomotion	
 	2665027521	PlayerWavegun			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerWavegun	
@@ -16,6 +61,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	4133562341	PlayerWaveGunFire			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerWavegun\PlayerWaveGunFire	
 	4152869693	2DAmbientBeds			\Default Work Unit\Master Audio Bus\AmbientMaster\AmbientBeds\2DAmbientBeds	
+	4211641743	LowHealthAmbiance			\Default Work Unit\Master Audio Bus\LowHealthAmbiance	
 	4223059400	Cape			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerAmbiance\Cape	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
@@ -26,6 +72,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
 	1990128658	Room_Medium	Wwise RoomVerb			
 	2995775460	Room_Small	Wwise RoomVerb			
 

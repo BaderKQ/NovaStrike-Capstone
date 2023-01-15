@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3458063322	Play_HealthStatus			\SuitAI\SuitHealth\Play_HealthStatus	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2433516787	HealthSwitches			\AISuit\HealthSwitches	
+
+Switch	ID	Name	Switch Group			Notes
+	545371365	Low	HealthSwitches			
+	1422736200	Stable	HealthSwitches			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	151362964	PlayerHealth			\Default Work Unit\PlayerHealth	
+

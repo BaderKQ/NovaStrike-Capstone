@@ -1,0 +1,95 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\",
+   "SourceFilesRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\NovaStrike\\NovaStrike-Capstone\\NovaStrike-Capstone_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3273552756",
+    "GUID": "{C31E7374-7374-1374-7474-747474747474}",
+    "Language": "SFX",
+    "Hash": "4137805562",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_BDB53A74777A4648848F3FD3AE5C74A7",
+    "ShortName": "SB_BDB53A74777A4648848F3FD3AE5C74A7",
+    "Path": "SB_BDB53A74777A4648848F3FD3AE5C74A7.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "325099330",
+      "Name": "Play_AttackLight",
+      "ObjectPath": "\\Events\\PlayerCombat\\Melee\\Play_AttackLight",
+      "GUID": "{BDB53A74-777A-4648-848F-3FD3AE5C74A7}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.730563",
+      "DurationMax": "1.009833",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "38871183",
+        "Language": "SFX",
+        "ShortName": "-008.wav",
+        "Path": "SFX\\-008_10C4C929.wem"
+       },
+       {
+        "Id": "509653819",
+        "Language": "SFX",
+        "ShortName": "-005.wav",
+        "Path": "SFX\\-005_10C4C929.wem"
+       },
+       {
+        "Id": "580143778",
+        "Language": "SFX",
+        "ShortName": "-002.wav",
+        "Path": "SFX\\-002_10C4C929.wem"
+       },
+       {
+        "Id": "645591439",
+        "Language": "SFX",
+        "ShortName": "-003.wav",
+        "Path": "SFX\\-003_10C4C929.wem"
+       },
+       {
+        "Id": "649911513",
+        "Language": "SFX",
+        "ShortName": "-007.wav",
+        "Path": "SFX\\-007_10C4C929.wem"
+       },
+       {
+        "Id": "713226411",
+        "Language": "SFX",
+        "ShortName": "-004.wav",
+        "Path": "SFX\\-004_10C4C929.wem"
+       },
+       {
+        "Id": "1014988109",
+        "Language": "SFX",
+        "ShortName": "-001.wav",
+        "Path": "SFX\\-001_10C4C929.wem"
+       },
+       {
+        "Id": "1061860930",
+        "Language": "SFX",
+        "ShortName": "-006.wav",
+        "Path": "SFX\\-006_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1330453310",
+        "Name": "ReverbOutdoors",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\ReverbOutdoors",
+        "GUID": "{FE76474F-9CD6-426A-B992-11863F7E5AD7}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
