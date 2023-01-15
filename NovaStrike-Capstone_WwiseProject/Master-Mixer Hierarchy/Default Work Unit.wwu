@@ -33,6 +33,7 @@
 									<ObjectLists/>
 								</Bus>
 								<Bus Name="PlayerCloth" ID="{5674D2BD-BE3C-4F96-8794-DE0014FEBEEB}">
+									<ReferenceList/>
 									<ObjectLists/>
 								</Bus>
 								<Bus Name="PlayerWavegun" ID="{1D49AD7A-DD08-4DC6-951E-3A384E4DE043}">
@@ -75,16 +76,35 @@
 											</ValueList>
 										</Property>
 									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise Meter (Custom)" ID="{D1E62610-6756-4697-880B-2F8A7036DBD8}" ShortID="854147299" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+													<PropertyList>
+														<Property Name="Max" Type="Real32" Value="1"/>
+													</PropertyList>
+													<PluginData>
+	<GameParameter Name="AI_VOEffects" ID="{39197D20-48FF-47E2-8163-F1EC527948F6}"/>
+</PluginData>
+												</Effect>
+											</Custom>
+										</Reference>
+									</ReferenceList>
 									<ObjectLists/>
 								</Bus>
 								<Bus Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}">
 									<PropertyList>
 										<Property Name="BusVolume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
+									<ChildrenList>
+										<Bus Name="Exhaustion" ID="{89BC01DE-5C9F-485B-B0C3-C555204C7078}">
+											<ObjectLists/>
+										</Bus>
+									</ChildrenList>
 									<ObjectLists/>
 								</Bus>
 							</ChildrenList>
@@ -163,9 +183,10 @@
 									<PropertyList>
 										<Property Name="BusVolume" Type="Real64">
 											<ValueList>
-												<Value>-2</Value>
+												<Value>-5</Value>
 											</ValueList>
 										</Property>
+										<Property Name="RecoveryTime" Type="Real64" Value="0"/>
 									</PropertyList>
 									<ObjectLists/>
 								</Bus>
@@ -192,6 +213,17 @@
 								</CustomStateList>
 							</StateInfo>
 							<ObjectLists/>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="AmbientMaster" ID="{094EBDBA-4BAA-449D-96A6-13C31F26533C}"/>
+									<DuckingParam>
+										<Volume>-6</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>2</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
 						</Bus>
 						<AuxBus Name="Reverb" ID="{EBCAA468-A256-4FEE-97B1-1C80279A2063}">
 							<ChildrenList>

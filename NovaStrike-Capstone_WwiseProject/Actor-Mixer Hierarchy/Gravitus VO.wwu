@@ -10,6 +10,7 @@
 								<Value>100</Value>
 							</ValueList>
 						</Property>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>7</Value>
@@ -40,14 +41,25 @@
 					<ChildrenList>
 						<Sound Name="Exhaustion Loop" ID="{FD8FBA1C-A2A2-4F78-BF32-6D1E8B61D7F2}" ShortID="457975922">
 							<PropertyList>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+									<ObjectRef Name="Exhaustion" ID="{89BC01DE-5C9F-485B-B0C3-C555204C7078}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -271,6 +283,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="-028" ID="{6433AAF5-F127-4B54-B43F-93D9A5E6BC0F}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0985846153846154"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0276923076923077"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Heavy Grunt Confirm 1\-028.wav</AudioFile>
 											<MediaIDList>
@@ -330,6 +347,12 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="-030" ID="{48EC1E06-0454-43E5-9207-B24307F3CD63}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0963202838827839"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.170142399267399"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.044996336996337"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Heavy Grunt Confirm 3\-030.wav</AudioFile>
 											<MediaIDList>
@@ -353,6 +376,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="-031" ID="{167EF5EA-1B82-4BD3-804F-737208E97BCD}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.251181043956044"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.127793864468864"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Heavy Grunt Confirm 4\-031.wav</AudioFile>
 											<MediaIDList>
@@ -707,6 +735,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Light Grunt Confirm 1" ID="{EE6AB465-2A64-47C8-97AB-4BC53D1BB9E6}" ShortID="993378645">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -845,6 +880,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Light Grunt Confirm 7" ID="{8EF1B9AE-59FE-4A75-974E-7635AA3ED37B}" ShortID="283666369">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -868,6 +910,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Light Grunt Confirm 8" ID="{4A01B7FE-3DEA-4CEA-BDF1-5136A2EEB50D}" ShortID="1008007049">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -891,6 +940,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Light Grunt Confirm 9" ID="{9431E64D-204A-4CFC-991B-EB350B7F6FBD}" ShortID="390955463">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -986,6 +1042,14 @@
 							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{011B3A20-1C96-4B26-B862-D9D057DC151E}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="-31.0536044362292"/>
+								<Property Name="PanY" Type="Real64" Value="21.1576846307385"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
 					<ObjectLists/>
 				</ActorMixer>
 			</ChildrenList>

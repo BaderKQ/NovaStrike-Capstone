@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4847BF68-211D-4B20-A887-2B5DFDA3E76A}" SchemaVersion="103" RootDocumentID="{1B650CD5-529C-402E-96DC-F8CC47B10B1B}" ParentDocumentID="{1B650CD5-529C-402E-96DC-F8CC47B10B1B}">
+	<DynamicDialogue>
+		<WorkUnit Name="SuitAI" ID="{4847BF68-211D-4B20-A887-2B5DFDA3E76A}" OwnerID="{1B650CD5-529C-402E-96DC-F8CC47B10B1B}" PersistMode="Nested">
+			<ChildrenList>
+				<DialogueEvent Name="Dialog_Debug" ID="{600E26BE-F19D-4D23-8481-5DD5BBCA6761}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</DynamicDialogue>
+</WwiseDocument>

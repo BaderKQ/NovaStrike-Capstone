@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1B650CD5-529C-402E-96DC-F8CC47B10B1B}" SchemaVersion="103">
 	<DynamicDialogue>
-		<WorkUnit Name="Default Work Unit" ID="{1B650CD5-529C-402E-96DC-F8CC47B10B1B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1B650CD5-529C-402E-96DC-F8CC47B10B1B}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="SuitAI" ID="{4847BF68-211D-4B20-A887-2B5DFDA3E76A}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</DynamicDialogue>
 </WwiseDocument>

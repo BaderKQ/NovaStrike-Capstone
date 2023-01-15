@@ -74,7 +74,33 @@
 				</Event>
 				<Event Name="Play_Exhausted" ID="{910E1A35-5382-4722-9B83-42410847324E}">
 					<ChildrenList>
+						<Action Name="" ID="{DDFDABDE-15CF-4CE6-9DD3-2A0756A7767F}" ShortID="327946369">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Exhaustion Loop" ID="{FD8FBA1C-A2A2-4F78-BF32-6D1E8B61D7F2}" WorkUnitID="{AA6BA01B-3652-4A42-BF08-A409270614A9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{28041B26-179F-4F5E-A68C-A891201A50BD}" ShortID="110538518">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Exhaustion Loop" ID="{FD8FBA1C-A2A2-4F78-BF32-6D1E8B61D7F2}" WorkUnitID="{AA6BA01B-3652-4A42-BF08-A409270614A9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CB5F16D8-F573-4429-86C5-997A3EFFBE27}" ShortID="1040185193">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Exhaustion Loop" ID="{FD8FBA1C-A2A2-4F78-BF32-6D1E8B61D7F2}" WorkUnitID="{AA6BA01B-3652-4A42-BF08-A409270614A9}"/>

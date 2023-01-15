@@ -79,6 +79,10 @@
 							<GameParameterRef Name="PlayerHealth" ID="{B6DD977A-F110-47D2-85FA-818D582C23D2}"/>
 							<Value>0.25</Value>
 						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="AI_VOEffects" ID="{39197D20-48FF-47E2-8163-F1EC527948F6}"/>
+							<Value>1</Value>
+						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Stable" ID="{7065E30F-FAE2-4F54-8D82-EAF6FA8CB343}"/>

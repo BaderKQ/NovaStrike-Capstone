@@ -9,7 +9,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+							<ObjectRef Name="SuitAI" ID="{CD7F8BD4-2D13-434C-8F67-5CB44B1DE0D0}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -35,6 +35,20 @@
 							<ActiveSourceList>
 								<ActiveSource Name="Debug Subtitles" ID="{404DAB8A-5D9C-4BE0-9032-5680EB66BEC0}" Platform="Linked"/>
 							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DebugSub" ID="{B1F1A74E-8CC6-41F5-B979-D4546263C84D}" ShortID="970106961">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
 						</Sound>
 					</ChildrenList>
 					<ObjectLists/>
