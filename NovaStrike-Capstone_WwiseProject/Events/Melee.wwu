@@ -30,6 +30,7 @@
 				<WorkUnit Name="SwingLaunch" ID="{8384685B-C51F-4028-9E24-7CF9D40D70E8}" PersistMode="Reference"/>
 				<WorkUnit Name="SwingLight" ID="{1115084B-DB7D-4021-8E2B-56136BDFF1F7}" PersistMode="Reference"/>
 				<WorkUnit Name="Debug" ID="{4303AF45-7DCF-4BC0-9C78-DDEC982D9535}" PersistMode="Reference"/>
+				<WorkUnit Name="GravitusMeleeVO" ID="{5096038B-9C07-4B7C-958E-5BDE8AA30AF9}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

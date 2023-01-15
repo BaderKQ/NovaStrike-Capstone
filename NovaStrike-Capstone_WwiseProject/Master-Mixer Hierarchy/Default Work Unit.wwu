@@ -77,6 +77,9 @@
 									</PropertyList>
 									<ObjectLists/>
 								</Bus>
+								<Bus Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}">
+									<ObjectLists/>
+								</Bus>
 							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>

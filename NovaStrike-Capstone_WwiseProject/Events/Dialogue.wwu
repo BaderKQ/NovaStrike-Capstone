@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{20FB21E8-0FE9-447D-8D1D-A82EB624FD76}" SchemaVersion="103" RootDocumentID="{74543DDB-C211-4169-BE8B-A8EB0D0667CB}" ParentDocumentID="{74543DDB-C211-4169-BE8B-A8EB0D0667CB}">
+	<Events>
+		<WorkUnit Name="Dialogue" ID="{20FB21E8-0FE9-447D-8D1D-A82EB624FD76}" OwnerID="{74543DDB-C211-4169-BE8B-A8EB0D0667CB}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_AI_Debug_Subtitles" ID="{8715A22F-451D-4297-A450-6BD4D73AE802}">
+					<ChildrenList>
+						<Action Name="" ID="{B94E332D-AB7C-457B-8F0F-71DEEB1353B5}" ShortID="263408686">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Debug Subtitles" ID="{4F52FB8A-AF13-4B62-A992-09255E6E1735}" WorkUnitID="{C354EF40-B047-415B-B7E5-E3B7789F664D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

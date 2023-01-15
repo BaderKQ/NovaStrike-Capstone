@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5096038B-9C07-4B7C-958E-5BDE8AA30AF9}" SchemaVersion="103" RootDocumentID="{2D727A53-DD55-4774-BF52-57E0656E1D5A}" ParentDocumentID="{B6C29E51-873B-4F8A-9870-E43FABB28624}">
+	<Events>
+		<WorkUnit Name="GravitusMeleeVO" ID="{5096038B-9C07-4B7C-958E-5BDE8AA30AF9}" OwnerID="{B6C29E51-873B-4F8A-9870-E43FABB28624}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_HeavyGrunt" ID="{A6F2CA93-1ED8-4180-83D1-CA596C37AF21}">
+					<ChildrenList>
+						<Action Name="" ID="{2E0A8185-D1F7-4BE1-BE3B-FF317FBA98C8}" ShortID="70195021">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Heavy Grunt" ID="{5CC726B0-19C8-4D9E-9987-6BF8B0C60E77}" WorkUnitID="{AA6BA01B-3652-4A42-BF08-A409270614A9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HeavyGruntConfirm" ID="{07BFF505-2379-46CE-8DDA-7A676C781C31}">
+					<ChildrenList>
+						<Action Name="" ID="{F5D37566-2446-4949-9C13-9A47C89FFCFF}" ShortID="159057798">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Heavy Grunt Confirm" ID="{BFF0DA78-E500-4332-9488-CDB86B1F143A}" WorkUnitID="{AA6BA01B-3652-4A42-BF08-A409270614A9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_LightGrunt" ID="{76A68724-AA5C-44EF-B9C8-4744C1ACE675}">
+					<ChildrenList>
+						<Action Name="" ID="{16BC8EAF-B74E-46FB-A5B0-AC56DA1CD267}" ShortID="677111063">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Light Grunt" ID="{0574266A-77BE-42A5-AC6C-4E474C477BD6}" WorkUnitID="{AA6BA01B-3652-4A42-BF08-A409270614A9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_LightGruntConfirm" ID="{0D873880-D35C-4549-85A7-01BEFF4F080F}">
+					<ChildrenList>
+						<Action Name="" ID="{6396B4A6-B3D4-4363-AEBE-685D8E6709FD}" ShortID="462983714">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Light Grunt Confirm" ID="{4D4653FF-3AA4-444E-9FEE-63B56F44E272}" WorkUnitID="{AA6BA01B-3652-4A42-BF08-A409270614A9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Injured" ID="{A2492AE2-6523-4B5A-A2E4-2E406C999CDB}">
+					<ChildrenList>
+						<Action Name="" ID="{59180766-5531-447A-A472-3B8EA4769566}" ShortID="470493234">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Injured" ID="{EEB310E8-6006-48A5-B73F-46FE7F9C3503}" WorkUnitID="{AA6BA01B-3652-4A42-BF08-A409270614A9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Exhausted" ID="{910E1A35-5382-4722-9B83-42410847324E}">
+					<ChildrenList>
+						<Action Name="" ID="{28041B26-179F-4F5E-A68C-A891201A50BD}" ShortID="110538518">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Exhaustion Loop" ID="{FD8FBA1C-A2A2-4F78-BF32-6D1E8B61D7F2}" WorkUnitID="{AA6BA01B-3652-4A42-BF08-A409270614A9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

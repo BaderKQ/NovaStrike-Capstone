@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AA6BA01B-3652-4A42-BF08-A409270614A9}" SchemaVersion="103" RootDocumentID="{2353C102-E716-422F-9F91-4241B036806A}" ParentDocumentID="{2D58295D-1A88-4D55-B9F6-A5B8EAFBF76B}">
+	<AudioObjects>
+		<WorkUnit Name="Gravitus VO" ID="{AA6BA01B-3652-4A42-BF08-A409270614A9}" OwnerID="{2D58295D-1A88-4D55-B9F6-A5B8EAFBF76B}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="GravitusMeleeMixer" ID="{153EA510-9DD1-43B1-A381-EEEEB1363860}" ShortID="1008814814">
+					<PropertyList>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{291BF6AF-4E27-4E8E-94BC-1125EDA1BDF6}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-1"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="ReverbOutdoors" ID="{FE76474F-9CD6-426A-B992-11863F7E5AD7}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Exhaustion Loop" ID="{FD8FBA1C-A2A2-4F78-BF32-6D1E8B61D7F2}" ShortID="457975922">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="-037" ID="{722236A0-54DA-4970-A74A-FEA3C6E8AF89}">
+									<Language>SFX</Language>
+									<AudioFile>Exhaustion Loop\-037.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="102227114"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="-037" ID="{722236A0-54DA-4970-A74A-FEA3C6E8AF89}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Heavy Grunt" ID="{5CC726B0-19C8-4D9E-9987-6BF8B0C60E77}" ShortID="361997532">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Heavy Grunt 1" ID="{24BF8352-5E69-4993-9702-72B6620C5BCF}" ShortID="1060951341">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-009" ID="{B36B13CE-28B6-4672-9AC8-46459868597F}">
+											<Language>SFX</Language>
+											<AudioFile>Heavy Grunt 1\-009.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="791601451"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-009" ID="{B36B13CE-28B6-4672-9AC8-46459868597F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Heavy Grunt 2" ID="{3E43FE29-85B9-4496-8CA7-5AF4534097D8}" ShortID="365842618">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-010" ID="{7BF0F636-4DCB-4A67-A764-61D40B9F4372}">
+											<Language>SFX</Language>
+											<AudioFile>Heavy Grunt 2\-010.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="157358296"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-010" ID="{7BF0F636-4DCB-4A67-A764-61D40B9F4372}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Heavy Grunt 3" ID="{A5E4D99C-E4F9-484B-A401-62AC98E4C685}" ShortID="216911769">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-011" ID="{48DB82A3-745D-4EDB-9745-FCB4268BB105}">
+											<Language>SFX</Language>
+											<AudioFile>Heavy Grunt 3\-011.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="600279479"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-011" ID="{48DB82A3-745D-4EDB-9745-FCB4268BB105}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Heavy Grunt 4" ID="{B0F7BE4D-E0EF-45AD-BBCC-E6F4464D7AFC}" ShortID="861708483">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-012" ID="{666F9040-E0BB-4D03-A12E-8DDA408D9B6A}">
+											<Language>SFX</Language>
+											<AudioFile>Heavy Grunt 4\-012.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="501008095"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-012" ID="{666F9040-E0BB-4D03-A12E-8DDA408D9B6A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Heavy Grunt 5" ID="{03AAC455-1113-4A18-8F2E-C0E7B15AFEFB}" ShortID="864858330">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-013" ID="{26F85281-6742-480C-A322-21D2791C6C91}">
+											<Language>SFX</Language>
+											<AudioFile>Heavy Grunt 5\-013.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="180121162"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-013" ID="{26F85281-6742-480C-A322-21D2791C6C91}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Heavy Grunt 6" ID="{28A027AC-C4C2-4EC4-8EBA-7CC34C5C4D39}" ShortID="964221152">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-014" ID="{ED0A09D6-2B43-446E-B132-8AE9440C7F77}">
+											<Language>SFX</Language>
+											<AudioFile>Heavy Grunt 6\-014.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="824335812"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-014" ID="{ED0A09D6-2B43-446E-B132-8AE9440C7F77}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Heavy Grunt 7" ID="{CC99490A-5BA7-4D73-84CA-F10406A4D939}" ShortID="720404528">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-015" ID="{BD7DD13F-718F-49B2-A6CD-F9EBFC0F26D4}">
+											<Language>SFX</Language>
+											<AudioFile>Heavy Grunt 7\-015.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="668944030"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-015" ID="{BD7DD13F-718F-49B2-A6CD-F9EBFC0F26D4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Heavy Grunt Confirm" ID="{BFF0DA78-E500-4332-9488-CDB86B1F143A}" ShortID="1000283674">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Heavy Grunt Confirm 1" ID="{80CBE215-4DB7-45FC-9EA3-B972E766E41E}" ShortID="887734713">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-028" ID="{6433AAF5-F127-4B54-B43F-93D9A5E6BC0F}">
+											<Language>SFX</Language>
+											<AudioFile>Heavy Grunt Confirm 1\-028.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="727571780"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-028" ID="{6433AAF5-F127-4B54-B43F-93D9A5E6BC0F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Heavy Grunt Confirm 2" ID="{C79461D0-6D97-4E0C-984A-BD10C10168DF}" ShortID="743045000">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-029" ID="{0059F6A2-A6CD-4671-90A0-DEC4D31887FC}">
+											<Language>SFX</Language>
+											<AudioFile>Heavy Grunt Confirm 2\-029.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="148253273"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-029" ID="{0059F6A2-A6CD-4671-90A0-DEC4D31887FC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Heavy Grunt Confirm 3" ID="{FCDE7159-54D9-470A-9C24-DC7429BF3B44}" ShortID="862586421">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-030" ID="{48EC1E06-0454-43E5-9207-B24307F3CD63}">
+											<Language>SFX</Language>
+											<AudioFile>Heavy Grunt Confirm 3\-030.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="297914475"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-030" ID="{48EC1E06-0454-43E5-9207-B24307F3CD63}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Heavy Grunt Confirm 4" ID="{421C4887-0F6D-4594-895B-0DCFC4B9AFFE}" ShortID="569987930">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-031" ID="{167EF5EA-1B82-4BD3-804F-737208E97BCD}">
+											<Language>SFX</Language>
+											<AudioFile>Heavy Grunt Confirm 4\-031.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="725957601"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-031" ID="{167EF5EA-1B82-4BD3-804F-737208E97BCD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Injured" ID="{EEB310E8-6006-48A5-B73F-46FE7F9C3503}" ShortID="991416916">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Injured 1" ID="{D38A2735-87D0-4A85-BA13-3EF5DC5433FF}" ShortID="1063863273">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-032" ID="{D8660354-4E43-412F-B0D1-DD872AC81FFE}">
+											<Language>SFX</Language>
+											<AudioFile>Injured 1\-032.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="496318734"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-032" ID="{D8660354-4E43-412F-B0D1-DD872AC81FFE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Injured 2" ID="{A0235F8A-7E33-4D58-9130-3DD4626A3D58}" ShortID="543778164">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-033" ID="{C6A8FA52-1CFB-407C-A616-E4306D8A7E0C}">
+											<Language>SFX</Language>
+											<AudioFile>Injured 2\-033.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="331192909"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-033" ID="{C6A8FA52-1CFB-407C-A616-E4306D8A7E0C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Injured 3" ID="{02CE0337-521F-4957-B183-9FDCE98F670F}" ShortID="125889913">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-034" ID="{6360E35E-45E6-472A-A26E-8B1818F548D6}">
+											<Language>SFX</Language>
+											<AudioFile>Injured 3\-034.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="519462166"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-034" ID="{6360E35E-45E6-472A-A26E-8B1818F548D6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Injured 4" ID="{B0274FD5-E934-4C9D-82E2-E18F99D35EE5}" ShortID="272002459">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-035" ID="{E79CE0CE-BA72-4B19-95EF-D00BFB5C0597}">
+											<Language>SFX</Language>
+											<AudioFile>Injured 4\-035.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="65876411"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-035" ID="{E79CE0CE-BA72-4B19-95EF-D00BFB5C0597}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Injured 5" ID="{323CA3F5-EC12-4C3B-9381-915ABBDA89C0}" ShortID="926543287">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-036" ID="{CBEFBC0D-D315-477C-BDEA-CA662D8FB9E5}">
+											<Language>SFX</Language>
+											<AudioFile>Injured 5\-036.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="999222285"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-036" ID="{CBEFBC0D-D315-477C-BDEA-CA662D8FB9E5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Light Grunt" ID="{0574266A-77BE-42A5-AC6C-4E474C477BD6}" ShortID="622299513">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Light Grunt 1" ID="{AEBC3ADA-62E4-44C2-8EF3-54945C9A9264}" ShortID="257449711">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-001" ID="{CA213C03-91D9-43F3-9A51-486CA49FF745}">
+											<Language>SFX</Language>
+											<AudioFile>Light Grunt 1\-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="862919543"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-001" ID="{CA213C03-91D9-43F3-9A51-486CA49FF745}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Light Grunt 2" ID="{98FEB7DA-D206-4C05-A0D1-322269274E0A}" ShortID="388459183">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-002" ID="{F226372E-3FC5-429B-BEEF-945CAD9C546E}">
+											<Language>SFX</Language>
+											<AudioFile>Light Grunt 2\-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1071147731"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-002" ID="{F226372E-3FC5-429B-BEEF-945CAD9C546E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Light Grunt 3" ID="{E985F880-FE55-4242-AD64-91B0E5404BF9}" ShortID="1009476744">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-003" ID="{0D9E34C5-B846-45C1-B18D-4E1699CA58CF}">
+											<Language>SFX</Language>
+											<AudioFile>Light Grunt 3\-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="300463064"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-003" ID="{0D9E34C5-B846-45C1-B18D-4E1699CA58CF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Light Grunt 4" ID="{5DB6B8E1-0764-441B-846E-F09F76F4EBB4}" ShortID="121239720">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-004" ID="{18BAAC18-EFC7-44D8-AA36-336E7113667B}">
+											<Language>SFX</Language>
+											<AudioFile>Light Grunt 4\-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="650838910"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-004" ID="{18BAAC18-EFC7-44D8-AA36-336E7113667B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Light Grunt 5" ID="{2DE46CF1-F1C4-4BCA-9A36-0370B173CA24}" ShortID="675670843">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-005" ID="{D22E0457-BF68-46D9-8ABD-97F5BB844311}">
+											<Language>SFX</Language>
+											<AudioFile>Light Grunt 5\-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="294302560"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-005" ID="{D22E0457-BF68-46D9-8ABD-97F5BB844311}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Light Grunt 6" ID="{84F91032-615C-4100-A8BF-DF4838EC1698}" ShortID="515464983">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-006" ID="{97078BE4-412F-48D5-82DE-C692EBEC7E74}">
+											<Language>SFX</Language>
+											<AudioFile>Light Grunt 6\-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="782041682"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-006" ID="{97078BE4-412F-48D5-82DE-C692EBEC7E74}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Light Grunt 7" ID="{EBCFF604-16F5-45B3-B3EE-0833D2F14083}" ShortID="1038181246">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-007" ID="{D101DC40-FAB7-426E-881E-CCC60B4D49EA}">
+											<Language>SFX</Language>
+											<AudioFile>Light Grunt 7\-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="289445165"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-007" ID="{D101DC40-FAB7-426E-881E-CCC60B4D49EA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Light Grunt 8" ID="{970D0FE2-19D3-452B-A8D3-22E8827251FE}" ShortID="689832030">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-008" ID="{25916785-E945-43AF-B80B-F31D42B2B989}">
+											<Language>SFX</Language>
+											<AudioFile>Light Grunt 8\-008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="21593280"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-008" ID="{25916785-E945-43AF-B80B-F31D42B2B989}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Light Grunt Confirm" ID="{4D4653FF-3AA4-444E-9FEE-63B56F44E272}" ShortID="376064026">
+							<PropertyList>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Light Grunt Confirm 1" ID="{EE6AB465-2A64-47C8-97AB-4BC53D1BB9E6}" ShortID="993378645">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-016" ID="{9E6B7722-404C-4AED-96F7-7F824CCE5C1B}">
+											<Language>SFX</Language>
+											<AudioFile>Light Grunt Confirm 1\-016.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="590327095"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-016" ID="{9E6B7722-404C-4AED-96F7-7F824CCE5C1B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Light Grunt Confirm 2" ID="{BABF8D64-EBCF-4DBD-96A3-29582CA26E30}" ShortID="459797958">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-017" ID="{0A9A625E-DCE4-4C2C-912E-538AF83F75FA}">
+											<Language>SFX</Language>
+											<AudioFile>Light Grunt Confirm 2\-017.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="37034537"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-017" ID="{0A9A625E-DCE4-4C2C-912E-538AF83F75FA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Light Grunt Confirm 3" ID="{A2BB4C59-E809-4611-A279-AEE03D170400}" ShortID="29566332">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-018" ID="{4741E468-0F31-4671-B906-A3E77CB25004}">
+											<Language>SFX</Language>
+											<AudioFile>Light Grunt Confirm 3\-018.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="52109218"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-018" ID="{4741E468-0F31-4671-B906-A3E77CB25004}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Light Grunt Confirm 4" ID="{CF936475-929B-4FD2-91FE-E11F16A95044}" ShortID="161028642">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-019" ID="{3540D9DC-50BA-4315-90E3-02090B790D4C}">
+											<Language>SFX</Language>
+											<AudioFile>Light Grunt Confirm 4\-019.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="86567352"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-019" ID="{3540D9DC-50BA-4315-90E3-02090B790D4C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Light Grunt Confirm 5" ID="{9C4AFA3F-9E2A-4ED0-9E43-7D0C41F9A66D}" ShortID="755194755">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-020" ID="{E3DBCB86-86E7-4C8E-ACC1-7034C4AEB692}">
+											<Language>SFX</Language>
+											<AudioFile>Light Grunt Confirm 5\-020.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="354513204"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-020" ID="{E3DBCB86-86E7-4C8E-ACC1-7034C4AEB692}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Light Grunt Confirm 6" ID="{471F474B-3E28-43D9-BF0E-1ECBB87C0DFB}" ShortID="140009544">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-021" ID="{46E9BFE4-9278-4392-B1C9-7D8D1B416E5C}">
+											<Language>SFX</Language>
+											<AudioFile>Light Grunt Confirm 6\-021.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="755616884"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-021" ID="{46E9BFE4-9278-4392-B1C9-7D8D1B416E5C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Light Grunt Confirm 7" ID="{8EF1B9AE-59FE-4A75-974E-7635AA3ED37B}" ShortID="283666369">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-022" ID="{0191075A-3A3C-4BA3-BF8F-E054DDBD9BFE}">
+											<Language>SFX</Language>
+											<AudioFile>Light Grunt Confirm 7\-022.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1064872668"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-022" ID="{0191075A-3A3C-4BA3-BF8F-E054DDBD9BFE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Light Grunt Confirm 8" ID="{4A01B7FE-3DEA-4CEA-BDF1-5136A2EEB50D}" ShortID="1008007049">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-023" ID="{4D554AC0-1C42-4E27-9870-83B9EDE7A4D1}">
+											<Language>SFX</Language>
+											<AudioFile>Light Grunt Confirm 8\-023.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="541125425"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-023" ID="{4D554AC0-1C42-4E27-9870-83B9EDE7A4D1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Light Grunt Confirm 9" ID="{9431E64D-204A-4CFC-991B-EB350B7F6FBD}" ShortID="390955463">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-024" ID="{2B5D69F6-BE2D-4D62-86FC-6AA1B17139A7}">
+											<Language>SFX</Language>
+											<AudioFile>Light Grunt Confirm 9\-024.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="973359529"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-024" ID="{2B5D69F6-BE2D-4D62-86FC-6AA1B17139A7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Light Grunt Confirm 10" ID="{A2BD68E2-FE00-4749-8578-DB528371732D}" ShortID="336204646">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-025" ID="{5CA09FA9-85D6-4631-B364-4DFA4D1A078B}">
+											<Language>SFX</Language>
+											<AudioFile>Light Grunt Confirm 10\-025.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="399922565"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-025" ID="{5CA09FA9-85D6-4631-B364-4DFA4D1A078B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Light Grunt Confirm 11" ID="{2E1135DD-62AA-4E57-974D-68A6808E8196}" ShortID="51311647">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-026" ID="{E356C18B-4837-4422-B1A6-78422946290C}">
+											<Language>SFX</Language>
+											<AudioFile>Light Grunt Confirm 11\-026.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1065619600"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-026" ID="{E356C18B-4837-4422-B1A6-78422946290C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Light Grunt Confirm 12" ID="{C1D884A6-A498-4833-9F24-D9CDB125E2AB}" ShortID="939374626">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="-027" ID="{F31D3632-8946-42A5-841D-3078280DC853}">
+											<Language>SFX</Language>
+											<AudioFile>Light Grunt Confirm 12\-027.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="515560203"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="-027" ID="{F31D3632-8946-42A5-841D-3078280DC853}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

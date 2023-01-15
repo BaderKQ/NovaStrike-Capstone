@@ -42,17 +42,30 @@
 				</SoundBank>
 				<SoundBank Name="GravitusMelee" ID="{90F895D2-1DF9-488E-8932-0D5EFF01DB0D}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_HeavyGrunt" ID="{A6F2CA93-1ED8-4180-83D1-CA596C37AF21}" WorkUnitID="{5096038B-9C07-4B7C-958E-5BDE8AA30AF9}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SwingLight1" ID="{879FBCC0-5233-42CD-B659-B31A3C9A516F}" WorkUnitID="{1115084B-DB7D-4021-8E2B-56136BDFF1F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SwingLaunch3" ID="{7EA3F774-DEF1-4344-9A58-0E162490689A}" WorkUnitID="{8384685B-C51F-4028-9E24-7CF9D40D70E8}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SwingLight2" ID="{D6E47159-6726-435D-B533-8BA8C81E772C}" WorkUnitID="{1115084B-DB7D-4021-8E2B-56136BDFF1F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_LightGrunt" ID="{76A68724-AA5C-44EF-B9C8-4744C1ACE675}" WorkUnitID="{5096038B-9C07-4B7C-958E-5BDE8AA30AF9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_LightGruntConfirm" ID="{0D873880-D35C-4549-85A7-01BEFF4F080F}" WorkUnitID="{5096038B-9C07-4B7C-958E-5BDE8AA30AF9}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SwingLight3" ID="{1120D61F-81EC-458E-A96A-2214B7FBB8CA}" WorkUnitID="{1115084B-DB7D-4021-8E2B-56136BDFF1F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AttackLight" ID="{BDB53A74-777A-4648-848F-3FD3AE5C74A7}" WorkUnitID="{B6C29E51-873B-4F8A-9870-E43FABB28624}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SwingLaunch1" ID="{AB9CBB4C-FE9E-4652-83C9-0C1995709E3D}" WorkUnitID="{8384685B-C51F-4028-9E24-7CF9D40D70E8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HeavyGruntConfirm" ID="{07BFF505-2379-46CE-8DDA-7A676C781C31}" WorkUnitID="{5096038B-9C07-4B7C-958E-5BDE8AA30AF9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Exhausted" ID="{910E1A35-5382-4722-9B83-42410847324E}" WorkUnitID="{5096038B-9C07-4B7C-958E-5BDE8AA30AF9}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Execution_B" ID="{F402F6B0-4BCF-488E-98C1-376D06014A83}" WorkUnitID="{4C610E92-6CFE-494A-B84C-D4BD6B2A9D41}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Execution_A" ID="{AF196FFD-AD61-4A5F-ACF3-9C13C337A774}" WorkUnitID="{4C610E92-6CFE-494A-B84C-D4BD6B2A9D41}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AttackHeavy" ID="{3C69F7F7-252D-4A8C-8AAB-A2A5B8EAA952}" WorkUnitID="{B6C29E51-873B-4F8A-9870-E43FABB28624}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Injured" ID="{A2492AE2-6523-4B5A-A2E4-2E406C999CDB}" WorkUnitID="{5096038B-9C07-4B7C-958E-5BDE8AA30AF9}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SwingLaunch2" ID="{179C6178-3C44-4D76-9DFF-F49FADD96581}" WorkUnitID="{8384685B-C51F-4028-9E24-7CF9D40D70E8}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Execution_C" ID="{3C7E230F-0FD2-4ED0-BFD4-35F3FB73511F}" WorkUnitID="{4C610E92-6CFE-494A-B84C-D4BD6B2A9D41}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Dialogue" ID="{4ACB0E8A-A30E-4A34-95E0-B7E31D62E311}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_AI_Debug_Subtitles" ID="{8715A22F-451D-4297-A450-6BD4D73AE802}" WorkUnitID="{20FB21E8-0FE9-447D-8D1D-A82EB624FD76}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

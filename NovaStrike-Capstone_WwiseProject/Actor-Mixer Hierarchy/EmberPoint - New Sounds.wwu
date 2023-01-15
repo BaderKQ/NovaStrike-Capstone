@@ -4,6 +4,8 @@
 		<WorkUnit Name="EmberPoint - New Sounds" ID="{2353C102-E716-422F-9F91-4241B036806A}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="Gravitus Melee Attacks" ID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}" PersistMode="Reference"/>
+				<WorkUnit Name="Gravitus" ID="{2D58295D-1A88-4D55-B9F6-A5B8EAFBF76B}" PersistMode="Reference"/>
+				<WorkUnit Name="AI VO" ID="{9B1820D0-F7B3-4C89-82A7-D8915F55E4D2}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

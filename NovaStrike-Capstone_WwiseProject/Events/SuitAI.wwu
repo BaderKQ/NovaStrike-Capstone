@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<WorkUnit Name="SuitEnergy" ID="{1ACC8EAC-D454-414D-8A75-CF6B4C5EAC90}" PersistMode="Reference"/>
 				<WorkUnit Name="SuitHealth" ID="{07B82889-94CC-4D8B-A757-AEC5E39D7259}" PersistMode="Reference"/>
+				<WorkUnit Name="Dialogue" ID="{20FB21E8-0FE9-447D-8D1D-A82EB624FD76}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
