@@ -34,6 +34,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{B55821BC-A21D-40F3-BD50-FECEADC0BC1A}" ShortID="47397797">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Saideed Hit" ID="{EBF823E2-597A-4A45-857D-174141B66BD7}" WorkUnitID="{11A65CD9-A556-4F21-AEFD-C5381C8349AB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_AttackHeavy" ID="{3C69F7F7-252D-4A8C-8AAB-A2A5B8EAA952}">
@@ -87,6 +94,13 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Play_HeavyGruntConfirm" ID="{07BFF505-2379-46CE-8DDA-7A676C781C31}" WorkUnitID="{5096038B-9C07-4B7C-958E-5BDE8AA30AF9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F098F865-2499-46FF-98B1-53CEC3049F9F}" ShortID="446647034">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Saideed Hit" ID="{EBF823E2-597A-4A45-857D-174141B66BD7}" WorkUnitID="{11A65CD9-A556-4F21-AEFD-C5381C8349AB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -5,18 +5,17 @@
 			<ChildrenList>
 				<ActorMixer Name="Saideed Actions" ID="{4D649C29-FC8F-4995-9F29-541C04EEE3DE}" ShortID="545994607">
 					<PropertyList>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-5</Value>
-							</ValueList>
-						</Property>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="25 Meters" ID="{A4BB139D-43DB-4932-8168-E1CC53F75CA2}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+							<ObjectRef Name="EnemySFX" ID="{6696559A-C411-44CF-8839-76CB8B4C7F88}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -36,6 +35,9 @@
 									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{C2FF3C85-2B96-456F-B7F0-372BB484D183}">
@@ -258,7 +260,46 @@
 							<ObjectLists/>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Saideed Hit" ID="{EBF823E2-597A-4A45-857D-174141B66BD7}" ShortID="670412736">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>580</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A5580876-A3BE-4046-8E82-50F9CE3D47AC}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="202"/>
+													<Property Name="Min" Type="Real64" Value="-101"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B4099E93-014B-4F32-9B07-963258D13AAD}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="25 Meters" ID="{A4BB139D-43DB-4932-8168-E1CC53F75CA2}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
 								</Reference>
@@ -554,6 +595,237 @@
 									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Saideed Swing - 4" ID="{2C297991-3D52-411E-B7AA-EECFD9207500}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Saideed Hit Long" ID="{AB47DC40-0D65-462E-968D-F533F451A8D6}" ShortID="656534398">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{39812ECE-6C40-4A8C-8DDA-133903A3DE18}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="202"/>
+													<Property Name="Min" Type="Real64" Value="-101"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A27D3D37-20CE-4FF7-8488-36087A98D106}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="25 Meters" ID="{A4BB139D-43DB-4932-8168-E1CC53F75CA2}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="EnemySFX" ID="{6696559A-C411-44CF-8839-76CB8B4C7F88}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Saideed Hit - 1" ID="{5884988F-6D8B-4CEC-9BC2-C4F08669AC43}" ShortID="581295533">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saideed Hit - 1" ID="{3F472C14-16D8-4505-859A-1FE651413894}">
+											<Language>SFX</Language>
+											<AudioFile>Saideed Noises\Hit\Saideed Hit - 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="287070893"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Saideed Hit - 1" ID="{3F472C14-16D8-4505-859A-1FE651413894}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Saideed Hit - 2" ID="{838C4F71-F9C6-4B10-B391-589305615A34}" ShortID="747637283">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saideed Hit - 2" ID="{DA711892-D616-4D64-BD30-78E06FABECE8}">
+											<Language>SFX</Language>
+											<AudioFile>Saideed Noises\Hit\Saideed Hit - 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="142687313"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Saideed Hit - 2" ID="{DA711892-D616-4D64-BD30-78E06FABECE8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Saideed Hit - 3" ID="{88D4CAC5-57BB-44DB-A057-DF861167FDAB}" ShortID="59326147">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saideed Hit - 3" ID="{A79DB10A-FFE8-46B3-A363-E190E8A6D207}">
+											<Language>SFX</Language>
+											<AudioFile>Saideed Noises\Hit\Saideed Hit - 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="601437060"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Saideed Hit - 3" ID="{A79DB10A-FFE8-46B3-A363-E190E8A6D207}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Saideed Hit - 4" ID="{70EBD84C-287B-46F8-96E7-3B5ACBE3724E}" ShortID="502801868">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saideed Hit - 4" ID="{797930EE-7915-4B82-8A87-1592AA97C43D}">
+											<Language>SFX</Language>
+											<AudioFile>Saideed Noises\Hit\Saideed Hit - 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="283434337"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Saideed Hit - 4" ID="{797930EE-7915-4B82-8A87-1592AA97C43D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Saideed Hit - 5" ID="{69F6A14C-FE61-452E-95A4-394BBA43D721}" ShortID="118715615">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saideed Hit - 5" ID="{924CE8EA-2179-4E35-B568-4F07AB2F30DB}">
+											<Language>SFX</Language>
+											<AudioFile>Saideed Noises\Hit\Saideed Hit - 5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="295650557"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Saideed Hit - 5" ID="{924CE8EA-2179-4E35-B568-4F07AB2F30DB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Saideed Hit - 6" ID="{DFE6A263-38A0-48CC-84BA-A4883BAFB15E}" ShortID="304178885">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saideed Hit - 6" ID="{2A150FF4-81FA-4923-8FEB-AEC0A63CF158}">
+											<Language>SFX</Language>
+											<AudioFile>Saideed Noises\Hit\Saideed Hit - 6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="903160509"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Saideed Hit - 6" ID="{2A150FF4-81FA-4923-8FEB-AEC0A63CF158}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Saideed Hit - 7" ID="{6EA67BC4-CA45-496E-BF0D-64662C0E8E71}" ShortID="913946754">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saideed Hit - 7" ID="{ADBF2C56-C36F-4D5F-8BCE-3EBE55D7842C}">
+											<Language>SFX</Language>
+											<AudioFile>Saideed Noises\Hit\Saideed Hit - 7.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="855736734"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Saideed Hit - 7" ID="{ADBF2C56-C36F-4D5F-8BCE-3EBE55D7842C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Saideed Hit - 8" ID="{354A1AB9-36E2-4BCF-8702-9D894C167CCC}" ShortID="943135937">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saideed Hit - 8" ID="{EE4DDD73-15D4-44DB-9837-9A7E9208BD73}">
+											<Language>SFX</Language>
+											<AudioFile>Saideed Noises\Hit\Saideed Hit - 8.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="904460127"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Saideed Hit - 8" ID="{EE4DDD73-15D4-44DB-9837-9A7E9208BD73}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

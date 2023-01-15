@@ -47,6 +47,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Saideed_Hit_Long" ID="{D44A107B-5A31-44F9-A4B0-ECCB52F98DC9}">
+					<ChildrenList>
+						<Action Name="" ID="{769C92D5-57D4-4395-9FAD-68A32DB2CDFD}" ShortID="900797221">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Saideed Hit Long" ID="{AB47DC40-0D65-462E-968D-F533F451A8D6}" WorkUnitID="{11A65CD9-A556-4F21-AEFD-C5381C8349AB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

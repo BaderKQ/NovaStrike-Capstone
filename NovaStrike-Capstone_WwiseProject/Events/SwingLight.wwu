@@ -35,6 +35,17 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{75A14BB8-683B-440E-BE34-986DCA1EEB4D}" ShortID="177630255">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Exhaustion Loop" ID="{FD8FBA1C-A2A2-4F78-BF32-6D1E8B61D7F2}" WorkUnitID="{AA6BA01B-3652-4A42-BF08-A409270614A9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_SwingLight2" ID="{D6E47159-6726-435D-B533-8BA8C81E772C}">
@@ -57,6 +68,17 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{BF50EB9B-11F3-4C27-AE1C-04CF9B7F2B4E}" ShortID="666622398">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Exhaustion Loop" ID="{FD8FBA1C-A2A2-4F78-BF32-6D1E8B61D7F2}" WorkUnitID="{AA6BA01B-3652-4A42-BF08-A409270614A9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_SwingLight3" ID="{1120D61F-81EC-458E-A96A-2214B7FBB8CA}">
@@ -76,6 +98,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Play_LightGrunt" ID="{76A68724-AA5C-44EF-B9C8-4744C1ACE675}" WorkUnitID="{5096038B-9C07-4B7C-958E-5BDE8AA30AF9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8634C4F6-C3F8-423E-8F7D-FF0001F712E3}" ShortID="201371973">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Exhaustion Loop" ID="{FD8FBA1C-A2A2-4F78-BF32-6D1E8B61D7F2}" WorkUnitID="{AA6BA01B-3652-4A42-BF08-A409270614A9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

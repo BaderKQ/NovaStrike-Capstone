@@ -33,7 +33,6 @@
 									<ObjectLists/>
 								</Bus>
 								<Bus Name="PlayerCloth" ID="{5674D2BD-BE3C-4F96-8794-DE0014FEBEEB}">
-									<ReferenceList/>
 									<ObjectLists/>
 								</Bus>
 								<Bus Name="PlayerWavegun" ID="{1D49AD7A-DD08-4DC6-951E-3A384E4DE043}">
@@ -177,6 +176,13 @@
 						<Bus Name="Combat" ID="{72AC963F-4D84-4D0F-A4D2-F6D6CBCF2452}">
 							<ChildrenList>
 								<Bus Name="EnemySFX" ID="{6696559A-C411-44CF-8839-76CB8B4C7F88}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ObjectLists/>
 								</Bus>
 								<Bus Name="PlayerCombat" ID="{2C1862CC-BC02-4FF6-9193-8128FDEE7694}">
