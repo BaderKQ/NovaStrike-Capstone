@@ -6,6 +6,10 @@
 				<WorkUnit Name="Gravitus Melee Attacks" ID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}" PersistMode="Reference"/>
 				<WorkUnit Name="Gravitus" ID="{2D58295D-1A88-4D55-B9F6-A5B8EAFBF76B}" PersistMode="Reference"/>
 				<WorkUnit Name="AI VO" ID="{9B1820D0-F7B3-4C89-82A7-D8915F55E4D2}" PersistMode="Reference"/>
+				<WorkUnit Name="Wavegun" ID="{3E7C665A-BABA-4D6C-A32F-DE9EC852FB9E}" PersistMode="Reference"/>
+				<WorkUnit Name="Leech Workunit" ID="{2E4E5E20-CEC7-4F36-8779-D310759D7C13}" PersistMode="Reference"/>
+				<WorkUnit Name="Emberpoint Foley" ID="{2A1D246C-CFAB-4139-B7F1-3A7A53CADF27}" PersistMode="Reference"/>
+				<WorkUnit Name="Emberpoint Enemy General SFX" ID="{01B54FBF-130D-4914-B85B-9C4DAD17CD72}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2E4E5E20-CEC7-4F36-8779-D310759D7C13}" SchemaVersion="103" RootDocumentID="{2353C102-E716-422F-9F91-4241B036806A}" ParentDocumentID="{2353C102-E716-422F-9F91-4241B036806A}">
+	<AudioObjects>
+		<WorkUnit Name="Leech Workunit" ID="{2E4E5E20-CEC7-4F36-8779-D310759D7C13}" OwnerID="{2353C102-E716-422F-9F91-4241B036806A}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Leech SFX" ID="{3358A136-6193-4606-83FA-B1CC3F09440C}" ShortID="44233966">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Leech Explosion" ID="{0BC276DF-77DB-4912-B6EA-CA1F2B5FCD21}" ShortID="359054162">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LeechStem-011" ID="{CFBD7E01-6D08-4EFC-9934-ABBCE74E70A7}">
+									<Language>SFX</Language>
+									<AudioFile>LeechStem-011.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="216880612"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LeechStem-011" ID="{CFBD7E01-6D08-4EFC-9934-ABBCE74E70A7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Heartbeat" ID="{5EEA1C68-CEAC-4018-9845-E29041F74CD3}" ShortID="131804276">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LeechStem-012" ID="{641BC19A-3562-4EFC-A83D-DF3B27179A7A}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0785329106280194"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.014894172705314"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>LeechStem-012.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="452980388"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LeechStem-012" ID="{641BC19A-3562-4EFC-A83D-DF3B27179A7A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Leech Charge" ID="{89708357-A480-43F6-87DA-4FE7CFA12579}" ShortID="913742796">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LeechStem-010" ID="{5146FFD0-0A0A-4C55-9B88-846F438C6DFC}">
+									<Language>SFX</Language>
+									<AudioFile>LeechStem-010.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="786354633"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LeechStem-010" ID="{5146FFD0-0A0A-4C55-9B88-846F438C6DFC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Leech Detection" ID="{AAF2CC28-8CAB-4B8C-B7F2-FF755D41FB68}" ShortID="234761835">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LeechStem-009" ID="{65B3ED8C-A70C-4539-9B4D-FE7C768B1249}">
+									<Language>SFX</Language>
+									<AudioFile>LeechStem-009.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="794534056"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LeechStem-009" ID="{65B3ED8C-A70C-4539-9B4D-FE7C768B1249}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Leech Loop Mono" ID="{BAB115A0-76D0-4025-A260-2C87FCC927E6}" ShortID="863493986">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LeechStem-014" ID="{0B991911-E962-427F-948F-9CB68D54963F}">
+									<Language>SFX</Language>
+									<AudioFile>LeechStem-014.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="922704953"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LeechStem-014" ID="{0B991911-E962-427F-948F-9CB68D54963F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Leech Loop Stereo" ID="{6935541A-F0CE-4F6E-AF79-0FD89127156A}" ShortID="630197913">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LeechStem-013" ID="{AA766F3C-D22C-4DC5-AA6E-A851919DEAB8}">
+									<Language>SFX</Language>
+									<AudioFile>LeechStem-013.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="423236892"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LeechStem-013" ID="{AA766F3C-D22C-4DC5-AA6E-A851919DEAB8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Leech Footsteps" ID="{D278AA5F-D52E-4FC0-8634-50C263F6E44D}" ShortID="1060682219">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="01" ID="{804CDD78-5BD1-4748-BAB8-54F1FD8671F6}" ShortID="322599670">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LeechStem-001" ID="{01FFAAC4-4DA0-4326-9B12-700454590393}">
+											<Language>SFX</Language>
+											<AudioFile>LeechStem-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1061911354"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="LeechStem-001" ID="{01FFAAC4-4DA0-4326-9B12-700454590393}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="02" ID="{42EDC72E-AD6D-4992-99D7-97BE2BAB48D6}" ShortID="399984514">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LeechStem-002" ID="{209A4711-F5B9-4255-88C8-C12ED7166CF3}">
+											<Language>SFX</Language>
+											<AudioFile>LeechStem-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="693330521"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="LeechStem-002" ID="{209A4711-F5B9-4255-88C8-C12ED7166CF3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="03" ID="{107EF3F0-ECB5-49D0-B002-BF6BD8E6C60A}" ShortID="38631861">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LeechStem-003" ID="{2B8DD964-867B-4689-9FE2-1CA61EC70BFB}">
+											<Language>SFX</Language>
+											<AudioFile>LeechStem-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="478830890"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="LeechStem-003" ID="{2B8DD964-867B-4689-9FE2-1CA61EC70BFB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="04" ID="{81D7E3AC-E9CF-4EA3-80B9-3DBC676A1954}" ShortID="778941215">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LeechStem-004" ID="{F195F97C-6485-4202-B83A-F72EC2165FF5}">
+											<Language>SFX</Language>
+											<AudioFile>LeechStem-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="435281428"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="LeechStem-004" ID="{F195F97C-6485-4202-B83A-F72EC2165FF5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="05" ID="{23330B73-E382-4E4E-8280-84650BDB9F48}" ShortID="403196161">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LeechStem-005" ID="{2F4AE1B4-0AC6-4730-8F38-FD739078A47D}">
+											<Language>SFX</Language>
+											<AudioFile>LeechStem-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="793430766"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="LeechStem-005" ID="{2F4AE1B4-0AC6-4730-8F38-FD739078A47D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="06" ID="{158E4B4E-EB11-4179-826D-E0739EB40359}" ShortID="1044398093">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LeechStem-006" ID="{282A0422-8BDC-4854-BB51-3ACF4A76B810}">
+											<Language>SFX</Language>
+											<AudioFile>LeechStem-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="673699442"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="LeechStem-006" ID="{282A0422-8BDC-4854-BB51-3ACF4A76B810}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="07" ID="{9C3334DD-E71D-4273-BD24-FF2BFEFE619B}" ShortID="23341499">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LeechStem-007" ID="{E5FAFF5D-3C70-42D0-83BF-12BF86BAEDC7}">
+											<Language>SFX</Language>
+											<AudioFile>LeechStem-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="8672537"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="LeechStem-007" ID="{E5FAFF5D-3C70-42D0-83BF-12BF86BAEDC7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="08" ID="{8B3409FF-E9AF-4B89-B680-FBEBEB503CB8}" ShortID="958018680">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LeechStem-008" ID="{FF84EAAD-3B93-4B8B-BF1B-2A8732799B16}">
+											<Language>SFX</Language>
+											<AudioFile>LeechStem-008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="49669971"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="LeechStem-008" ID="{FF84EAAD-3B93-4B8B-BF1B-2A8732799B16}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

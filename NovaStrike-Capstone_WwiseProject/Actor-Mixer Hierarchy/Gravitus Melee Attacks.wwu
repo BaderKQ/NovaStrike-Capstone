@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}" SchemaVersion="103" RootDocumentID="{2353C102-E716-422F-9F91-4241B036806A}" ParentDocumentID="{2353C102-E716-422F-9F91-4241B036806A}">
 	<AudioObjects>
 		<WorkUnit Name="Gravitus Melee Attacks" ID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}" OwnerID="{2353C102-E716-422F-9F91-4241B036806A}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="2"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<ActorMixer Name="MeleeMixer" ID="{7CE34816-C202-4798-AF0F-FC3C525D73C6}" ShortID="514302073">
 					<ReferenceList>
