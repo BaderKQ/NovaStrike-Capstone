@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{85CC778E-5FF3-4EA1-BF2C-7D9CC9CF5456}" SchemaVersion="103" RootDocumentID="{DF7EDA04-0B6F-4650-8B5D-BC9EBCCD386B}" ParentDocumentID="{DF7EDA04-0B6F-4650-8B5D-BC9EBCCD386B}">
+	<Events>
+		<WorkUnit Name="EnvironmentFoley" ID="{85CC778E-5FF3-4EA1-BF2C-7D9CC9CF5456}" OwnerID="{DF7EDA04-0B6F-4650-8B5D-BC9EBCCD386B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Puss_Door_Loop" ID="{3C8A991F-E999-4EED-8421-47BF777F2471}">
+					<ChildrenList>
+						<Action Name="" ID="{28970EE3-4ECF-437B-9DE0-F53F031E0717}" ShortID="607546211">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Puss Door Loop" ID="{729D9E9A-8013-4C38-ADC0-53407112E9FB}" WorkUnitID="{2A1D246C-CFAB-4139-B7F1-3A7A53CADF27}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Puss_Explosion" ID="{A31286B7-F3B4-4B67-ACF9-39C4A0A59CEE}">
+					<ChildrenList>
+						<Action Name="" ID="{AA3F1A72-A0B2-43F9-A6E8-911E217521A6}" ShortID="907760441">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Puss Explosion" ID="{83A1F8E8-D0D4-4561-8505-685054F8BE68}" WorkUnitID="{2A1D246C-CFAB-4139-B7F1-3A7A53CADF27}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

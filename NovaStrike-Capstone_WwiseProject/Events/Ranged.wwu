@@ -108,9 +108,23 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{EA826DFD-1600-4693-A297-B5B5FBD0F4BA}" ShortID="541620556">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Mechanical Layer 3" ID="{A63EF6CB-6087-44F4-AAE2-1EAE2D55C7B2}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9C4C14EF-745E-4E64-BF7C-C5C9DE6B0048}" ShortID="36935708">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Clip Empty" ID="{8757DBED-F820-4D60-BF00-C8E42CC5894A}" WorkUnitID="{3E7C665A-BABA-4D6C-A32F-DE9EC852FB9E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -167,6 +181,75 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="DrawNoise1" ID="{60C64A27-FCDD-47FD-935F-AE4DAF446314}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WavegunSecondaryFire" ID="{63B130C9-848E-4DD6-A56B-D00C2FE0C4B5}">
+					<ChildrenList>
+						<Action Name="" ID="{0D1B1B32-3375-40F5-9989-8E876326A909}" ShortID="538281741">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wavegun Secondary Fire" ID="{C9F9835D-6858-42EC-A7C3-B0B0179E80FE}" WorkUnitID="{3E7C665A-BABA-4D6C-A32F-DE9EC852FB9E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WavegunProjectile" ID="{0A7D7DE5-CA6B-4E9C-9502-47173CFEBF43}">
+					<ChildrenList>
+						<Action Name="" ID="{954EE226-42EC-436F-A012-3222428D6A6F}" ShortID="24996874">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wavegun Explosion" ID="{61BFA0BE-69BE-45FF-90AD-4C3F194469C9}" WorkUnitID="{3E7C665A-BABA-4D6C-A32F-DE9EC852FB9E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SwapPrimary" ID="{754C245C-37A3-44DE-BAB5-FFCBFB08602F}">
+					<ChildrenList>
+						<Action Name="" ID="{68FC0155-6108-4ACB-872B-65A0D85A9894}" ShortID="971130667">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swap Primary Fire" ID="{5D3E0E27-C5D5-4D7D-8869-A291B8ECAB47}" WorkUnitID="{3E7C665A-BABA-4D6C-A32F-DE9EC852FB9E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SwapSecondary" ID="{2AEB956F-EF5F-4E0E-87A3-E57E8E68CE5E}">
+					<ChildrenList>
+						<Action Name="" ID="{12C29D0F-67DE-4994-8EDB-FBD0E3D236D8}" ShortID="720378708">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swap Secondary Fire" ID="{339D01CB-EDDE-413B-8A52-FFA7C8476133}" WorkUnitID="{3E7C665A-BABA-4D6C-A32F-DE9EC852FB9E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BulletImpact" ID="{D96D26F3-D7E7-4759-B5DF-CCB0A25C6CBA}">
+					<ChildrenList>
+						<Action Name="" ID="{91652CE4-0306-47BA-8BAD-9B0EA9B7E0D1}" ShortID="105252407">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bullet Impact" ID="{E7921F5C-C702-4ACD-B68A-C13C4A4993A6}" WorkUnitID="{3E7C665A-BABA-4D6C-A32F-DE9EC852FB9E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{63FE0FE3-659D-4C53-B41E-C300F5F80BDD}" ShortID="167035999">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Saideed_Hit" ID="{BEF80A2A-4628-4CBB-8E56-ED880F8A0AD4}" WorkUnitID="{D8D77032-1570-4105-B952-6B372DE0DE17}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

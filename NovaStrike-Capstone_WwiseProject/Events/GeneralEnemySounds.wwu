@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AB20498E-6ACE-42FD-AFFB-DE47E2154062}" SchemaVersion="103" RootDocumentID="{42D62B40-5ACB-4989-BA85-53B95F5B7ABE}" ParentDocumentID="{42D62B40-5ACB-4989-BA85-53B95F5B7ABE}">
+	<Events>
+		<WorkUnit Name="GeneralEnemySounds" ID="{AB20498E-6ACE-42FD-AFFB-DE47E2154062}" OwnerID="{42D62B40-5ACB-4989-BA85-53B95F5B7ABE}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_EnemyExecutionable" ID="{D0002A2E-8685-41CD-9932-F60C32A1D1DA}">
+					<ChildrenList>
+						<Action Name="" ID="{06BE121D-8976-46F2-85C7-33E0A534E403}" ShortID="907736033">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Execution State" ID="{1E8E92A6-F930-4690-AF98-1D260FBCE153}" WorkUnitID="{01B54FBF-130D-4914-B85B-9C4DAD17CD72}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WeakpointHit" ID="{E707E13C-87DB-4467-B5A4-FAF5500BE497}">
+					<ChildrenList>
+						<Action Name="" ID="{D4306D79-B895-483C-9FC3-9EF04CB5557B}" ShortID="207055709">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Weakpoint Hit" ID="{3C900CEB-88D3-4265-A402-D5036913ACCC}" WorkUnitID="{01B54FBF-130D-4914-B85B-9C4DAD17CD72}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

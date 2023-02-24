@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<WorkUnit Name="Player_Ambience" ID="{81D82911-6D85-4AE0-9DDA-BE8B4DB5FE70}" PersistMode="Reference"/>
 				<WorkUnit Name="Ambiance" ID="{DA72CB74-6FF2-462F-B647-CFA273543CB8}" PersistMode="Reference"/>
+				<WorkUnit Name="EnvironmentFoley" ID="{85CC778E-5FF3-4EA1-BF2C-7D9CC9CF5456}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
