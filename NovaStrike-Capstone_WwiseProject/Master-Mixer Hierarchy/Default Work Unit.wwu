@@ -36,6 +36,13 @@
 									<ObjectLists/>
 								</Bus>
 								<Bus Name="PlayerWavegun" ID="{1D49AD7A-DD08-4DC6-951E-3A384E4DE043}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ChildrenList>
 										<Bus Name="PlayerWaveGunTail" ID="{A6A75970-8082-4DBF-BE00-F373BFA17523}">
 											<ObjectLists/>
@@ -95,7 +102,7 @@
 									<PropertyList>
 										<Property Name="BusVolume" Type="Real64">
 											<ValueList>
-												<Value>-4</Value>
+												<Value>-6</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -134,6 +141,13 @@
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="AmbientMaster" ID="{094EBDBA-4BAA-449D-96A6-13C31F26533C}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ChildrenList>
 								<Bus Name="AmbientBeds" ID="{E8148497-C7F2-4C13-A091-51963A837EEB}">
 									<ChildrenList>
@@ -189,7 +203,7 @@
 									<PropertyList>
 										<Property Name="BusVolume" Type="Real64">
 											<ValueList>
-												<Value>-5</Value>
+												<Value>-7</Value>
 											</ValueList>
 										</Property>
 										<Property Name="RecoveryTime" Type="Real64" Value="0"/>

@@ -77,7 +77,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="PlayerHealth" ID="{B6DD977A-F110-47D2-85FA-818D582C23D2}"/>
-							<Value>0.25</Value>
+							<Value>24.916573971079</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="AI_VOEffects" ID="{39197D20-48FF-47E2-8163-F1EC527948F6}"/>
