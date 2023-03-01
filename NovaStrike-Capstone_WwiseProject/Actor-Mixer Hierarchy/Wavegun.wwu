@@ -39,7 +39,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>8</Value>
+										<Value>4</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -153,7 +153,7 @@
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>6</Value>
+										<Value>3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -199,7 +199,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>6</Value>
+										<Value>4</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
