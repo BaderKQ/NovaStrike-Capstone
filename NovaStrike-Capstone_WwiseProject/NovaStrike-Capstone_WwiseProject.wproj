@@ -10099,7 +10099,7 @@
 				<ObsOccCurves>
 					<Comment></Comment>
 					<ObsOccCurve CurveXType="Obstruction" CurveYType="Volume">
-						<PlatformCurve Platform="Linked" EnableCurve="false">
+						<PlatformCurve Platform="Linked" EnableCurve="true">
 							<Curve Name="" ID="{71FDC7A2-7911-4B22-A36F-23B8B7F953FE}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="3"/>
@@ -10120,7 +10120,7 @@
 						</PlatformCurve>
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Obstruction" CurveYType="LPF">
-						<PlatformCurve Platform="Linked" EnableCurve="false">
+						<PlatformCurve Platform="Linked" EnableCurve="true">
 							<Curve Name="" ID="{5079D76C-77CB-4994-9685-D497A4F31D97}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="1"/>
@@ -10162,7 +10162,7 @@
 						</PlatformCurve>
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Occlusion" CurveYType="Volume">
-						<PlatformCurve Platform="Linked" EnableCurve="false">
+						<PlatformCurve Platform="Linked" EnableCurve="true">
 							<Curve Name="" ID="{4EF3F489-341D-4779-A2A1-1CAEDDA309C0}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="3"/>
@@ -10227,8 +10227,8 @@
 				</ObsOccCurves>
 			</EnvironmentalSettings>
 			<LogCentralIgnoreList>
-				<IgnoreItem MessageId="MediaNotFound"/>
 				<IgnoreItem MessageId="MediaDuplicated"/>
+				<IgnoreItem MessageId="MediaNotFound"/>
 			</LogCentralIgnoreList>
 			<DefaultConversion Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}"/>
 			<PhysicalFolderList>
