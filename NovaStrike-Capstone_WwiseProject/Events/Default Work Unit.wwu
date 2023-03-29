@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Wavegun_Overload" ID="{C08B528F-44E1-469F-A252-3E444B88EF35}">
+					<ChildrenList>
+						<Action Name="" ID="{A3EB7732-78F4-4825-BB50-53BD14C92B93}" ShortID="177762677">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wavegun Overload" ID="{8614CDA4-48E2-4533-8146-8FD274786B6F}" WorkUnitID="{3E7C665A-BABA-4D6C-A32F-DE9EC852FB9E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
