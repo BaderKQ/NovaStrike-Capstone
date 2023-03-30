@@ -10,6 +10,7 @@
 				<WorkUnit Name="Leech Workunit" ID="{2E4E5E20-CEC7-4F36-8779-D310759D7C13}" PersistMode="Reference"/>
 				<WorkUnit Name="Emberpoint Foley" ID="{2A1D246C-CFAB-4139-B7F1-3A7A53CADF27}" PersistMode="Reference"/>
 				<WorkUnit Name="Emberpoint Enemy General SFX" ID="{01B54FBF-130D-4914-B85B-9C4DAD17CD72}" PersistMode="Reference"/>
+				<WorkUnit Name="Emberpoint Ambiance" ID="{456FBB54-C694-4BE6-AC6C-5BA30FE20D57}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

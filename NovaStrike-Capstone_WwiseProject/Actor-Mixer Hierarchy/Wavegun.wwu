@@ -72,10 +72,17 @@
 										<MediaID ID="11274525"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="Emberpoint Wavegun-004" ID="{01B8B5CE-B09B-4291-A7E6-C3DF8D1CDF92}">
+									<Language>SFX</Language>
+									<AudioFile>Emberpoint Wavegun-004.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="192899725"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="Emberpoint Wavegun-003" ID="{A9F6F899-DA02-47F0-BBC1-548F5E29B093}" Platform="Linked"/>
+								<ActiveSource Name="Emberpoint Wavegun-004" ID="{01B8B5CE-B09B-4291-A7E6-C3DF8D1CDF92}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Clip Empty" ID="{8757DBED-F820-4D60-BF00-C8E42CC5894A}" ShortID="180469657">
@@ -95,10 +102,17 @@
 										<MediaID ID="31000691"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="Emberpoint Wavegun-007" ID="{4E14A7E1-B4B2-48C4-9DAF-1BC904B35E41}">
+									<Language>SFX</Language>
+									<AudioFile>Emberpoint Wavegun-007.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="694793686"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="Emberpoint Wavegun-006" ID="{984E4713-D61C-4CD1-BD1F-01312FBF2512}" Platform="Linked"/>
+								<ActiveSource Name="Emberpoint Wavegun-007" ID="{4E14A7E1-B4B2-48C4-9DAF-1BC904B35E41}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Swap Primary Fire" ID="{5D3E0E27-C5D5-4D7D-8869-A291B8ECAB47}" ShortID="994134589">
@@ -118,10 +132,17 @@
 										<MediaID ID="867111559"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="Emberpoint Wavegun-006" ID="{E81CE4B1-899B-438F-BFE1-9E82D6A5D23F}">
+									<Language>SFX</Language>
+									<AudioFile>Emberpoint Wavegun-006.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="31000691"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="Emberpoint Wavegun-005" ID="{959A7450-41D2-4426-9452-D4EB8CADC216}" Platform="Linked"/>
+								<ActiveSource Name="Emberpoint Wavegun-006" ID="{E81CE4B1-899B-438F-BFE1-9E82D6A5D23F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Swap Secondary Fire" ID="{339D01CB-EDDE-413B-8A52-FFA7C8476133}" ShortID="154687902">
@@ -141,10 +162,17 @@
 										<MediaID ID="192899725"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="Emberpoint Wavegun-005" ID="{CB27915C-756B-480B-A062-31CBDDE66CCE}">
+									<Language>SFX</Language>
+									<AudioFile>Emberpoint Wavegun-005.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="867111559"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="Emberpoint Wavegun-004" ID="{4B893DE8-F3A2-49C0-8D00-9921E2C4B60E}" Platform="Linked"/>
+								<ActiveSource Name="Emberpoint Wavegun-005" ID="{CB27915C-756B-480B-A062-31CBDDE66CCE}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Wavegun Explosion" ID="{61BFA0BE-69BE-45FF-90AD-4C3F194469C9}" ShortID="265417190">
@@ -233,6 +261,36 @@
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="Emberpoint Wavegun-001" ID="{70E57314-79DC-48E3-A8FA-1D02208EDA42}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wavegun Overload" ID="{8614CDA4-48E2-4533-8146-8FD274786B6F}" ShortID="624218656">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="500 Meters" ID="{C0066A51-8974-4731-884E-7B0947949258}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Emberpoint Wavegun-003" ID="{3D0CFEC5-EE66-4FAF-989F-B9D5CCB3E494}">
+									<Language>SFX</Language>
+									<AudioFile>Emberpoint Wavegun-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="11274525"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Emberpoint Wavegun-003" ID="{3D0CFEC5-EE66-4FAF-989F-B9D5CCB3E494}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

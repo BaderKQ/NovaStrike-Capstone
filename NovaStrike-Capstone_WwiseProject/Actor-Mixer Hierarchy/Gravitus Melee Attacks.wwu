@@ -37,7 +37,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Execution A" ID="{1D342337-75D0-49ED-A8D7-FFF58A3A19F8}" ShortID="914083616">
+								<Sound Name="Execution A" ID="{E6673E80-9B0F-48D5-94D1-D7E747F0C773}" ShortID="620386871">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -47,27 +47,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="-012" ID="{754D4B83-0BB6-4D94-A745-3A2D92B5FCFE}">
+										<AudioFileSource Name="Execution A" ID="{24CA8599-3AB0-4D9A-9C4D-F48F6E6DCD54}">
 											<Language>SFX</Language>
-											<AudioFile>-012.wav</AudioFile>
+											<AudioFile>Execution A.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="738589518"/>
+												<MediaID ID="928999647"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="-012" ID="{754D4B83-0BB6-4D94-A745-3A2D92B5FCFE}" Platform="Linked"/>
+										<ActiveSource Name="Execution A" ID="{24CA8599-3AB0-4D9A-9C4D-F48F6E6DCD54}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Execution B" ID="{4091D9CF-B561-4D5E-AEC4-450A727C2326}" ShortID="23354096">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>3</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
+								<Sound Name="Execution B" ID="{2B3C7101-3343-48D0-93E9-55711582FC59}" ShortID="11363379">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -77,20 +70,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="-013" ID="{D360676F-DBAE-4F11-9ABD-CB15EFB292D4}">
+										<AudioFileSource Name="Execution B" ID="{D98CF7E6-3864-4C59-A6D5-731FC1FC39CC}">
 											<Language>SFX</Language>
-											<AudioFile>-013.wav</AudioFile>
+											<AudioFile>Execution B.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="798823340"/>
+												<MediaID ID="764405655"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="-013" ID="{D360676F-DBAE-4F11-9ABD-CB15EFB292D4}" Platform="Linked"/>
+										<ActiveSource Name="Execution B" ID="{D98CF7E6-3864-4C59-A6D5-731FC1FC39CC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Execution C" ID="{4F806336-6A54-43FB-A7BD-5149872D935F}" ShortID="530587259">
+								<Sound Name="Execution C" ID="{FF759C86-A6F4-4EBC-BF7E-C729576F6D8F}" ShortID="690292970">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -100,17 +93,17 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="-014" ID="{E027B24F-707E-4FC9-8728-F456658191CD}">
+										<AudioFileSource Name="Execution C" ID="{27007017-4820-408D-A9AC-ECE16EA26D81}">
 											<Language>SFX</Language>
-											<AudioFile>-014.wav</AudioFile>
+											<AudioFile>Execution C.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="468433077"/>
+												<MediaID ID="781061010"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="-014" ID="{E027B24F-707E-4FC9-8728-F456658191CD}" Platform="Linked"/>
+										<ActiveSource Name="Execution C" ID="{27007017-4820-408D-A9AC-ECE16EA26D81}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F2BF54E0-012D-429C-BD53-39F3D5AC7D60}" SchemaVersion="103">
+	<InteractiveMusic>
+		<WorkUnit Name="Arena Music" ID="{F2BF54E0-012D-429C-BD53-39F3D5AC7D60}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="18"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="Arena 1" ID="{5050D281-9396-456A-89A7-C49EB3826303}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

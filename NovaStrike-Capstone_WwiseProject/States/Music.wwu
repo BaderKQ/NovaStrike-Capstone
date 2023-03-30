@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F1626C71-6F2D-4F51-8D18-3A3061652FFC}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Music" ID="{F1626C71-6F2D-4F51-8D18-3A3061652FFC}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Arena1_States" ID="{D792C8FB-4659-4FA6-9ED2-32EBF2BB0F05}">
+					<ChildrenList>
+						<State Name="None" ID="{07C3543C-6912-43DC-B93A-C71D5DD13FA2}"/>
+						<State Name="Arena_InProgress" ID="{2BCFDF9C-458F-4999-9CF0-8A5094603887}"/>
+						<State Name="Arena_Finished" ID="{4153DEAB-390B-49FF-94CA-D7D919698ABE}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>
