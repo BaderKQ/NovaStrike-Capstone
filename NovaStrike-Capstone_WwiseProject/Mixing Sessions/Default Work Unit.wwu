@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1DAB6DA7-9158-4C4A-B2B0-88ED0FADFD5C}" SchemaVersion="103">
 	<MixingSessions>
-		<WorkUnit Name="Default Work Unit" ID="{1DAB6DA7-9158-4C4A-B2B0-88ED0FADFD5C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1DAB6DA7-9158-4C4A-B2B0-88ED0FADFD5C}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Mixing Desk" ID="{B16C6490-925F-4AAD-9C4D-0ED6B4B257EE}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</MixingSessions>
 </WwiseDocument>

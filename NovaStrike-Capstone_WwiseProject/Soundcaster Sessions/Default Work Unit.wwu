@@ -69,6 +69,18 @@
 							<ObjectRef Name="Play_TestMeleeHEAVY" ID="{EA881E73-FCB8-42EA-AE01-DBB093889A46}" WorkUnitID="{4303AF45-7DCF-4BC0-9C78-DDEC982D9535}"/>
 							<Position X="3" Y="3"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Swing Light 1" ID="{A6E09B09-E87C-47E9-8C10-A161C8838557}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Swing Launcher 1" ID="{1870A581-1234-4542-9669-8A761E35F3A7}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="AI_CombatVO_EnemyBehind" ID="{55DEEA84-EE8F-44A8-B9A3-0646C721FAA9}" WorkUnitID="{C354EF40-B047-415B-B7E5-E3B7789F664D}"/>
+							<Position X="4" Y="2"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>

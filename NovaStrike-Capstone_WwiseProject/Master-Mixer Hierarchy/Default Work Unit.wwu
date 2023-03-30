@@ -74,30 +74,6 @@
 									</ChildrenList>
 									<ObjectLists/>
 								</Bus>
-								<Bus Name="SuitAI" ID="{CD7F8BD4-2D13-434C-8F67-5CB44B1DE0D0}">
-									<PropertyList>
-										<Property Name="BusVolume" Type="Real64">
-											<ValueList>
-												<Value>-6</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Effect0">
-											<Custom>
-												<Effect Name="Wwise Meter (Custom)" ID="{D1E62610-6756-4697-880B-2F8A7036DBD8}" ShortID="854147299" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
-													<PropertyList>
-														<Property Name="Max" Type="Real32" Value="1"/>
-													</PropertyList>
-													<PluginData>
-	<GameParameter Name="AI_VOEffects" ID="{39197D20-48FF-47E2-8163-F1EC527948F6}"/>
-</PluginData>
-												</Effect>
-											</Custom>
-										</Reference>
-									</ReferenceList>
-									<ObjectLists/>
-								</Bus>
 								<Bus Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}">
 									<PropertyList>
 										<Property Name="BusVolume" Type="Real64">
@@ -138,6 +114,61 @@
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="NPCMaster" ID="{CDCA502A-0062-483E-B239-C8FBB41EA257}">
+							<ChildrenList>
+								<Bus Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+										<Property Name="RecoveryTime" Type="Real64" Value="0"/>
+									</PropertyList>
+									<ObjectLists/>
+									<DuckingList>
+										<DuckItem>
+											<BusRef Name="PlayerCombat" ID="{2C1862CC-BC02-4FF6-9193-8128FDEE7694}"/>
+											<DuckingParam>
+												<Volume>-4</Volume>
+												<FadeInTime>0.200000002980232</FadeInTime>
+												<FadeOutTime>0</FadeOutTime>
+												<FadeCurve>FadeExp2</FadeCurve>
+												<TargetProp>BusVolume</TargetProp>
+											</DuckingParam>
+										</DuckItem>
+										<DuckItem>
+											<BusRef Name="EnemySFX" ID="{6696559A-C411-44CF-8839-76CB8B4C7F88}"/>
+											<DuckingParam>
+												<Volume>-4</Volume>
+												<FadeInTime>0.200000002980232</FadeInTime>
+												<FadeOutTime>0</FadeOutTime>
+												<FadeCurve>FadeExp2</FadeCurve>
+												<TargetProp>BusVolume</TargetProp>
+											</DuckingParam>
+										</DuckItem>
+										<DuckItem>
+											<BusRef Name="PlayerMaster" ID="{A877FC03-444F-4FC2-88CA-F2E46877E75D}"/>
+											<DuckingParam>
+												<Volume>-4</Volume>
+												<FadeInTime>0.200000002980232</FadeInTime>
+												<FadeOutTime>0</FadeOutTime>
+												<FadeCurve>FadeExp2</FadeCurve>
+												<TargetProp>BusVolume</TargetProp>
+											</DuckingParam>
+										</DuckItem>
+										<DuckItem>
+											<BusRef Name="Music Master" ID="{00B9126A-D8CD-4506-B946-96F168B6DBAE}"/>
+											<DuckingParam>
+												<Volume>-6</Volume>
+												<FadeInTime>0.200000002980232</FadeInTime>
+												<FadeOutTime>0</FadeOutTime>
+												<FadeCurve>FadeExp2</FadeCurve>
+												<TargetProp>BusVolume</TargetProp>
+											</DuckingParam>
+										</DuckItem>
+									</DuckingList>
+								</Bus>
+							</ChildrenList>
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="AmbientMaster" ID="{094EBDBA-4BAA-449D-96A6-13C31F26533C}">
@@ -281,7 +312,7 @@
 							<PropertyList>
 								<Property Name="BusVolume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-9</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

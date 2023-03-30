@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BC99A2F9-C9B3-413D-869F-D255D2FB95EB}" SchemaVersion="103" RootDocumentID="{74543DDB-C211-4169-BE8B-A8EB0D0667CB}" ParentDocumentID="{74543DDB-C211-4169-BE8B-A8EB0D0667CB}">
+	<Events>
+		<WorkUnit Name="SuitCombatDialogue" ID="{BC99A2F9-C9B3-413D-869F-D255D2FB95EB}" OwnerID="{74543DDB-C211-4169-BE8B-A8EB0D0667CB}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_AI_CombatVO_EnemyFumigation" ID="{3A487D45-5965-4555-99A0-37FB46C4031A}">
+					<ChildrenList>
+						<Action Name="" ID="{41B5EB91-988E-4FA3-88D4-E726C11F3F8A}" ShortID="817700122">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AI_CombatVO_EnemyFumigation" ID="{269A94F4-9E02-428D-A1B5-83EBD1B5C4DC}" WorkUnitID="{C354EF40-B047-415B-B7E5-E3B7789F664D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AI_CombatVO_EnergyFull" ID="{6E133324-1D63-493D-8801-AEE2C533EB03}">
+					<ChildrenList>
+						<Action Name="" ID="{3F889DE5-6AB2-4684-8B78-070B9EDF46DE}" ShortID="889175658">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AI_CombatVO_EnergyFull" ID="{B7293A4D-0FAF-49F0-B4A8-11C6EA780097}" WorkUnitID="{C354EF40-B047-415B-B7E5-E3B7789F664D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AI_CombatVO_EnemyBehind" ID="{53BD0DFB-8364-4BC4-8A47-7122CCE6DFAF}">
+					<ChildrenList>
+						<Action Name="" ID="{9CC4BB03-0B1F-4632-89F5-97A236D9EDB3}" ShortID="503356580">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AI_CombatVO_EnemyBehind" ID="{55DEEA84-EE8F-44A8-B9A3-0646C721FAA9}" WorkUnitID="{C354EF40-B047-415B-B7E5-E3B7789F664D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AI_CombatVO_EnemyBroken" ID="{897BC2BE-C7D3-456E-878E-B8AF0B9CD773}">
+					<ChildrenList>
+						<Action Name="" ID="{13087F4C-E1FD-4120-9CE1-45D51376EF10}" ShortID="866087469">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AI_CombatVO_EnemyBroken" ID="{1D7460E5-B228-4780-B19E-EFC382A98E0F}" WorkUnitID="{C354EF40-B047-415B-B7E5-E3B7789F664D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AI_CombatVO_EnergyEmpty" ID="{3B181932-9C50-4F2A-9FFD-640E912CB9D6}">
+					<ChildrenList>
+						<Action Name="" ID="{4790BAFB-A5F6-47A7-81F9-DC7ACBC2DDE6}" ShortID="180872731">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AI_CombatVO_EnergyEmpty" ID="{270AC0BD-5215-4148-813C-CD1B23B02F2D}" WorkUnitID="{C354EF40-B047-415B-B7E5-E3B7789F664D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

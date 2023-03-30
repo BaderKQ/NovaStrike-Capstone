@@ -9,7 +9,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="SuitAI" ID="{CD7F8BD4-2D13-434C-8F67-5CB44B1DE0D0}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+							<ObjectRef Name="NPCMaster" ID="{CDCA502A-0062-483E-B239-C8FBB41EA257}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
