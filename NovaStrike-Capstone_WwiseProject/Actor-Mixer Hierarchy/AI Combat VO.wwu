@@ -53,6 +53,345 @@
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
+				<ActorMixer Name="Combat" ID="{690D9C74-BB75-4E56-899C-0464E9C77642}" ShortID="350765488">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Folder Name="AI Takes (Male) 1" ID="{F66FA2E2-E53E-4886-BAFA-294DE7CEE21E}" ShortID="340209946">
+							<ChildrenList>
+								<Sound Name="AI Voice (Male)_1" ID="{CCDF4664-B78B-4A41-A846-591520E4841D}" ShortID="472784573">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AI Voice (Male)_1" ID="{A1E2C829-B2A6-41E4-AC0A-7C2F4DE78147}">
+											<Language>SFX</Language>
+											<AudioFile>AI Takes (Male) 1.0\AI Voice (Male)_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="951759655"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="AI Voice (Male)_1" ID="{A1E2C829-B2A6-41E4-AC0A-7C2F4DE78147}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AI Voice (Male)_10" ID="{CF04C666-3701-4DB9-BD7F-416890EB0A8F}" ShortID="135224254">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AI Voice (Male)_10" ID="{CFAB4CC5-C87A-4C43-9B2E-112D10C4D5A4}">
+											<Language>SFX</Language>
+											<AudioFile>AI Takes (Male) 1.0\AI Voice (Male)_10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="518660171"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="AI Voice (Male)_10" ID="{CFAB4CC5-C87A-4C43-9B2E-112D10C4D5A4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AI Voice (Male)_11" ID="{CCC1AF7A-6270-474C-8814-B8BE5B6C553F}" ShortID="745968503">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AI Voice (Male)_11" ID="{D7CC28CB-B65F-4563-9A11-C8FE01B024A0}">
+											<Language>SFX</Language>
+											<AudioFile>AI Takes (Male) 1.0\AI Voice (Male)_11.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="45056261"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="AI Voice (Male)_11" ID="{D7CC28CB-B65F-4563-9A11-C8FE01B024A0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AI Voice (Male)_12" ID="{C7ED1D83-ABED-4082-B527-91FB9F665A8E}" ShortID="421786659">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AI Voice (Male)_12" ID="{E776D514-AF31-4956-82AB-C52E3B5565D4}">
+											<Language>SFX</Language>
+											<AudioFile>AI Takes (Male) 1.0\AI Voice (Male)_12.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="99460238"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="AI Voice (Male)_12" ID="{E776D514-AF31-4956-82AB-C52E3B5565D4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AI Voice (Male)_13" ID="{65C15FA4-0B6B-4ACB-9239-4BD02EF5FD7E}" ShortID="406418093">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AI Voice (Male)_13" ID="{96FEFDB7-EB51-4E27-B0A4-485FB4DAFC32}">
+											<Language>SFX</Language>
+											<AudioFile>AI Takes (Male) 1.0\AI Voice (Male)_13.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="298182675"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="AI Voice (Male)_13" ID="{96FEFDB7-EB51-4E27-B0A4-485FB4DAFC32}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AI Voice (Male)_14" ID="{22DFBBE2-D16C-4383-9844-47EA7D502FA9}" ShortID="858872210">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AI Voice (Male)_14" ID="{52D8A646-9E93-489C-8CB3-2D30DC8F52E3}">
+											<Language>SFX</Language>
+											<AudioFile>AI Takes (Male) 1.0\AI Voice (Male)_14.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="610132088"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="AI Voice (Male)_14" ID="{52D8A646-9E93-489C-8CB3-2D30DC8F52E3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AI Voice (Male)_2" ID="{D3E1DBC2-EF01-47E0-B1C9-BE7EEAD94A94}" ShortID="36083382">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AI Voice (Male)_2" ID="{AF6EBD14-2081-42E3-9BDA-86ADD525D89F}">
+											<Language>SFX</Language>
+											<AudioFile>AI Takes (Male) 1.0\AI Voice (Male)_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="822349548"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="AI Voice (Male)_2" ID="{AF6EBD14-2081-42E3-9BDA-86ADD525D89F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AI Voice (Male)_3" ID="{0DF4C5B5-CA04-440B-B505-2E08A539A829}" ShortID="324053987">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AI Voice (Male)_3" ID="{019354E2-3CC0-4D50-B9D5-F793CD13796C}">
+											<Language>SFX</Language>
+											<AudioFile>AI Takes (Male) 1.0\AI Voice (Male)_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="125916059"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="AI Voice (Male)_3" ID="{019354E2-3CC0-4D50-B9D5-F793CD13796C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AI Voice (Male)_4" ID="{983B27CB-22BF-43AB-BA80-058DBD11B6E7}" ShortID="547496183">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AI Voice (Male)_4" ID="{FC1D7FBD-A9A5-43C5-A43F-96B6B9F385CE}">
+											<Language>SFX</Language>
+											<AudioFile>AI Takes (Male) 1.0\AI Voice (Male)_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="941099272"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="AI Voice (Male)_4" ID="{FC1D7FBD-A9A5-43C5-A43F-96B6B9F385CE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AI Voice (Male)_5" ID="{21EE4922-2D27-4AC6-B2DF-F7FD87FD6D4E}" ShortID="380221599">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AI Voice (Male)_5" ID="{FA2824F2-608C-4568-AFD8-67A8E08A1BE6}">
+											<Language>SFX</Language>
+											<AudioFile>AI Takes (Male) 1.0\AI Voice (Male)_5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="54536043"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="AI Voice (Male)_5" ID="{FA2824F2-608C-4568-AFD8-67A8E08A1BE6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AI Voice (Male)_6" ID="{E7260EAF-3F43-48C0-9FF5-F7BEC190E753}" ShortID="529636745">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AI Voice (Male)_6" ID="{006491C9-55D4-416A-A5A9-B03F1A9B3B48}">
+											<Language>SFX</Language>
+											<AudioFile>AI Takes (Male) 1.0\AI Voice (Male)_6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="858833977"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="AI Voice (Male)_6" ID="{006491C9-55D4-416A-A5A9-B03F1A9B3B48}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AI Voice (Male)_7" ID="{FAAD63E3-51C8-40DE-8734-4608C517A306}" ShortID="385213786">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AI Voice (Male)_7" ID="{C37F0581-426C-4377-A7E7-22A00407CEA3}">
+											<Language>SFX</Language>
+											<AudioFile>AI Takes (Male) 1.0\AI Voice (Male)_7.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="640226035"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="AI Voice (Male)_7" ID="{C37F0581-426C-4377-A7E7-22A00407CEA3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AI Voice (Male)_8" ID="{0908EE29-E1B5-4BA7-B6B8-36EAEE13C051}" ShortID="1056260664">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AI Voice (Male)_8" ID="{894A3276-292C-4042-A477-311F627A1AE5}">
+											<Language>SFX</Language>
+											<AudioFile>AI Takes (Male) 1.0\AI Voice (Male)_8.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="512626433"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="AI Voice (Male)_8" ID="{894A3276-292C-4042-A477-311F627A1AE5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AI Voice (Male)_9" ID="{7F225902-E74E-4443-ABE3-7EE69AAEAC59}" ShortID="510165594">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AI Voice (Male)_9" ID="{4826B7D7-0D89-48BE-B5D1-D943AD1337D2}">
+											<Language>SFX</Language>
+											<AudioFile>AI Takes (Male) 1.0\AI Voice (Male)_9.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="716910474"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="AI Voice (Male)_9" ID="{4826B7D7-0D89-48BE-B5D1-D943AD1337D2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
