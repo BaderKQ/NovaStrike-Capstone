@@ -107,6 +107,15 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Music" ID="{64E28002-BF5D-46DF-A634-D3F5BC6C749A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Set_State_Arena_Finished" ID="{A0FDEC97-EBD4-4B16-A838-254B4DCEAAAE}" WorkUnitID="{85622108-37AC-4DB9-A958-50BD0A9D60C1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Arena1_Music" ID="{2E176A8D-BB92-4B47-81A0-93032E5C2BC0}" WorkUnitID="{55C22A04-C63E-4DCA-AF39-98E68F5ECD94}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Set_State_Arena_InProgress" ID="{E68AC349-81CE-4F25-A6E0-A41014D7E310}" WorkUnitID="{85622108-37AC-4DB9-A958-50BD0A9D60C1}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

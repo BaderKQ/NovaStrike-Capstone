@@ -277,6 +277,16 @@
 						<Bus Name="LowHealthAmbiance" ID="{206B327C-7D52-4649-B5E6-07E4FBF541AB}">
 							<ObjectLists/>
 						</Bus>
+						<Bus Name="Music Master" ID="{00B9126A-D8CD-4506-B946-96F168B6DBAE}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ObjectLists/>
+						</Bus>
 					</ChildrenList>
 					<ObjectLists/>
 				</Bus>

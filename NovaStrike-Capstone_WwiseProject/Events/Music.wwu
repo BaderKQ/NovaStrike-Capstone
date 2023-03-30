@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{55C22A04-C63E-4DCA-AF39-98E68F5ECD94}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Music" ID="{55C22A04-C63E-4DCA-AF39-98E68F5ECD94}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Arena1_Music" ID="{2E176A8D-BB92-4B47-81A0-93032E5C2BC0}">
+					<ChildrenList>
+						<Action Name="" ID="{AD8F1E65-D28B-4F22-A08D-4D73B60DBBE0}" ShortID="232382861">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Arena1_Music" ID="{163B5029-0F3C-4866-915B-8BC852F1A1F4}" WorkUnitID="{5050D281-9396-456A-89A7-C49EB3826303}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<WorkUnit Name="States" ID="{85622108-37AC-4DB9-A958-50BD0A9D60C1}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

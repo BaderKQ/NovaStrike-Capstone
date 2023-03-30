@@ -146,13 +146,6 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Swap Secondary Fire" ID="{339D01CB-EDDE-413B-8A52-FFA7C8476133}" ShortID="154687902">
-							<PropertyList>
-								<Property Name="Inclusion" Type="bool">
-									<ValueList>
-										<Value>False</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -184,7 +177,7 @@
 						</Sound>
 						<Sound Name="Wavegun Explosion" ID="{61BFA0BE-69BE-45FF-90AD-4C3F194469C9}" ShortID="265417190">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
