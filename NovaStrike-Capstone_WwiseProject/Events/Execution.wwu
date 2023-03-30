@@ -8,7 +8,7 @@
 						<Action Name="" ID="{3B92AA59-D1EA-4633-9A1F-915EF82BA214}" ShortID="559996716">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Execution A" ID="{1D342337-75D0-49ED-A8D7-FFF58A3A19F8}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
+									<ObjectRef Name="Execution A" ID="{E6673E80-9B0F-48D5-94D1-D7E747F0C773}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -29,7 +29,7 @@
 						<Action Name="" ID="{7F73C879-B2B0-4784-9CC7-CD2F60F1B9C3}" ShortID="1073246236">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Execution B" ID="{4091D9CF-B561-4D5E-AEC4-450A727C2326}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
+									<ObjectRef Name="Execution B" ID="{2B3C7101-3343-48D0-93E9-55711582FC59}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -50,14 +50,19 @@
 						<Action Name="" ID="{20539529-0610-4024-A71F-4002873E8951}" ShortID="983498923">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Execution C" ID="{4F806336-6A54-43FB-A7BD-5149872D935F}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
+									<ObjectRef Name="Execution C" ID="{FF759C86-A6F4-4EBC-BF7E-C729576F6D8F}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{E4F5B3F0-78FC-4440-8109-25C7B84ACB6D}" ShortID="1059910208">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="41"/>
-								<Property Name="Delay" Type="Real64" Value="0.25"/>
+								<Property Name="Delay" Type="Real64" Value="0.15"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -68,7 +73,7 @@
 						<Action Name="" ID="{F0435620-4EAA-4107-9806-2FBBB98103C9}" ShortID="229398721">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="41"/>
-								<Property Name="Delay" Type="Real64" Value="1.3"/>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">

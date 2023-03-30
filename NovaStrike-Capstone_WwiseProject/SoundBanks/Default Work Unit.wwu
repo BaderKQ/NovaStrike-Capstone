@@ -9,6 +9,7 @@
 						<ObjectRef Name="Set_Game_Parameter_PlayerHealth" ID="{5BF5E3ED-3F87-40BD-A7D6-C03B5BD31DCC}" WorkUnitID="{9CC5E171-3908-4CEF-ACD6-9B53FCDBDA9F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HealthStablelized" ID="{868CB898-698F-40D4-B9A3-BBD953BFEF08}" WorkUnitID="{9E9936B3-EC6D-4789-BCE0-33B5EAC30492}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_EnemyExecutionable" ID="{D0002A2E-8685-41CD-9932-F60C32A1D1DA}" WorkUnitID="{AB20498E-6ACE-42FD-AFFB-DE47E2154062}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Wood___Metal" ID="{CFCBEC17-EF5D-41D9-82B8-E0CD5594A341}" WorkUnitID="{5C9EA146-9F09-4C10-BE16-A5C274430020}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Reset_Bus_Volume_EnergyContainerFade" ID="{0309892E-0D26-4202-AACE-275372CAF31A}" WorkUnitID="{81D82911-6D85-4AE0-9DDA-BE8B4DB5FE70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Saideed_Footsteps" ID="{1A54F101-C2C7-4293-B926-B92FC2BA6188}" WorkUnitID="{EA136EFD-40C8-49CF-A2D7-478E3C8521D4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SuitBeepLoop" ID="{4280C45F-E4A4-43B9-B0CB-4E5188D7DCE4}" WorkUnitID="{07B82889-94CC-4D8B-A757-AEC5E39D7259}" Origin="Manual" Filter="7"/>
@@ -19,9 +20,13 @@
 						<ObjectRef Name="Play_WaveGunPrimaryFire" ID="{64DD94DD-9B89-44B3-845A-014B5436060E}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Saideed_Hit_Long" ID="{D44A107B-5A31-44F9-A4B0-ECCB52F98DC9}" WorkUnitID="{D8D77032-1570-4105-B952-6B372DE0DE17}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_Switch_Indoors" ID="{D8CE504F-E133-4509-861E-FCF13B481699}" WorkUnitID="{9CC5E171-3908-4CEF-ACD6-9B53FCDBDA9F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Distant_Gunshots" ID="{EC76948A-908A-452F-9643-6D8E2D060359}" WorkUnitID="{5C9EA146-9F09-4C10-BE16-A5C274430020}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_EnergyStatus" ID="{B3F55644-9944-4543-90C9-CB3E4C591DF8}" WorkUnitID="{1ACC8EAC-D454-414D-8A75-CF6B4C5EAC90}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Saideed_Buff" ID="{54AE8AE3-540F-4550-A843-D06166A88900}" WorkUnitID="{D8D77032-1570-4105-B952-6B372DE0DE17}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Crows" ID="{3A2FE10E-C0CF-458E-98B4-62C750B43BD4}" WorkUnitID="{5C9EA146-9F09-4C10-BE16-A5C274430020}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Distant_Explosion" ID="{E711E21C-9309-469B-87F2-DC115C4B136A}" WorkUnitID="{5C9EA146-9F09-4C10-BE16-A5C274430020}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_DrawGun" ID="{5D9519DF-4267-46CE-B9DD-5BEB818D6DFD}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Chimes" ID="{FF62B442-BE00-4726-8B8E-A3C87AB6E85E}" WorkUnitID="{5C9EA146-9F09-4C10-BE16-A5C274430020}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_Switch_Outdoors" ID="{F5E786C0-DCE1-4762-8C23-645765A0D271}" WorkUnitID="{9CC5E171-3908-4CEF-ACD6-9B53FCDBDA9F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_LowHealth" ID="{1E9EBBE9-67AA-4831-B76F-A3800749F2E5}" WorkUnitID="{9E9936B3-EC6D-4789-BCE0-33B5EAC30492}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Saideed_Swing" ID="{03E153F2-2697-48BF-B7A9-5802F380F591}" WorkUnitID="{D8D77032-1570-4105-B952-6B372DE0DE17}" Origin="Manual" Filter="7"/>
@@ -36,6 +41,7 @@
 						<ObjectRef Name="Play_EnergyContainer" ID="{A31E91E7-29CE-4BD9-915A-49373C7031F2}" WorkUnitID="{81D82911-6D85-4AE0-9DDA-BE8B4DB5FE70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Saideed_Hit" ID="{BEF80A2A-4628-4CBB-8E56-ED880F8A0AD4}" WorkUnitID="{D8D77032-1570-4105-B952-6B372DE0DE17}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_Bus_Volume_EnergyContainerDrawn" ID="{77C12983-F2D2-4CCA-9B1A-885E4F34AC08}" WorkUnitID="{81D82911-6D85-4AE0-9DDA-BE8B4DB5FE70}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Whoosh" ID="{FC9A67FF-B934-4D36-A199-CF1A4AE69FD9}" WorkUnitID="{5C9EA146-9F09-4C10-BE16-A5C274430020}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_Bus_Volume_EnergyContainerRaise" ID="{FCF7E59B-C6ED-4DC6-90B9-6D8C8E8CA0A5}" WorkUnitID="{81D82911-6D85-4AE0-9DDA-BE8B4DB5FE70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_WeaponHit" ID="{CF28BA31-90F0-4E7F-ACBC-633E126A96F3}" WorkUnitID="{305A3E2E-3B85-48B4-AF2E-64E5FC2FE4B1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Puss_Door_Loop" ID="{3C8A991F-E999-4EED-8421-47BF777F2471}" WorkUnitID="{85CC778E-5FF3-4EA1-BF2C-7D9CC9CF5456}" Origin="Manual" Filter="7"/>
@@ -80,6 +86,7 @@
 						<ObjectRef Name="Play_WaveGunTriggerEmpty" ID="{4DE3BA5B-DF98-43F8-8ADF-F6409FB6DF5C}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SwapPrimary" ID="{754C245C-37A3-44DE-BAB5-FFCBFB08602F}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_BulletImpact" ID="{D96D26F3-D7E7-4759-B5DF-CCB0A25C6CBA}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_WavegunOverload" ID="{B4A6686D-EA07-4B92-BA20-F18B37F62579}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_WavegunSecondaryFire" ID="{63B130C9-848E-4DD6-A56B-D00C2FE0C4B5}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SwapSecondary" ID="{2AEB956F-EF5F-4E0E-87A3-E57E8E68CE5E}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_WavegunProjectile" ID="{0A7D7DE5-CA6B-4E9C-9502-47173CFEBF43}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}" Origin="Manual" Filter="7"/>

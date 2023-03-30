@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5C9EA146-9F09-4C10-BE16-A5C274430020}" SchemaVersion="103" RootDocumentID="{DF7EDA04-0B6F-4650-8B5D-BC9EBCCD386B}" ParentDocumentID="{DA72CB74-6FF2-462F-B647-CFA273543CB8}">
+	<Events>
+		<WorkUnit Name="Outdoors" ID="{5C9EA146-9F09-4C10-BE16-A5C274430020}" OwnerID="{DA72CB74-6FF2-462F-B647-CFA273543CB8}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Crows" ID="{3A2FE10E-C0CF-458E-98B4-62C750B43BD4}">
+					<ChildrenList>
+						<Action Name="" ID="{E7F77649-9B10-401F-9891-1D69D429B019}" ShortID="605219943">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Animal Switch" ID="{E8472C98-5265-4DB0-B77B-84D849B97E03}" WorkUnitID="{456FBB54-C694-4BE6-AC6C-5BA30FE20D57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Chimes" ID="{FF62B442-BE00-4726-8B8E-A3C87AB6E85E}">
+					<ChildrenList>
+						<Action Name="" ID="{86C63725-C883-4CA4-89DD-101A225DE4E6}" ShortID="721539045">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chime Switch" ID="{314E88E1-E9BE-47B7-B397-5D4E88E67790}" WorkUnitID="{456FBB54-C694-4BE6-AC6C-5BA30FE20D57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Distant_Gunshots" ID="{EC76948A-908A-452F-9643-6D8E2D060359}">
+					<ChildrenList>
+						<Action Name="" ID="{0B256509-B1C6-4F84-AEB0-B939A5474481}" ShortID="514049953">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gunshot Switch" ID="{9C90BB1A-8883-4ABF-9498-DC81153787B3}" WorkUnitID="{456FBB54-C694-4BE6-AC6C-5BA30FE20D57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Wood___Metal" ID="{CFCBEC17-EF5D-41D9-82B8-E0CD5594A341}">
+					<ChildrenList>
+						<Action Name="" ID="{A28E0CE1-4349-4D2E-A106-2518FF8F032B}" ShortID="543538558">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wood Metal Switch" ID="{40E1B5FF-2CA1-43DA-B966-59AFD48A67BE}" WorkUnitID="{456FBB54-C694-4BE6-AC6C-5BA30FE20D57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Distant_Explosion" ID="{E711E21C-9309-469B-87F2-DC115C4B136A}">
+					<ChildrenList>
+						<Action Name="" ID="{D516340F-CEA8-4DB0-A192-564ECDF9A35A}" ShortID="774781876">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Distant Explosion Switch" ID="{6783BE63-15F0-4C33-A769-A169A0E2FC69}" WorkUnitID="{456FBB54-C694-4BE6-AC6C-5BA30FE20D57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Whoosh" ID="{FC9A67FF-B934-4D36-A199-CF1A4AE69FD9}">
+					<ChildrenList>
+						<Action Name="" ID="{31DAE2F5-74CB-4F6D-87DD-B9340CF24D76}" ShortID="896217503">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Whoosh Switch" ID="{BA334434-FBA1-4E33-B8E4-B00996119AEA}" WorkUnitID="{456FBB54-C694-4BE6-AC6C-5BA30FE20D57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -255,6 +255,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_WavegunOverload" ID="{B4A6686D-EA07-4B92-BA20-F18B37F62579}">
+					<ChildrenList>
+						<Action Name="" ID="{292A2CF6-4437-4E61-A8F0-61C337847A07}" ShortID="34119408">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wavegun Overload" ID="{8614CDA4-48E2-4533-8146-8FD274786B6F}" WorkUnitID="{3E7C665A-BABA-4D6C-A32F-DE9EC852FB9E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

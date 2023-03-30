@@ -8,12 +8,103 @@
 						<Action Name="" ID="{3D92A66B-1038-414C-BC30-26FD61BA37B9}" ShortID="609223468">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Amb_MainEnviroSwitch" ID="{31964BB8-CF4C-45A5-BB9A-DCFD620FBED4}" WorkUnitID="{C96CA62B-FF21-4A7B-8318-5D165A627DE7}"/>
+									<ObjectRef Name="Base Ambiance Switch" ID="{75F57602-B23D-470F-BC0E-028CF7260C49}" WorkUnitID="{456FBB54-C694-4BE6-AC6C-5BA30FE20D57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1DFA3F61-E32E-4AC6-A3C2-4549A622E53D}" ShortID="205045976">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Chimes" ID="{FF62B442-BE00-4726-8B8E-A3C87AB6E85E}" WorkUnitID="{5C9EA146-9F09-4C10-BE16-A5C274430020}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5CDF0C8F-9AE8-4D16-A300-20D5B85E60DC}" ShortID="87720857">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Crows" ID="{3A2FE10E-C0CF-458E-98B4-62C750B43BD4}" WorkUnitID="{5C9EA146-9F09-4C10-BE16-A5C274430020}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B385FFA0-2D46-45C1-BBC8-CC3FB39A2214}" ShortID="992731227">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Distant_Explosion" ID="{E711E21C-9309-469B-87F2-DC115C4B136A}" WorkUnitID="{5C9EA146-9F09-4C10-BE16-A5C274430020}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F2F19B19-EDF7-4DC6-9674-E8E814FABE0E}" ShortID="433951444">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Distant_Gunshots" ID="{EC76948A-908A-452F-9643-6D8E2D060359}" WorkUnitID="{5C9EA146-9F09-4C10-BE16-A5C274430020}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{122D1953-6B2B-4C9D-913A-524DF55A29A7}" ShortID="781115339">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Whoosh" ID="{FC9A67FF-B934-4D36-A199-CF1A4AE69FD9}" WorkUnitID="{5C9EA146-9F09-4C10-BE16-A5C274430020}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B12F24CD-B074-45F1-A52F-89DDBE765747}" ShortID="707160272">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Wood___Metal" ID="{CFCBEC17-EF5D-41D9-82B8-E0CD5594A341}" WorkUnitID="{5C9EA146-9F09-4C10-BE16-A5C274430020}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
+				<WorkUnit Name="Outdoors" ID="{5C9EA146-9F09-4C10-BE16-A5C274430020}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

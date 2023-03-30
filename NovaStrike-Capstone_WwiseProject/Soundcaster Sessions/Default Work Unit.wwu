@@ -86,9 +86,10 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Stable" ID="{7065E30F-FAE2-4F54-8D82-EAF6FA8CB343}"/>
+						<CurrentStateRef Name="Arena_Finished" ID="{4153DEAB-390B-49FF-94CA-D7D919698ABE}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="CorporationOutdoors" ID="{70B7830F-C0CD-412D-B2AF-8723695B13BE}"/>
+						<CurrentSwitchRef Name="Outdoors" ID="{6741CF09-42E0-48EB-97E4-6145BE5725C1}"/>
 						<CurrentSwitchRef Name="Base" ID="{0E054AB0-BB48-4D70-B1C4-C06CA92DD551}"/>
 						<CurrentSwitchRef Name="Eighty" ID="{909E9D55-9FE8-46C3-9519-66FCA960706A}"/>
 						<CurrentSwitchRef Name="Low" ID="{A3C06D46-E063-4130-B943-B9E6C7152C6A}"/>
