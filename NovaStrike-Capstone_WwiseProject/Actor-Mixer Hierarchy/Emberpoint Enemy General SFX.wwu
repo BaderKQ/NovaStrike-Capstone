@@ -9,6 +9,7 @@
 			<ChildrenList>
 				<ActorMixer Name="EnemyExecutionStateMixer" ID="{C58DAB75-531F-4B8A-BF26-9D875C6224CC}" ShortID="754962116">
 					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-7</Value>

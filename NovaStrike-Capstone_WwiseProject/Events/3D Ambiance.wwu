@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{07ACE4F4-9540-487C-BF71-2224B0883EFE}" SchemaVersion="103" RootDocumentID="{DF7EDA04-0B6F-4650-8B5D-BC9EBCCD386B}" ParentDocumentID="{DA72CB74-6FF2-462F-B647-CFA273543CB8}">
+	<Events>
+		<WorkUnit Name="3D Ambiance" ID="{07ACE4F4-9540-487C-BF71-2224B0883EFE}" OwnerID="{DA72CB74-6FF2-462F-B647-CFA273543CB8}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Generator_Start" ID="{2097C832-10E6-41AB-BBD3-21FA6C576D6A}">
+					<ChildrenList>
+						<Action Name="" ID="{611AF561-5A72-4F43-BDFC-762DD46EE267}" ShortID="670374267">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Generator Start" ID="{F14C7819-40C0-41D4-864D-714EEB907AA2}" WorkUnitID="{ABFC7394-EADF-4549-B668-ABE38FAB0C09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RubbleDestruction" ID="{7E435569-8A5A-4319-8BE8-7663DCD75511}">
+					<ChildrenList>
+						<Action Name="" ID="{D7481B2F-A262-44E5-863E-74234BA68D55}" ShortID="354567328">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RubbleDestruction" ID="{9C805B29-9D80-4687-BA9F-8F846F37A732}" WorkUnitID="{ABFC7394-EADF-4549-B668-ABE38FAB0C09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Space_Ship_Alarm" ID="{0A161C3C-95E3-4487-AEC0-F8361A6B0FDB}">
+					<ChildrenList>
+						<Action Name="" ID="{8A514C0B-5BBC-43C5-8157-E651F8C6F27F}" ShortID="931071829">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Space Ship Alarm" ID="{78E1E868-812A-4FFF-9B85-72DD087BB338}" WorkUnitID="{ABFC7394-EADF-4549-B668-ABE38FAB0C09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FlashLightOn" ID="{7E434442-43C9-4391-B801-635D2F563597}">
+					<ChildrenList>
+						<Action Name="" ID="{473B337C-CBAC-4BD7-8424-9D8A69521134}" ShortID="858992357">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FlashLightOn" ID="{C14B472C-79CD-4864-B8FC-2A7347C4BACE}" WorkUnitID="{ABFC7394-EADF-4549-B668-ABE38FAB0C09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FuseBoxPowered" ID="{89C89772-C171-46A0-B67D-7E339DDC1C98}">
+					<ChildrenList>
+						<Action Name="" ID="{F5B0A454-1155-4F22-8AF7-104888BBCD56}" ShortID="662841300">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FuseBoxPowered" ID="{21503169-4F23-4F0C-A94E-DF0E1B1797C4}" WorkUnitID="{ABFC7394-EADF-4549-B668-ABE38FAB0C09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Space_Ship_Alarm_2" ID="{DE1E0104-00F8-44E4-89F7-EDFDB491E969}">
+					<ChildrenList>
+						<Action Name="" ID="{8F501DEA-ECE8-42C5-A374-EEF478A6DD0F}" ShortID="879665229">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Space Ship Alarm 2" ID="{068714A1-C2DC-43C4-BA42-C85859C3F95E}" WorkUnitID="{ABFC7394-EADF-4549-B668-ABE38FAB0C09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Electrical_Sparks" ID="{685E547B-F40C-4EA9-AB38-AB795CB26BFA}">
+					<ChildrenList>
+						<Action Name="" ID="{8D146743-4721-415B-9D8D-42372F1669DB}" ShortID="189847821">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Electrical Sparks" ID="{585EC1A5-49CF-489B-9A06-624E116C9A6C}" WorkUnitID="{ABFC7394-EADF-4549-B668-ABE38FAB0C09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Generator_Noises" ID="{B96234BF-D8B5-4FA8-83D8-735025E039A8}">
+					<ChildrenList>
+						<Action Name="" ID="{2B1C8DC4-D2B9-4410-BE87-893B61675FAD}" ShortID="686975648">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Generator Noises" ID="{5FD6A6C1-FF71-419D-A194-182548C80F6A}" WorkUnitID="{ABFC7394-EADF-4549-B668-ABE38FAB0C09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fire_Loop" ID="{CF4C49B5-6CEF-46D6-BFD5-69235C87A42C}">
+					<ChildrenList>
+						<Action Name="" ID="{5D2C2BE7-8350-4B4C-B010-0A6418EB87F6}" ShortID="1031964075">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fire Loop" ID="{4CAA1914-D4ED-4E2D-8076-BD408E6BEAC0}" WorkUnitID="{2A1D246C-CFAB-4139-B7F1-3A7A53CADF27}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fire_Extenguish" ID="{1C01E73C-010F-430E-ABF7-60120C308F7B}">
+					<ChildrenList>
+						<Action Name="" ID="{B166DACF-8313-474B-865D-4CEDAA4DF634}" ShortID="668735393">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fire Extenguish" ID="{85A87B95-0BAF-407E-BCD0-9242ED58E89C}" WorkUnitID="{2A1D246C-CFAB-4139-B7F1-3A7A53CADF27}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WoodCrateDestruction" ID="{44517250-4696-45F6-8BF2-ED9E6FD5B19D}">
+					<ChildrenList>
+						<Action Name="" ID="{81BBAA7A-89FB-4151-913A-721A372D0C35}" ShortID="879910361">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WoodCrates" ID="{50E39CFD-327F-4208-9B57-832715D12F9F}" WorkUnitID="{2A1D246C-CFAB-4139-B7F1-3A7A53CADF27}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Fire_Loop" ID="{7142109B-44AA-4E35-87FE-68945A7B8F8E}">
+					<ChildrenList>
+						<Action Name="" ID="{AD89E763-C4B5-4CFC-A52C-B1233D5987B9}" ShortID="527872440">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fire Loop" ID="{4CAA1914-D4ED-4E2D-8076-BD408E6BEAC0}" WorkUnitID="{2A1D246C-CFAB-4139-B7F1-3A7A53CADF27}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

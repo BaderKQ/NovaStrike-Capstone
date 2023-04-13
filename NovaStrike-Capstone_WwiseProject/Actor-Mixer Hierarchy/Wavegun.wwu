@@ -10,6 +10,7 @@
 				<ActorMixer Name="Emberpoint Wavegun" ID="{5980F717-E79B-422E-B305-4D131833EE74}" ShortID="400011655">
 					<PropertyList>
 						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">

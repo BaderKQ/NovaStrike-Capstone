@@ -9,6 +9,7 @@
 			<ChildrenList>
 				<ActorMixer Name="Leech SFX" ID="{3358A136-6193-4606-83FA-B1CC3F09440C}" ShortID="44233966">
 					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-8</Value>

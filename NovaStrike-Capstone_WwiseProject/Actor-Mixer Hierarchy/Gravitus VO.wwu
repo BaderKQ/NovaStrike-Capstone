@@ -11,6 +11,7 @@
 							</ValueList>
 						</Property>
 						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>7</Value>
@@ -33,9 +34,6 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
-						</Reference>
-						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="ReverbOutdoors" ID="{FE76474F-9CD6-426A-B992-11863F7E5AD7}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

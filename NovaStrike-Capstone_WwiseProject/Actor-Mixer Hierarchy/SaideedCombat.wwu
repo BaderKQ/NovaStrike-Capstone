@@ -6,6 +6,7 @@
 				<ActorMixer Name="Saideed Actions" ID="{4D649C29-FC8F-4995-9F29-541C04EEE3DE}" ShortID="545994607">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-5</Value>

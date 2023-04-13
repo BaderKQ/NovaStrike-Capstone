@@ -97,7 +97,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Stable" ID="{7065E30F-FAE2-4F54-8D82-EAF6FA8CB343}"/>
+						<CurrentStateRef Name="None" ID="{83680A5F-8241-4737-B92C-0AF0FD520338}"/>
 						<CurrentStateRef Name="Arena_InProgress" ID="{2BCFDF9C-458F-4999-9CF0-8A5094603887}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">

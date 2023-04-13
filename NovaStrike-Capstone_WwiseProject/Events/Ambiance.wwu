@@ -105,6 +105,7 @@
 					</ChildrenList>
 				</Event>
 				<WorkUnit Name="Outdoors" ID="{5C9EA146-9F09-4C10-BE16-A5C274430020}" PersistMode="Reference"/>
+				<WorkUnit Name="3D Ambiance" ID="{07ACE4F4-9540-487C-BF71-2224B0883EFE}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

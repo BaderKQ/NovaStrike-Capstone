@@ -286,7 +286,23 @@
 									</ReferenceList>
 									<ObjectLists/>
 								</AuxBus>
-								<AuxBus Name="ReverbRoomSmall" ID="{4622EE15-B8EA-4B12-A5E5-2D128AC97431}">
+								<AuxBus Name="ReverbCathedral" ID="{4622EE15-B8EA-4B12-A5E5-2D128AC97431}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="ReverbHospital" ID="{F95BEE73-3624-46D4-BF86-0B703B9F562F}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Room_Medium" ID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="ReverbHouse" ID="{A67DC1B0-6F71-4B50-AA4A-811634B833D8}">
 									<ReferenceList>
 										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 											<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
@@ -294,10 +310,26 @@
 									</ReferenceList>
 									<ObjectLists/>
 								</AuxBus>
-								<AuxBus Name="ReverbRoomMedium" ID="{F95BEE73-3624-46D4-BF86-0B703B9F562F}">
+								<AuxBus Name="ReverbFallenTrain" ID="{6C07DBC5-AA00-41CA-8371-DC60907D18E8}">
 									<ReferenceList>
 										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-											<ObjectRef Name="Room_Medium" ID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="ReverbTrainYard" ID="{1E7EE9B0-E448-41CA-964A-428A050425EE}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="ReverbAboveTown" ID="{4CD7660D-AB3D-48B8-B0EB-33E711825771}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 									</ReferenceList>
 									<ObjectLists/>
