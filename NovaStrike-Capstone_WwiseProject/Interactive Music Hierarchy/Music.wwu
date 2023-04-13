@@ -395,7 +395,7 @@
 								<Property Name="Tempo" Type="Real64" Value="80"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -410,7 +410,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Emberpoint Ambiance Track - Donovan Robinson" ID="{5E7D05F6-1205-4EEC-885B-014EBA3383BF}" ShortID="983442981">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="195000"/>
+										<Property Name="EndPosition" Type="Real64" Value="392445.330754981"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -455,11 +455,183 @@
 																			<Local>
 																				<MusicClip Name="Emberpoint Ambiance Track - Donovan Robinson" ID="{2DFCD358-A4AB-48E5-A33F-1A33B59FD9BA}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="195000"/>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="-29999.9999999997"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="2.86438761598617E-10"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="29999.9999999997"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Emberpoint Ambiance Track - Donovan Robinson" ID="{5FEA5CE8-782D-44CA-8D76-61D069201B27}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{B7027DE5-FAEF-4322-9AE2-BC984E63746F}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>-30</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{32440299-8E34-4B78-B43F-8C814CF5341D}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>-30</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{25CE8B5A-9456-455F-B977-A021C8E72E54}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>-30</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Tail" ID="{37BBD835-B9E8-4A45-9CF6-60171F38FEE1}" ShortID="1038226038">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Emberpoint Ambiance Track - Donovan Robinson" ID="{90EFF41F-2097-4C9E-9A46-15A9A2B87187}">
+													<Language>SFX</Language>
+													<AudioFile>Emberpoint Ambiance Track - Donovan Robinson.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="87335711"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{71696B83-1CC4-4F52-B22D-2BC559B658E0}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{635DAB3D-5812-444E-8E46-F7BCD4F59CF5}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Emberpoint Ambiance Track - Donovan Robinson" ID="{085BC5C8-FBF2-43AD-9780-C381D9FFFA25}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="2.64140487260534E-10"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="165000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="23999.9999999997"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Emberpoint Ambiance Track - Donovan Robinson" ID="{90EFF41F-2097-4C9E-9A46-15A9A2B87187}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{88EBDC35-0888-4E53-BA3C-08DA763B32B9}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>165</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{8F4474C7-E144-4741-92BA-95DCC99D258B}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>165</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{4123206A-7FF5-4734-9421-2E1443841E67}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>165</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -710,7 +882,7 @@
 									<PropertyList>
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
 										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
-										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
 										<Property Name="SourceContextType" Type="int16" Value="2"/>
 										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
 									</PropertyList>
@@ -751,6 +923,7 @@
 										<SourceFadeOut>
 											<MusicFade Name="Source Fade-out" ID="{8D5F1483-104C-42B0-B6C8-0D07B5F60594}">
 												<PropertyList>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
 													<Property Name="FadeType" Type="int16" Value="1"/>
 												</PropertyList>
 											</MusicFade>
@@ -759,7 +932,7 @@
 											<MusicFade Name="Destination Fade-in" ID="{676078A7-1BE9-4627-BA80-910CDC35D804}">
 												<PropertyList>
 													<Property Name="FadeCurve" Type="int16" Value="7"/>
-													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeTime" Type="Real64" Value="4"/>
 												</PropertyList>
 											</MusicFade>
 										</DestinationFadeIn>

@@ -1656,6 +1656,9 @@
 							<ObjectLists/>
 						</ActorMixer>
 						<SwitchContainer Name="Base Ambiance Switch" ID="{75F57602-B23D-470F-BC0E-028CF7260C49}" ShortID="718664163">
+							<PropertyList>
+								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -1671,7 +1674,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Ambiance Loop Base" ID="{491527A0-3011-418F-B0E1-ED980234C09E}" ShortID="735229482">
+								<Sound Name="Base Ambiance - Outside" ID="{491527A0-3011-418F-B0E1-ED980234C09E}" ShortID="735229482">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 									</PropertyList>
@@ -1697,19 +1700,98 @@
 										<ActiveSource Name="Ambiance Loop Base" ID="{6D232736-394E-4A4C-855E-56E23FCDAF4B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Base Ambiance - Indoors" ID="{0E4C1213-C2D2-4914-AF97-2F4F0F9D15AD}" ShortID="659533694">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="AmbientMaster" ID="{094EBDBA-4BAA-449D-96A6-13C31F26533C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base Ambiance - Indoors" ID="{6234069B-8393-4E1B-8CA7-35FD8C7C61FA}">
+											<Language>SFX</Language>
+											<AudioFile>Base Ambiance - Indoors.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="790679105"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Base Ambiance - Indoors" ID="{6234069B-8393-4E1B-8CA7-35FD8C7C61FA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<ObjectLists/>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
-										<ItemRef Name="Ambiance Loop Base" ID="{491527A0-3011-418F-B0E1-ED980234C09E}"/>
+										<ItemRef Name="Base Ambiance - Indoors" ID="{0E4C1213-C2D2-4914-AF97-2F4F0F9D15AD}"/>
+										<PropertyList>
+											<Property Name="ContinuePlay" Type="bool" Value="True"/>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>1</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>1</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Base Ambiance - Outside" ID="{491527A0-3011-418F-B0E1-ED980234C09E}"/>
+										<PropertyList>
+											<Property Name="ContinuePlay" Type="bool" Value="True"/>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>1</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>1</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
 									<Grouping>
+										<SwitchRef Name="Hospital" ID="{5DC19908-9D2C-49B7-8BD7-A5A24AC6322B}"/>
+										<ItemList>
+											<ItemRef Name="Base Ambiance - Indoors" ID="{0E4C1213-C2D2-4914-AF97-2F4F0F9D15AD}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
 										<SwitchRef Name="Outdoors" ID="{6741CF09-42E0-48EB-97E4-6145BE5725C1}"/>
 										<ItemList>
-											<ItemRef Name="Ambiance Loop Base" ID="{491527A0-3011-418F-B0E1-ED980234C09E}"/>
+											<ItemRef Name="Base Ambiance - Outside" ID="{491527A0-3011-418F-B0E1-ED980234C09E}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="House" ID="{70B7830F-C0CD-412D-B2AF-8723695B13BE}"/>
+										<ItemList>
+											<ItemRef Name="Base Ambiance - Indoors" ID="{0E4C1213-C2D2-4914-AF97-2F4F0F9D15AD}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Cathedral" ID="{114358BA-A93D-43DE-92FB-D721E57AD366}"/>
+										<ItemList>
+											<ItemRef Name="Base Ambiance - Indoors" ID="{0E4C1213-C2D2-4914-AF97-2F4F0F9D15AD}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Trainyard" ID="{3B44DBD7-540E-48A9-9BDB-F625C43D3C04}"/>
+										<ItemList>
+											<ItemRef Name="Base Ambiance - Indoors" ID="{0E4C1213-C2D2-4914-AF97-2F4F0F9D15AD}"/>
 										</ItemList>
 									</Grouping>
 								</GroupingList>
@@ -1802,37 +1884,9 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+											<ObjectRef Name="AmbientMaster" ID="{094EBDBA-4BAA-449D-96A6-13C31F26533C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
 										</Reference>
 									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Base Ambiance - Indoors" ID="{0E4C1213-C2D2-4914-AF97-2F4F0F9D15AD}" ShortID="659533694">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Base Ambiance - Indoors" ID="{6234069B-8393-4E1B-8CA7-35FD8C7C61FA}">
-													<Language>SFX</Language>
-													<AudioFile>Base Ambiance - Indoors.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="790679105"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="Base Ambiance - Indoors" ID="{6234069B-8393-4E1B-8CA7-35FD8C7C61FA}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
 							</ChildrenList>
@@ -1857,19 +1911,6 @@
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="IndoorsBase" ID="{77214AEC-9C77-4B70-8B84-1A7DF0EFEA29}"/>
-										<PropertyList>
-											<Property Name="ContinuePlay" Type="bool" Value="True"/>
-											<Property Name="FadeInTime" Type="Real64">
-												<ValueList>
-													<Value>1</Value>
-												</ValueList>
-											</Property>
-											<Property Name="FadeOutTime" Type="Real64">
-												<ValueList>
-													<Value>1</Value>
-												</ValueList>
-											</Property>
-										</PropertyList>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
@@ -1880,15 +1921,9 @@
 										</ItemList>
 									</Grouping>
 									<Grouping>
-										<SwitchRef Name="CorporationOutdoors" ID="{70B7830F-C0CD-412D-B2AF-8723695B13BE}"/>
+										<SwitchRef Name="House" ID="{70B7830F-C0CD-412D-B2AF-8723695B13BE}"/>
 										<ItemList>
 											<ItemRef Name="OutdoorsBase" ID="{AB261215-C1A5-47F3-B18C-96DDE174A8E8}"/>
-										</ItemList>
-									</Grouping>
-									<Grouping>
-										<SwitchRef Name="Indoors" ID="{25EA4457-B385-4F55-B88D-F5E6AC32063B}"/>
-										<ItemList>
-											<ItemRef Name="IndoorsBase" ID="{77214AEC-9C77-4B70-8B84-1A7DF0EFEA29}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>

@@ -88,6 +88,10 @@
 							<Value>0.27</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Environment" ID="{A6DE8747-7C44-4750-9F27-145D067BAF25}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="PlayerHealth" ID="{B6DD977A-F110-47D2-85FA-818D582C23D2}"/>
 							<Value>24.916573971079</Value>
 						</RTPCValue>
@@ -101,7 +105,7 @@
 						<CurrentStateRef Name="Music_Ambiance" ID="{DE5F6BBC-681A-4C6B-92CE-5D87C0AA23A9}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="CorporationOutdoors" ID="{70B7830F-C0CD-412D-B2AF-8723695B13BE}"/>
+						<CurrentSwitchRef Name="Outdoors" ID="{6741CF09-42E0-48EB-97E4-6145BE5725C1}"/>
 						<CurrentSwitchRef Name="Base" ID="{0E054AB0-BB48-4D70-B1C4-C06CA92DD551}"/>
 						<CurrentSwitchRef Name="Eighty" ID="{909E9D55-9FE8-46C3-9519-66FCA960706A}"/>
 						<CurrentSwitchRef Name="Low" ID="{A3C06D46-E063-4130-B943-B9E6C7152C6A}"/>
@@ -149,7 +153,7 @@
 						<CurrentStateRef Name="Music_None" ID="{8BC2070C-6AE4-4611-8D5F-AC7E242EABD5}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="CorporationOutdoors" ID="{70B7830F-C0CD-412D-B2AF-8723695B13BE}"/>
+						<CurrentSwitchRef Name="House" ID="{70B7830F-C0CD-412D-B2AF-8723695B13BE}"/>
 						<CurrentSwitchRef Name="Base" ID="{0E054AB0-BB48-4D70-B1C4-C06CA92DD551}"/>
 						<CurrentSwitchRef Name="Eighty" ID="{909E9D55-9FE8-46C3-9519-66FCA960706A}"/>
 						<CurrentSwitchRef Name="Low" ID="{A3C06D46-E063-4130-B943-B9E6C7152C6A}"/>
