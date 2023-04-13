@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{456FBB54-C694-4BE6-AC6C-5BA30FE20D57}" SchemaVersion="103" RootDocumentID="{2353C102-E716-422F-9F91-4241B036806A}" ParentDocumentID="{2353C102-E716-422F-9F91-4241B036806A}">
 	<AudioObjects>
 		<WorkUnit Name="Emberpoint Ambiance" ID="{456FBB54-C694-4BE6-AC6C-5BA30FE20D57}" OwnerID="{2353C102-E716-422F-9F91-4241B036806A}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="17"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<ActorMixer Name="Emberpoint Ambiance" ID="{840CD2C1-9B20-455E-96B1-7DBF3926E36E}" ShortID="939793548">
 					<ReferenceList>
@@ -1899,6 +1903,7 @@
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
+				<WorkUnit Name="3D Ambiance" ID="{ABFC7394-EADF-4549-B668-ABE38FAB0C09}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

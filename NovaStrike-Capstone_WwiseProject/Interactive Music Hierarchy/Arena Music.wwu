@@ -7,7 +7,7 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<WorkUnit Name="Arena 1" ID="{5050D281-9396-456A-89A7-C49EB3826303}" PersistMode="Reference"/>
+				<WorkUnit Name="Music" ID="{5050D281-9396-456A-89A7-C49EB3826303}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

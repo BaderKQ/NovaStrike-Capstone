@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ABFC7394-EADF-4549-B668-ABE38FAB0C09}" SchemaVersion="103" RootDocumentID="{2353C102-E716-422F-9F91-4241B036806A}" ParentDocumentID="{456FBB54-C694-4BE6-AC6C-5BA30FE20D57}">
+	<AudioObjects>
+		<WorkUnit Name="3D Ambiance" ID="{ABFC7394-EADF-4549-B668-ABE38FAB0C09}" OwnerID="{456FBB54-C694-4BE6-AC6C-5BA30FE20D57}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="3DAmbianceMixer" ID="{5AD19E99-9AD5-44B2-8DB9-6EC212818EAF}" ShortID="536486779">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Electrical Sparks" ID="{585EC1A5-49CF-489B-9A06-624E116C9A6C}" ShortID="607275812">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="3DAmbiance_Electrical Sparks" ID="{D019A0F7-6E26-4FEC-9D33-CDC1EB6E5A6C}">
+									<Language>SFX</Language>
+									<AudioFile>3DAmbiance_Electrical Sparks.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="208328237"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="3DAmbiance_Electrical Sparks" ID="{D019A0F7-6E26-4FEC-9D33-CDC1EB6E5A6C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FlashLightOn" ID="{C14B472C-79CD-4864-B8FC-2A7347C4BACE}" ShortID="30768182">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="3DAmbiance_FlashLightOn" ID="{B8C19EC3-9E31-402D-9EC5-1CD5276DE29D}">
+									<Language>SFX</Language>
+									<AudioFile>3DAmbiance_FlashLightOn.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="518603934"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="3DAmbiance_FlashLightOn" ID="{B8C19EC3-9E31-402D-9EC5-1CD5276DE29D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FuseBoxPowered" ID="{21503169-4F23-4F0C-A94E-DF0E1B1797C4}" ShortID="1058354347">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="3DAmbiance_FuseBoxPowered" ID="{3F4B5123-D232-4016-97E1-3ADC6E514ABC}">
+									<Language>SFX</Language>
+									<AudioFile>3DAmbiance_FuseBoxPowered.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="759009378"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="3DAmbiance_FuseBoxPowered" ID="{3F4B5123-D232-4016-97E1-3ADC6E514ABC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Generator Noises" ID="{5FD6A6C1-FF71-419D-A194-182548C80F6A}" ShortID="867027997">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="3DAmbiance_Generator Noises" ID="{E706880B-BB1A-4FF4-B26C-8BE8707428F1}">
+									<Language>SFX</Language>
+									<AudioFile>3DAmbiance_Generator Noises.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="493479481"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="3DAmbiance_Generator Noises" ID="{E706880B-BB1A-4FF4-B26C-8BE8707428F1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Generator Start" ID="{F14C7819-40C0-41D4-864D-714EEB907AA2}" ShortID="670751967">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="3DAmbiance_Generator Start" ID="{5E3FDD46-6616-4011-8990-00A61FBEBF4C}">
+									<Language>SFX</Language>
+									<AudioFile>3DAmbiance_Generator Start.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="836403336"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="3DAmbiance_Generator Start" ID="{5E3FDD46-6616-4011-8990-00A61FBEBF4C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Space Ship Alarm" ID="{78E1E868-812A-4FFF-9B85-72DD087BB338}" ShortID="217348309">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="3DAmbiance_Space Ship Alarm" ID="{AD31E749-7C74-49AC-B99F-C6F61613E8EF}">
+									<Language>SFX</Language>
+									<AudioFile>3DAmbiance_Space Ship Alarm.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="72007240"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="3DAmbiance_Space Ship Alarm" ID="{AD31E749-7C74-49AC-B99F-C6F61613E8EF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Space Ship Alarm 2" ID="{068714A1-C2DC-43C4-BA42-C85859C3F95E}" ShortID="382964281">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="3DAmbiance_Space Ship Alarm 2" ID="{E31F8337-344B-4ECE-843B-3C2569EE0FCD}">
+									<Language>SFX</Language>
+									<AudioFile>3DAmbiance_Space Ship Alarm 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="762816617"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="3DAmbiance_Space Ship Alarm 2" ID="{E31F8337-344B-4ECE-843B-3C2569EE0FCD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="RubbleDestruction" ID="{9C805B29-9D80-4687-BA9F-8F846F37A732}" ShortID="355371203">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="RubbleExplosion1" ID="{14595C16-C349-4D63-B6AE-7FF14F4AFD20}" ShortID="376332015">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="3DAmbiance_RubbleExplosion1" ID="{0309BB8B-5E4E-4DCC-A4A7-51C86EF9AD71}">
+											<Language>SFX</Language>
+											<AudioFile>3DAmbiance_RubbleExplosion1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="507044081"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="3DAmbiance_RubbleExplosion1" ID="{0309BB8B-5E4E-4DCC-A4A7-51C86EF9AD71}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="RubbleExplosion2" ID="{ED12B8FD-8801-45BE-8163-FC90323361C6}" ShortID="670367256">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="3DAmbiance_RubbleExplosion2" ID="{B8DB281E-617B-49C5-A598-F1E239FDC378}">
+											<Language>SFX</Language>
+											<AudioFile>3DAmbiance_RubbleExplosion2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="118489470"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="3DAmbiance_RubbleExplosion2" ID="{B8DB281E-617B-49C5-A598-F1E239FDC378}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="RubbleExplosion3" ID="{A92B1767-E28B-4AE3-ADF5-38DCAF0BC2EF}" ShortID="259596586">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="3DAmbiance_RubbleExplosion3" ID="{4C0FBBBA-00DA-4154-98F9-0F2130AE99AA}">
+											<Language>SFX</Language>
+											<AudioFile>3DAmbiance_RubbleExplosion3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="489632994"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="3DAmbiance_RubbleExplosion3" ID="{4C0FBBBA-00DA-4154-98F9-0F2130AE99AA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
