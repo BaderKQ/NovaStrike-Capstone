@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="Music" ID="{55C22A04-C63E-4DCA-AF39-98E68F5ECD94}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Arena1_Music" ID="{2E176A8D-BB92-4B47-81A0-93032E5C2BC0}">
+				<Event Name="Play_EmberpointMusic" ID="{2E176A8D-BB92-4B47-81A0-93032E5C2BC0}">
 					<ChildrenList>
 						<Action Name="" ID="{AD8F1E65-D28B-4F22-A08D-4D73B60DBBE0}" ShortID="232382861">
 							<ReferenceList>

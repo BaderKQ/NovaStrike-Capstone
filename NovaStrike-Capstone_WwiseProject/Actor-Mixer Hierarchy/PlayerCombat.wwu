@@ -3831,6 +3831,7 @@
 				</ActorMixer>
 				<ActorMixer Name="WaveGun" ID="{66BDD46B-BB85-4C2D-88BD-617C38EF51B0}" ShortID="627681705">
 					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>2</Value>
@@ -3843,9 +3844,6 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="PlayerWaveGunFire" ID="{45EEF577-1CB5-4868-8C39-E0083B66009C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
-						</Reference>
-						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="ReverbOutdoors" ID="{FE76474F-9CD6-426A-B992-11863F7E5AD7}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

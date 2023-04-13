@@ -98,7 +98,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{83680A5F-8241-4737-B92C-0AF0FD520338}"/>
-						<CurrentStateRef Name="Arena_InProgress" ID="{2BCFDF9C-458F-4999-9CF0-8A5094603887}"/>
+						<CurrentStateRef Name="Music_Ambiance" ID="{DE5F6BBC-681A-4C6B-92CE-5D87C0AA23A9}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="CorporationOutdoors" ID="{70B7830F-C0CD-412D-B2AF-8723695B13BE}"/>

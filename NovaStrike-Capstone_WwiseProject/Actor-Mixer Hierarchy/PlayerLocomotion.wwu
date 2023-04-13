@@ -6,6 +6,7 @@
 				<ActorMixer Name="PlayerFootsteps" ID="{2AFBEDF1-CC16-4C1E-A59F-95B98857D326}" ShortID="974596623">
 					<PropertyList>
 						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="UserAuxSendVolume0" Type="Real64">
 							<ValueList>
 								<Value>-3</Value>
@@ -13,7 +14,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-8</Value>
+								<Value>-6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -23,9 +24,6 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
-						</Reference>
-						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="ReverbOutdoors" ID="{FE76474F-9CD6-426A-B992-11863F7E5AD7}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

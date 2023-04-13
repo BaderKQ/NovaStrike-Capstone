@@ -31,6 +31,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Set_State_Ambiance" ID="{E97D3AAE-D7DC-4312-AD43-568E2B1FF46A}">
+					<ChildrenList>
+						<Action Name="" ID="{6A9C2DF4-7734-450B-9959-04A609718630}" ShortID="1072798016">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Ambiance" ID="{DE5F6BBC-681A-4C6B-92CE-5D87C0AA23A9}" WorkUnitID="{F1626C71-6F2D-4F51-8D18-3A3061652FFC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_State_None" ID="{89C05759-966C-4984-A92D-2499CFA206A5}">
+					<ChildrenList>
+						<Action Name="" ID="{7BCE1061-F297-4BFC-80CE-E7514978CD9A}" ShortID="81041281">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_None" ID="{8BC2070C-6AE4-4611-8D5F-AC7E242EABD5}" WorkUnitID="{F1626C71-6F2D-4F51-8D18-3A3061652FFC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

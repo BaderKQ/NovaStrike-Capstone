@@ -8,6 +8,7 @@
 						<ObjectRef Name="Reset_Bus_Volume_EnergyContainerHolstered" ID="{5BF6DAEE-430D-4058-9F69-A5876488D0AB}" WorkUnitID="{81D82911-6D85-4AE0-9DDA-BE8B4DB5FE70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_Game_Parameter_PlayerHealth" ID="{5BF5E3ED-3F87-40BD-A7D6-C03B5BD31DCC}" WorkUnitID="{9CC5E171-3908-4CEF-ACD6-9B53FCDBDA9F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HealthStablelized" ID="{868CB898-698F-40D4-B9A3-BBD953BFEF08}" WorkUnitID="{9E9936B3-EC6D-4789-BCE0-33B5EAC30492}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Space_Ship_Alarm_2" ID="{FFACF869-36ED-4198-AA0F-C76A2A611DF9}" WorkUnitID="{07ACE4F4-9540-487C-BF71-2224B0883EFE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Generator_Start" ID="{2097C832-10E6-41AB-BBD3-21FA6C576D6A}" WorkUnitID="{07ACE4F4-9540-487C-BF71-2224B0883EFE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_EnemyExecutionable" ID="{D0002A2E-8685-41CD-9932-F60C32A1D1DA}" WorkUnitID="{AB20498E-6ACE-42FD-AFFB-DE47E2154062}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wood___Metal" ID="{CFCBEC17-EF5D-41D9-82B8-E0CD5594A341}" WorkUnitID="{5C9EA146-9F09-4C10-BE16-A5C274430020}" Origin="Manual" Filter="7"/>
@@ -38,6 +39,7 @@
 						<ObjectRef Name="Play_Chimes" ID="{FF62B442-BE00-4726-8B8E-A3C87AB6E85E}" WorkUnitID="{5C9EA146-9F09-4C10-BE16-A5C274430020}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_Switch_Outdoors" ID="{F5E786C0-DCE1-4762-8C23-645765A0D271}" WorkUnitID="{9CC5E171-3908-4CEF-ACD6-9B53FCDBDA9F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_LowHealth" ID="{1E9EBBE9-67AA-4831-B76F-A3800749F2E5}" WorkUnitID="{9E9936B3-EC6D-4789-BCE0-33B5EAC30492}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Electrical_Sparks" ID="{E9625274-DF1C-4871-936F-05E6BD8A5E33}" WorkUnitID="{07ACE4F4-9540-487C-BF71-2224B0883EFE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Saideed_Swing" ID="{03E153F2-2697-48BF-B7A9-5802F380F591}" WorkUnitID="{D8D77032-1570-4105-B952-6B372DE0DE17}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Holstergun" ID="{82BC9CA6-0A67-499C-93A7-312ADEEE1239}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HealthStatus" ID="{9AB882B2-4452-4A99-91C2-5B8F5BAEA219}" WorkUnitID="{07B82889-94CC-4D8B-A757-AEC5E39D7259}" Origin="Manual" Filter="7"/>
@@ -127,7 +129,7 @@
 				<SoundBank Name="Music" ID="{64E28002-BF5D-46DF-A634-D3F5BC6C749A}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Set_State_Arena_Finished" ID="{A0FDEC97-EBD4-4B16-A838-254B4DCEAAAE}" WorkUnitID="{85622108-37AC-4DB9-A958-50BD0A9D60C1}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Arena1_Music" ID="{2E176A8D-BB92-4B47-81A0-93032E5C2BC0}" WorkUnitID="{55C22A04-C63E-4DCA-AF39-98E68F5ECD94}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_EmberpointMusic" ID="{2E176A8D-BB92-4B47-81A0-93032E5C2BC0}" WorkUnitID="{55C22A04-C63E-4DCA-AF39-98E68F5ECD94}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_State_Arena_InProgress" ID="{E68AC349-81CE-4F25-A6E0-A41014D7E310}" WorkUnitID="{85622108-37AC-4DB9-A958-50BD0A9D60C1}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

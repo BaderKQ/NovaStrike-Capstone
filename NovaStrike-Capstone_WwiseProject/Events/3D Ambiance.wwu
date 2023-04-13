@@ -12,6 +12,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{EA3EE1E2-4AC7-4AFE-9808-F3E13D144F0D}" ShortID="835649688">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Generator Noises" ID="{5FD6A6C1-FF71-419D-A194-182548C80F6A}" WorkUnitID="{ABFC7394-EADF-4549-B668-ABE38FAB0C09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_RubbleDestruction" ID="{7E435569-8A5A-4319-8BE8-7663DCD75511}">
@@ -133,6 +143,34 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Fire Loop" ID="{4CAA1914-D4ED-4E2D-8076-BD408E6BEAC0}" WorkUnitID="{2A1D246C-CFAB-4139-B7F1-3A7A53CADF27}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Space_Ship_Alarm_2" ID="{FFACF869-36ED-4198-AA0F-C76A2A611DF9}">
+					<ChildrenList>
+						<Action Name="" ID="{1BC75831-9146-4674-A230-864FC5F128AF}" ShortID="747187687">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Space Ship Alarm 2" ID="{068714A1-C2DC-43C4-BA42-C85859C3F95E}" WorkUnitID="{ABFC7394-EADF-4549-B668-ABE38FAB0C09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Electrical_Sparks" ID="{E9625274-DF1C-4871-936F-05E6BD8A5E33}">
+					<ChildrenList>
+						<Action Name="" ID="{3A3BB064-D0C4-47C1-ACB3-2D81EBF7C7FB}" ShortID="232720382">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Electrical Sparks" ID="{585EC1A5-49CF-489B-9A06-624E116C9A6C}" WorkUnitID="{ABFC7394-EADF-4549-B668-ABE38FAB0C09}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
