@@ -68,6 +68,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Vulkan_Yells" ID="{BA06DC69-8B05-415F-B9D8-012D9AF0F372}">
+					<ChildrenList>
+						<Action Name="" ID="{6DF51189-7528-4203-B399-40F6137D44AE}" ShortID="755093299">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan Yells" ID="{94CFAE7D-37BD-4638-80DD-EE233A25DC61}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Vulkan_Leap" ID="{F30F86D2-772A-4B17-BA33-491694B5ADC4}">
+					<ChildrenList>
+						<Action Name="" ID="{5A3FAA87-086C-4491-ABB3-8926B7F49A67}" ShortID="152629207">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan Leap" ID="{13647766-05C2-4627-87BF-FEB840AA89EA}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

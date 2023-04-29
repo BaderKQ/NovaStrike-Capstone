@@ -117,12 +117,14 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Leech_Explosion" ID="{7D1C3787-CCC1-4055-8627-CD59BFF54557}" WorkUnitID="{B61BACA5-9DB8-49F5-8DB8-7A12714CE1C2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Heartbeat" ID="{B85679E9-0365-412C-B00B-7F7E57CAFE81}" WorkUnitID="{B61BACA5-9DB8-49F5-8DB8-7A12714CE1C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Vulkan_Yells" ID="{BA06DC69-8B05-415F-B9D8-012D9AF0F372}" WorkUnitID="{97D2A0C5-E18F-4295-831F-B734388C65FE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Leech_Detection" ID="{ECF7BB24-71D6-4298-A55C-BF4A10D6602D}" WorkUnitID="{B61BACA5-9DB8-49F5-8DB8-7A12714CE1C2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Leech_Charge" ID="{880B82AA-50E7-451E-91B6-0C6D55F7658B}" WorkUnitID="{B61BACA5-9DB8-49F5-8DB8-7A12714CE1C2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Vulkan_Entrance_SFX" ID="{4C58212E-5A94-45CE-AE73-0EDE27A9CC4F}" WorkUnitID="{97D2A0C5-E18F-4295-831F-B734388C65FE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Leech_Footsteps" ID="{F12F8E5D-1BD3-460B-B39E-073A279AA3F2}" WorkUnitID="{B61BACA5-9DB8-49F5-8DB8-7A12714CE1C2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Vulkan_FootstepRight" ID="{7E045AD1-95F8-471E-B4DF-C1E1E4D0C536}" WorkUnitID="{97D2A0C5-E18F-4295-831F-B734388C65FE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Leech_Loop_Mono" ID="{A88A811A-55F8-493F-997B-E44D917AB713}" WorkUnitID="{B61BACA5-9DB8-49F5-8DB8-7A12714CE1C2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Vulkan_Leap" ID="{F30F86D2-772A-4B17-BA33-491694B5ADC4}" WorkUnitID="{97D2A0C5-E18F-4295-831F-B734388C65FE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Vulkan_FootstepLeft" ID="{84AEFAA0-D7CB-4B95-9B30-EC6FBA87F2BE}" WorkUnitID="{97D2A0C5-E18F-4295-831F-B734388C65FE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_VulkanBreathMedium" ID="{E0D8EAE2-2BB2-4D6E-98FA-2A06D87FFE5F}" WorkUnitID="{97D2A0C5-E18F-4295-831F-B734388C65FE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Vulkan_Entrance_Yell" ID="{131B6AD3-FCFC-4E14-948D-9BFA4CE1826B}" WorkUnitID="{97D2A0C5-E18F-4295-831F-B734388C65FE}" Origin="Manual" Filter="7"/>
