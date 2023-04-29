@@ -23,7 +23,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-1</Value>
+												<Value>-12</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -63,7 +63,14 @@
 									<ObjectLists/>
 								</ActorMixer>
 								<ActorMixer Name="Foley" ID="{DA788DF0-304D-4ED6-A3AB-292479B54898}" ShortID="710259330">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="25 Meters" ID="{A4BB139D-43DB-4932-8168-E1CC53F75CA2}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
 										</Reference>
@@ -76,7 +83,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-2</Value>
+														<Value>-4</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -260,7 +267,14 @@
 									<ObjectLists/>
 								</ActorMixer>
 								<ActorMixer Name="VO" ID="{1C48106F-C48B-4763-B6B1-E54246FC4E75}" ShortID="200648389">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="25 Meters" ID="{A4BB139D-43DB-4932-8168-E1CC53F75CA2}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
 										</Reference>
@@ -270,6 +284,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<RandomSequenceContainer Name="VulkanBreathMedium" ID="{DA511D24-FEAA-45AC-BE48-13C2BC7CEFA8}" ShortID="353334312">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -401,6 +422,13 @@
 									<ObjectLists/>
 								</ActorMixer>
 								<ActorMixer Name="Vulkan Screams" ID="{6FE88066-9589-409A-872A-668C857409CA}" ShortID="874670504">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>

@@ -11,6 +11,7 @@
 				<Property Name="Event Action List\{0A7D7DE5-CA6B-4E9C-9502-47173CFEBF43}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0D873880-D35C-4549-85A7-01BEFF4F080F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{1120D61F-81EC-458E-A96A-2214B7FBB8CA}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{131B6AD3-FCFC-4E14-948D-9BFA4CE1826B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{14CB80BE-D603-4BC1-AF74-41B313B87AFA}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{179C6178-3C44-4D76-9DFF-F49FADD96581}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{1C01E73C-010F-430E-ABF7-60120C308F7B}\x64_Expand States" Type="string" Value=""/>
@@ -28,6 +29,7 @@
 				<Property Name="Event Action List\{3C8A991F-E999-4EED-8421-47BF777F2471}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4280C45F-E4A4-43B9-B0CB-4E5188D7DCE4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{44517250-4696-45F6-8BF2-ED9E6FD5B19D}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{4C58212E-5A94-45CE-AE73-0EDE27A9CC4F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4DE3BA5B-DF98-43F8-8ADF-F6409FB6DF5C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{53BD0DFB-8364-4BC4-8A47-7122CCE6DFAF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{54AE8AE3-540F-4550-A843-D06166A88900}\x64_Expand States" Type="string" Value=""/>
@@ -44,10 +46,12 @@
 				<Property Name="Event Action List\{76A68724-AA5C-44EF-B9C8-4744C1ACE675}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{77C12983-F2D2-4CCA-9B1A-885E4F34AC08}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{7D1C3787-CCC1-4055-8627-CD59BFF54557}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{7E045AD1-95F8-471E-B4DF-C1E1E4D0C536}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{7E434442-43C9-4391-B801-635D2F563597}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{7E435569-8A5A-4319-8BE8-7663DCD75511}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{7EA3F774-DEF1-4344-9A58-0E162490689A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{82BC9CA6-0A67-499C-93A7-312ADEEE1239}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{84AEFAA0-D7CB-4B95-9B30-EC6FBA87F2BE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{868CB898-698F-40D4-B9A3-BBD953BFEF08}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{879FBCC0-5233-42CD-B659-B31A3C9A516F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{880B82AA-50E7-451E-91B6-0C6D55F7658B}\x64_Expand States" Type="string" Value=""/>
@@ -84,6 +88,7 @@
 				<Property Name="Event Action List\{D96D26F3-D7E7-4759-B5DF-CCB0A25C6CBA}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{DD22E7DA-50DD-4B46-B9AE-63B7F26C325C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{DE1E0104-00F8-44E4-89F7-EDFDB491E969}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E0D8EAE2-2BB2-4D6E-98FA-2A06D87FFE5F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E68AC349-81CE-4F25-A6E0-A41014D7E310}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E707E13C-87DB-4467-B5A4-FAF5500BE497}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E711E21C-9309-469B-87F2-DC115C4B136A}\x64_Expand States" Type="string" Value=""/>
@@ -120,7 +125,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="tpQHnU25HEykGwu+bkOjJwfy8pJBI81Ng5UR5F8fJzo="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="ig7LSg6jNEqV4LfjHWLjEV1HmFTZy5RMpbOnKvUz5/Ri155Mvu/cSKBvxo1nKdVa0pX4kPkdjkiJMg1e/wHbDQKA4mRdv99GpjTT9bxsdJo7RrMc+onwQLIkJIY1dC8a"/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="6ogN6B3/tE246tyFmXr4TgEr+Sz/////KpRHyXI+BEuj0DZ8/JINOQEr+Sz/////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="6ogN6B3/tE246tyFmXr4TgErxIn/////KpRHyXI+BEuj0DZ8/JINOQErxIn/////"/>
 				<Property Name="Interactive Music\x64_{5E7D05F6-1205-4EEC-885B-014EBA3383BF} - SegmentEditorZoomInfo" Type="string" Value="GnyeKFE4KkBdj8L1KFzzP8NdfPFtHvU/AAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="LoudnessMeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{CDCA502A-0062-483E-B239-C8FBB41EA257}"/>
@@ -153,9 +158,9 @@
 				<Property Name="ProjectExplorer\FirstVisible_11_2" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_12_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\FirstVisible_12_2" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{5980F717-E79B-422E-B305-4D131833EE74}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{FF759C86-A6F4-4EBC-BF7E-C729576F6D8F}"/>
 				<Property Name="ProjectExplorer\FirstVisible_1_2" Type="string" Value="{27092F88-225A-1154-6725-C8A34F3D4482}"/>
-				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
+				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{8384685B-C51F-4028-9E24-7CF9D40D70E8}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_2" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
 				<Property Name="ProjectExplorer\FirstVisible_5_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_5_2" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
@@ -191,11 +196,11 @@
 				<Property Name="ProjectExplorer\x64_Expanded_22_2" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ87q9TgmqS51ElqYTwx8mUzwqUMrNYgA+SLI5yPu0HqJXXEEpq7ss0Em8iAYCBOSUfpZMBIRxJKVKjKiu8M1vNWyXhBTo8scTTKCRUZY6g37rP5ascoRND02k0vbWy88kUsvO25MfiYZNr7jp5qecPBoD/HeoT0TCT4jK8uRod+ddaKTK61ai7k+XsRyAJ5ogY8xiGCwCvPZPkZOBKP3udpQ="/>
 				<Property Name="ProjectExplorer\x64_Expanded_2_2" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="O434rqTEH0CEAUlQhr+fGZVJbKF3iHFAgTUTkcJLoS+tZ7ddeTV8QL2u98HJONnoh8fxOho6kECekwD3Y7Nvy4ZacMWta+9AqOeG8pqpespsJB0qq885QbfxOnpTyt8nvcAKJxVSSEGBPM0bI7AvLUDvVMNHsFtBt+Xjt3ifZk2txpomNy29QaLvOyFxnQpOdOc/iXrS2kGfRY0JYXMPnf2c41B/MghCm1eDJxXRL58X94BZm+cuQrMFTRMYM+50AsFTIxbnL0KfkUJBsDaAaqm7hyNei25CjvxHauujvb/5Gd0NRAngQqjS8tqGa99feNrwvwDlMkOUiM24ax8UOtkUBzlgxYlDoRDiHy//0akQpT4V0Z2xQ6OB7u6xNjhgP8OuNgGqskONyolZkjsca1LoJJGIL9dDgVEhJe52wsj/teFAoSzaQ7lmWa/Uime+canbaDBHJkS+tdmiuHEtNf9TRk2kOk5En+5jtW9E4nJ6m94MAH9yRI7X1hef40ua9Y74RdFnd0S9Tk1O27GcqZme0VrVmrJEjbluwhKBjq9ITk96UPPpRIHmVroIH1XTTyD0pnAI8kSh9PrtqcfEaJRz/Kvf6klFtmir44+rDAmy2Vev/rZSRZlW9Ga//MeSwdIMhCCbXkWWsX2/OSbjbrhLljFMz6VFu5rc/WIPvtRdCwvEZsCpRZ9BYkTXClu5NqFYM5NhBkaD+rHMPwlEDPP1ydwEJNlGiT+pWXQobX4CdvV1PbIPR7wOAoz3JgxJ1VzGCouVEEem50BoPR2ecRZI43wCwphHrw/8PFJdc8YnSsZg3fz9R5Nfrk2vRGMUWunOulMKMEi+1Z4xwDvEKsHEseB7VV9IrnoDLf5UP1ziom/2PuWGSLr6KU3nzuIev0+1AQ0TFEm4W5xNrRfNcnZOjP7dUxdJnOFvc1P44RwpnGRNj/yVSZ8pVBwE7uPed0klTW1CnUmm78vAEiBXrLWxe2m+4NBJv4YJeFjoaj0ftdSPHi3rSb2Tbv7T+/q6G6BrqlI2Qkq/CKQJJwYUqfi7p17AZFBKiCGgfoviHWgrpmzJIf97SoMYXRZaYn3nGruQnIOIv0qUmNyBFTeHswgeyifp8AlLr048rq58DugFUSGxdrFGS5T9bCiQbTBDdauNxR9Tiku/Jp2HXGIkzIBHaIjh3YpLkaYBQxJy5xNUu29FlMbmS6xsW6MP4g1X8e37KhbMHkyln5W5iFfTJmvUvWaFuy1MiL1hfDjvUbBjvoNn8BUzTKdpoWmg4vxpgx4Mu3hQTUyBjxI0Q5dx9dAgGJuz94lMgqfYkV9V5NKaNosh+7bpTK+j4XtFKIB+yC4ucjpuLk28nwXwKxhnpHUClWvG+j1NhBfdDOaWnt9dKVgtiBpVTbn2pbjq+/dr7rja1xCsYE2LYwMPHyBQBVpmfD66umxNoy/enshS+55nez6H8SSJTY7UjtCxghfRsCbHXMgZnk2Zh2v4sMYOd3LUpzzp8ahNrPdUhJYGWaaYLEfoZVKwTbd7hNhJuX4DFV+zd2EnuU2ovu9bBAFcA/tm76hwpNxNkWHOPjcYbi40RDO6ofszTrjksAmWEZrqdJwNaXW7Vk6JnARk6cd2QtlcphFWpSFPrv3FOByDSasgXk4ux842T4d50xB1nXwTC4S5qD8vYU+SLfK6vKjbv3uxlklaYI5PhepUbI1onlb6+aoGp7i2T7QoycWG5IDJ"/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="O434rqTEH0CEAUlQhr+fGZVJbKF3iHFAgTUTkcJLoS+tZ7ddeTV8QL2u98HJONnoh8fxOho6kECekwD3Y7Nvy2aA6G+JlZpAhypmjIV0CcqGWnDFrWvvQKjnhvKaqXrKbCQdKqvPOUG38Tp6U8rfJ73ACicVUkhBgTzNGyOwLy1A71TDR7BbQbfl47d4n2ZNrcaaJjctvUGi7zshcZ0KTnYjQdBWY9ZBoYJRbOJ2KJl05z+JetLaQZ9FjQlhcw+d/ZzjUH8yCEKbV4MnFdEvnxf3gFmb5y5CswVNExgz7nQCwVMjFucvQp+RQkGwNoBqqbuHI16LbkKO/Edq66O9v/kZ3Q1ECeBCqNLy2oZr31942vC/AOUyQ5SIzbhrHxQ62RQHOWDFiUOhEOIfL//RqRClPhXRnbFDo4Hu7rE2OGA/w642AaqyQ43KiVmSOxxrUugkkYgv10OBUSEl7nbCyP+14UChLNpDuWZZr9SKZ75xqdtoMEcmRL612aK4cS01/1NGTaQ6TkSf7mO1b0Ticnqb3gwAf3JEjtfWF5/jS5r1jvhF0Wd3RL1OTU7bsZypmZ7RWtWaskSNuW7CEoGOr0hOT3pQ8+lEgeZWuggfVdNPIPSmcAjyRKH0+u2px8RolHP8q9/qSUW2aKvjj6sMCbLZV6/+tlJFmVb0Zr/8x5LB0gyEIJteRZaxfb85JuNuuEuWMUzPpUW7mtz9Yg++1F0LC8RmwKlFn0FiRNcKW7k2oVgzk2EGRoP6scw/CUQM8/XJ3AQk2UaJP6lZdChtfgJ29XU9sg9HvA4CjPcmDEnVXMYKi5UQR6bnQGg9HZ5xbxBIHIvEY0e2seVCRvxOdRZI43wCwphHrw/8PFJdc8YnSsZg3fz9R5Nfrk2vRGMUWunOulMKMEi+1Z4xwDvEKsHEseB7VV9IrnoDLf5UP1w7BhkwbTJjSIHmYEZb58084qJv9j7lhki6+ilN587iHr9PtQENExRJuFucTa0XzXJ2Toz+3VMXSZzhb3NT+OEcKZxkTY/8lUmfKVQcBO7j3ndJJU1tQp1Jpu/LwBIgV6y1sXtpvuDQSb+GCXhY6Go9H7XUjx4t60m9k27+0/v6uhuga6pSNkJKvwikCScGFKn4u6dewGRQSoghoH6L4h1oK6ZsySH/e0qDGF0WWmJ958tGBx1Tm6JKk8ovUbBI4jQau5Ccg4i/SpSY3IEVN4ezCB7KJ+nwCUuvTjyurnwO6AVRIbF2sUZLlP1sKJBtMEN1q43FH1OKS78mnYdcYiTMgEdoiOHdikuRpgFDEnLnE1S7b0WUxuZLrGxbow/iDVdbIdl8akYKTKONpKBz07Dt8e37KhbMHkyln5W5iFfTJmvUvWaFuy1MiL1hfDjvUbBjvoNn8BUzTKdpoWmg4vxpgx4Mu3hQTUyBjxI0Q5dx9dAgGJuz94lMgqfYkV9V5NIDHvHslDmsTLhkx+Wr+hT+mjaLIfu26Uyvo+F7RSiAfsguLnI6bi5NvJ8F8CsYZ6R1ApVrxvo9TYQX3Qzmlp7fXSlYLYgaVU259qW46vv3a+642tcQrGBNi2MDDx8gUAVaZnw+urpsTaMv3p7IUvueZ3s+h/EkiU2O1I7QsYIX0bAmx1zIGZ5NmYdr+LDGDndy1Kc86fGoTaz3VISWBlmmmCxH6GVSsE23e4TYSbl+AxVfs3dhJ7lNqL7vWwQBXAP7Zu+ocKTcTZFhzj43GG4uNEQzuqH7M0645LAJlhGa6nScDWl1u1ZOiZwEZOnHdkLwjXjaTTDWTqOrKSR5tUiY2VymEValIU+u/cU4HINJqyBeTi7HzjZPh3nTEHWdfBMLhLmoPy9hT5It8rq8qNu/e7GWSVpgjk+F6lRsjWieVvr5qganuLZPtCjJxYbkgMk="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_2" Type="string" Value="QO9Uw0ewW0G35eO3eJ9mTQLBUyMW5y9Cn5FCQbA2gGr0lJomAp6NQqG1g+vRtcTchOreVY/uqES5owZGxyH6qZme0VrVmrJEjbluwhKBjq+Uc/yr3+pJRbZoq+OPqwwJ5WB0HSiygEexnu/DgqmOD+Kib/Y+5YZIuvopTefO4h5Uu29FlMbmS6xsW6MP4g1X0CAYm7P3iUyCp9iRX1Xk0nScDWl1u1ZOiZwEZOnHdkI="/>
-				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="SwgVEX3bIUCOK1YTa9/x91tohIMfxShAniR8+dQNcOicueOkR1woQa30sJMhoLga+aKZvLPJPUGGn9JV0vuV66yOzBpU1E1BinXPa0xerJDbPVR0EcJpQb6LqOsNBmfL6CH7IOkPfUSNHagutiT9dnTLctryby9GtkfPonNUPLgE2n7fbwtQRotdvJ68zThrU3pyLVXddEe/UlfgZW4dWvTkrAdAlXxIv3EiJLCIPv6SDmFM/mxKSbhM1L1rKp1BiwOWUAecfEuVjlveiqMK+UWvA0PPfcBLnHjd7JgtlTVGoZ5cCZ8QTL4WpcJ0QwAgiSi4B8yUi02nV67F451yWQghYoWsN7lNqVhQvQqdYMEEKsJVPsbKTa85mOaPXs2UUZ7CtjuHik+YcOQ/q7KGJDY7q7AxHqxPhHuHh+dgcvs="/>
+				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="SwgVEX3bIUCOK1YTa9/x91tohIMfxShAniR8+dQNcOicueOkR1woQa30sJMhoLga+aKZvLPJPUGGn9JV0vuV66yOzBpU1E1BinXPa0xerJDbPVR0EcJpQb6LqOsNBmfLxaDSl4/hlUKDH7c0OIxl/ugh+yDpD31EjR2oLrYk/XZ0y3La8m8vRrZHz6JzVDy4BNp+328LUEaLXbyevM04a1N6ci1V3XRHv1JX4GVuHVr05KwHQJV8SL9xIiSwiD7+/PCbpkrYfEir3Vb3HLKhJpIOYUz+bEpJuEzUvWsqnUFAK9ZCy1qJSbqFU7lfW3q+iwOWUAecfEuVjlveiqMK+UWvA0PPfcBLnHjd7JgtlTVGoZ5cCZ8QTL4WpcJ0QwAgiSi4B8yUi02nV67F451yWQghYoWsN7lNqVhQvQqdYMEEKsJVPsbKTa85mOaPXs2UUZ7CtjuHik+YcOQ/q7KGJDY7q7AxHqxPhHuHh+dgcvs="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_2" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value="tRLaVaIu2kCuGtnAiozmLH/dPLPSYlBEik3pmfQ1q5cf/LnPjnXiSKRtAtymE+Gy8XVhy4BgI0qS7wgH4wTQwbLoMh3ypAhOu6Ff4sj/QB8="/>
+				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value="tRLaVaIu2kCuGtnAiozmLH/dPLPSYlBEik3pmfQ1q5cf/LnPjnXiSKRtAtymE+GysugyHfKkCE67oV/iyP9AHw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_2" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value="mRPR2v5I60WtJB+CvmFsey7BGeLm76BJiuV5dg/eU+xxbGLxLW9RT40YOjBhZS/8+8iS11lGpk+e0jLr8rsPBQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_2" Type="string" Value="cWxi8S1vUU+NGDowYWUv/PvIktdZRqZPntIy6/K7DwU="/>
