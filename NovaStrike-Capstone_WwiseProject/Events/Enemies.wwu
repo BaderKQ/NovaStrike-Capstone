@@ -2,10 +2,15 @@
 <WwiseDocument Type="WorkUnit" ID="{42D62B40-5ACB-4989-BA85-53B95F5B7ABE}" SchemaVersion="103">
 	<Events>
 		<WorkUnit Name="Enemies" ID="{42D62B40-5ACB-4989-BA85-53B95F5B7ABE}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<WorkUnit Name="Leech" ID="{B61BACA5-9DB8-49F5-8DB8-7A12714CE1C2}" PersistMode="Reference"/>
 				<WorkUnit Name="Saideed" ID="{5D4DD2E9-BB57-4772-AFD3-CABD3A9A8AC0}" PersistMode="Reference"/>
 				<WorkUnit Name="GeneralEnemySounds" ID="{AB20498E-6ACE-42FD-AFFB-DE47E2154062}" PersistMode="Reference"/>
+				<WorkUnit Name="Vulkan" ID="{97D2A0C5-E18F-4295-831F-B734388C65FE}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
