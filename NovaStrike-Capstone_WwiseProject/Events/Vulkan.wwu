@@ -84,7 +84,21 @@
 						<Action Name="" ID="{5A3FAA87-086C-4491-ABB3-8926B7F49A67}" ShortID="152629207">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Vulkan Leap" ID="{13647766-05C2-4627-87BF-FEB840AA89EA}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+									<ObjectRef Name="Vulkan_Leap1_0_1_" ID="{6B5C0D0F-A041-4DF9-8EC9-9F20EEC37571}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B8CEC080-7D04-4334-AFBE-9DF4D04E3C5E}" ShortID="300747038">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan_Leap_Whoosh1_0_1" ID="{03973D11-B01E-47AE-987F-12763F805AA7}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0B3F1225-7ABE-4F94-99DA-12109C80BC25}" ShortID="400075422">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan_Leap_Yell1_0_1" ID="{01664C43-F7EB-421B-83A1-51EF08E50B3C}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
