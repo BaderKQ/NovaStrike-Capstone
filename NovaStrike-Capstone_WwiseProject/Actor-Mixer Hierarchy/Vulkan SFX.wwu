@@ -33,7 +33,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-12</Value>
+														<Value>-15</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -172,18 +172,18 @@
 												</Sound>
 												<Sound Name="Vulkan_Leap1_0_1_" ID="{6B5C0D0F-A041-4DF9-8EC9-9F20EEC37571}" ShortID="877382831">
 													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
 														<Property Name="OverridePositioning" Type="bool" Value="True"/>
 														<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-2</Value>
+																<Value>-12</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
-															<ObjectRef Name="50 Meters" ID="{DAA3ABA9-FE91-4A8B-8B5D-A481561AE353}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+															<ObjectRef Name="100 Meters" ID="{FED17172-1CC6-42AA-8B1E-9A0D4986F94A}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
 														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -229,6 +229,8 @@
 											<ChildrenList>
 												<Sound Name="Vulkan Spike Slam Spikes V1_00" ID="{0A96018E-7A46-449E-BCEC-5A31D4B575BB}" ShortID="1045463360">
 													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
 														<Property Name="Pitch" Type="int32">
 															<ModifierList>
 																<ModifierInfo>
@@ -242,8 +244,16 @@
 																</ModifierInfo>
 															</ModifierList>
 														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="25 Meters" ID="{A4BB139D-43DB-4932-8168-E1CC53F75CA2}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
 														</Reference>
@@ -272,13 +282,13 @@
 														<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-1</Value>
+																<Value>-6</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
-															<ObjectRef Name="50 Meters" ID="{DAA3ABA9-FE91-4A8B-8B5D-A481561AE353}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+															<ObjectRef Name="100 Meters" ID="{FED17172-1CC6-42AA-8B1E-9A0D4986F94A}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
 														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -305,7 +315,7 @@
 													<PropertyList>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-2</Value>
+																<Value>-6</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -332,6 +342,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Vulkan Spike Slam Whooshes V1_00" ID="{3D4BE464-91BA-4723-B854-CD86C99939C7}" ShortID="852606182">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -352,6 +369,43 @@
 													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="Vulkan Spike Slam Whooshes V1_00" ID="{8458FC75-9650-4F76-889B-FCD6ABE796F5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Vulkan_Spike_Slam_Spikes_V1_02" ID="{C61E3AB9-F407-4E65-9804-724F1F9B65EF}" ShortID="64129608">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="OverrideEffect" Type="bool" Value="True"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-16</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="25 Meters" ID="{A4BB139D-43DB-4932-8168-E1CC53F75CA2}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan_Spike_Slam_Spikes_V1_02" ID="{670C4040-6BE7-483E-900B-ADF0448354EC}">
+															<Language>SFX</Language>
+															<AudioFile>Vulkan_Spike_Slam_Spikes_V1.02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="246379707"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan_Spike_Slam_Spikes_V1_02" ID="{670C4040-6BE7-483E-900B-ADF0448354EC}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -379,13 +433,19 @@
 									<ChildrenList>
 										<ActorMixer Name="VulkanFootsteps" ID="{ECF11E03-3994-4CAC-B864-C7E5ABFA14FE}" ShortID="871682299">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="25"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-4</Value>
+														<Value>-8</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="50 Meters" ID="{DAA3ABA9-FE91-4A8B-8B5D-A481561AE353}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
 												</Reference>
@@ -737,6 +797,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="Vulkan Entrance Yell" ID="{F20B39AE-D6C7-4B61-9FE8-2E3DE7F04CF0}" ShortID="1053213266">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -760,6 +827,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<RandomSequenceContainer Name="Vulkan Yells" ID="{94CFAE7D-37BD-4638-80DD-EE233A25DC61}" ShortID="122342852">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>

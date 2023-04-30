@@ -41,8 +41,8 @@
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1667796742" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1667796742" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1667796742" DateHigh="0"/>
-	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\NovaStrike-Capstone_WwiseProject.wproj" DateLow="1682802436" DateHigh="0"/>
-	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\NovaStrike-Capstone_WwiseProject.slack.wsettings" DateLow="1682793915" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\NovaStrike-Capstone_WwiseProject.wproj" DateLow="1682823111" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\NovaStrike-Capstone_WwiseProject.slack.wsettings" DateLow="1682804235" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1667796739" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1680153441" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Metadata\Default Work Unit.wwu" DateLow="1667796739" DateHigh="0"/>
@@ -52,7 +52,7 @@
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Interactive Music Hierarchy\Arena Music.wwu" DateLow="1681347158" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Interactive Music Hierarchy\Arena 1.wwu" DateLow="1680146939" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1681371592" DateHigh="0"/>
-	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Events\Vulkan.wwu" DateLow="1682802436" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Events\Vulkan.wwu" DateLow="1682823111" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Events\Testing.wwu" DateLow="1677203284" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Events\SwingLight.wwu" DateLow="1673821861" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Events\SwingLaunch.wwu" DateLow="1673821861" DateHigh="0"/>
@@ -61,6 +61,7 @@
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Events\SuitCombatDialogue.wwu" DateLow="1680150038" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Events\SuitAI.wwu" DateLow="1680150038" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Events\States.wwu" DateLow="1681364257" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Events\Spike Slam.wwu" DateLow="1682823111" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Events\SaideedLocomotion.wwu" DateLow="1677203976" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Events\SaideedCombat.wwu" DateLow="1677203976" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Events\Saideed.wwu" DateLow="1677203976" DateHigh="0"/>
@@ -97,7 +98,7 @@
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1669871286" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Attenuations\Attenutations.wwu" DateLow="1681377550" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\Wavegun.wwu" DateLow="1681364257" DateHigh="0"/>
-	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\Vulkan SFX.wwu" DateLow="1682802436" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\Vulkan SFX.wwu" DateLow="1682823111" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\SaideedLocomotion.wwu" DateLow="1673673015" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\SaideedCombat.wwu" DateLow="1681349265" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\Saideed.wwu" DateLow="1677701958" DateHigh="0"/>

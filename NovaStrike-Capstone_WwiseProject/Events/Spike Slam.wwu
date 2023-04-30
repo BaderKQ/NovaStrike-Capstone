@@ -33,7 +33,7 @@
 						<Action Name="" ID="{94ED1DFE-5689-4EE8-B150-4F5C2A853984}" ShortID="575931638">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Vulkan Spike Slam Spikes V1_00" ID="{0A96018E-7A46-449E-BCEC-5A31D4B575BB}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+									<ObjectRef Name="Vulkan_Spike_Slam_Spikes_V1_02" ID="{C61E3AB9-F407-4E65-9804-724F1F9B65EF}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
