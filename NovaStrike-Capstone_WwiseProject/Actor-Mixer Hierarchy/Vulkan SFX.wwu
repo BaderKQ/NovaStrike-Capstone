@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}" SchemaVersion="103" RootDocumentID="{2353C102-E716-422F-9F91-4241B036806A}" ParentDocumentID="{2353C102-E716-422F-9F91-4241B036806A}">
+	<AudioObjects>
+		<WorkUnit Name="Vulkan SFX" ID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}" OwnerID="{2353C102-E716-422F-9F91-4241B036806A}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="VulkanMixer" ID="{3019063B-326D-4863-81E6-60465BE7CD3C}" ShortID="833799216">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="EnemySFX" ID="{6696559A-C411-44CF-8839-76CB8B4C7F88}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Folder Name="Stems" ID="{1D0746CB-9B53-4AA2-93CA-2F51B048E234}" ShortID="501106713">
+							<ChildrenList>
+								<ActorMixer Name="Cinematic" ID="{D0412376-6356-41D6-A182-516CE2762899}" ShortID="22084720">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Vulkan Entrance SFX" ID="{D2A064ED-4F2B-40AE-A6CE-182AA03D6DBF}" ShortID="278287396">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Vulkan Entrance SFX" ID="{938E31DC-C10D-4639-A365-62AAF50DDFEE}">
+													<Language>SFX</Language>
+													<AudioFile>Stems\Cinematic\Vulkan Entrance SFX.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="256011047"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Vulkan Entrance SFX" ID="{938E31DC-C10D-4639-A365-62AAF50DDFEE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Vulkan Leap" ID="{13647766-05C2-4627-87BF-FEB840AA89EA}" ShortID="818706969">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="50 Meters" ID="{DAA3ABA9-FE91-4A8B-8B5D-A481561AE353}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Vulkan Leap" ID="{A0936196-8F99-4AB3-AED9-74AC738AB2AD}">
+													<Language>SFX</Language>
+													<AudioFile>Vulkan Leap.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="719390074"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Vulkan Leap" ID="{A0936196-8F99-4AB3-AED9-74AC738AB2AD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<ActorMixer Name="Leap" ID="{179D6B0E-C77B-4879-824C-97938B04A61F}" ShortID="166910188">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Vulkan_Leap_Yell1_0_1" ID="{01664C43-F7EB-421B-83A1-51EF08E50B3C}" ShortID="831141561">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-12</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="50 Meters" ID="{DAA3ABA9-FE91-4A8B-8B5D-A481561AE353}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan_Leap_Yell1_0_1" ID="{AF3515AC-370E-4DF2-AFD1-7287783E7773}">
+															<Language>SFX</Language>
+															<AudioFile>Vulkan_Leap_Yell1.0.1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="618467558"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan_Leap_Yell1_0_1" ID="{AF3515AC-370E-4DF2-AFD1-7287783E7773}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Vulkan_Leap_Whoosh1_0_1" ID="{03973D11-B01E-47AE-987F-12763F805AA7}" ShortID="1042895253">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-12</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan_Leap_Whoosh1_0_1" ID="{41EB88DA-2F59-4ACF-8F06-8FEF3FE94844}">
+															<Language>SFX</Language>
+															<AudioFile>Vulkan_Leap_Whoosh1.0.1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1033544434"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan_Leap_Whoosh1_0_1" ID="{41EB88DA-2F59-4ACF-8F06-8FEF3FE94844}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Vulkan_Leap1_0_1_" ID="{6B5C0D0F-A041-4DF9-8EC9-9F20EEC37571}" ShortID="877382831">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-12</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="100 Meters" ID="{FED17172-1CC6-42AA-8B1E-9A0D4986F94A}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan_Leap1_0_1_" ID="{2C9B81D7-16E8-4E6A-941F-4CD38A1785F4}">
+															<Language>SFX</Language>
+															<AudioFile>Vulkan_Leap1.0.1_.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="103895236"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan_Leap1_0_1_" ID="{2C9B81D7-16E8-4E6A-941F-4CD38A1785F4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</ActorMixer>
+										<ActorMixer Name="Spike Slam" ID="{FFB84CAC-8E0A-49A3-AB57-47E1B73C33E9}" ShortID="612792457">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="50 Meters" ID="{DAA3ABA9-FE91-4A8B-8B5D-A481561AE353}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Vulkan Spike Slam Spikes V1_00" ID="{0A96018E-7A46-449E-BCEC-5A31D4B575BB}" ShortID="1045463360">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{AC29357C-92D0-4C47-A614-5376DBF718D3}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="200"/>
+																			<Property Name="Min" Type="Real64" Value="-118"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="25 Meters" ID="{A4BB139D-43DB-4932-8168-E1CC53F75CA2}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan Spike Slam Spikes V1_00" ID="{FE4669D8-4344-4FDD-8AF7-5B4CB4768C38}">
+															<Language>SFX</Language>
+															<AudioFile>Vulkan Spike Slam Spikes V1.00.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="649560327"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan Spike Slam Spikes V1_00" ID="{FE4669D8-4344-4FDD-8AF7-5B4CB4768C38}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Vulkan Spike Slam V1_00" ID="{45B65418-03D2-4D37-8DA0-310C6590DB7C}" ShortID="647840592">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="100 Meters" ID="{FED17172-1CC6-42AA-8B1E-9A0D4986F94A}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan Spike Slam V1_00" ID="{65F63189-AE73-40AB-9DE1-5DF26CE8FCEF}">
+															<Language>SFX</Language>
+															<AudioFile>Vulkan Spike Slam V1.00.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="799273552"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan Spike Slam V1_00" ID="{65F63189-AE73-40AB-9DE1-5DF26CE8FCEF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Vulkan Spike Slam VO V1_00" ID="{4CA604BF-7F42-4813-A6DB-FECCC504E23B}" ShortID="754227670">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan Spike Slam VO V1_00" ID="{3A5A77D2-C682-4824-B5EB-B353E357BABF}">
+															<Language>SFX</Language>
+															<AudioFile>Vulkan Spike Slam VO V1.00.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="862701326"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan Spike Slam VO V1_00" ID="{3A5A77D2-C682-4824-B5EB-B353E357BABF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Vulkan Spike Slam Whooshes V1_00" ID="{3D4BE464-91BA-4723-B854-CD86C99939C7}" ShortID="852606182">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan Spike Slam Whooshes V1_00" ID="{8458FC75-9650-4F76-889B-FCD6ABE796F5}">
+															<Language>SFX</Language>
+															<AudioFile>Vulkan Spike Slam Whooshes V1.00.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="434520919"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan Spike Slam Whooshes V1_00" ID="{8458FC75-9650-4F76-889B-FCD6ABE796F5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Vulkan_Spike_Slam_Spikes_V1_02" ID="{C61E3AB9-F407-4E65-9804-724F1F9B65EF}" ShortID="64129608">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="OverrideEffect" Type="bool" Value="True"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-16</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="25 Meters" ID="{A4BB139D-43DB-4932-8168-E1CC53F75CA2}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan_Spike_Slam_Spikes_V1_02" ID="{670C4040-6BE7-483E-900B-ADF0448354EC}">
+															<Language>SFX</Language>
+															<AudioFile>Vulkan_Spike_Slam_Spikes_V1.02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="246379707"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan_Spike_Slam_Spikes_V1_02" ID="{670C4040-6BE7-483E-900B-ADF0448354EC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</ActorMixer>
+										<ActorMixer Name="Stomp" ID="{88CE27BB-47C4-44B6-872D-28DF0CA2F347}" ShortID="19999566">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Vulkan_Stomp" ID="{8841F0B8-E8DA-4C32-9D9A-E7A566950567}" ShortID="1057586409">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="100 Meters" ID="{FED17172-1CC6-42AA-8B1E-9A0D4986F94A}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan_Stomp" ID="{C836EBFC-4399-473B-861E-E32F1D7D9AFE}">
+															<Language>SFX</Language>
+															<AudioFile>Vulkan_Stomp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="611094018"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan_Stomp" ID="{C836EBFC-4399-473B-861E-E32F1D7D9AFE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Vulkan_Stomp_Whoosh" ID="{2FE11A24-3196-4981-86E2-82D1F9D66A5F}" ShortID="1029784766">
+													<PropertyList>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan_Stomp_Whoosh" ID="{91F8E1FB-2601-4CA1-B2FE-3C01B21B92B9}">
+															<Language>SFX</Language>
+															<AudioFile>Vulkan_Stomp_Whoosh.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="259343387"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan_Stomp_Whoosh" ID="{91F8E1FB-2601-4CA1-B2FE-3C01B21B92B9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Vulkan_Stomp_VO" ID="{5C80F978-F6FF-479E-B7FC-243080AFF504}" ShortID="837509215">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="100 Meters" ID="{FED17172-1CC6-42AA-8B1E-9A0D4986F94A}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan_Stomp_VO" ID="{6AE605F9-F152-4444-A5F3-4775F8993D81}">
+															<Language>SFX</Language>
+															<AudioFile>Vulkan_Stomp_VO.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="919650327"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan_Stomp_VO" ID="{6AE605F9-F152-4444-A5F3-4775F8993D81}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</ActorMixer>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="Foley" ID="{DA788DF0-304D-4ED6-A3AB-292479B54898}" ShortID="710259330">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="25 Meters" ID="{A4BB139D-43DB-4932-8168-E1CC53F75CA2}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<ActorMixer Name="VulkanFootsteps" ID="{ECF11E03-3994-4CAC-B864-C7E5ABFA14FE}" ShortID="871682299">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="25"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="50 Meters" ID="{DAA3ABA9-FE91-4A8B-8B5D-A481561AE353}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="Vulkan_FootstepRight" ID="{A2BB3BE0-D985-4982-9D61-8423AB5C248F}" ShortID="359742894">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="EnemySFX" ID="{6696559A-C411-44CF-8839-76CB8B4C7F88}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Vulkan Footstep Right 1" ID="{BA774C72-F054-47E6-8656-3644079D31A8}" ShortID="378806460">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="EnemySFX" ID="{6696559A-C411-44CF-8839-76CB8B4C7F88}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Vulkan Footstep Right 1" ID="{0D996174-12C5-4AFE-8B51-9CE2D9BFD685}">
+																	<Language>SFX</Language>
+																	<AudioFile>Stems\Foley\Vulkan Footstep Right 1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="828893882"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="Vulkan Footstep Right 1" ID="{0D996174-12C5-4AFE-8B51-9CE2D9BFD685}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Vulkan Footstep Right 2" ID="{F38F7EE6-67F5-4803-8FC9-30AAED55348D}" ShortID="189059005">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="EnemySFX" ID="{6696559A-C411-44CF-8839-76CB8B4C7F88}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Vulkan Footstep Right 2" ID="{F16A8039-F89B-4EAF-A541-F3F6228B5E24}">
+																	<Language>SFX</Language>
+																	<AudioFile>Stems\Foley\Vulkan Footstep Right 2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="876894296"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="Vulkan Footstep Right 2" ID="{F16A8039-F89B-4EAF-A541-F3F6228B5E24}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Vulkan Footstep Right 3" ID="{764301BD-14FB-4DE2-AFF2-06E12695DA57}" ShortID="494413625">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="EnemySFX" ID="{6696559A-C411-44CF-8839-76CB8B4C7F88}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Vulkan Footstep Right 3" ID="{CF202AA0-19D0-4ECE-9DD7-B4855D448CBE}">
+																	<Language>SFX</Language>
+																	<AudioFile>Stems\Foley\Vulkan Footstep Right 3.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="591766703"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="Vulkan Footstep Right 3" ID="{CF202AA0-19D0-4ECE-9DD7-B4855D448CBE}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<ObjectLists/>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Vulkan_FootstepLeft" ID="{C2BC13E4-943A-4271-96CD-51FC4B81A68A}" ShortID="993199092">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="EnemySFX" ID="{6696559A-C411-44CF-8839-76CB8B4C7F88}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Vulkan Footstep Left 1" ID="{17753B3D-32F4-430F-8DFD-44FB411C9E80}" ShortID="295656100">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="EnemySFX" ID="{6696559A-C411-44CF-8839-76CB8B4C7F88}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Vulkan Footstep Left 1" ID="{BF1925CA-0AE4-42DB-9353-2895D00D9ED6}">
+																	<Language>SFX</Language>
+																	<AudioFile>Stems\Foley\Vulkan Footstep Left 1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="300776936"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="Vulkan Footstep Left 1" ID="{BF1925CA-0AE4-42DB-9353-2895D00D9ED6}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Vulkan Footstep Left 2" ID="{863FC6D3-F7BF-4B10-9CE3-113D155BFA57}" ShortID="909210048">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="EnemySFX" ID="{6696559A-C411-44CF-8839-76CB8B4C7F88}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Vulkan Footstep Left 2" ID="{57FEFE31-2E51-43E5-89AA-C3803BB6B933}">
+																	<Language>SFX</Language>
+																	<AudioFile>Stems\Foley\Vulkan Footstep Left 2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="810295840"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="Vulkan Footstep Left 2" ID="{57FEFE31-2E51-43E5-89AA-C3803BB6B933}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Vulkan Footstep Left 3" ID="{145E5B14-136B-4111-9087-4ED39F2BC8DE}" ShortID="897220109">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="EnemySFX" ID="{6696559A-C411-44CF-8839-76CB8B4C7F88}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Vulkan Footstep Left 3" ID="{1B998BA3-791F-41CF-B9AA-659F79B45086}">
+																	<Language>SFX</Language>
+																	<AudioFile>Stems\Foley\Vulkan Footstep Left 3.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="178442541"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="Vulkan Footstep Left 3" ID="{1B998BA3-791F-41CF-B9AA-659F79B45086}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<ObjectLists/>
+												</RandomSequenceContainer>
+											</ChildrenList>
+											<ObjectLists/>
+										</ActorMixer>
+										<Sound Name="Vulkan_Evade_1" ID="{60470A6B-EFB8-43CA-B407-56B28C06A623}" ShortID="52659255">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="100 Meters" ID="{FED17172-1CC6-42AA-8B1E-9A0D4986F94A}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Vulkan_Evade_1" ID="{8AAC73B4-E676-4B87-9B4C-2C3BE3EB35D0}">
+													<Language>SFX</Language>
+													<AudioFile>Vulkan_Evade_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="972112265"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Vulkan_Evade_1" ID="{8AAC73B4-E676-4B87-9B4C-2C3BE3EB35D0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VO" ID="{1C48106F-C48B-4763-B6B1-E54246FC4E75}" ShortID="200648389">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="25 Meters" ID="{A4BB139D-43DB-4932-8168-E1CC53F75CA2}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VulkanBreathMedium" ID="{DA511D24-FEAA-45AC-BE48-13C2BC7CEFA8}" ShortID="353334312">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Vulkan Breathe Medium 1" ID="{A6230783-9DC9-4261-BEED-8BD047455DE0}" ShortID="558425449">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="EnemySFX" ID="{6696559A-C411-44CF-8839-76CB8B4C7F88}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan Breathe Medium 1" ID="{4BE2E0DB-15A7-4B5B-A661-82F030A9EC54}">
+															<Language>SFX</Language>
+															<AudioFile>Stems\VO\Vulkan Breathe Medium 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1072942433"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan Breathe Medium 1" ID="{4BE2E0DB-15A7-4B5B-A661-82F030A9EC54}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Vulkan Breathe Medium 2" ID="{61D4B879-5E05-4ACF-AD63-33229359A4F8}" ShortID="734634879">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="EnemySFX" ID="{6696559A-C411-44CF-8839-76CB8B4C7F88}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan Breathe Medium 2" ID="{E2201ADB-B322-484D-B748-F49FC7D7389C}">
+															<Language>SFX</Language>
+															<AudioFile>Stems\VO\Vulkan Breathe Medium 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="147360860"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan Breathe Medium 2" ID="{E2201ADB-B322-484D-B748-F49FC7D7389C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Vulkan Breathe Medium 3" ID="{36C8EBB9-8484-49F5-B2A8-994635FD95BC}" ShortID="663403184">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="EnemySFX" ID="{6696559A-C411-44CF-8839-76CB8B4C7F88}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan Breathe Medium 3" ID="{03A3DAE5-2DE0-438A-9DE0-266E9B7220A0}">
+															<Language>SFX</Language>
+															<AudioFile>Stems\VO\Vulkan Breathe Medium 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="518567363"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan Breathe Medium 3" ID="{03A3DAE5-2DE0-438A-9DE0-266E9B7220A0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Vulkan Breathe Medium 4" ID="{7B6851C8-6F6B-4E3A-9A03-A7E95C00A871}" ShortID="1038458488">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="EnemySFX" ID="{6696559A-C411-44CF-8839-76CB8B4C7F88}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan Breathe Medium 4" ID="{19FA06C2-7684-4101-8CB2-50E43D34CCA3}">
+															<Language>SFX</Language>
+															<AudioFile>Stems\VO\Vulkan Breathe Medium 4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="710881767"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan Breathe Medium 4" ID="{19FA06C2-7684-4101-8CB2-50E43D34CCA3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Vulkan Breathe Medium 5" ID="{E3A5F623-AFD9-4187-A599-39062B4E3F75}" ShortID="908867005">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="EnemySFX" ID="{6696559A-C411-44CF-8839-76CB8B4C7F88}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan Breathe Medium 5" ID="{E67D5B1E-7F27-4445-9B2E-7E71ABBAB40A}">
+															<Language>SFX</Language>
+															<AudioFile>Stems\VO\Vulkan Breathe Medium 5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="651004966"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan Breathe Medium 5" ID="{E67D5B1E-7F27-4445-9B2E-7E71ABBAB40A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="Vulkan Screams" ID="{6FE88066-9589-409A-872A-668C857409CA}" ShortID="874670504">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Vulkan Entrance Yell" ID="{F20B39AE-D6C7-4B61-9FE8-2E3DE7F04CF0}" ShortID="1053213266">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Vulkan Entrance Yell" ID="{FAC70319-AD82-487A-88BA-862FCCEADC83}">
+													<Language>SFX</Language>
+													<AudioFile>Stems\Vulkan Screams\Vulkan Entrance Yell.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="501613174"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Vulkan Entrance Yell" ID="{FAC70319-AD82-487A-88BA-862FCCEADC83}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<RandomSequenceContainer Name="Vulkan Yells" ID="{94CFAE7D-37BD-4638-80DD-EE233A25DC61}" ShortID="122342852">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Vulkan Yell 1-1" ID="{0A4C8496-7DD1-4A3A-A7D0-AA92A3380EC8}" ShortID="385893038">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan Yell 1-1" ID="{48277C28-23C9-4E5E-B1F6-ABBF43354C61}">
+															<Language>SFX</Language>
+															<AudioFile>Vulkan Yell 1-1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="583154589"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan Yell 1-1" ID="{48277C28-23C9-4E5E-B1F6-ABBF43354C61}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Vulkan Yell 1-2" ID="{1E284762-7C48-40C4-AA5D-4A8383944A10}" ShortID="596812505">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>7</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan Yell 1-2" ID="{CC132146-566A-4F2E-91B0-E014B58B213B}">
+															<Language>SFX</Language>
+															<AudioFile>Vulkan Yell 1-2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="910699930"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan Yell 1-2" ID="{CC132146-566A-4F2E-91B0-E014B58B213B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

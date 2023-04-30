@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{59F398CB-E396-4C1E-91D2-2E2075473256}" SchemaVersion="103" RootDocumentID="{42D62B40-5ACB-4989-BA85-53B95F5B7ABE}" ParentDocumentID="{97D2A0C5-E18F-4295-831F-B734388C65FE}">
+	<Events>
+		<WorkUnit Name="Stomp" ID="{59F398CB-E396-4C1E-91D2-2E2075473256}" OwnerID="{97D2A0C5-E18F-4295-831F-B734388C65FE}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Vulkan_Stomp" ID="{75BE835E-809E-4493-BDB9-E73D08232E01}">
+					<ChildrenList>
+						<Action Name="" ID="{E9AEC8AE-2D44-45E2-A96E-A46B0E2C4F2E}" ShortID="242964566">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan_Stomp" ID="{8841F0B8-E8DA-4C32-9D9A-E7A566950567}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{83489543-FC6E-47C2-9B2F-C7F790672C14}" ShortID="238026656">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan_Stomp_VO" ID="{5C80F978-F6FF-479E-B7FC-243080AFF504}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E6ABB7FF-B7E8-415B-8A5E-2CB4A8605B1D}" ShortID="341010979">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan_Stomp_Whoosh" ID="{2FE11A24-3196-4981-86E2-82D1F9D66A5F}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Vulkan_Evade" ID="{26CA113D-9F3C-46EE-B53B-BCA95FF1A6A6}">
+					<ChildrenList>
+						<Action Name="" ID="{FF411318-9B26-45C9-BEBD-04438CFFBA22}" ShortID="523931809">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan_Evade_1" ID="{60470A6B-EFB8-43CA-B407-56B28C06A623}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

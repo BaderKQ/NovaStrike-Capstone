@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{97D2A0C5-E18F-4295-831F-B734388C65FE}" SchemaVersion="103" RootDocumentID="{42D62B40-5ACB-4989-BA85-53B95F5B7ABE}" ParentDocumentID="{42D62B40-5ACB-4989-BA85-53B95F5B7ABE}">
+	<Events>
+		<WorkUnit Name="Vulkan" ID="{97D2A0C5-E18F-4295-831F-B734388C65FE}" OwnerID="{42D62B40-5ACB-4989-BA85-53B95F5B7ABE}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Vulkan_FootstepLeft" ID="{84AEFAA0-D7CB-4B95-9B30-EC6FBA87F2BE}">
+					<ChildrenList>
+						<Action Name="" ID="{C00AAF25-0EBE-418E-9EAF-5F0FE9D81AD1}" ShortID="577622565">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan_FootstepLeft" ID="{C2BC13E4-943A-4271-96CD-51FC4B81A68A}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7BC9267F-BBAE-4161-B3FC-AD4183E6C8C9}" ShortID="163442200">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_VulkanBreathMedium" ID="{E0D8EAE2-2BB2-4D6E-98FA-2A06D87FFE5F}" WorkUnitID="{97D2A0C5-E18F-4295-831F-B734388C65FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Vulkan_FootstepRight" ID="{7E045AD1-95F8-471E-B4DF-C1E1E4D0C536}">
+					<ChildrenList>
+						<Action Name="" ID="{85DEF778-4D55-4965-95DB-52FCE4B24129}" ShortID="278107609">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan_FootstepRight" ID="{A2BB3BE0-D985-4982-9D61-8423AB5C248F}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Vulkan_Entrance_Yell" ID="{131B6AD3-FCFC-4E14-948D-9BFA4CE1826B}">
+					<ChildrenList>
+						<Action Name="" ID="{F0841800-1E73-4440-8003-8061987A1146}" ShortID="842821120">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan Entrance Yell" ID="{F20B39AE-D6C7-4B61-9FE8-2E3DE7F04CF0}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_VulkanBreathMedium" ID="{E0D8EAE2-2BB2-4D6E-98FA-2A06D87FFE5F}">
+					<ChildrenList>
+						<Action Name="" ID="{010262F5-9500-41CD-BAE2-42121164565B}" ShortID="879531380">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VulkanBreathMedium" ID="{DA511D24-FEAA-45AC-BE48-13C2BC7CEFA8}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Vulkan_Entrance_SFX" ID="{4C58212E-5A94-45CE-AE73-0EDE27A9CC4F}">
+					<ChildrenList>
+						<Action Name="" ID="{3CF43137-7CE5-4562-8432-C1978F8D8871}" ShortID="1008761539">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan Entrance SFX" ID="{D2A064ED-4F2B-40AE-A6CE-182AA03D6DBF}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Vulkan_Yells" ID="{BA06DC69-8B05-415F-B9D8-012D9AF0F372}">
+					<ChildrenList>
+						<Action Name="" ID="{6DF51189-7528-4203-B399-40F6137D44AE}" ShortID="755093299">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan Yells" ID="{94CFAE7D-37BD-4638-80DD-EE233A25DC61}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Vulkan_Leap" ID="{F30F86D2-772A-4B17-BA33-491694B5ADC4}">
+					<ChildrenList>
+						<Action Name="" ID="{5A3FAA87-086C-4491-ABB3-8926B7F49A67}" ShortID="152629207">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan_Leap1_0_1_" ID="{6B5C0D0F-A041-4DF9-8EC9-9F20EEC37571}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B8CEC080-7D04-4334-AFBE-9DF4D04E3C5E}" ShortID="300747038">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan_Leap_Whoosh1_0_1" ID="{03973D11-B01E-47AE-987F-12763F805AA7}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0B3F1225-7ABE-4F94-99DA-12109C80BC25}" ShortID="400075422">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan_Leap_Yell1_0_1" ID="{01664C43-F7EB-421B-83A1-51EF08E50B3C}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<WorkUnit Name="Spike Slam" ID="{D6150D0C-151E-49B0-9150-8C615943B9B5}" PersistMode="Reference"/>
+				<WorkUnit Name="Stomp" ID="{59F398CB-E396-4C1E-91D2-2E2075473256}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
