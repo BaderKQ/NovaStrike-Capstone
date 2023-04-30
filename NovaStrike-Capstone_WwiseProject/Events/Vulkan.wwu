@@ -105,6 +105,7 @@
 					</ChildrenList>
 				</Event>
 				<WorkUnit Name="Spike Slam" ID="{D6150D0C-151E-49B0-9150-8C615943B9B5}" PersistMode="Reference"/>
+				<WorkUnit Name="Stomp" ID="{59F398CB-E396-4C1E-91D2-2E2075473256}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

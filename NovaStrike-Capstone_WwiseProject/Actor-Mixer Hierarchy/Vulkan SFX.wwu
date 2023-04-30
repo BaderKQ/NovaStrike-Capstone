@@ -411,6 +411,122 @@
 											</ChildrenList>
 											<ObjectLists/>
 										</ActorMixer>
+										<ActorMixer Name="Stomp" ID="{88CE27BB-47C4-44B6-872D-28DF0CA2F347}" ShortID="19999566">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Vulkan_Stomp" ID="{8841F0B8-E8DA-4C32-9D9A-E7A566950567}" ShortID="1057586409">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="100 Meters" ID="{FED17172-1CC6-42AA-8B1E-9A0D4986F94A}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan_Stomp" ID="{C836EBFC-4399-473B-861E-E32F1D7D9AFE}">
+															<Language>SFX</Language>
+															<AudioFile>Vulkan_Stomp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="611094018"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan_Stomp" ID="{C836EBFC-4399-473B-861E-E32F1D7D9AFE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Vulkan_Stomp_Whoosh" ID="{2FE11A24-3196-4981-86E2-82D1F9D66A5F}" ShortID="1029784766">
+													<PropertyList>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan_Stomp_Whoosh" ID="{91F8E1FB-2601-4CA1-B2FE-3C01B21B92B9}">
+															<Language>SFX</Language>
+															<AudioFile>Vulkan_Stomp_Whoosh.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="259343387"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan_Stomp_Whoosh" ID="{91F8E1FB-2601-4CA1-B2FE-3C01B21B92B9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Vulkan_Stomp_VO" ID="{5C80F978-F6FF-479E-B7FC-243080AFF504}" ShortID="837509215">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="100 Meters" ID="{FED17172-1CC6-42AA-8B1E-9A0D4986F94A}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan_Stomp_VO" ID="{6AE605F9-F152-4444-A5F3-4775F8993D81}">
+															<Language>SFX</Language>
+															<AudioFile>Vulkan_Stomp_VO.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="919650327"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan_Stomp_VO" ID="{6AE605F9-F152-4444-A5F3-4775F8993D81}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</ActorMixer>
 									</ChildrenList>
 									<ObjectLists/>
 								</ActorMixer>
@@ -621,6 +737,41 @@
 											</ChildrenList>
 											<ObjectLists/>
 										</ActorMixer>
+										<Sound Name="Vulkan_Evade_1" ID="{60470A6B-EFB8-43CA-B407-56B28C06A623}" ShortID="52659255">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="100 Meters" ID="{FED17172-1CC6-42AA-8B1E-9A0D4986F94A}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Vulkan_Evade_1" ID="{8AAC73B4-E676-4B87-9B4C-2C3BE3EB35D0}">
+													<Language>SFX</Language>
+													<AudioFile>Vulkan_Evade_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="972112265"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Vulkan_Evade_1" ID="{8AAC73B4-E676-4B87-9B4C-2C3BE3EB35D0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<ObjectLists/>
 								</ActorMixer>
