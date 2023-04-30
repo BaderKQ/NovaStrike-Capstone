@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D6150D0C-151E-49B0-9150-8C615943B9B5}" SchemaVersion="103" RootDocumentID="{42D62B40-5ACB-4989-BA85-53B95F5B7ABE}" ParentDocumentID="{97D2A0C5-E18F-4295-831F-B734388C65FE}">
+	<Events>
+		<WorkUnit Name="Spike Slam" ID="{D6150D0C-151E-49B0-9150-8C615943B9B5}" OwnerID="{97D2A0C5-E18F-4295-831F-B734388C65FE}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Vulkan_Spike_Slam_V1_00" ID="{1D43A416-4FE4-4FAE-8E9E-81CB3E798A21}">
+					<ChildrenList>
+						<Action Name="" ID="{C8DF368B-12E2-4EBA-8959-A580011798AA}" ShortID="190444357">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan Spike Slam V1_00" ID="{45B65418-03D2-4D37-8DA0-310C6590DB7C}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B43E8398-D0E8-49E6-AADB-28D8CC72EE08}" ShortID="190706773">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan Spike Slam Whooshes V1_00" ID="{3D4BE464-91BA-4723-B854-CD86C99939C7}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{79B41A66-9DED-4CBE-9974-89BB88B8D11B}" ShortID="343232519">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan Spike Slam VO V1_00" ID="{4CA604BF-7F42-4813-A6DB-FECCC504E23B}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Vulkan_Spike_Slam_Spikes_V1_00" ID="{FD31409F-C575-4F42-9474-A25DC00F4892}">
+					<ChildrenList>
+						<Action Name="" ID="{94ED1DFE-5689-4EE8-B150-4F5C2A853984}" ShortID="575931638">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan Spike Slam Spikes V1_00" ID="{0A96018E-7A46-449E-BCEC-5A31D4B575BB}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
