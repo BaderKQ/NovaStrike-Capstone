@@ -26,10 +26,6 @@
 			]
 		},
 		{
-			"Name": "RawInput",
-			"Enabled": true
-		},
-		{
 			"Name": "Bridge",
 			"Enabled": false,
 			"SupportedTargetPlatforms": [
@@ -41,6 +37,10 @@
 		{
 			"Name": "ChaosEditor",
 			"Enabled": false
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
 		}
 	]
 }
