@@ -134,7 +134,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="tpQHnU25HEykGwu+bkOjJwfy8pJBI81Ng5UR5F8fJzo="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="ig7LSg6jNEqV4LfjHWLjEV1HmFTZy5RMpbOnKvUz5/Ri155Mvu/cSKBvxo1nKdVa0pX4kPkdjkiJMg1e/wHbDQKA4mRdv99GpjTT9bxsdJo7RrMc+onwQLIkJIY1dC8a"/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="KpRHyXI+BEuj0DZ8/JINOQEr33b/////6ogN6B3/tE246tyFmXr4TgEr33b/////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="KpRHyXI+BEuj0DZ8/JINOQErBXX/////6ogN6B3/tE246tyFmXr4TgErBXX/////"/>
 				<Property Name="Interactive Music\x64_{5E7D05F6-1205-4EEC-885B-014EBA3383BF} - SegmentEditorZoomInfo" Type="string" Value="GnyeKFE4KkBdj8L1KFzzP8NdfPFtHvU/AAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="LoudnessMeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{CDCA502A-0062-483E-B239-C8FBB41EA257}"/>
@@ -167,7 +167,7 @@
 				<Property Name="ProjectExplorer\FirstVisible_11_2" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_12_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\FirstVisible_12_2" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{5EEA1C68-CEAC-4018-9845-E29041F74CD3}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{722E2EC8-6E3A-4D2E-BC9F-05F02B1867A4}"/>
 				<Property Name="ProjectExplorer\FirstVisible_1_2" Type="string" Value="{27092F88-225A-1154-6725-C8A34F3D4482}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{FFACF869-36ED-4198-AA0F-C76A2A611DF9}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_2" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>

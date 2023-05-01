@@ -66,6 +66,12 @@
 				</Event>
 				<Event Name="Play_Vulkan_PowerDown" ID="{089EE17D-01ED-4654-84C7-47D9C52727FB}">
 					<ChildrenList>
+						<Action Name="" ID="{A5163D80-F34D-4AC0-B22C-1C770221078C}" ShortID="1035590149">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
 						<Action Name="" ID="{34118F27-76D2-4DAC-87F4-A739F2C54963}" ShortID="986807469">
 							<ReferenceList>
 								<Reference Name="Target">
