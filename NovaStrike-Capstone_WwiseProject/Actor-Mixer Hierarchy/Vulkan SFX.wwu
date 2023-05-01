@@ -527,6 +527,314 @@
 											</ChildrenList>
 											<ObjectLists/>
 										</ActorMixer>
+										<ActorMixer Name="Getup" ID="{67FA969A-BC55-4449-8FD0-9F4E55669B5A}" ShortID="101518349">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Vulkan Getup Swing" ID="{679977FA-8A01-4304-BA20-7B2D011F4017}" ShortID="271720923">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="16"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="100 Meters" ID="{FED17172-1CC6-42AA-8B1E-9A0D4986F94A}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan Getup Swing" ID="{DF9EE91A-B4E6-4C1B-9199-36F00962EBE6}">
+															<Language>SFX</Language>
+															<AudioFile>Getup\Vulkan Getup Swing.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="336536448"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan Getup Swing" ID="{DF9EE91A-B4E6-4C1B-9199-36F00962EBE6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</ActorMixer>
+										<Folder Name="Power Down" ID="{84C91C94-1409-4CB0-83EE-CB4EE1CB47FB}" ShortID="569823300">
+											<ChildrenList>
+												<ActorMixer Name="Power Down" ID="{34089C6F-4883-41AE-A545-F8C77182AE22}" ShortID="512731623">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Vulkan PowerDown" ID="{C1C1A563-AEC7-4D2C-980E-D67711D8599F}" ShortID="185340898">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="EnemySFX" ID="{6696559A-C411-44CF-8839-76CB8B4C7F88}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Vulkan PowerDown" ID="{03E8A0A1-374B-48BD-97C3-C6B4B819174C}">
+																	<Language>SFX</Language>
+																	<AudioFile>Power Down\Vulkan PowerDown.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="783361554"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="Vulkan PowerDown" ID="{03E8A0A1-374B-48BD-97C3-C6B4B819174C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<ObjectLists/>
+												</ActorMixer>
+											</ChildrenList>
+										</Folder>
+										<ActorMixer Name="Flame Charge" ID="{B9809DC2-7D69-462B-8F94-AFD1CB51ED66}" ShortID="198169328">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Vulkan Flamecharge SFX" ID="{DCC4AC5C-2EF4-49CE-8350-F7FC84AAF484}" ShortID="237782359">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="15"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="100 Meters" ID="{FED17172-1CC6-42AA-8B1E-9A0D4986F94A}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan Flamecharge SFX" ID="{A28D9BDA-45AF-4F36-8766-711C4BF9BDFB}">
+															<Language>SFX</Language>
+															<AudioFile>Flame Charge\Vulkan Flamecharge SFX.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="221412322"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan Flamecharge SFX" ID="{A28D9BDA-45AF-4F36-8766-711C4BF9BDFB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Vulkan Flamecharge VO" ID="{3FED4AF9-C07C-4FB3-8D41-183C3E5BF8D8}" ShortID="367320373">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan Flamecharge VO" ID="{612B50BE-766E-409E-ACBD-8FEF68A625E3}">
+															<Language>SFX</Language>
+															<AudioFile>Flame Charge\Vulkan Flamecharge VO.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="900031875"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan Flamecharge VO" ID="{612B50BE-766E-409E-ACBD-8FEF68A625E3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Vulkan Flamecharge Whoosh" ID="{52105E4B-48A4-469D-AC47-F7FFE848B7F4}" ShortID="710672507">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan Flamecharge Whoosh" ID="{EAACEE64-2E66-4CD2-98AD-7AF10F8CE665}">
+															<Language>SFX</Language>
+															<AudioFile>Flame Charge\Vulkan Flamecharge Whoosh.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="565537640"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan Flamecharge Whoosh" ID="{EAACEE64-2E66-4CD2-98AD-7AF10F8CE665}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</ActorMixer>
+										<ActorMixer Name="Power Up" ID="{F4BB0DA5-DD66-4E06-B12C-6830B762BA57}" ShortID="210921874">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Vulkan PowerUp SFX" ID="{F3D40864-8DB1-4049-AC8D-9746D950C1DF}" ShortID="418500741">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan PowerUp SFX" ID="{2A042F32-5445-4349-BEB7-028C4BC9F43A}">
+															<Language>SFX</Language>
+															<AudioFile>Power Up\Vulkan PowerUp SFX.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="888641020"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan PowerUp SFX" ID="{2A042F32-5445-4349-BEB7-028C4BC9F43A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Vulkan PowerUp VO" ID="{C4EC9A91-14C3-4FCA-8980-86B96D453AA2}" ShortID="987061640">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan PowerUp VO" ID="{D524ACAE-6150-4CAC-897C-2A165559FE60}">
+															<Language>SFX</Language>
+															<AudioFile>Power Up\Vulkan PowerUp VO.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="121007710"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan PowerUp VO" ID="{D524ACAE-6150-4CAC-897C-2A165559FE60}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Vulkan PowerUp Whoosh" ID="{22947204-428C-40A8-8461-AF493BC14991}" ShortID="900812422">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan PowerUp Whoosh" ID="{E9C6B945-0B8B-4A50-AA97-782F78B70BDC}">
+															<Language>SFX</Language>
+															<AudioFile>Power Up\Vulkan PowerUp Whoosh.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="700274767"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan PowerUp Whoosh" ID="{E9C6B945-0B8B-4A50-AA97-782F78B70BDC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</ActorMixer>
 									</ChildrenList>
 									<ObjectLists/>
 								</ActorMixer>
