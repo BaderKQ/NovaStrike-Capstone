@@ -835,6 +835,49 @@
 											</ChildrenList>
 											<ObjectLists/>
 										</ActorMixer>
+										<ActorMixer Name="Execution" ID="{D1A61D3D-4CCA-4E09-8F74-F431DAFFC710}" ShortID="594292619">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Vulkan_Execution" ID="{AF799E40-0E78-4449-85DC-86C1E395B0B9}" ShortID="560265888">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vulkan_Execution" ID="{8D7AE922-932D-47E9-AA3F-536E5489371B}">
+															<Language>SFX</Language>
+															<AudioFile>Vulkan_Execution.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="845660777"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Vulkan_Execution" ID="{8D7AE922-932D-47E9-AA3F-536E5489371B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</ActorMixer>
 									</ChildrenList>
 									<ObjectLists/>
 								</ActorMixer>
