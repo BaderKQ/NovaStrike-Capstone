@@ -29,7 +29,7 @@
 								</Property>
 								<Property Name="GameAuxSendVolume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>-6</Value>
 									</ValueList>
 								</Property>
 								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
@@ -494,11 +494,31 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Niko - Dialogue - Act 1 - Intro Ship Day" ID="{CAE8C377-6363-4393-812B-89CCCDFAA5D2}">
+											<PropertyList>
+												<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Dialogue - Act 1 Stems\Act 1 - Niko\Niko - Dialogue - Act 1 - Intro Ship Day.wav</AudioFile>
 											<MediaIDList>
 												<MediaID ID="826621364"/>
 											</MediaIDList>
+											<PluginInnerObjectList>
+												<List Name="Markers">
+													<PluginInnerObject Name="" ID="{AAAA1AF2-4DD6-4A87-9188-35B44AB1FBF8}" PluginName="Marker" CompanyID="0" PluginID="993">
+														<PropertyList>
+															<Property Name="Label" Type="string" Value="Gravitus?"/>
+															<Property Name="Time" Type="Real64" Value="0.598126036763404"/>
+														</PropertyList>
+													</PluginInnerObject>
+													<PluginInnerObject Name="" ID="{33EA1E2C-7694-4072-ABC8-705058E570E8}" PluginName="Marker" CompanyID="0" PluginID="993">
+														<PropertyList>
+															<Property Name="Label" Type="string" Value="Do you think he's alive?"/>
+															<Property Name="Time" Type="Real64" Value="2.41031597357017"/>
+														</PropertyList>
+													</PluginInnerObject>
+												</List>
+											</PluginInnerObjectList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>

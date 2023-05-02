@@ -10,6 +10,11 @@
 				<ActorMixer Name="Environment Foley" ID="{A8EF66FB-A470-4DDC-9161-CE3E37186E2E}" ShortID="330832280">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="GameAuxSendVolume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Pitch" Type="int32">
 							<ModifierList>
 								<ModifierInfo>
