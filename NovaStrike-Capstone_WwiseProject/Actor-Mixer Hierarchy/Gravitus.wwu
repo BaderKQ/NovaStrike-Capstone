@@ -8,6 +8,7 @@
 			</PropertyList>
 			<ChildrenList>
 				<WorkUnit Name="Gravitus VO" ID="{AA6BA01B-3652-4A42-BF08-A409270614A9}" PersistMode="Reference"/>
+				<WorkUnit Name="PlayerLocomotion" ID="{06AAF9FA-B8A7-4FB6-B428-C9C586E480C9}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

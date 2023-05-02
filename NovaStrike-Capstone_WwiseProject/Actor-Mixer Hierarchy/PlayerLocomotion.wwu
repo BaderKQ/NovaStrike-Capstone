@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{06AAF9FA-B8A7-4FB6-B428-C9C586E480C9}" SchemaVersion="103" RootDocumentID="{B1215105-B176-4B46-94FD-6C28906D3043}" ParentDocumentID="{BACEE95A-0A53-4830-BED5-9E31C03BC42A}">
+<WwiseDocument Type="WorkUnit" ID="{06AAF9FA-B8A7-4FB6-B428-C9C586E480C9}" SchemaVersion="103" RootDocumentID="{2353C102-E716-422F-9F91-4241B036806A}" ParentDocumentID="{2D58295D-1A88-4D55-B9F6-A5B8EAFBF76B}">
 	<AudioObjects>
-		<WorkUnit Name="PlayerLocomotion" ID="{06AAF9FA-B8A7-4FB6-B428-C9C586E480C9}" OwnerID="{BACEE95A-0A53-4830-BED5-9E31C03BC42A}" PersistMode="Nested">
+		<WorkUnit Name="PlayerLocomotion" ID="{06AAF9FA-B8A7-4FB6-B428-C9C586E480C9}" OwnerID="{2D58295D-1A88-4D55-B9F6-A5B8EAFBF76B}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="PlayerFootsteps" ID="{2AFBEDF1-CC16-4C1E-A59F-95B98857D326}" ShortID="974596623">
 					<PropertyList>
@@ -753,6 +753,9 @@
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
 								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Base" ID="{0E054AB0-BB48-4D70-B1C4-C06CA92DD551}" WorkUnitID="{55DA12B5-2EA2-40DA-AE1A-D9C08A8CE62C}"/>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
 								</Reference>
@@ -1057,6 +1060,1778 @@
 									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Texture - Dirt Layer" ID="{BBB2AFDF-8BE1-4F4F-AA75-5D0A02EF8319}" ShortID="28432245">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Texture - Dirt Layer 1" ID="{9A3255D0-A08C-4013-AAA2-13336C645600}" ShortID="429799622">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Dirt Layer 1" ID="{A33A8476-7F72-4336-BEA0-786353A947DC}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Dirt Layer 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="637707114"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{10CC8B7D-4B38-4F42-B902-A52B689A6428}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Dirt Layer 1" ID="{A33A8476-7F72-4336-BEA0-786353A947DC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Dirt Layer 2" ID="{047C9F24-2FFE-49D3-88C2-1E5F49C83BD8}" ShortID="284596307">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Dirt Layer 2" ID="{8CDE62FD-6954-4E1B-B2A3-B1D600CAEF05}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Dirt Layer 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="343378591"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{CAA65E2F-6DE8-4D8A-816B-98E813FCA6E3}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Dirt Layer 2" ID="{8CDE62FD-6954-4E1B-B2A3-B1D600CAEF05}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Dirt Layer 3" ID="{CFA2096B-660B-4811-B7AF-E09DD5D3CF0D}" ShortID="990173754">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Dirt Layer 3" ID="{8EEE1B40-ADC4-47AD-8BF8-9C5F3C86D6CB}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Dirt Layer 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="420051992"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{80A20B6E-DDB6-48E4-BC2E-1C764CB55BC9}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Dirt Layer 3" ID="{8EEE1B40-ADC4-47AD-8BF8-9C5F3C86D6CB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Dirt Layer 4" ID="{96D67483-14F0-4D91-9045-6CC38ACC75DC}" ShortID="549292528">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Dirt Layer 4" ID="{FD51A918-EA13-49B6-82E8-F1936509F298}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Dirt Layer 4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="284939814"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{5501725C-E7F8-4CF3-BBE5-C231503CEF91}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Dirt Layer 4" ID="{FD51A918-EA13-49B6-82E8-F1936509F298}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Dirt Layer 5" ID="{7B157996-5C47-4F48-8B42-B8C2A57904CC}" ShortID="123887890">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Dirt Layer 5" ID="{59A78449-3E03-4F2E-A94D-405C5E8B1BCD}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Dirt Layer 5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="56409318"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{EDDB30A7-62ED-4668-BE36-FD4506CBB46D}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Dirt Layer 5" ID="{59A78449-3E03-4F2E-A94D-405C5E8B1BCD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Dirt Layer 6" ID="{41528AD7-BCBF-4E19-BECE-ADBCF7332F30}" ShortID="205785000">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Dirt Layer 6" ID="{2BF140FF-496D-44EB-908C-6F27259082DE}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Dirt Layer 6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="612398493"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{7C5343B7-ACAC-4337-8138-991214B5038B}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Dirt Layer 6" ID="{2BF140FF-496D-44EB-908C-6F27259082DE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Dirt Layer 7" ID="{C465F64A-F63A-4035-8274-018BF76DCDE4}" ShortID="550487903">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Dirt Layer 7" ID="{33A48EBC-7B9B-439A-B86F-50FD85534FFE}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Dirt Layer 7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="712815293"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{C5C5ED7C-3EFD-471F-90CB-06542BA4683C}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Dirt Layer 7" ID="{33A48EBC-7B9B-439A-B86F-50FD85534FFE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Dirt Layer 8" ID="{AA3A6AEB-D6A9-477F-8F5B-E481A0888A59}" ShortID="229982297">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Dirt Layer 8" ID="{9843D997-9E27-4420-9EA8-FADBA4215F75}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Dirt Layer 8.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="735766415"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{00B3394C-1F67-4210-B1A6-EA6C7366AE91}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Dirt Layer 8" ID="{9843D997-9E27-4420-9EA8-FADBA4215F75}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Dirt Layer 9" ID="{A2C62E5D-423C-4406-A028-6522A6217FEB}" ShortID="395713177">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Dirt Layer 9" ID="{478A78D3-C4E0-4B04-B230-FF0BF38BD651}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Dirt Layer 9.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="78877536"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{C3639C2D-5E28-4E5B-B8FB-B59F5157A11A}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Dirt Layer 9" ID="{478A78D3-C4E0-4B04-B230-FF0BF38BD651}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Dirt Layer 10" ID="{00B3AFBC-5C39-47F8-94FC-9C82B9C2D8F9}" ShortID="356918737">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Dirt Layer 10" ID="{63FBB536-8C69-41C5-A5A9-4B9B79C208E8}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Dirt Layer 10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="300260226"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{4F001380-F648-427D-BC6D-A15691CCE815}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Dirt Layer 10" ID="{63FBB536-8C69-41C5-A5A9-4B9B79C208E8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Dirt Layer 11" ID="{49CF9808-4D0D-4AB7-8F43-78BE133FA830}" ShortID="485979352">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Dirt Layer 11" ID="{FE3BCC85-74E6-4B40-9B0D-74D91C04247F}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Dirt Layer 11.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="168940729"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{30405579-C738-4EB8-9E3F-36F1092E5F01}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Dirt Layer 11" ID="{FE3BCC85-74E6-4B40-9B0D-74D91C04247F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Dirt Layer 12" ID="{C4FCB5F1-107D-40A2-91EF-B3C86029C274}" ShortID="902634953">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Dirt Layer 12" ID="{D2165CC2-41E5-4B28-A9F7-2D1DCF62F53E}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Dirt Layer 12.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="288583851"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{BE3A00F4-B804-4FEC-B119-36E324B48C7E}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Dirt Layer 12" ID="{D2165CC2-41E5-4B28-A9F7-2D1DCF62F53E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Dirt Layer 13" ID="{CCB38FBB-CE50-44A5-B01F-7197E1053E4B}" ShortID="393644560">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Dirt Layer 13" ID="{734CA5F3-D168-45BE-9AAB-EF2DDDB6A6A9}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Dirt Layer 13.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="47173692"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{D6E5A4C5-4F99-4141-9892-4AC7F5EB179B}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Dirt Layer 13" ID="{734CA5F3-D168-45BE-9AAB-EF2DDDB6A6A9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Dirt Layer 14" ID="{AFDED176-F26D-43E5-A953-C1F1A80111CD}" ShortID="142988267">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Dirt Layer 14" ID="{70FFC950-0C25-4E3F-A4A5-C0EE4FEF74EB}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Dirt Layer 14.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="739922124"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{FFCDE4D9-9545-4DC1-BE0D-E2ACDEEAC5AD}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Dirt Layer 14" ID="{70FFC950-0C25-4E3F-A4A5-C0EE4FEF74EB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Dirt Layer 15" ID="{FFDBA04F-138C-449D-939F-9584B797D2C3}" ShortID="508572617">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Dirt Layer 15" ID="{E467818E-10F7-443A-B021-8D7128005349}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Dirt Layer 15.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="922943618"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{08BF26AA-1321-4444-B05A-2ED8D8816EB6}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Dirt Layer 15" ID="{E467818E-10F7-443A-B021-8D7128005349}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Texture - Metal Layer" ID="{A8AB7274-A584-4098-BE5F-AA238E47190E}" ShortID="283723339">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Texture - Metal 1" ID="{81528828-15D1-4AA5-9D4A-063EDF9DF913}" ShortID="191265430">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Metal 1" ID="{2EB9B4B5-E3F1-4616-B71A-9E68AFE4D16E}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Metal 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="514920146"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{0602B6B1-266F-4FCB-BA78-2AB3EA04E63A}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Metal 1" ID="{2EB9B4B5-E3F1-4616-B71A-9E68AFE4D16E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Metal 2" ID="{1CAF433D-C390-4693-A216-CF7A45D36651}" ShortID="122046330">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Metal 2" ID="{BB12D0A8-7EA2-428C-8E2D-CC7520B5C5BC}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Metal 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="134416287"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{0F7415D7-643E-4F17-BC12-CF9F29306F60}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Metal 2" ID="{BB12D0A8-7EA2-428C-8E2D-CC7520B5C5BC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Metal 3" ID="{851319E2-3C42-4EF7-9383-953ECB2656D4}" ShortID="125192553">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Metal 3" ID="{365C2CC2-B88D-474C-8669-48E3D62C8BBB}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Metal 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="953198387"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{EA79FF38-53B6-4E47-8D57-CE7B37C96A3C}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Metal 3" ID="{365C2CC2-B88D-474C-8669-48E3D62C8BBB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Metal 4" ID="{6B10B7F1-38BF-4D42-8699-4F76A749FB1D}" ShortID="114602119">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Metal 4" ID="{E2B7642D-821A-453D-B992-4A1AC249632A}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Metal 4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1012219325"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{D8921BF9-6532-457B-BDFE-2B6B7666649C}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Metal 4" ID="{E2B7642D-821A-453D-B992-4A1AC249632A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Metal 5" ID="{5C062CE5-8B50-467A-983F-CF1DDF4FD061}" ShortID="54368054">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Metal 5" ID="{93FEE65B-B891-4929-9AE3-11DE07E7A140}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Metal 5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="225010662"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{F864B68A-4445-42D8-9FDF-362E5AD73442}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Metal 5" ID="{93FEE65B-B891-4929-9AE3-11DE07E7A140}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Metal 6" ID="{B6432211-2BB8-4811-8080-B68638778EDC}" ShortID="264391956">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Metal 6" ID="{B6B5888F-2FC8-4C35-A94C-095B5630243E}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Metal 6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="766281406"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{1C0219D8-8174-430C-804E-3A0DEE0678E9}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Metal 6" ID="{B6B5888F-2FC8-4C35-A94C-095B5630243E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Metal 7" ID="{D879A9E8-4BAD-4512-BF58-EEB38F5B528B}" ShortID="616588415">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Metal 7" ID="{30E9A937-2225-4B93-990A-0D9528B6CB1D}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Metal 7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="636577221"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{DF0F2B52-3DD0-4089-8601-6C9101F62182}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Metal 7" ID="{30E9A937-2225-4B93-990A-0D9528B6CB1D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Metal 8" ID="{13B4CA40-992A-4F9C-AAB6-0AC2B7A2491A}" ShortID="274520222">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Metal 8" ID="{25D4AE06-DF5C-41CB-A9D2-4CB0E5BD18C6}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Metal 8.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="908708238"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{F8136768-E222-4CFF-83D0-A8BE9FF0BEA0}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Metal 8" ID="{25D4AE06-DF5C-41CB-A9D2-4CB0E5BD18C6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Metal 9" ID="{6224C3BB-5966-466F-B9EA-4D16AC7DC603}" ShortID="558082484">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Metal 9" ID="{3860541A-589B-441A-AF0E-04CF2144D6C3}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Metal 9.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="563037964"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{81214DF3-42BB-4FA4-AA3D-191160F99A2A}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Metal 9" ID="{3860541A-589B-441A-AF0E-04CF2144D6C3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Metal 10" ID="{35877B69-B8F0-4608-8B4F-C967B0ED2C84}" ShortID="409033778">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Metal 10" ID="{0A260250-299E-424B-A465-32C61F458E76}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Metal 10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="487407212"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{4BD297C7-B3F1-4AF9-9EA7-773465DBA5B1}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Metal 10" ID="{0A260250-299E-424B-A465-32C61F458E76}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Texture - Stone Layer" ID="{2C5E61EE-290A-4599-B15C-8429C071D478}" ShortID="320458788">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Texture - Stone Layer 1" ID="{419C8BFA-5B0E-4ACD-8311-5A519911B69D}" ShortID="814366307">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Stone Layer 1" ID="{6F46097C-98DB-43D4-BEF1-3AEF89416776}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Stone Layer 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="579098710"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{FB730CA2-8503-459D-81EE-9070B34A4B71}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Stone Layer 1" ID="{6F46097C-98DB-43D4-BEF1-3AEF89416776}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Stone Layer 2" ID="{D4A79AE3-81D3-4D3D-9E7E-0EA7CC5432BC}" ShortID="923767028">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Stone Layer 2" ID="{62A0C67D-B33E-4321-9C24-A1B7A955AA02}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Stone Layer 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="793208827"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{9DFB7472-BD75-4474-99DC-3666B26D1278}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Stone Layer 2" ID="{62A0C67D-B33E-4321-9C24-A1B7A955AA02}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Stone Layer 3" ID="{C9CEFCFD-64C2-4B08-8926-383BAC1ECEB9}" ShortID="667834162">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Stone Layer 3" ID="{2B9BE30E-659B-45CD-9118-1C7597A17058}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Stone Layer 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="276432989"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{598A9210-6378-4B26-B554-16E6F8EB46AA}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Stone Layer 3" ID="{2B9BE30E-659B-45CD-9118-1C7597A17058}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Stone Layer 4" ID="{FD413F20-1CD7-4F67-8241-1FBBDC0ED351}" ShortID="521133406">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Stone Layer 4" ID="{F4E34BB2-3454-4AC9-B2B3-743F5A1CF9CE}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Stone Layer 4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="551291806"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{76373977-2F14-495E-9A1C-01C2031F243D}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Stone Layer 4" ID="{F4E34BB2-3454-4AC9-B2B3-743F5A1CF9CE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Stone Layer 5" ID="{98AA570E-CD7B-46B3-BE9B-7A538F9FB4B2}" ShortID="296153805">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Stone Layer 5" ID="{414577FD-05D6-46D6-8BD5-8C889626BB65}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Stone Layer 5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="14365998"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{45000756-4E89-45C6-A442-D554644CE945}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Stone Layer 5" ID="{414577FD-05D6-46D6-8BD5-8C889626BB65}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Stone Layer 6" ID="{41ADE869-5F89-418C-A3DE-D6EA770C2707}" ShortID="533163660">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Stone Layer 6" ID="{A6C9F08B-7F39-4510-86C7-97509D351453}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Stone Layer 6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="749257881"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{366AD427-862B-4339-80B7-4653B3FA02FF}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Stone Layer 6" ID="{A6C9F08B-7F39-4510-86C7-97509D351453}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Stone Layer 7" ID="{9FE29ADA-0DA5-414E-BCDB-431A22D5869E}" ShortID="180652921">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Stone Layer 7" ID="{70564B51-91F3-47CB-82A1-D3E6F7011B53}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Stone Layer 7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="679756183"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{82032C83-9C89-4CF2-953D-1C489BF6422A}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Stone Layer 7" ID="{70564B51-91F3-47CB-82A1-D3E6F7011B53}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Stone Layer 8" ID="{4DD90218-AEA8-41D3-93E3-3DBB4D2901E4}" ShortID="522809491">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Stone Layer 8" ID="{7832ECEF-1BFC-4973-BEE9-C04726A5B46D}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Stone Layer 8.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="584318829"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{35BE9798-DE1E-4CDB-9AF6-EB060C553EB1}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Stone Layer 8" ID="{7832ECEF-1BFC-4973-BEE9-C04726A5B46D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Texture - Tiles" ID="{2DDAF567-D3C0-45C1-95DB-CB7067A80A52}" ShortID="203274939">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Texture - Tiles Layer 1" ID="{71143B25-3352-4E30-8BC6-E66B427C833B}" ShortID="163720827">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Tiles Layer 1" ID="{94E7E09A-F90A-4561-B304-B53A67D3F38E}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Tiles Layer 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1010965017"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{90BCBA26-2BF7-4086-B548-92F0D90577F9}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Tiles Layer 1" ID="{94E7E09A-F90A-4561-B304-B53A67D3F38E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Tiles Layer 2" ID="{989EF37A-A863-405D-A50F-EE325B45136B}" ShortID="212282386">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Tiles Layer 2" ID="{E88D42EC-32C9-4BA9-9B53-988B0C4931C0}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Tiles Layer 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="512736568"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{363D5690-70B9-4518-8372-AA7F9FD52A46}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Tiles Layer 2" ID="{E88D42EC-32C9-4BA9-9B53-988B0C4931C0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Tiles Layer 3" ID="{1DC02F92-9AE9-4CA1-AF91-0EBC625AD9E0}" ShortID="544681928">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Tiles Layer 3" ID="{A6DD133A-C996-4B8B-BF73-0C92B8AE4355}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Tiles Layer 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="868287561"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{6F1411FA-6AE2-48C9-AD4E-CD27B763CFF4}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Tiles Layer 3" ID="{A6DD133A-C996-4B8B-BF73-0C92B8AE4355}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Tiles Layer 4" ID="{46B9005E-B9F2-4A10-B41F-E707E4EEC63A}" ShortID="1130563">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Tiles Layer 4" ID="{FCB84EB6-F926-4011-8437-881086A5C9DF}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Tiles Layer 4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="714962820"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{53B38095-0049-4194-B38D-A1D91AE8AD6F}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Tiles Layer 4" ID="{FCB84EB6-F926-4011-8437-881086A5C9DF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Tiles Layer 5" ID="{3FD87BDF-2D16-4DB1-8AAA-AA8EFC1CCC23}" ShortID="373012766">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Tiles Layer 5" ID="{66649F72-403E-4B88-920C-71543F1CC01D}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Tiles Layer 5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="698868980"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{70287F0C-CA9F-4EB3-88B9-7EA793389FCF}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Tiles Layer 5" ID="{66649F72-403E-4B88-920C-71543F1CC01D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Tiles Layer 6" ID="{BD2C26ED-8A2F-4411-8D8E-8E21AE37D943}" ShortID="667612774">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Tiles Layer 6" ID="{196ED952-C40A-437E-847C-A78258675391}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Tiles Layer 6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="153287941"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{394F3E27-97C6-438D-ACC9-77AA775DDD49}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Tiles Layer 6" ID="{196ED952-C40A-437E-847C-A78258675391}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Tiles Layer 7" ID="{4CEBB2DC-1EB9-4B56-B661-72F683B11064}" ShortID="849917734">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Tiles Layer 7" ID="{BEA8CE7A-96B6-4C46-AC21-120BFD0994CB}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Tiles Layer 7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="116952002"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{E94D5C9C-D637-4A0B-9BA7-2D7D9D1E70A5}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Tiles Layer 7" ID="{BEA8CE7A-96B6-4C46-AC21-120BFD0994CB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Tiles Layer 8" ID="{100F518F-D699-4A6F-BC5E-DD0B7C7B1569}" ShortID="570603146">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Tiles Layer 8" ID="{7401966E-AB63-4ECC-B64F-0237CFF48275}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Tiles Layer 8.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="312133240"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{11CF9E8E-A8E3-4ADC-BF35-CA7C217957F8}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Tiles Layer 8" ID="{7401966E-AB63-4ECC-B64F-0237CFF48275}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Tiles Layer 9" ID="{0990944C-6339-42E8-B0F3-691E04C6D98D}" ShortID="957430997">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Tiles Layer 9" ID="{24BCACEA-6312-4BB8-A2B0-77974981BC8C}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Tiles Layer 9.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="307077299"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{B3798A96-24A1-4C27-9C49-749880D03C7D}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Tiles Layer 9" ID="{24BCACEA-6312-4BB8-A2B0-77974981BC8C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Texture - Tiles Layer 10" ID="{206BEE80-BE4D-4BFC-9360-1591793996ED}" ShortID="710537469">
+											<PropertyList>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerFootsteps" ID="{FD0164D6-83C5-4161-96F2-CA060770E752}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Texture - Tiles Layer 10" ID="{121F2B03-30B9-4B40-B769-C476CA11C7BB}">
+													<Language>SFX</Language>
+													<AudioFile>Texture - Tiles Layer 10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1036777704"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{9193F6B8-D28A-4A1E-9E16-AFB2DF81CBEA}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-30.1559792027729"/>
+														<Property Name="PanY" Type="Real64" Value="30.9124767225326"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Texture - Tiles Layer 10" ID="{121F2B03-30B9-4B40-B769-C476CA11C7BB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<ObjectLists/>
 							<GroupingInfo>
@@ -1065,7 +2840,19 @@
 										<ItemRef Name="Gravel" ID="{1DCAEB0D-AF09-4A5B-9910-02D8A9C4365A}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
+										<ItemRef Name="Texture - Tiles" ID="{2DDAF567-D3C0-45C1-95DB-CB7067A80A52}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Texture - Metal Layer" ID="{A8AB7274-A584-4098-BE5F-AA238E47190E}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
 										<ItemRef Name="Variance-Gravel" ID="{77634086-2D34-449B-9F55-6BD2210D538D}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Texture - Dirt Layer" ID="{BBB2AFDF-8BE1-4F4F-AA75-5D0A02EF8319}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Texture - Stone Layer" ID="{2C5E61EE-290A-4599-B15C-8429C071D478}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>

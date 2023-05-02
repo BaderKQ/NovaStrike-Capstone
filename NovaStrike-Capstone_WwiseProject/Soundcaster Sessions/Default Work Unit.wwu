@@ -81,6 +81,10 @@
 							<ObjectRef Name="AI_CombatVO_EnemyBehind" ID="{55DEEA84-EE8F-44A8-B9A3-0646C721FAA9}" WorkUnitID="{C354EF40-B047-415B-B7E5-E3B7789F664D}"/>
 							<Position X="4" Y="2"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_Act1_DialogueSwitch" ID="{CFF5FD0E-619E-420A-8BF4-DBB16DA0DE25}" WorkUnitID="{3FD28F44-4EFC-42D4-A55D-31AAD61AE55F}"/>
+							<Position X="4" Y="3"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -102,6 +106,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{83680A5F-8241-4737-B92C-0AF0FD520338}"/>
+						<CurrentStateRef Name="AfterJumpscare" ID="{27327574-B1F6-4C39-8974-012B9095CBBF}"/>
 						<CurrentStateRef Name="Music_Ambiance" ID="{DE5F6BBC-681A-4C6B-92CE-5D87C0AA23A9}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">

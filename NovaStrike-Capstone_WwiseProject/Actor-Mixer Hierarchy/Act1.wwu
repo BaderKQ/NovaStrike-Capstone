@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F279CC25-B42F-4D74-A21F-4E85D3E4FCAD}" SchemaVersion="103" RootDocumentID="{2353C102-E716-422F-9F91-4241B036806A}" ParentDocumentID="{C4B86D88-30D3-4309-86B9-25F055C5591E}">
+	<AudioObjects>
+		<WorkUnit Name="Act1" ID="{F279CC25-B42F-4D74-A21F-4E85D3E4FCAD}" OwnerID="{C4B86D88-30D3-4309-86B9-25F055C5591E}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="Act1Mixer" ID="{59F6F555-35B3-4179-8D1F-B95AB8F9AE1F}" ShortID="537979781">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Folder Name="Dialogue - Act 1 Stems" ID="{C193C102-0653-4A4C-92C6-2CA39F8473F9}" ShortID="31541076">
+							<ChildrenList>
+								<Folder Name="Act 1 - Gravitus" ID="{9C25C7B9-3D49-479E-9370-651EA83E3A22}" ShortID="488795114"/>
+								<Folder Name="Act 1 - Niko" ID="{4F1411F2-ECA6-456E-BD24-90D23185288E}" ShortID="1009258912"/>
+							</ChildrenList>
+						</Folder>
+						<SwitchContainer Name="Act1_DialogueSwitch" ID="{7B821A60-A954-4CE1-A176-A5FA5FA70695}" ShortID="832397815">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="None" ID="{7F08B91B-2184-4396-A7C4-BDDC18C28D2D}" WorkUnitID="{F47F23E6-F1FD-470E-98A0-5870A801D3CD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Gravitus" ID="{ABA4A65A-AF2B-4C8B-82B1-102E924F770B}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Act1_States" ID="{6A86B561-7C1C-487E-B63E-F162C258F478}" WorkUnitID="{F47F23E6-F1FD-470E-98A0-5870A801D3CD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Gravitus - Dialogue - Act 1 - Player Picks up Pickaxe" ID="{F6C4487F-795A-40C8-BFDA-3F9343A6F26C}" ShortID="576674681">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gravitus - Dialogue - Act 1 - Player Picks up Pickaxe" ID="{577BAFF2-D40D-4305-BAE0-E438DE6A10D1}">
+											<Language>SFX</Language>
+											<AudioFile>Dialogue - Act 1 Stems\Act 1 - Gravitus\Gravitus - Dialogue - Act 1 - Player Picks up Pickaxe.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="696710130"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Gravitus - Dialogue - Act 1 - Player Picks up Pickaxe" ID="{577BAFF2-D40D-4305-BAE0-E438DE6A10D1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gravitus - Dialogue - Act 1 - Arena 25_" ID="{CBDD70B8-3A7F-4273-B307-13F8733442E4}" ShortID="602957291">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gravitus - Dialogue - Act 1 - Arena 25_" ID="{9E6B6274-8DB6-4A64-A669-5D14CF670D20}">
+											<Language>SFX</Language>
+											<AudioFile>Dialogue - Act 1 Stems\Act 1 - Gravitus\Gravitus - Dialogue - Act 1 - Arena 25%.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="912947902"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Gravitus - Dialogue - Act 1 - Arena 25_" ID="{9E6B6274-8DB6-4A64-A669-5D14CF670D20}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gravitus - Dialogue - Act 1 - After Hopping Down" ID="{14544BDF-B9B0-4965-BB23-8B21EA764678}" ShortID="480483908">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gravitus - Dialogue - Act 1 - After Hopping Down" ID="{BC8088DB-E23E-4CCF-9261-6898A2B208C0}">
+											<Language>SFX</Language>
+											<AudioFile>Dialogue - Act 1 Stems\Act 1 - Gravitus\Gravitus - Dialogue - Act 1 - After Hopping Down.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="304697988"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Gravitus - Dialogue - Act 1 - After Hopping Down" ID="{BC8088DB-E23E-4CCF-9261-6898A2B208C0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gravitus - Dialogue - Act 1 - Arena 50_" ID="{ABB199B9-FFB4-4BD6-9446-0E5775CCA5C1}" ShortID="516861972">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gravitus - Dialogue - Act 1 - Arena 50_" ID="{DD823E41-C134-4141-AE44-4F69D298840D}">
+											<Language>SFX</Language>
+											<AudioFile>Dialogue - Act 1 Stems\Act 1 - Gravitus\Gravitus - Dialogue - Act 1 - Arena 50%.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="138912740"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Gravitus - Dialogue - Act 1 - Arena 50_" ID="{DD823E41-C134-4141-AE44-4F69D298840D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gravitus - Dialogue - Act 1 - Intro Ship Day" ID="{2DF309D4-FB8F-405C-8CE5-8D840B7F10F4}" ShortID="797341231">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gravitus - Dialogue - Act 1 - Intro Ship Day" ID="{4CBC7E83-E0FF-43BD-81C7-DC082CF335AD}">
+											<Language>SFX</Language>
+											<AudioFile>Dialogue - Act 1 Stems\Act 1 - Gravitus\Gravitus - Dialogue - Act 1 - Intro Ship Day.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="504723865"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Gravitus - Dialogue - Act 1 - Intro Ship Day" ID="{4CBC7E83-E0FF-43BD-81C7-DC082CF335AD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gravitus - Dialogue - Act 1 - Arena Complete" ID="{A0D67617-A6FD-4387-9564-23344DF4D67C}" ShortID="622497517">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gravitus - Dialogue - Act 1 - Arena Complete" ID="{40B86B73-12BF-48E7-ADF6-A163E35DE3C4}">
+											<Language>SFX</Language>
+											<AudioFile>Dialogue - Act 1 Stems\Act 1 - Gravitus\Gravitus - Dialogue - Act 1 - Arena Complete.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1050965916"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Gravitus - Dialogue - Act 1 - Arena Complete" ID="{40B86B73-12BF-48E7-ADF6-A163E35DE3C4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gravitus - Dialogue - Act 1 - Player Finishes Pickaxe Animation" ID="{8B91D03A-EEFD-4DF6-9C9F-58BFBEE03570}" ShortID="934074830">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gravitus - Dialogue - Act 1 - Player Finishes Pickaxe Animation" ID="{FE6B6231-C85C-4F5C-8A53-432A9568FC0B}">
+											<Language>SFX</Language>
+											<AudioFile>Dialogue - Act 1 Stems\Act 1 - Gravitus\Gravitus - Dialogue - Act 1 - Player Finishes Pickaxe Animation.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="476423384"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Gravitus - Dialogue - Act 1 - Player Finishes Pickaxe Animation" ID="{FE6B6231-C85C-4F5C-8A53-432A9568FC0B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gravitus - Dialogue - Act 1 - After Jumpscare" ID="{70ECCC92-AB7E-46BF-B467-F9F5BFF841EF}" ShortID="587213320">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gravitus - Dialogue - Act 1 - After Jumpscare" ID="{64276507-13C7-4A56-9AA2-D0C4C9A132AB}">
+											<Language>SFX</Language>
+											<AudioFile>Dialogue - Act 1 Stems\Act 1 - Gravitus\Gravitus - Dialogue - Act 1 - After Jumpscare.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="781495969"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Gravitus - Dialogue - Act 1 - After Jumpscare" ID="{64276507-13C7-4A56-9AA2-D0C4C9A132AB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gravitus - Dialogue - Act 1 - Arena 75_" ID="{392C2FDF-C7D7-407F-B0C4-A3D4AEC9A9F6}" ShortID="583310047">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gravitus - Dialogue - Act 1 - Arena 75_" ID="{BFF04AF5-71FB-46BA-A533-D6C570D267CC}">
+											<Language>SFX</Language>
+											<AudioFile>Dialogue - Act 1 Stems\Act 1 - Gravitus\Gravitus - Dialogue - Act 1 - Arena 75%.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="528865259"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Gravitus - Dialogue - Act 1 - Arena 75_" ID="{BFF04AF5-71FB-46BA-A533-D6C570D267CC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gravitus - Dialogue - Act 1 - Player Gets Jumpscared" ID="{A3C43BA5-C69C-4248-9A00-ECC6AA74F4A5}" ShortID="985611604">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gravitus - Dialogue - Act 1 - Player Gets Jumpscared" ID="{1416D7F6-4371-4790-B127-4531243630A4}">
+											<Language>SFX</Language>
+											<AudioFile>Dialogue - Act 1 Stems\Act 1 - Gravitus\Gravitus - Dialogue - Act 1 - Player Gets Jumpscared.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="41811804"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Gravitus - Dialogue - Act 1 - Player Gets Jumpscared" ID="{1416D7F6-4371-4790-B127-4531243630A4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gravitus - Dialogue - Act 1 - Player Heads Upstairs" ID="{09E8B0F3-2C67-4897-8548-C0386F771778}" ShortID="873816536">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gravitus - Dialogue - Act 1 - Player Heads Upstairs" ID="{FED4F61F-F194-4C57-A2EC-E208DEBD0678}">
+											<Language>SFX</Language>
+											<AudioFile>Dialogue - Act 1 Stems\Act 1 - Gravitus\Gravitus - Dialogue - Act 1 - Player Heads Upstairs.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="668648292"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Gravitus - Dialogue - Act 1 - Player Heads Upstairs" ID="{FED4F61F-F194-4C57-A2EC-E208DEBD0678}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Niko - Dialogue - Act 1 - After Hopping Down" ID="{3C27C3DC-06BF-4811-918C-38613B2A934B}" ShortID="442949923">
+									<PropertyList>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Niko - Dialogue - Act 1 - After Hopping Down" ID="{7F5E26B8-2D2A-47CF-A92B-B2AD81B5AB1A}">
+											<Language>SFX</Language>
+											<AudioFile>Dialogue - Act 1 Stems\Act 1 - Niko\Niko - Dialogue - Act 1 - After Hopping Down.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="960799580"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Niko - Dialogue - Act 1 - After Hopping Down" ID="{7F5E26B8-2D2A-47CF-A92B-B2AD81B5AB1A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Niko - Dialogue - Act 1 - After Jumpscare" ID="{B48E0ABF-F71A-4E6E-9E16-923F4749642D}" ShortID="530314413">
+									<PropertyList>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Niko - Dialogue - Act 1 - After Jumpscare" ID="{8BEF48F6-AE9A-4B91-A06E-8BF0A50F5C28}">
+											<Language>SFX</Language>
+											<AudioFile>Dialogue - Act 1 Stems\Act 1 - Niko\Niko - Dialogue - Act 1 - After Jumpscare.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="958088675"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Niko - Dialogue - Act 1 - After Jumpscare" ID="{8BEF48F6-AE9A-4B91-A06E-8BF0A50F5C28}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Niko - Dialogue - Act 1 - Arena Complete" ID="{D3579F03-9828-4F73-B0FB-DBB3D85210E2}" ShortID="245800511">
+									<PropertyList>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Niko - Dialogue - Act 1 - Arena Complete" ID="{539EF1BB-294F-4FDB-8864-E408E8901387}">
+											<Language>SFX</Language>
+											<AudioFile>Dialogue - Act 1 Stems\Act 1 - Niko\Niko - Dialogue - Act 1 - Arena Complete.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="944375248"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Niko - Dialogue - Act 1 - Arena Complete" ID="{539EF1BB-294F-4FDB-8864-E408E8901387}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Niko - Dialogue - Act 1 - Arena 50_" ID="{101765E3-AF58-4639-9283-F834EDA2D989}" ShortID="652958087">
+									<PropertyList>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Niko - Dialogue - Act 1 - Arena 50_" ID="{2E2CCC0B-3684-4FA8-A446-2244565132D0}">
+											<Language>SFX</Language>
+											<AudioFile>Dialogue - Act 1 Stems\Act 1 - Niko\Niko - Dialogue - Act 1 - Arena 50%.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="47193656"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Niko - Dialogue - Act 1 - Arena 50_" ID="{2E2CCC0B-3684-4FA8-A446-2244565132D0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Niko - Dialogue - Act 1 - Player Picks up Pickaxe" ID="{5B34A92C-3820-4AC3-BCD7-091C7708D105}" ShortID="1018414264">
+									<PropertyList>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Niko - Dialogue - Act 1 - Player Picks up Pickaxe" ID="{06F333CC-0618-4BBC-A003-D45515A72A89}">
+											<Language>SFX</Language>
+											<AudioFile>Dialogue - Act 1 Stems\Act 1 - Niko\Niko - Dialogue - Act 1 - Player Picks up Pickaxe.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="602220969"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Niko - Dialogue - Act 1 - Player Picks up Pickaxe" ID="{06F333CC-0618-4BBC-A003-D45515A72A89}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Niko - Dialogue - Act 1 - Player Finishes Pickaxe Animation" ID="{26A754D9-FDF0-47D5-93FC-383739724045}" ShortID="342124029">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Niko - Dialogue - Act 1 - Player Finishes Pickaxe Animation" ID="{56DA48A8-678A-475E-948C-A29F5F76D60D}">
+											<Language>SFX</Language>
+											<AudioFile>Dialogue - Act 1 Stems\Act 1 - Niko\Niko - Dialogue - Act 1 - Player Finishes Pickaxe Animation.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="332035653"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Niko - Dialogue - Act 1 - Player Finishes Pickaxe Animation" ID="{56DA48A8-678A-475E-948C-A29F5F76D60D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Niko - Dialogue - Act 1 - Intro Ship Day" ID="{5E708A74-E5F1-4CD5-808B-23753DAF6E4A}" ShortID="814063211">
+									<PropertyList>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Niko - Dialogue - Act 1 - Intro Ship Day" ID="{CAE8C377-6363-4393-812B-89CCCDFAA5D2}">
+											<Language>SFX</Language>
+											<AudioFile>Dialogue - Act 1 Stems\Act 1 - Niko\Niko - Dialogue - Act 1 - Intro Ship Day.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="826621364"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Niko - Dialogue - Act 1 - Intro Ship Day" ID="{CAE8C377-6363-4393-812B-89CCCDFAA5D2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Niko - Dialogue - Act 1 - Player Gets Jumpscared" ID="{3BAFA349-F45F-4A9E-B510-2CA2209A1DD6}" ShortID="568257520">
+									<PropertyList>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Niko - Dialogue - Act 1 - Player Gets Jumpscared" ID="{14B88960-91CE-4414-85DB-EB2B6C4C7B2F}">
+											<Language>SFX</Language>
+											<AudioFile>Dialogue - Act 1 Stems\Act 1 - Niko\Niko - Dialogue - Act 1 - Player Gets Jumpscared.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="966576476"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Niko - Dialogue - Act 1 - Player Gets Jumpscared" ID="{14B88960-91CE-4414-85DB-EB2B6C4C7B2F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Niko - Dialogue - Act 1 - Player Heads Upstairs" ID="{EBDDAE12-B623-49CC-9A26-C19559C9B83E}" ShortID="838273875">
+									<PropertyList>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Niko - Dialogue - Act 1 - Player Heads Upstairs" ID="{51157DD6-40CF-4471-934B-A166B5625F4C}">
+											<Language>SFX</Language>
+											<AudioFile>Dialogue - Act 1 Stems\Act 1 - Niko\Niko - Dialogue - Act 1 - Player Heads Upstairs.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="471412811"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Niko - Dialogue - Act 1 - Player Heads Upstairs" ID="{51157DD6-40CF-4471-934B-A166B5625F4C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Niko - Dialogue - Act 1 - Arena 75_" ID="{9D4FC324-E2C0-49B7-88A3-55AC241A0FA5}" ShortID="41663400">
+									<PropertyList>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Niko - Dialogue - Act 1 - Arena 75_" ID="{FE66CFDC-58AB-4C1A-8722-B962BE6DE4D3}">
+											<Language>SFX</Language>
+											<AudioFile>Dialogue - Act 1 Stems\Act 1 - Niko\Niko - Dialogue - Act 1 - Arena 75%.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="47644263"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Niko - Dialogue - Act 1 - Arena 75_" ID="{FE66CFDC-58AB-4C1A-8722-B962BE6DE4D3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Niko - Dialogue - Act 1 - Arena 25_" ID="{DF78E678-860C-40CD-A0D2-8E3138F8C2E3}" ShortID="661418414">
+									<PropertyList>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Niko - Dialogue - Act 1 - Arena 25_" ID="{EAFDCB78-6C61-4DA3-BC26-55556BEE2881}">
+											<Language>SFX</Language>
+											<AudioFile>Dialogue - Act 1 Stems\Act 1 - Niko\Niko - Dialogue - Act 1 - Arena 25%.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="977114855"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Niko - Dialogue - Act 1 - Arena 25_" ID="{EAFDCB78-6C61-4DA3-BC26-55556BEE2881}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Niko - Dialogue - Act 1 - Arena Complete" ID="{D3579F03-9828-4F73-B0FB-DBB3D85210E2}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Niko - Dialogue - Act 1 - Player Heads Upstairs" ID="{EBDDAE12-B623-49CC-9A26-C19559C9B83E}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Gravitus - Dialogue - Act 1 - Arena Complete" ID="{A0D67617-A6FD-4387-9564-23344DF4D67C}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Niko - Dialogue - Act 1 - Arena 75_" ID="{9D4FC324-E2C0-49B7-88A3-55AC241A0FA5}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Niko - Dialogue - Act 1 - Player Picks up Pickaxe" ID="{5B34A92C-3820-4AC3-BCD7-091C7708D105}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Gravitus - Dialogue - Act 1 - Player Finishes Pickaxe Animation" ID="{8B91D03A-EEFD-4DF6-9C9F-58BFBEE03570}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Niko - Dialogue - Act 1 - Player Gets Jumpscared" ID="{3BAFA349-F45F-4A9E-B510-2CA2209A1DD6}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Niko - Dialogue - Act 1 - Intro Ship Day" ID="{5E708A74-E5F1-4CD5-808B-23753DAF6E4A}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Niko - Dialogue - Act 1 - Arena 25_" ID="{DF78E678-860C-40CD-A0D2-8E3138F8C2E3}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Gravitus - Dialogue - Act 1 - Player Picks up Pickaxe" ID="{F6C4487F-795A-40C8-BFDA-3F9343A6F26C}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Gravitus - Dialogue - Act 1 - After Jumpscare" ID="{70ECCC92-AB7E-46BF-B467-F9F5BFF841EF}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Gravitus - Dialogue - Act 1 - Player Gets Jumpscared" ID="{A3C43BA5-C69C-4248-9A00-ECC6AA74F4A5}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Gravitus - Dialogue - Act 1 - Arena 25_" ID="{CBDD70B8-3A7F-4273-B307-13F8733442E4}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Gravitus - Dialogue - Act 1 - Arena 50_" ID="{ABB199B9-FFB4-4BD6-9446-0E5775CCA5C1}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Niko - Dialogue - Act 1 - After Jumpscare" ID="{B48E0ABF-F71A-4E6E-9E16-923F4749642D}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Gravitus - Dialogue - Act 1 - Intro Ship Day" ID="{2DF309D4-FB8F-405C-8CE5-8D840B7F10F4}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Niko - Dialogue - Act 1 - Player Finishes Pickaxe Animation" ID="{26A754D9-FDF0-47D5-93FC-383739724045}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Niko - Dialogue - Act 1 - After Hopping Down" ID="{3C27C3DC-06BF-4811-918C-38613B2A934B}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Gravitus - Dialogue - Act 1 - Arena 75_" ID="{392C2FDF-C7D7-407F-B0C4-A3D4AEC9A9F6}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Gravitus - Dialogue - Act 1 - After Hopping Down" ID="{14544BDF-B9B0-4965-BB23-8B21EA764678}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Niko - Dialogue - Act 1 - Arena 50_" ID="{101765E3-AF58-4639-9283-F834EDA2D989}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Gravitus - Dialogue - Act 1 - Player Heads Upstairs" ID="{09E8B0F3-2C67-4897-8548-C0386F771778}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="IntroShipDay" ID="{6596173E-3618-4C35-91D0-12A608D08025}"/>
+										<ItemList>
+											<ItemRef Name="Gravitus - Dialogue - Act 1 - Intro Ship Day" ID="{2DF309D4-FB8F-405C-8CE5-8D840B7F10F4}"/>
+											<ItemRef Name="Niko - Dialogue - Act 1 - Intro Ship Day" ID="{5E708A74-E5F1-4CD5-808B-23753DAF6E4A}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="AfterHoppingDown" ID="{613AA642-2623-4E61-9CEE-EEDB87C2D191}"/>
+										<ItemList>
+											<ItemRef Name="Gravitus - Dialogue - Act 1 - After Hopping Down" ID="{14544BDF-B9B0-4965-BB23-8B21EA764678}"/>
+											<ItemRef Name="Niko - Dialogue - Act 1 - After Hopping Down" ID="{3C27C3DC-06BF-4811-918C-38613B2A934B}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="PlayerHeadsUpstairs" ID="{CDCDE84D-65B2-40F8-9DA8-89D67D971405}"/>
+										<ItemList>
+											<ItemRef Name="Gravitus - Dialogue - Act 1 - Player Heads Upstairs" ID="{09E8B0F3-2C67-4897-8548-C0386F771778}"/>
+											<ItemRef Name="Niko - Dialogue - Act 1 - Player Heads Upstairs" ID="{EBDDAE12-B623-49CC-9A26-C19559C9B83E}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="AfterJumpscare" ID="{27327574-B1F6-4C39-8974-012B9095CBBF}"/>
+										<ItemList>
+											<ItemRef Name="Gravitus - Dialogue - Act 1 - After Jumpscare" ID="{70ECCC92-AB7E-46BF-B467-F9F5BFF841EF}"/>
+											<ItemRef Name="Niko - Dialogue - Act 1 - After Jumpscare" ID="{B48E0ABF-F71A-4E6E-9E16-923F4749642D}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Arena_75" ID="{7984C383-E74D-489A-AAC7-7467A354BC9B}"/>
+										<ItemList>
+											<ItemRef Name="Gravitus - Dialogue - Act 1 - Arena 75_" ID="{392C2FDF-C7D7-407F-B0C4-A3D4AEC9A9F6}"/>
+											<ItemRef Name="Niko - Dialogue - Act 1 - Arena 75_" ID="{9D4FC324-E2C0-49B7-88A3-55AC241A0FA5}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="PlayerFinishesPickaxeAnimation" ID="{28067A8A-90F4-46E3-8462-884D046024D0}"/>
+										<ItemList>
+											<ItemRef Name="Gravitus - Dialogue - Act 1 - Player Finishes Pickaxe Animation" ID="{8B91D03A-EEFD-4DF6-9C9F-58BFBEE03570}"/>
+											<ItemRef Name="Niko - Dialogue - Act 1 - Player Finishes Pickaxe Animation" ID="{26A754D9-FDF0-47D5-93FC-383739724045}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Arena_50" ID="{34E54FA7-3A78-477A-9C9C-EA47ED6697C1}"/>
+										<ItemList>
+											<ItemRef Name="Gravitus - Dialogue - Act 1 - Arena 50_" ID="{ABB199B9-FFB4-4BD6-9446-0E5775CCA5C1}"/>
+											<ItemRef Name="Niko - Dialogue - Act 1 - Arena 50_" ID="{101765E3-AF58-4639-9283-F834EDA2D989}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Arena_Complete" ID="{18890BB2-9A9C-41DA-A54A-15326D97DBFF}"/>
+										<ItemList>
+											<ItemRef Name="Gravitus - Dialogue - Act 1 - Arena Complete" ID="{A0D67617-A6FD-4387-9564-23344DF4D67C}"/>
+											<ItemRef Name="Niko - Dialogue - Act 1 - Arena Complete" ID="{D3579F03-9828-4F73-B0FB-DBB3D85210E2}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="PlayerPicksUpPickaxe" ID="{AC7E61E6-7BE3-468D-9B54-C00750C8F93F}"/>
+										<ItemList>
+											<ItemRef Name="Gravitus - Dialogue - Act 1 - Player Picks up Pickaxe" ID="{F6C4487F-795A-40C8-BFDA-3F9343A6F26C}"/>
+											<ItemRef Name="Niko - Dialogue - Act 1 - Player Picks up Pickaxe" ID="{5B34A92C-3820-4AC3-BCD7-091C7708D105}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="PlayerGetsJumpscared" ID="{C46C56F3-8B9F-45E2-A05B-6E242C270CB4}"/>
+										<ItemList>
+											<ItemRef Name="Gravitus - Dialogue - Act 1 - Player Gets Jumpscared" ID="{A3C43BA5-C69C-4248-9A00-ECC6AA74F4A5}"/>
+											<ItemRef Name="Niko - Dialogue - Act 1 - Player Gets Jumpscared" ID="{3BAFA349-F45F-4A9E-B510-2CA2209A1DD6}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Arena_25" ID="{A48BE4FA-809B-4A97-839B-464BC6630625}"/>
+										<ItemList>
+											<ItemRef Name="Gravitus - Dialogue - Act 1 - Arena 25_" ID="{CBDD70B8-3A7F-4273-B307-13F8733442E4}"/>
+											<ItemRef Name="Niko - Dialogue - Act 1 - Arena 25_" ID="{DF78E678-860C-40CD-A0D2-8E3138F8C2E3}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

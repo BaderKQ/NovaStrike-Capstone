@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F47F23E6-F1FD-470E-98A0-5870A801D3CD}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Dialogue" ID="{F47F23E6-F1FD-470E-98A0-5870A801D3CD}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Act1_States" ID="{6A86B561-7C1C-487E-B63E-F162C258F478}">
+					<ChildrenList>
+						<State Name="None" ID="{7F08B91B-2184-4396-A7C4-BDDC18C28D2D}"/>
+						<State Name="AfterHoppingDown" ID="{613AA642-2623-4E61-9CEE-EEDB87C2D191}"/>
+						<State Name="AfterJumpscare" ID="{27327574-B1F6-4C39-8974-012B9095CBBF}"/>
+						<State Name="Arena_25" ID="{A48BE4FA-809B-4A97-839B-464BC6630625}"/>
+						<State Name="Arena_50" ID="{34E54FA7-3A78-477A-9C9C-EA47ED6697C1}"/>
+						<State Name="Arena_75" ID="{7984C383-E74D-489A-AAC7-7467A354BC9B}"/>
+						<State Name="Arena_Complete" ID="{18890BB2-9A9C-41DA-A54A-15326D97DBFF}"/>
+						<State Name="IntroShipDay" ID="{6596173E-3618-4C35-91D0-12A608D08025}"/>
+						<State Name="PlayerFinishesPickaxeAnimation" ID="{28067A8A-90F4-46E3-8462-884D046024D0}"/>
+						<State Name="PlayerPicksUpPickaxe" ID="{AC7E61E6-7BE3-468D-9B54-C00750C8F93F}"/>
+						<State Name="PlayerGetsJumpscared" ID="{C46C56F3-8B9F-45E2-A05B-6E242C270CB4}"/>
+						<State Name="PlayerHeadsUpstairs" ID="{CDCDE84D-65B2-40F8-9DA8-89D67D971405}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

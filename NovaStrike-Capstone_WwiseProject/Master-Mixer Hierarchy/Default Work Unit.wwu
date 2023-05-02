@@ -358,6 +358,20 @@
 							</PropertyList>
 							<ObjectLists/>
 						</Bus>
+						<Bus Name="Dialogue" ID="{D00D41DE-E87C-445A-A00B-32B7DEE53D9B}">
+							<ChildrenList>
+								<Bus Name="Gravitus" ID="{ABA4A65A-AF2B-4C8B-82B1-102E924F770B}">
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}">
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="AI" ID="{9E4323C6-EDBB-4EA1-B907-5EE81D64BD0D}">
+									<ObjectLists/>
+								</Bus>
+							</ChildrenList>
+							<ObjectLists/>
+						</Bus>
 					</ChildrenList>
 					<ObjectLists/>
 				</Bus>

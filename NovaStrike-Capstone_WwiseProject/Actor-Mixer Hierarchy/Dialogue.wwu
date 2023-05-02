@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C4B86D88-30D3-4309-86B9-25F055C5591E}" SchemaVersion="103" RootDocumentID="{2353C102-E716-422F-9F91-4241B036806A}" ParentDocumentID="{2353C102-E716-422F-9F91-4241B036806A}">
+	<AudioObjects>
+		<WorkUnit Name="Dialogue" ID="{C4B86D88-30D3-4309-86B9-25F055C5591E}" OwnerID="{2353C102-E716-422F-9F91-4241B036806A}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="Act1" ID="{F279CC25-B42F-4D74-A21F-4E85D3E4FCAD}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

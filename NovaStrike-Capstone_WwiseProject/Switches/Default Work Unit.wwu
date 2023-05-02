@@ -7,6 +7,10 @@
 					<ChildrenList>
 						<Switch Name="Gravel" ID="{8F7941C1-D6CD-4359-8217-A0DAD9EF4008}"/>
 						<Switch Name="Base" ID="{0E054AB0-BB48-4D70-B1C4-C06CA92DD551}"/>
+						<Switch Name="Dirt" ID="{B7A45215-C258-416B-BBA1-B2CA07CC1379}"/>
+						<Switch Name="Metal" ID="{43B56914-542A-4A22-9082-782729DD2E4D}"/>
+						<Switch Name="Tiles" ID="{9500CA16-62EB-4D24-8806-A940E74CE8DD}"/>
+						<Switch Name="Stone" ID="{C6B6A230-8FA0-485F-8421-71B4A0EF5DBA}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

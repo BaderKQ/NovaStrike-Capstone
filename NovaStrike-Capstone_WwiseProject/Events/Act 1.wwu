@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3FD28F44-4EFC-42D4-A55D-31AAD61AE55F}" SchemaVersion="103" RootDocumentID="{81E81626-7F14-448D-8557-4B6E9757D369}" ParentDocumentID="{81E81626-7F14-448D-8557-4B6E9757D369}">
+	<Events>
+		<WorkUnit Name="Act 1" ID="{3FD28F44-4EFC-42D4-A55D-31AAD61AE55F}" OwnerID="{81E81626-7F14-448D-8557-4B6E9757D369}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Act1_DialogueSwitch" ID="{CFF5FD0E-619E-420A-8BF4-DBB16DA0DE25}">
+					<ChildrenList>
+						<Action Name="" ID="{483EFA3D-2D81-4BA4-9C76-DD0D9F8DA69C}" ShortID="339324584">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Act1_DialogueSwitch" ID="{7B821A60-A954-4CE1-A176-A5FA5FA70695}" WorkUnitID="{F279CC25-B42F-4D74-A21F-4E85D3E4FCAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
