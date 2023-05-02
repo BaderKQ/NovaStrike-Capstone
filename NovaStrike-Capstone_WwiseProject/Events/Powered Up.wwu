@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A088776F-DE63-4675-A9C9-82E8A1500B99}" SchemaVersion="103" RootDocumentID="{42D62B40-5ACB-4989-BA85-53B95F5B7ABE}" ParentDocumentID="{97D2A0C5-E18F-4295-831F-B734388C65FE}">
+	<Events>
+		<WorkUnit Name="Powered Up" ID="{A088776F-DE63-4675-A9C9-82E8A1500B99}" OwnerID="{97D2A0C5-E18F-4295-831F-B734388C65FE}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Vulkan_PowerUp" ID="{6456655C-50A0-423A-ABA6-6A35B4964399}">
+					<ChildrenList>
+						<Action Name="" ID="{48962CF6-7B74-4297-A8AC-F456C6BBA0F0}" ShortID="130599740">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan PowerUp SFX" ID="{F3D40864-8DB1-4049-AC8D-9746D950C1DF}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8F3F9964-ADE0-48C3-AA57-EC3592967312}" ShortID="241807524">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan PowerUp VO" ID="{C4EC9A91-14C3-4FCA-8980-86B96D453AA2}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E4C991EE-D3B8-4363-BD53-202720739658}" ShortID="288163439">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan PowerUp Whoosh" ID="{22947204-428C-40A8-8461-AF493BC14991}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Vulkan_Flamecharge" ID="{11CD4F9D-CCFC-48B2-9E67-65FD8DBD4DD7}">
+					<ChildrenList>
+						<Action Name="" ID="{B0EB1B1C-1199-4082-895B-B3C755791546}" ShortID="251582527">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan Flamecharge SFX" ID="{DCC4AC5C-2EF4-49CE-8350-F7FC84AAF484}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{706AE13D-08E9-483B-9B0D-97EC10A7A572}" ShortID="828312396">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan Flamecharge VO" ID="{3FED4AF9-C07C-4FB3-8D41-183C3E5BF8D8}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{656AEF75-0336-41C7-A1F4-E0FEDED31B15}" ShortID="5274380">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan Flamecharge Whoosh" ID="{52105E4B-48A4-469D-AC47-F7FFE848B7F4}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Vulkan_Getup_Swing" ID="{10C11548-D228-4590-91C7-B34F8DA12BCE}">
+					<ChildrenList>
+						<Action Name="" ID="{E42E61D9-E2DD-4B7E-AE87-A4EAD984B25A}" ShortID="579084405">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan Getup Swing" ID="{679977FA-8A01-4304-BA20-7B2D011F4017}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Vulkan_PowerDown" ID="{089EE17D-01ED-4654-84C7-47D9C52727FB}">
+					<ChildrenList>
+						<Action Name="" ID="{A5163D80-F34D-4AC0-B22C-1C770221078C}" ShortID="1035590149">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{34118F27-76D2-4DAC-87F4-A739F2C54963}" ShortID="986807469">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan PowerDown" ID="{C1C1A563-AEC7-4D2C-980E-D67711D8599F}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9C242353-1625-4B89-9374-79036C2276EC}" ShortID="47345959">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan Flamecharge SFX" ID="{DCC4AC5C-2EF4-49CE-8350-F7FC84AAF484}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CE4D242B-76CB-436A-B746-12EC7F3918B8}" ShortID="321183540">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan Flamecharge VO" ID="{3FED4AF9-C07C-4FB3-8D41-183C3E5BF8D8}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7ED8C6ED-67AA-43A5-91F2-555FEBD7F0AF}" ShortID="228446513">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan Flamecharge Whoosh" ID="{52105E4B-48A4-469D-AC47-F7FFE848B7F4}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E6C07249-1814-4EE5-B3F6-223EFC507959}" ShortID="609622394">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan PowerUp SFX" ID="{F3D40864-8DB1-4049-AC8D-9746D950C1DF}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{767DF33E-C205-4502-B595-86F2BC5F3019}" ShortID="859329510">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan PowerUp VO" ID="{C4EC9A91-14C3-4FCA-8980-86B96D453AA2}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C540D2EF-1496-42D1-B898-EBCE660F3DB2}" ShortID="503917940">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vulkan PowerUp Whoosh" ID="{22947204-428C-40A8-8461-AF493BC14991}" WorkUnitID="{7CD9215B-466A-4C0A-A38D-A4A073D3B0ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
