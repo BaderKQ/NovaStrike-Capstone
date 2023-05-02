@@ -78,7 +78,7 @@
 									<PropertyList>
 										<Property Name="BusVolume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -361,9 +361,24 @@
 						<Bus Name="Dialogue" ID="{D00D41DE-E87C-445A-A00B-32B7DEE53D9B}">
 							<ChildrenList>
 								<Bus Name="Gravitus" ID="{ABA4A65A-AF2B-4C8B-82B1-102E924F770B}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
 									<ObjectLists/>
 								</Bus>
 								<Bus Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ObjectLists/>
 								</Bus>
 								<Bus Name="AI" ID="{9E4323C6-EDBB-4EA1-B907-5EE81D64BD0D}">
@@ -371,6 +386,53 @@
 								</Bus>
 							</ChildrenList>
 							<ObjectLists/>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Music Master" ID="{00B9126A-D8CD-4506-B946-96F168B6DBAE}"/>
+									<DuckingParam>
+										<Volume>-9</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+								<DuckItem>
+									<BusRef Name="Combat" ID="{72AC963F-4D84-4D0F-A4D2-F6D6CBCF2452}"/>
+									<DuckingParam>
+										<Volume>-11</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+								<DuckItem>
+									<BusRef Name="AmbientMaster" ID="{094EBDBA-4BAA-449D-96A6-13C31F26533C}"/>
+									<DuckingParam>
+										<Volume>-3</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+								<DuckItem>
+									<BusRef Name="PlayerMaster" ID="{A877FC03-444F-4FC2-88CA-F2E46877E75D}"/>
+									<DuckingParam>
+										<Volume>-2</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+								<DuckItem>
+									<BusRef Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}"/>
+									<DuckingParam>
+										<Volume>-96</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
 						</Bus>
 					</ChildrenList>
 					<ObjectLists/>

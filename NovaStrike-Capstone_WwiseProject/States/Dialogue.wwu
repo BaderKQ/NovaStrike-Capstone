@@ -19,6 +19,12 @@
 						<State Name="PlayerHeadsUpstairs" ID="{CDCDE84D-65B2-40F8-9DA8-89D67D971405}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Act3_States" ID="{349C3AC4-84BF-440D-9A88-05E35BA4B438}">
+					<ChildrenList>
+						<State Name="None" ID="{329F3302-AADA-4BA3-B45C-5751623F2468}"/>
+						<State Name="Good_Ending" ID="{D4D631E6-D079-4195-A2C8-016F58949C15}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

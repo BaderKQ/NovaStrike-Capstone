@@ -94,6 +94,7 @@
 						<ObjectRef Name="Play_AI_Debug_Subtitles" ID="{8715A22F-451D-4297-A450-6BD4D73AE802}" WorkUnitID="{20FB21E8-0FE9-447D-8D1D-A82EB624FD76}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AI_CombatVO_EnemyFumigation" ID="{3A487D45-5965-4555-99A0-37FB46C4031A}" WorkUnitID="{BC99A2F9-C9B3-413D-869F-D255D2FB95EB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AI_CombatVO_EnemyBroken" ID="{897BC2BE-C7D3-456E-878E-B8AF0B9CD773}" WorkUnitID="{BC99A2F9-C9B3-413D-869F-D255D2FB95EB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Act3_DialogueSwitch" ID="{F0ADFAC7-7884-47A9-94A9-6F33EBF7FF8A}" WorkUnitID="{20E84687-283F-4CEB-9994-5A39376ED8EA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AI_CombatVO_EnergyFull" ID="{6E133324-1D63-493D-8801-AEE2C533EB03}" WorkUnitID="{BC99A2F9-C9B3-413D-869F-D255D2FB95EB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AI_CombatVO_EnemyBehind" ID="{53BD0DFB-8364-4BC4-8A47-7122CCE6DFAF}" WorkUnitID="{BC99A2F9-C9B3-413D-869F-D255D2FB95EB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AI_CombatVO_EnergyEmpty" ID="{3B181932-9C50-4F2A-9FFD-640E912CB9D6}" WorkUnitID="{BC99A2F9-C9B3-413D-869F-D255D2FB95EB}" Origin="Manual" Filter="7"/>

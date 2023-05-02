@@ -5,6 +5,17 @@
 			<ChildrenList>
 				<Event Name="Play_Act1_DialogueSwitch" ID="{CFF5FD0E-619E-420A-8BF4-DBB16DA0DE25}">
 					<ChildrenList>
+						<Action Name="" ID="{CB95ECEE-853B-4F18-A779-3590279C704C}" ShortID="741161455">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Act1_DialogueSwitch" ID="{7B821A60-A954-4CE1-A176-A5FA5FA70695}" WorkUnitID="{F279CC25-B42F-4D74-A21F-4E85D3E4FCAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{483EFA3D-2D81-4BA4-9C76-DD0D9F8DA69C}" ShortID="339324584">
 							<ReferenceList>
 								<Reference Name="Target">

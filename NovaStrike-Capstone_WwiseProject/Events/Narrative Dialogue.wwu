@@ -2,8 +2,13 @@
 <WwiseDocument Type="WorkUnit" ID="{81E81626-7F14-448D-8557-4B6E9757D369}" SchemaVersion="103">
 	<Events>
 		<WorkUnit Name="Narrative Dialogue" ID="{81E81626-7F14-448D-8557-4B6E9757D369}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<WorkUnit Name="Act 1" ID="{3FD28F44-4EFC-42D4-A55D-31AAD61AE55F}" PersistMode="Reference"/>
+				<WorkUnit Name="Act 3" ID="{20E84687-283F-4CEB-9994-5A39376ED8EA}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

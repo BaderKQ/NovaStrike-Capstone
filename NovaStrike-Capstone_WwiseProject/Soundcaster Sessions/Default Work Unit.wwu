@@ -22,6 +22,10 @@
 							<Position X="0" Y="3"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Act3_DialogueSwitch" ID="{F0ADFAC7-7884-47A9-94A9-6F33EBF7FF8A}" WorkUnitID="{20E84687-283F-4CEB-9994-5A39376ED8EA}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Footstep" ID="{DD22E7DA-50DD-4B46-B9AE-63B7F26C325C}" WorkUnitID="{5180ADD5-C300-45A7-BCDC-867E496431AC}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -105,6 +109,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Good_Ending" ID="{D4D631E6-D079-4195-A2C8-016F58949C15}"/>
 						<CurrentStateRef Name="None" ID="{83680A5F-8241-4737-B92C-0AF0FD520338}"/>
 						<CurrentStateRef Name="AfterJumpscare" ID="{27327574-B1F6-4C39-8974-012B9095CBBF}"/>
 						<CurrentStateRef Name="Music_Ambiance" ID="{DE5F6BBC-681A-4C6B-92CE-5D87C0AA23A9}"/>

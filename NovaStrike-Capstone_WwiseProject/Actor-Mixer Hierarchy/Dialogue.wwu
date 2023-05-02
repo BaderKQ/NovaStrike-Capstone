@@ -8,6 +8,7 @@
 			</PropertyList>
 			<ChildrenList>
 				<WorkUnit Name="Act1" ID="{F279CC25-B42F-4D74-A21F-4E85D3E4FCAD}" PersistMode="Reference"/>
+				<WorkUnit Name="Act 3" ID="{633252B6-939B-4DCA-A328-020CA1A76FE0}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
