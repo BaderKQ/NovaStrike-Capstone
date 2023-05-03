@@ -19,13 +19,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "WinDualShock",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64"
-			]
-		},
-		{
 			"Name": "Bridge",
 			"Enabled": false,
 			"SupportedTargetPlatforms": [
@@ -37,10 +30,6 @@
 		{
 			"Name": "ChaosEditor",
 			"Enabled": false
-		},
-		{
-			"Name": "EditorScriptingUtilities",
-			"Enabled": true
 		}
 	]
 }
