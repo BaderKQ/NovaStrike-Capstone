@@ -25,6 +25,19 @@
 						<State Name="Good_Ending" ID="{D4D631E6-D079-4195-A2C8-016F58949C15}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Act2_States" ID="{3B2E4ED0-15CB-411E-A194-58A869BAED6B}">
+					<ChildrenList>
+						<State Name="None" ID="{382152CA-9047-48E0-9C50-DE8CF7750465}"/>
+						<State Name="Courtyard_Intro" ID="{2DD4B385-A5C5-44DE-8E71-F8AE14F6F336}"/>
+						<State Name="Ending" ID="{FEE01786-7ACA-48C8-8C68-6E0613CD2C7C}"/>
+						<State Name="Player_Breaks_First_Pusstule" ID="{1F66FE7A-BD24-41F2-82CF-DBA2DD0D62F3}"/>
+						<State Name="Player_Defeats_Fallen_Train_Enemies" ID="{DBFC940C-A3D6-41A3-A7BA-3094D837F17D}"/>
+						<State Name="Player_Enters_Research_Hospital" ID="{98E39C1E-FC56-408C-B8DB-B5C319240968}"/>
+						<State Name="Player_Progresses_Through_Hospital" ID="{0E270ED5-9E73-4A4C-A7BB-06D13A2F56F8}"/>
+						<State Name="Puzzle_Hint" ID="{6C4CBDBA-A58C-4E0E-92C2-D7ED6FB9AA8A}"/>
+						<State Name="Player_Enters_Side_Warehouse" ID="{FA47A2BC-DE6D-489F-9CF9-0766D6BB80B7}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>
