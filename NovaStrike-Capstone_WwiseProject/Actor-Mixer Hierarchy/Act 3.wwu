@@ -5,9 +5,18 @@
 			<ChildrenList>
 				<SwitchContainer Name="Act3_DialogueSwitch" ID="{DC48905D-A03D-4E10-B8C6-82628D5C514E}" ShortID="344980901">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="25 Meters" ID="{A4BB139D-43DB-4932-8168-E1CC53F75CA2}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
 						</Reference>
@@ -72,18 +81,526 @@
 								<ActiveSource Name="Gravitus_-_Dialogue_-_Act_3_-_Good_Ending" ID="{3474E951-348A-455B-A976-2B6180521E01}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Niko - Dialogue - Act 2 - Com Disconnects (Niko)" ID="{85DEABB0-385D-4429-80B1-3045FAD28DDF}" ShortID="222244656">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Niko - Dialogue - Act 2 - Com Disconnects (Niko)" ID="{5A5AAF2A-9C20-4AEE-892A-A467E9E1140B}">
+									<Language>SFX</Language>
+									<AudioFile>Niko - Dialogue - Act 2 - Com Disconnects (Niko).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="362450627"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Niko - Dialogue - Act 2 - Com Disconnects (Niko)" ID="{5A5AAF2A-9C20-4AEE-892A-A467E9E1140B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Niko - Dialogue - Act 3 - Inside Trainstation" ID="{52096E48-B0C0-4093-9C7E-0F760C2D3EEF}" ShortID="984360239">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Niko - Dialogue - Act 3 - Inside Trainstation" ID="{8AF94C80-C534-45C4-B52F-62060BF1CB5C}">
+									<Language>SFX</Language>
+									<AudioFile>Niko - Dialogue - Act 3 - Inside Trainstation.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="570959784"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Niko - Dialogue - Act 3 - Inside Trainstation" ID="{8AF94C80-C534-45C4-B52F-62060BF1CB5C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Niko - Dialogue - Act 3 - Looking At Damage" ID="{20297397-CB93-4643-B161-6EB84CF6FD56}" ShortID="654210842">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Niko - Dialogue - Act 3 - Looking At Damage" ID="{49DB6B41-3596-4F8E-998B-CF8CC4EBA4DE}">
+									<Language>SFX</Language>
+									<AudioFile>Niko - Dialogue - Act 3 - Looking At Damage.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="560975765"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Niko - Dialogue - Act 3 - Looking At Damage" ID="{49DB6B41-3596-4F8E-998B-CF8CC4EBA4DE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Niko - Dialogue - Act 3 - Walking into TrainStation" ID="{D1FBC6AD-C71D-4318-9DE0-84AB2EA047E2}" ShortID="438681960">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Niko - Dialogue - Act 3 - Walking into TrainStation" ID="{DC1F11DA-C119-47DA-B626-40AFA19630DF}">
+									<Language>SFX</Language>
+									<AudioFile>Niko - Dialogue - Act 3 - Walking into TrainStation.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="568147743"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Niko - Dialogue - Act 3 - Walking into TrainStation" ID="{DC1F11DA-C119-47DA-B626-40AFA19630DF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Gravitus - Dialogue - Act 2 - Com Disconnects (Niko)" ID="{998C04FC-3F9B-4BB4-9A72-1FEF2188ED95}" ShortID="232418825">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gravitus - Dialogue - Act 2 - Com Disconnects (Niko)" ID="{F35D96AB-D459-4A8F-A856-55C8C3720156}">
+									<Language>SFX</Language>
+									<AudioFile>Gravitus - Dialogue - Act 2 - Com Disconnects (Niko).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="104630228"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Gravitus - Dialogue - Act 2 - Com Disconnects (Niko)" ID="{F35D96AB-D459-4A8F-A856-55C8C3720156}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Gravitus - Dialogue - Act 3 - Good Ending" ID="{9554F9D5-216A-4718-933A-42D44BF679C5}" ShortID="596290321">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gravitus - Dialogue - Act 3 - Good Ending" ID="{F7F6B7E7-BC39-44FF-B0A2-18180DE3B1B2}">
+									<Language>SFX</Language>
+									<AudioFile>Gravitus - Dialogue - Act 3 - Good Ending.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="45430106"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Gravitus - Dialogue - Act 3 - Good Ending" ID="{F7F6B7E7-BC39-44FF-B0A2-18180DE3B1B2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Gravitus - Dialogue - Act 3 - Inside Trainstation" ID="{6CF526A9-05BA-4A87-A6A1-93E6A95288C0}" ShortID="124721614">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gravitus - Dialogue - Act 3 - Inside Trainstation" ID="{A4822C9A-2328-4386-9C85-F5857CBB35F6}">
+									<Language>SFX</Language>
+									<AudioFile>Gravitus - Dialogue - Act 3 - Inside Trainstation.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="572642351"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Gravitus - Dialogue - Act 3 - Inside Trainstation" ID="{A4822C9A-2328-4386-9C85-F5857CBB35F6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Gravitus - Dialogue - Act 3 - Looking At Damage" ID="{7A8EB353-F60F-4EB5-90BC-93330B149EE3}" ShortID="118896194">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gravitus - Dialogue - Act 3 - Looking At Damage" ID="{541A0536-F2F0-421D-9B3B-FF22FDE6FB7D}">
+									<Language>SFX</Language>
+									<AudioFile>Gravitus - Dialogue - Act 3 - Looking At Damage.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="821000008"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Gravitus - Dialogue - Act 3 - Looking At Damage" ID="{541A0536-F2F0-421D-9B3B-FF22FDE6FB7D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Gravitus - Dialogue - Act 3 - Walking into TrainStation" ID="{2229B7FF-2BF2-4CE7-B12D-135AB7D18BD0}" ShortID="385457185">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gravitus - Dialogue - Act 3 - Walking into TrainStation" ID="{3843DDC4-F9C3-429F-994F-C62A05741C55}">
+									<Language>SFX</Language>
+									<AudioFile>Gravitus - Dialogue - Act 3 - Walking into TrainStation.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="465948927"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Gravitus - Dialogue - Act 3 - Walking into TrainStation" ID="{3843DDC4-F9C3-429F-994F-C62A05741C55}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Niko - Dialogue - Act 3 - Boss Dialogue" ID="{DA6A3749-CBB7-4DAD-AA90-618D42970F00}" ShortID="220213686">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Niko - Dialogue - Act 3 - Niko Boss Dialgue 4" ID="{EE08016C-6093-4027-BA3B-AE349DF7BD59}" ShortID="331525771">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Niko - Dialogue - Act 3 - Niko Boss Dialgue 4" ID="{C3428429-E767-430F-8F0B-2847D5A24886}">
+											<Language>SFX</Language>
+											<AudioFile>Niko - Dialogue - Act 3 - Niko Boss Dialgue 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="454103074"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Niko - Dialogue - Act 3 - Niko Boss Dialgue 4" ID="{C3428429-E767-430F-8F0B-2847D5A24886}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Niko - Dialogue - Act 3 - Niko Boss Dialogue 1" ID="{B6D522AB-5590-4362-B686-321EFF9BFA85}" ShortID="1063005226">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Niko - Dialogue - Act 3 - Niko Boss Dialogue 1" ID="{29BF6479-EB02-44BB-A730-DEF8A4F2D2BC}">
+											<Language>SFX</Language>
+											<AudioFile>Niko - Dialogue - Act 3 - Niko Boss Dialogue 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="652179907"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Niko - Dialogue - Act 3 - Niko Boss Dialogue 1" ID="{29BF6479-EB02-44BB-A730-DEF8A4F2D2BC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Niko - Dialogue - Act 3 - Niko Boss Dialogue 2" ID="{8EDEA837-66A6-4471-A2E2-1112472E85BF}" ShortID="138192700">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Niko - Dialogue - Act 3 - Niko Boss Dialogue 2" ID="{C47B29AA-C82E-4EFC-B6E3-81CFE7AF9C36}">
+											<Language>SFX</Language>
+											<AudioFile>Niko - Dialogue - Act 3 - Niko Boss Dialogue 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="351335218"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Niko - Dialogue - Act 3 - Niko Boss Dialogue 2" ID="{C47B29AA-C82E-4EFC-B6E3-81CFE7AF9C36}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Niko - Dialogue - Act 3 - Niko Boss Dialogue 3" ID="{82F5F149-A54A-4F89-AB81-07B39644ADDB}" ShortID="893107240">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Niko - Dialogue - Act 3 - Niko Boss Dialogue 3" ID="{46D93CB5-977E-4B77-9ABB-AEBDA1787858}">
+											<Language>SFX</Language>
+											<AudioFile>Niko - Dialogue - Act 3 - Niko Boss Dialogue 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="851224671"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Niko - Dialogue - Act 3 - Niko Boss Dialogue 3" ID="{46D93CB5-977E-4B77-9ABB-AEBDA1787858}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Niko - Dialogue - Act 3 - Niko Boss Dialogue 5" ID="{83DA1D4E-68F2-484A-AD19-7661501AD599}" ShortID="522796302">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Niko - Dialogue - Act 3 - Niko Boss Dialogue 5" ID="{5D2CA3E8-69E9-4EA0-A2EF-0D314CCC5167}">
+											<Language>SFX</Language>
+											<AudioFile>Niko - Dialogue - Act 3 - Niko Boss Dialogue 5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="91703012"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Niko - Dialogue - Act 3 - Niko Boss Dialogue 5" ID="{5D2CA3E8-69E9-4EA0-A2EF-0D314CCC5167}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Niko - Dialogue - Act 3 - Niko Boss Dialogue 6" ID="{ADF54FB1-2681-4C18-AACB-B4C54FB5678D}" ShortID="352639071">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Niko - Dialogue - Act 3 - Niko Boss Dialogue 6" ID="{E7D929EE-E480-49CC-AD21-2CC752304CAE}">
+											<Language>SFX</Language>
+											<AudioFile>Niko - Dialogue - Act 3 - Niko Boss Dialogue 6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="281699888"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Niko - Dialogue - Act 3 - Niko Boss Dialogue 6" ID="{E7D929EE-E480-49CC-AD21-2CC752304CAE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Niko - Dialogue - Act 3 - Niko Boss Dialogue 8" ID="{5CDA5860-53F7-4540-AEF9-56EA167834F1}" ShortID="562617514">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Niko - Dialogue - Act 3 - Niko Boss Dialogue 8" ID="{ADC9E42E-E6D5-420A-A905-58D65F85714A}">
+											<Language>SFX</Language>
+											<AudioFile>Niko - Dialogue - Act 3 - Niko Boss Dialogue 8.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="758710231"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Niko - Dialogue - Act 3 - Niko Boss Dialogue 8" ID="{ADC9E42E-E6D5-420A-A905-58D65F85714A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Niko - Dialogue - Act 3 - Niko Boss Dialogue 9" ID="{4AD4BB5A-17D9-4D07-9DBD-40F0F5F5E492}" ShortID="513165886">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Niko - Dialogue - Act 3 - Niko Boss Dialogue 9" ID="{C335DABA-46B5-4375-B9E7-A5C73E936D69}">
+											<Language>SFX</Language>
+											<AudioFile>Niko - Dialogue - Act 3 - Niko Boss Dialogue 9.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1060484051"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Niko - Dialogue - Act 3 - Niko Boss Dialogue 9" ID="{C335DABA-46B5-4375-B9E7-A5C73E936D69}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Niko - Dialogue - Act 3- Niko Boss Dialogue 7" ID="{1BD40532-707E-4CAE-A8FF-70F4C151FC00}" ShortID="909239864">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Niko - Dialogue - Act 3- Niko Boss Dialogue 7" ID="{77C6AA37-B772-4F0E-8E48-F4DC51B818CC}">
+											<Language>SFX</Language>
+											<AudioFile>Niko - Dialogue - Act 3- Niko Boss Dialogue 7.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="476740469"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Niko - Dialogue - Act 3- Niko Boss Dialogue 7" ID="{77C6AA37-B772-4F0E-8E48-F4DC51B818CC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
 					</ChildrenList>
 					<ObjectLists/>
 					<GroupingInfo>
 						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Niko - Dialogue - Act 3 - Inside Trainstation" ID="{52096E48-B0C0-4093-9C7E-0F760C2D3EEF}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Niko - Dialogue - Act 3 - Boss Dialogue" ID="{DA6A3749-CBB7-4DAD-AA90-618D42970F00}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Gravitus - Dialogue - Act 3 - Looking At Damage" ID="{7A8EB353-F60F-4EB5-90BC-93330B149EE3}"/>
+							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="Niko_-_Dialogue_-_Act_3_-_Good_Ending" ID="{975F9064-20B1-4EDC-9F04-A81004E3C529}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="Gravitus_-_Dialogue_-_Act_3_-_Good_Ending" ID="{4111858A-5F16-4762-9077-781A3A49F225}"/>
 							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Niko - Dialogue - Act 3 - Looking At Damage" ID="{20297397-CB93-4643-B161-6EB84CF6FD56}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Gravitus - Dialogue - Act 3 - Inside Trainstation" ID="{6CF526A9-05BA-4A87-A6A1-93E6A95288C0}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Niko - Dialogue - Act 3 - Walking into TrainStation" ID="{D1FBC6AD-C71D-4318-9DE0-84AB2EA047E2}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Niko - Dialogue - Act 2 - Com Disconnects (Niko)" ID="{85DEABB0-385D-4429-80B1-3045FAD28DDF}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Gravitus - Dialogue - Act 3 - Good Ending" ID="{9554F9D5-216A-4718-933A-42D44BF679C5}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Gravitus - Dialogue - Act 2 - Com Disconnects (Niko)" ID="{998C04FC-3F9B-4BB4-9A72-1FEF2188ED95}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Gravitus - Dialogue - Act 3 - Walking into TrainStation" ID="{2229B7FF-2BF2-4CE7-B12D-135AB7D18BD0}"/>
+							</GroupingBehavior>
 						</GroupingBehaviorList>
 						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Inside_Trainstation" ID="{BFE9A51B-6E09-4841-BFE1-C39E7E52568A}"/>
+								<ItemList>
+									<ItemRef Name="Gravitus - Dialogue - Act 3 - Inside Trainstation" ID="{6CF526A9-05BA-4A87-A6A1-93E6A95288C0}"/>
+									<ItemRef Name="Niko - Dialogue - Act 3 - Inside Trainstation" ID="{52096E48-B0C0-4093-9C7E-0F760C2D3EEF}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Walking_into_Trainstation" ID="{F7324334-6C6D-4579-8C84-F051DB0A236A}"/>
+								<ItemList>
+									<ItemRef Name="Gravitus - Dialogue - Act 3 - Walking into TrainStation" ID="{2229B7FF-2BF2-4CE7-B12D-135AB7D18BD0}"/>
+									<ItemRef Name="Niko - Dialogue - Act 3 - Walking into TrainStation" ID="{D1FBC6AD-C71D-4318-9DE0-84AB2EA047E2}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Boss_Dialogue" ID="{57D41662-B14E-4B8A-9491-56219D7D0C23}"/>
+								<ItemList>
+									<ItemRef Name="Niko - Dialogue - Act 3 - Boss Dialogue" ID="{DA6A3749-CBB7-4DAD-AA90-618D42970F00}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Looking_at_Damage" ID="{2BAEA962-EE44-4547-B49B-DDE3AFC32827}"/>
+								<ItemList>
+									<ItemRef Name="Niko - Dialogue - Act 3 - Looking At Damage" ID="{20297397-CB93-4643-B161-6EB84CF6FD56}"/>
+									<ItemRef Name="Gravitus - Dialogue - Act 3 - Looking At Damage" ID="{7A8EB353-F60F-4EB5-90BC-93330B149EE3}"/>
+								</ItemList>
+							</Grouping>
 							<Grouping>
 								<SwitchRef Name="Good_Ending" ID="{D4D631E6-D079-4195-A2C8-016F58949C15}"/>
 								<ItemList>

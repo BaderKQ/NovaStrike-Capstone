@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4A3E93E3-0730-462E-A3FB-02BFC259A93D}" SchemaVersion="103" RootDocumentID="{2353C102-E716-422F-9F91-4241B036806A}" ParentDocumentID="{C4B86D88-30D3-4309-86B9-25F055C5591E}">
+	<AudioObjects>
+		<WorkUnit Name="Act2" ID="{4A3E93E3-0730-462E-A3FB-02BFC259A93D}" OwnerID="{C4B86D88-30D3-4309-86B9-25F055C5591E}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchContainer Name="Act2_DialogueSwitch" ID="{ED42B275-325E-485D-A4C0-127CA626EE33}" ShortID="999557903">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="10 Meters" ID="{0808E249-EE6F-4FF5-A8A6-5372D114FDDA}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="None" ID="{382152CA-9047-48E0-9C50-DE8CF7750465}" WorkUnitID="{F47F23E6-F1FD-470E-98A0-5870A801D3CD}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Gravitus" ID="{ABA4A65A-AF2B-4C8B-82B1-102E924F770B}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Act2_States" ID="{3B2E4ED0-15CB-411E-A194-58A869BAED6B}" WorkUnitID="{F47F23E6-F1FD-470E-98A0-5870A801D3CD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Niko - Dialogue - Act 2 - Courtyard Intro" ID="{01786EEF-3CAA-4364-A80D-336E304A0B02}" ShortID="238856542">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Niko - Dialogue - Act 2 - Courtyard Intro" ID="{CBDE438D-06CF-4A96-9619-C956323E9CE9}">
+									<Language>SFX</Language>
+									<AudioFile>Niko - Dialogue - Act 2 - Courtyard Intro.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="539091092"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Niko - Dialogue - Act 2 - Courtyard Intro" ID="{CBDE438D-06CF-4A96-9619-C956323E9CE9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Niko - Dialogue - Act 2 - Ending" ID="{92B46617-DA41-4684-BC44-2BADC0BE734D}" ShortID="980622459">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Niko - Dialogue - Act 2 - Ending" ID="{B6447648-608E-4652-94DB-410E60A59EFF}">
+									<Language>SFX</Language>
+									<AudioFile>Niko - Dialogue - Act 2 - Ending.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="873947200"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Niko - Dialogue - Act 2 - Ending" ID="{B6447648-608E-4652-94DB-410E60A59EFF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Niko - Dialogue - Act 2 - Player Breaks First Pusstule" ID="{4B18B4FE-D683-420D-A003-CCAF838870B9}" ShortID="1009264547">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Niko - Dialogue - Act 2 - Player Breaks First Pusstule" ID="{53492EA3-8121-4072-970C-A74E290F5023}">
+									<Language>SFX</Language>
+									<AudioFile>Niko - Dialogue - Act 2 - Player Breaks First Pusstule.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="983043689"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Niko - Dialogue - Act 2 - Player Breaks First Pusstule" ID="{53492EA3-8121-4072-970C-A74E290F5023}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Niko - Dialogue - Act 2 - Player Defeats Fallen Train Enemies" ID="{5B3E0DAB-B778-40F3-B258-CE892CA3D6DB}" ShortID="24612286">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Niko - Dialogue - Act 2 - Player Defeats Fallen Train Enemies" ID="{A466E157-F669-4B10-A365-31B02937980F}">
+									<Language>SFX</Language>
+									<AudioFile>Niko - Dialogue - Act 2 - Player Defeats Fallen Train Enemies.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="661945944"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Niko - Dialogue - Act 2 - Player Defeats Fallen Train Enemies" ID="{A466E157-F669-4B10-A365-31B02937980F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Niko - Dialogue - Act 2 - Player Enters Research Hospital" ID="{19C07EB9-6AE2-46D9-95B4-0F05A3F9C23E}" ShortID="570902432">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Niko - Dialogue - Act 2 - Player Enters Research Hospital" ID="{DB2655BD-4A05-428F-A213-D868C0F7F59A}">
+									<Language>SFX</Language>
+									<AudioFile>Niko - Dialogue - Act 2 - Player Enters Research Hospital.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="898369332"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Niko - Dialogue - Act 2 - Player Enters Research Hospital" ID="{DB2655BD-4A05-428F-A213-D868C0F7F59A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Niko - Dialogue - Act 2 - Player Enters Side Warehouse" ID="{1BEB4FDF-E1BA-4390-B15B-06994D3D6967}" ShortID="119100633">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Niko - Dialogue - Act 2 - Player Enters Side Warehouse" ID="{E6F0D8A2-3751-4B28-AEE9-F0DB07EE18D6}">
+									<Language>SFX</Language>
+									<AudioFile>Niko - Dialogue - Act 2 - Player Enters Side Warehouse.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="556063697"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Niko - Dialogue - Act 2 - Player Enters Side Warehouse" ID="{E6F0D8A2-3751-4B28-AEE9-F0DB07EE18D6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Niko - Dialogue - Act 2 - Player Progresses through Hospital" ID="{E5566625-E0DE-49BC-A7EE-5D67D37ECED8}" ShortID="643570909">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Niko - Dialogue - Act 2 - Player Progresses through Hospital" ID="{E70DDD74-3208-4E7E-94C6-859CB935DC70}">
+									<Language>SFX</Language>
+									<AudioFile>Niko - Dialogue - Act 2 - Player Progresses through Hospital.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="457066130"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Niko - Dialogue - Act 2 - Player Progresses through Hospital" ID="{E70DDD74-3208-4E7E-94C6-859CB935DC70}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Niko - Dialogue - Act 2 - Puzzle Hint" ID="{B1A8328D-FFE9-4306-9E71-E3A83B4AC542}" ShortID="613743584">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Niko - Dialogue - Act 2 - Puzzle Hint" ID="{63976B01-4BE1-4AB8-B000-FC488C80B186}">
+									<Language>SFX</Language>
+									<AudioFile>Niko - Dialogue - Act 2 - Puzzle Hint.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="67730557"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Niko - Dialogue - Act 2 - Puzzle Hint" ID="{63976B01-4BE1-4AB8-B000-FC488C80B186}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Gravitus - Dialogue - Act 2 - Courtyard Intro" ID="{2BF3C618-7167-4FF0-9B62-EFC8834059BA}" ShortID="400609017">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gravitus - Dialogue - Act 2 - Courtyard Intro" ID="{36CA7DFD-5D9A-45D4-A14E-B52AF40D4A96}">
+									<Language>SFX</Language>
+									<AudioFile>Gravitus - Dialogue - Act 2 - Courtyard Intro.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="280847743"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Gravitus - Dialogue - Act 2 - Courtyard Intro" ID="{36CA7DFD-5D9A-45D4-A14E-B52AF40D4A96}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Gravitus - Dialogue - Act 2 - Ending" ID="{ECEFC7B4-F273-415E-AF89-A692C75D886D}" ShortID="671304144">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gravitus - Dialogue - Act 2 - Ending" ID="{14407D5D-6D85-41CE-BA60-9CBD7B72C0CB}">
+									<Language>SFX</Language>
+									<AudioFile>Gravitus - Dialogue - Act 2 - Ending.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1013356004"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Gravitus - Dialogue - Act 2 - Ending" ID="{14407D5D-6D85-41CE-BA60-9CBD7B72C0CB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Gravitus - Dialogue - Act 2 - Player Breaks First Pusstule" ID="{7329A228-743C-4CC1-A046-A1FEF5D86EB0}" ShortID="945700776">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gravitus - Dialogue - Act 2 - Player Breaks First Pusstule" ID="{E45B2F69-E401-4FE3-8E0B-572DC95DBA24}">
+									<Language>SFX</Language>
+									<AudioFile>Gravitus - Dialogue - Act 2 - Player Breaks First Pusstule.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="701132165"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Gravitus - Dialogue - Act 2 - Player Breaks First Pusstule" ID="{E45B2F69-E401-4FE3-8E0B-572DC95DBA24}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Gravitus - Dialogue - Act 2 - Player Defeats Fallen Train Enemies" ID="{357C7BFA-2B2E-45D1-9FC0-84E88680F0F5}" ShortID="854270848">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gravitus - Dialogue - Act 2 - Player Defeats Fallen Train Enemies" ID="{BDEE82F9-3ED7-4E6A-9850-6715527FEAFC}">
+									<Language>SFX</Language>
+									<AudioFile>Gravitus - Dialogue - Act 2 - Player Defeats Fallen Train Enemies.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="679944636"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Gravitus - Dialogue - Act 2 - Player Defeats Fallen Train Enemies" ID="{BDEE82F9-3ED7-4E6A-9850-6715527FEAFC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Gravitus - Dialogue - Act 2 - Player Enters Research Hospital" ID="{F2BBE90F-835E-4F98-B7ED-EB5CF967DA74}" ShortID="959732151">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gravitus - Dialogue - Act 2 - Player Enters Research Hospital" ID="{21E866FD-FF90-463E-8D81-3EC291CC614A}">
+									<Language>SFX</Language>
+									<AudioFile>Gravitus - Dialogue - Act 2 - Player Enters Research Hospital.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="428879102"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Gravitus - Dialogue - Act 2 - Player Enters Research Hospital" ID="{21E866FD-FF90-463E-8D81-3EC291CC614A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Gravitus - Dialogue - Act 2 - Player Progresses through Hospital" ID="{AFFC5122-5AE2-4DE3-9011-EF6EEFD6A109}" ShortID="317745623">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gravitus - Dialogue - Act 2 - Player Progresses through Hospital" ID="{2EEFC74D-8BB9-4754-8757-13206F6C2C8F}">
+									<Language>SFX</Language>
+									<AudioFile>Gravitus - Dialogue - Act 2 - Player Progresses through Hospital.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="656861908"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Gravitus - Dialogue - Act 2 - Player Progresses through Hospital" ID="{2EEFC74D-8BB9-4754-8757-13206F6C2C8F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Gravitus - Dialogue - Act 2 - Puzzle Hint" ID="{26190398-599E-45F4-AC10-EE42F277B905}" ShortID="337113697">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gravitus - Dialogue - Act 2 - Puzzle Hint" ID="{747FC7F0-45A9-4610-A18D-4C065C22F4E1}">
+									<Language>SFX</Language>
+									<AudioFile>Gravitus - Dialogue - Act 2 - Puzzle Hint.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="193643193"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Gravitus - Dialogue - Act 2 - Puzzle Hint" ID="{747FC7F0-45A9-4610-A18D-4C065C22F4E1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Graviutus - Dialogue - Act 2 - Player Enters Side Warehouse" ID="{5306AE8D-4D5F-4DD1-9E19-5D499A0951F7}" ShortID="617293470">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Graviutus - Dialogue - Act 2 - Player Enters Side Warehouse" ID="{66D99FB5-DDCB-4D1F-A236-DA1CE66C79FA}">
+									<Language>SFX</Language>
+									<AudioFile>Graviutus - Dialogue - Act 2 - Player Enters Side Warehouse.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="191786080"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Graviutus - Dialogue - Act 2 - Player Enters Side Warehouse" ID="{66D99FB5-DDCB-4D1F-A236-DA1CE66C79FA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Gravitus - Dialogue - Act 2 - Player Enters Research Hospital" ID="{F2BBE90F-835E-4F98-B7ED-EB5CF967DA74}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Niko - Dialogue - Act 2 - Ending" ID="{92B46617-DA41-4684-BC44-2BADC0BE734D}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Gravitus - Dialogue - Act 2 - Courtyard Intro" ID="{2BF3C618-7167-4FF0-9B62-EFC8834059BA}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Gravitus - Dialogue - Act 2 - Player Progresses through Hospital" ID="{AFFC5122-5AE2-4DE3-9011-EF6EEFD6A109}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Niko - Dialogue - Act 2 - Player Progresses through Hospital" ID="{E5566625-E0DE-49BC-A7EE-5D67D37ECED8}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Gravitus - Dialogue - Act 2 - Player Breaks First Pusstule" ID="{7329A228-743C-4CC1-A046-A1FEF5D86EB0}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Niko - Dialogue - Act 2 - Puzzle Hint" ID="{B1A8328D-FFE9-4306-9E71-E3A83B4AC542}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Graviutus - Dialogue - Act 2 - Player Enters Side Warehouse" ID="{5306AE8D-4D5F-4DD1-9E19-5D499A0951F7}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Gravitus - Dialogue - Act 2 - Puzzle Hint" ID="{26190398-599E-45F4-AC10-EE42F277B905}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Niko - Dialogue - Act 2 - Player Defeats Fallen Train Enemies" ID="{5B3E0DAB-B778-40F3-B258-CE892CA3D6DB}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Gravitus - Dialogue - Act 2 - Ending" ID="{ECEFC7B4-F273-415E-AF89-A692C75D886D}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Niko - Dialogue - Act 2 - Player Enters Research Hospital" ID="{19C07EB9-6AE2-46D9-95B4-0F05A3F9C23E}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Niko - Dialogue - Act 2 - Player Enters Side Warehouse" ID="{1BEB4FDF-E1BA-4390-B15B-06994D3D6967}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Niko - Dialogue - Act 2 - Courtyard Intro" ID="{01786EEF-3CAA-4364-A80D-336E304A0B02}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Gravitus - Dialogue - Act 2 - Player Defeats Fallen Train Enemies" ID="{357C7BFA-2B2E-45D1-9FC0-84E88680F0F5}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Niko - Dialogue - Act 2 - Player Breaks First Pusstule" ID="{4B18B4FE-D683-420D-A003-CCAF838870B9}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Player_Defeats_Fallen_Train_Enemies" ID="{DBFC940C-A3D6-41A3-A7BA-3094D837F17D}"/>
+								<ItemList>
+									<ItemRef Name="Gravitus - Dialogue - Act 2 - Player Defeats Fallen Train Enemies" ID="{357C7BFA-2B2E-45D1-9FC0-84E88680F0F5}"/>
+									<ItemRef Name="Niko - Dialogue - Act 2 - Player Defeats Fallen Train Enemies" ID="{5B3E0DAB-B778-40F3-B258-CE892CA3D6DB}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Player_Enters_Research_Hospital" ID="{98E39C1E-FC56-408C-B8DB-B5C319240968}"/>
+								<ItemList>
+									<ItemRef Name="Gravitus - Dialogue - Act 2 - Player Enters Research Hospital" ID="{F2BBE90F-835E-4F98-B7ED-EB5CF967DA74}"/>
+									<ItemRef Name="Niko - Dialogue - Act 2 - Player Enters Research Hospital" ID="{19C07EB9-6AE2-46D9-95B4-0F05A3F9C23E}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Player_Breaks_First_Pusstule" ID="{1F66FE7A-BD24-41F2-82CF-DBA2DD0D62F3}"/>
+								<ItemList>
+									<ItemRef Name="Gravitus - Dialogue - Act 2 - Player Breaks First Pusstule" ID="{7329A228-743C-4CC1-A046-A1FEF5D86EB0}"/>
+									<ItemRef Name="Niko - Dialogue - Act 2 - Player Breaks First Pusstule" ID="{4B18B4FE-D683-420D-A003-CCAF838870B9}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Courtyard_Intro" ID="{2DD4B385-A5C5-44DE-8E71-F8AE14F6F336}"/>
+								<ItemList>
+									<ItemRef Name="Gravitus - Dialogue - Act 2 - Courtyard Intro" ID="{2BF3C618-7167-4FF0-9B62-EFC8834059BA}"/>
+									<ItemRef Name="Niko - Dialogue - Act 2 - Courtyard Intro" ID="{01786EEF-3CAA-4364-A80D-336E304A0B02}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Ending" ID="{FEE01786-7ACA-48C8-8C68-6E0613CD2C7C}"/>
+								<ItemList>
+									<ItemRef Name="Gravitus - Dialogue - Act 2 - Ending" ID="{ECEFC7B4-F273-415E-AF89-A692C75D886D}"/>
+									<ItemRef Name="Niko - Dialogue - Act 2 - Ending" ID="{92B46617-DA41-4684-BC44-2BADC0BE734D}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Puzzle_Hint" ID="{6C4CBDBA-A58C-4E0E-92C2-D7ED6FB9AA8A}"/>
+								<ItemList>
+									<ItemRef Name="Gravitus - Dialogue - Act 2 - Puzzle Hint" ID="{26190398-599E-45F4-AC10-EE42F277B905}"/>
+									<ItemRef Name="Niko - Dialogue - Act 2 - Puzzle Hint" ID="{B1A8328D-FFE9-4306-9E71-E3A83B4AC542}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Player_Enters_Side_Warehouse" ID="{FA47A2BC-DE6D-489F-9CF9-0766D6BB80B7}"/>
+								<ItemList>
+									<ItemRef Name="Niko - Dialogue - Act 2 - Player Enters Side Warehouse" ID="{1BEB4FDF-E1BA-4390-B15B-06994D3D6967}"/>
+									<ItemRef Name="Gravitus - Dialogue - Act 2 - Player Enters Research Hospital" ID="{F2BBE90F-835E-4F98-B7ED-EB5CF967DA74}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Player_Progresses_Through_Hospital" ID="{0E270ED5-9E73-4A4C-A7BB-06D13A2F56F8}"/>
+								<ItemList>
+									<ItemRef Name="Gravitus - Dialogue - Act 2 - Player Progresses through Hospital" ID="{AFFC5122-5AE2-4DE3-9011-EF6EEFD6A109}"/>
+									<ItemRef Name="Niko - Dialogue - Act 2 - Player Progresses through Hospital" ID="{E5566625-E0DE-49BC-A7EE-5D67D37ECED8}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
