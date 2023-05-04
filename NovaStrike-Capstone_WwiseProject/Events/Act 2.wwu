@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{48DDB863-FF05-464D-ACB1-8A1E69C06326}" SchemaVersion="103" RootDocumentID="{81E81626-7F14-448D-8557-4B6E9757D369}" ParentDocumentID="{81E81626-7F14-448D-8557-4B6E9757D369}">
+	<Events>
+		<WorkUnit Name="Act 2" ID="{48DDB863-FF05-464D-ACB1-8A1E69C06326}" OwnerID="{81E81626-7F14-448D-8557-4B6E9757D369}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Act2_DialogueSwitch" ID="{F788EF61-6E89-4953-8E26-3CEBEFFA4391}">
+					<ChildrenList>
+						<Action Name="" ID="{56356D95-1C94-48F8-8BBA-115B0D07AFD3}" ShortID="21244376">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Act1_DialogueSwitch" ID="{7B821A60-A954-4CE1-A176-A5FA5FA70695}" WorkUnitID="{F279CC25-B42F-4D74-A21F-4E85D3E4FCAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2492EFE9-C930-4843-AAEA-DCD7C891FA3E}" ShortID="556726826">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Act2_DialogueSwitch" ID="{ED42B275-325E-485D-A4C0-127CA626EE33}" WorkUnitID="{4A3E93E3-0730-462E-A3FB-02BFC259A93D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FD703808-310C-472B-BB5D-9DFEDFB0DCA2}" ShortID="39593916">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Act2_DialogueSwitch" ID="{ED42B275-325E-485D-A4C0-127CA626EE33}" WorkUnitID="{4A3E93E3-0730-462E-A3FB-02BFC259A93D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Act2_DialogueSwitch" ID="{F29DC8DA-BFD1-43D3-AB43-A81D3047D511}">
+					<ChildrenList>
+						<Action Name="" ID="{A35FBF47-1692-4854-BB67-8224CA73E0CB}" ShortID="186478511">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Act2_DialogueSwitch" ID="{ED42B275-325E-485D-A4C0-127CA626EE33}" WorkUnitID="{4A3E93E3-0730-462E-A3FB-02BFC259A93D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

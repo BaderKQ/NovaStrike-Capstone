@@ -539,7 +539,7 @@
 								<SwitchRef Name="Player_Enters_Side_Warehouse" ID="{FA47A2BC-DE6D-489F-9CF9-0766D6BB80B7}"/>
 								<ItemList>
 									<ItemRef Name="Niko - Dialogue - Act 2 - Player Enters Side Warehouse" ID="{1BEB4FDF-E1BA-4390-B15B-06994D3D6967}"/>
-									<ItemRef Name="Gravitus - Dialogue - Act 2 - Player Enters Research Hospital" ID="{F2BBE90F-835E-4F98-B7ED-EB5CF967DA74}"/>
+									<ItemRef Name="Graviutus - Dialogue - Act 2 - Player Enters Side Warehouse" ID="{5306AE8D-4D5F-4DD1-9E19-5D499A0951F7}"/>
 								</ItemList>
 							</Grouping>
 							<Grouping>

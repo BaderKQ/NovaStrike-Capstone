@@ -23,10 +23,14 @@
 					<ChildrenList>
 						<State Name="None" ID="{329F3302-AADA-4BA3-B45C-5751623F2468}"/>
 						<State Name="Good_Ending" ID="{D4D631E6-D079-4195-A2C8-016F58949C15}"/>
-						<State Name="Inside_Trainstation" ID="{BFE9A51B-6E09-4841-BFE1-C39E7E52568A}"/>
 						<State Name="Looking_at_Damage" ID="{2BAEA962-EE44-4547-B49B-DDE3AFC32827}"/>
-						<State Name="Walking_into_Trainstation" ID="{F7324334-6C6D-4579-8C84-F051DB0A236A}"/>
 						<State Name="Boss_Dialogue" ID="{57D41662-B14E-4B8A-9491-56219D7D0C23}"/>
+						<State Name="Yep_Cok" ID="{A4EED3B5-34B7-465C-982D-03817BB43920}"/>
+						<State Name="Inside_Trainstation" ID="{484A7278-64A8-4C29-8AC3-609BA14BBD8C}"/>
+						<State Name="Walking_Into_Traintstation" ID="{D32BA099-4953-452B-B25F-41CFE4429F7F}"/>
+						<State Name="Good_Good_Ending" ID="{8DFD58A6-D641-4E23-8346-DBC32848D210}"/>
+						<State Name="NikoOnlyInsideTrainstation" ID="{58B3A231-A8D8-4DA0-BD13-0DEBE04FFE0D}"/>
+						<State Name="GravitusOnlyInsideTrainstation" ID="{4BF788DF-EC06-41F0-AB23-265E1A66065E}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Act2_States" ID="{3B2E4ED0-15CB-411E-A194-58A869BAED6B}">

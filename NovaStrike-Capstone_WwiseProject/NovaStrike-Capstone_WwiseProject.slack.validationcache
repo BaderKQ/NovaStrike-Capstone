@@ -34,7 +34,7 @@
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Switches\AISuit.wwu" DateLow="1670474827" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\States\PlayerStates.wwu" DateLow="1670474827" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\States\Music.wwu" DateLow="1681347158" DateHigh="0"/>
-	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\States\Dialogue.wwu" DateLow="1683003143" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\States\Dialogue.wwu" DateLow="1683176984" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\States\Default Work Unit.wwu" DateLow="1667796742" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1683003401" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1683003186" DateHigh="0"/>
@@ -42,12 +42,12 @@
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1667796742" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1667796742" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1667796742" DateHigh="0"/>
-	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\NovaStrike-Capstone_WwiseProject.wproj" DateLow="1682999661" DateHigh="0"/>
-	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\NovaStrike-Capstone_WwiseProject.slack.wsettings" DateLow="1683013481" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\NovaStrike-Capstone_WwiseProject.wproj" DateLow="1683176984" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\NovaStrike-Capstone_WwiseProject.slack.wsettings" DateLow="1683176954" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1667796739" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1680153441" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Metadata\Default Work Unit.wwu" DateLow="1667796739" DateHigh="0"/>
-	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1683013469" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1683019528" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Interactive Music Hierarchy\Music.wwu" DateLow="1681377550" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1667796739" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Interactive Music Hierarchy\Arena Music.wwu" DateLow="1681347158" DateHigh="0"/>
@@ -106,7 +106,7 @@
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\Wavegun.wwu" DateLow="1681364257" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\Vulkan SFX.wwu" DateLow="1683001406" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\SaideedLocomotion.wwu" DateLow="1673673015" DateHigh="0"/>
-	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\SaideedCombat.wwu" DateLow="1681349265" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\SaideedCombat.wwu" DateLow="1683019528" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\Saideed.wwu" DateLow="1677701958" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\PlayerLocomotion.wwu" DateLow="1683001634" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\PlayerCombat.wwu" DateLow="1681369421" DateHigh="0"/>
@@ -116,18 +116,19 @@
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\Gravitus.wwu" DateLow="1683001508" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\Gravitus VO.wwu" DateLow="1681349265" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\Gravitus Melee Attacks.wwu" DateLow="1681349265" DateHigh="0"/>
-	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\Emberpoint Foley.wwu" DateLow="1682102699" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\Emberpoint Foley.wwu" DateLow="1683019528" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\Emberpoint Enemy General SFX.wwu" DateLow="1681349265" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\Emberpoint Ambiance.wwu" DateLow="1681371592" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\EmberPoint - New Sounds.wwu" DateLow="1683001406" DateHigh="0"/>
-	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\Dialogue.wwu" DateLow="1683003094" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\Dialogue.wwu" DateLow="1683176984" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1673673015" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\Ambiance.wwu" DateLow="1680141606" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\Alpha-Sounds.wwu" DateLow="1673673015" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\AI VO.wwu" DateLow="1677203976" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\AI Suit.wwu" DateLow="1680152568" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\AI Combat VO.wwu" DateLow="1680153441" DateHigh="0"/>
-	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\Act1.wwu" DateLow="1683013442" DateHigh="0"/>
-	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\Act 3.wwu" DateLow="1683003401" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\Act2.wwu" DateLow="1683176984" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\Act1.wwu" DateLow="1683019710" DateHigh="0"/>
+	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\Act 3.wwu" DateLow="1683176984" DateHigh="0"/>
 	<ValidationCacheItem File="E:\NovaStrike\NovaStrike-Capstone\NovaStrike-Capstone_WwiseProject\Actor-Mixer Hierarchy\3D Ambiance.wwu" DateLow="1683013442" DateHigh="0"/>
 </ValidationCache>

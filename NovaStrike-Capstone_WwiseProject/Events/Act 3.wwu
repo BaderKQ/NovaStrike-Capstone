@@ -5,7 +5,45 @@
 			<ChildrenList>
 				<Event Name="Play_Act3_DialogueSwitch" ID="{F0ADFAC7-7884-47A9-94A9-6F33EBF7FF8A}">
 					<ChildrenList>
+						<Action Name="" ID="{B67E58FB-9D37-4021-B11D-F4AB24C0A561}" ShortID="210964086">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Act3_DialogueSwitch" ID="{DC48905D-A03D-4E10-B8C6-82628D5C514E}" WorkUnitID="{633252B6-939B-4DCA-A328-020CA1A76FE0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1FDC6895-3EF6-41B9-AEF8-D28381736225}" ShortID="989030980">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Act2_DialogueSwitch" ID="{ED42B275-325E-485D-A4C0-127CA626EE33}" WorkUnitID="{4A3E93E3-0730-462E-A3FB-02BFC259A93D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{5F89F6EA-ACC6-471E-9993-B86528BC3AC1}" ShortID="835766702">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Act3_DialogueSwitch" ID="{DC48905D-A03D-4E10-B8C6-82628D5C514E}" WorkUnitID="{633252B6-939B-4DCA-A328-020CA1A76FE0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Act3_DialogueSwitch" ID="{BD5794E2-CA17-40F7-A6F2-5884564DBB1B}">
+					<ChildrenList>
+						<Action Name="" ID="{3913163E-5DFB-4908-AA5E-4EB62D3EBE60}" ShortID="571119075">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Act3_DialogueSwitch" ID="{DC48905D-A03D-4E10-B8C6-82628D5C514E}" WorkUnitID="{633252B6-939B-4DCA-A328-020CA1A76FE0}"/>
