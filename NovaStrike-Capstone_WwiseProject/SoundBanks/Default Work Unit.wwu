@@ -107,11 +107,14 @@
 				</SoundBank>
 				<SoundBank Name="Wavegun" ID="{1CB3463B-89FA-40F0-B224-248635742F1A}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_WavegunOverheatedLOOP" ID="{ECF23A26-9F32-4044-BE0D-B91534AA8D47}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_WaveGunTriggerEmpty" ID="{4DE3BA5B-DF98-43F8-8ADF-F6409FB6DF5C}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SwapPrimary" ID="{754C245C-37A3-44DE-BAB5-FFCBFB08602F}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_BulletImpact" ID="{D96D26F3-D7E7-4759-B5DF-CCB0A25C6CBA}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_WavegunOverload" ID="{B4A6686D-EA07-4B92-BA20-F18B37F62579}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_WavegunOverheatEnd" ID="{37418056-BE00-4D7A-BB22-AD2A7029419F}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_WavegunSecondaryFire" ID="{63B130C9-848E-4DD6-A56B-D00C2FE0C4B5}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Wavegun_Overheat" ID="{89906121-7069-4DEA-842E-B6BC675EA8FC}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SwapSecondary" ID="{2AEB956F-EF5F-4E0E-87A3-E57E8E68CE5E}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_WavegunProjectile" ID="{0A7D7DE5-CA6B-4E9C-9502-47173CFEBF43}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

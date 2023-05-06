@@ -266,6 +266,60 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_WavegunOverheatEnd" ID="{37418056-BE00-4D7A-BB22-AD2A7029419F}">
+					<ChildrenList>
+						<Action Name="" ID="{A7687B29-23F1-433C-8F28-C3FC286A752C}" ShortID="671388868">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wavegun Overheat End" ID="{88175837-940B-490F-95AB-3A4B2F02F54B}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F641E390-9A9D-490F-88FE-E4774B99B99D}" ShortID="898530726">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Space Ship Alarm 2" ID="{068714A1-C2DC-43C4-BA42-C85859C3F95E}" WorkUnitID="{ABFC7394-EADF-4549-B668-ABE38FAB0C09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Wavegun_Overheat" ID="{89906121-7069-4DEA-842E-B6BC675EA8FC}">
+					<ChildrenList>
+						<Action Name="" ID="{ADEF729E-F7AD-4E6A-810F-65955F33D645}" ShortID="833849230">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wavegun Overheat" ID="{F42A9853-EE80-46E6-A6E6-8BE0F2419345}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{68DA6791-0921-4DD8-9D6D-AAD709CBCED1}" ShortID="181278070">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_WavegunOverheatedLOOP" ID="{ECF23A26-9F32-4044-BE0D-B91534AA8D47}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WavegunOverheatedLOOP" ID="{ECF23A26-9F32-4044-BE0D-B91534AA8D47}">
+					<ChildrenList>
+						<Action Name="" ID="{D311EB0D-6F1B-4A53-9A14-D3E102735F77}" ShortID="615891756">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Space Ship Alarm 2" ID="{068714A1-C2DC-43C4-BA42-C85859C3F95E}" WorkUnitID="{ABFC7394-EADF-4549-B668-ABE38FAB0C09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

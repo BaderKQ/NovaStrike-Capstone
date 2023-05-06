@@ -70,6 +70,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{94567083-3AE1-4231-8266-1EB2C0BBC30B}" ShortID="599275071">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player Hit" ID="{ED926C73-B928-4BE6-9BCD-011DB5CE3522}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Exhausted" ID="{910E1A35-5382-4722-9B83-42410847324E}">
