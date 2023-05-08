@@ -896,6 +896,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Vulkan_Execution (1)" ID="{AA7F8A47-EB25-43AB-B143-4B26B2A31093}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.689749182115594"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.689749182115594"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Vulkan_Execution (1).wav</AudioFile>
 													<MediaIDList>
