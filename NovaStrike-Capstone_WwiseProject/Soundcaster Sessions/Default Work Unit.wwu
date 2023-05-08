@@ -168,7 +168,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Stable" ID="{7065E30F-FAE2-4F54-8D82-EAF6FA8CB343}"/>
-						<CurrentStateRef Name="Music_None" ID="{8BC2070C-6AE4-4611-8D5F-AC7E242EABD5}"/>
+						<CurrentStateRef Name="Tension1" ID="{0898A923-B133-4A8B-8BA3-D9BE6BBAEA0C}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="House" ID="{70B7830F-C0CD-412D-B2AF-8723695B13BE}"/>

@@ -14,6 +14,24 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Jumpscare_SFX" ID="{58FBA0A8-E9AA-4D50-B365-74BF581055B8}">
+					<ChildrenList>
+						<Action Name="" ID="{150E510A-5DB6-402D-9D9D-79D9C19B1B27}" ShortID="3717293">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jumpscare SFX" ID="{54EBB326-EEB6-4942-9688-8B4B3E3D5336}" WorkUnitID="{2A1D246C-CFAB-4139-B7F1-3A7A53CADF27}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2F463B9A-34E5-46AD-BA75-88A7BC9E62F2}" ShortID="886049722">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jumpscare Gravitus VO" ID="{12FA072E-2242-46D4-AF91-FBDC0D4AC507}" WorkUnitID="{2A1D246C-CFAB-4139-B7F1-3A7A53CADF27}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

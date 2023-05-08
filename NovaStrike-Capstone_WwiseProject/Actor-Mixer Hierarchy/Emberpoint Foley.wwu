@@ -319,6 +319,106 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</ActorMixer>
+						<Sound Name="Jumpscare Gravitus VO" ID="{12FA072E-2242-46D4-AF91-FBDC0D4AC507}" ShortID="931470615">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Gravitus" ID="{ABA4A65A-AF2B-4C8B-82B1-102E924F770B}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Jumpscare Gravitus VO" ID="{99EA755D-8F43-4D03-918E-D8CE97CC37E6}">
+									<Language>SFX</Language>
+									<AudioFile>Jumpscare Gravitus VO.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="355836784"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Jumpscare Gravitus VO" ID="{99EA755D-8F43-4D03-918E-D8CE97CC37E6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Jumpscare SFX" ID="{54EBB326-EEB6-4942-9688-8B4B3E3D5336}" ShortID="474143542">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Jumpscare SFX" ID="{A295DEA8-3CAB-4A9E-972F-5195455C80E7}">
+									<Language>SFX</Language>
+									<AudioFile>Jumpscare SFX.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="573654354"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Jumpscare SFX" ID="{A295DEA8-3CAB-4A9E-972F-5195455C80E7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Tension Strings 1 (Loop)" ID="{E97580C7-8A88-4C43-9987-9A10CC420C83}" ShortID="345919801">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tension Strings 1 (Loop)" ID="{5197F54B-D64D-4060-A546-6E421DD22CB9}">
+									<Language>SFX</Language>
+									<AudioFile>Tension Strings 1 (Loop).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="220376610"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Tension Strings 1 (Loop)" ID="{5197F54B-D64D-4060-A546-6E421DD22CB9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Tension Strings 2 (Loop)" ID="{C7964F55-82F3-4F14-A2D3-124E4A336465}" ShortID="556344210">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tension Strings 2 (Loop)" ID="{CE851B29-25E9-4362-BF1D-83FEBB7BF2C5}">
+									<Language>SFX</Language>
+									<AudioFile>Tension Strings 2 (Loop).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="372929024"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Tension Strings 2 (Loop)" ID="{CE851B29-25E9-4362-BF1D-83FEBB7BF2C5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>

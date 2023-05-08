@@ -831,6 +831,256 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="TensionStrings1" ID="{75255014-F86E-4B39-A9DD-FAF57DDDA643}" ShortID="601205267">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Tension Strings 1 (Loop)" ID="{41747477-26F3-4358-B287-ED596572CDC3}" ShortID="1273146">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="31398.3900226757"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Tension Strings 1 (Loop)" ID="{024814D9-9751-4749-A29C-2C15F89AC944}" ShortID="231289286">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Tension Strings 1 (Loop)" ID="{DF885E83-C9BB-4CEC-9A13-586983DB0993}">
+													<Language>SFX</Language>
+													<AudioFile>Tension Strings 1 (Loop).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="218481839"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{F88E9834-AC1C-478D-8D22-7EE751F19478}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{12E20011-D558-4B20-9053-37CAC90D4D35}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Tension Strings 1 (Loop)" ID="{9AED9AFC-3AB8-44E4-A9D5-8F257E5A6816}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="31398.3900226757"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Tension Strings 1 (Loop)" ID="{DF885E83-C9BB-4CEC-9A13-586983DB0993}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{F69481A0-D28C-45E9-ACE3-4AC4E556D094}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{76DA7A11-5F2E-492C-855C-6D13DA6829A7}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="31398.3900226757"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{B0D56251-9A72-4F91-9B5A-5E31CF79698F}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{9D57A04F-F1FB-41A8-B2CF-3A3F2FA45C82}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{6E245D22-6006-4910-A3B5-2028268BC21C}" ShortID="69713790">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{40DCE322-8E6F-4E0D-9624-DEE1888D3D6D}" ShortID="307855828">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Tension Strings 1 (Loop)" ID="{41747477-26F3-4358-B287-ED596572CDC3}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="TensionStrings2" ID="{35064BA3-7408-4854-8E51-4951DAB1A71A}" ShortID="602770470">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Tension Strings 2 (Loop)" ID="{CFA53B3F-8769-433F-AB0F-4FCE44B0367A}" ShortID="856623616">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="29365.6916099773"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Master" ID="{00B9126A-D8CD-4506-B946-96F168B6DBAE}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Tension Strings 2 (Loop)" ID="{AF3FD138-9C57-4C44-A0B4-CFCDA8A82FFD}" ShortID="830595927">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Tension Strings 2 (Loop)" ID="{57FC5728-C9EC-4DB4-8294-9E4282221E59}">
+													<Language>SFX</Language>
+													<AudioFile>Tension Strings 2 (Loop).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1068491809"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{3B939095-6E76-4D3C-97B2-ED512D48A44B}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{70815712-30C9-4FB6-8689-A8533692C908}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Tension Strings 2 (Loop)" ID="{0333EEE0-A8A2-4810-AEA6-9687249647D7}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="29365.6916099773"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Tension Strings 2 (Loop)" ID="{57FC5728-C9EC-4DB4-8294-9E4282221E59}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{8B4CDEAE-BEC0-4039-B548-8A266D1BB333}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{95BF5D15-9EDE-4855-A223-CF286DBBA675}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="29365.6916099773"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{8F4B3087-A39A-48AA-B8A4-16A88691231D}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{2DBFFEB9-A820-4EE2-BA40-C91F97076B1F}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{F884EDC0-FAC7-467A-94E3-C00DCCA5D776}" ShortID="1060716917">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{E7FE79A5-F644-47AF-BAF9-694E2DD5C2EC}" ShortID="56107928">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Tension Strings 2 (Loop)" ID="{CFA53B3F-8769-433F-AB0F-4FCE44B0367A}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
 					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{3F6D5E33-B495-4B98-8B00-E56C8F0D7F5F}">
@@ -977,6 +1227,22 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Music_None" ID="{EAE36EF4-B9E6-4B58-8492-72180A8633DE}" WorkUnitID="{5050D281-9396-456A-89A7-C49EB3826303}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Tension1" ID="{0898A923-B133-4A8B-8BA3-D9BE6BBAEA0C}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="TensionStrings1" ID="{75255014-F86E-4B39-A9DD-FAF57DDDA643}" WorkUnitID="{5050D281-9396-456A-89A7-C49EB3826303}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Tension2" ID="{E15E8311-FDE2-407B-B75B-22CF44857F15}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="TensionStrings2" ID="{35064BA3-7408-4854-8E51-4951DAB1A71A}" WorkUnitID="{5050D281-9396-456A-89A7-C49EB3826303}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>

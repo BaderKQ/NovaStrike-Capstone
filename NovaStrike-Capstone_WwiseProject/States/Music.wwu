@@ -10,6 +10,8 @@
 						<State Name="Arena_Finished" ID="{4153DEAB-390B-49FF-94CA-D7D919698ABE}"/>
 						<State Name="Music_Ambiance" ID="{DE5F6BBC-681A-4C6B-92CE-5D87C0AA23A9}"/>
 						<State Name="Music_None" ID="{8BC2070C-6AE4-4611-8D5F-AC7E242EABD5}"/>
+						<State Name="Tension1" ID="{0898A923-B133-4A8B-8BA3-D9BE6BBAEA0C}"/>
+						<State Name="Tension2" ID="{E15E8311-FDE2-407B-B75B-22CF44857F15}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
