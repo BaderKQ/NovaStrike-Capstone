@@ -1247,6 +1247,138 @@
 						</Entry>
 					</EntryList>
 				</MusicSwitchContainer>
+				<MusicPlaylistContainer Name="BossBattleMusic" ID="{E24559B9-C9C9-454E-B018-8FD1EB646000}" ShortID="446349212">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Master" ID="{00B9126A-D8CD-4506-B946-96F168B6DBAE}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Juhani_Junkala_-_Epic_Boss_Battle___Video_Game_Music___Loop_Ready___Free_Download" ID="{2D8546A9-4BF3-483D-AA66-4E398A1064FF}" ShortID="606941179">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="123460.498866213"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Juhani_Junkala_-_Epic_Boss_Battle___Video_Game_Music___Loop_Ready___Free_Download" ID="{D84B1FF9-C829-40F9-9C93-097763A97815}" ShortID="123258212">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Juhani_Junkala_-_Epic_Boss_Battle___Video_Game_Music___Loop_Ready___Free_Download" ID="{629E2E6E-9725-4892-A349-FCE970D0810F}">
+											<Language>SFX</Language>
+											<AudioFile>Juhani_Junkala_-_Epic_Boss_Battle___Video_Game_Music___Loop_Ready___Free_Download.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="414562765"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{77341C60-9C71-4AF8-997D-A975408D3655}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{F397E732-DA7F-47C0-913F-314A42D3EEB1}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Juhani_Junkala_-_Epic_Boss_Battle___Video_Game_Music___Loop_Ready___Free_Download" ID="{2E0526A6-357F-4344-8A90-6C69F1A34BBA}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="123460.498866213"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Juhani_Junkala_-_Epic_Boss_Battle___Video_Game_Music___Loop_Ready___Free_Download" ID="{629E2E6E-9725-4892-A349-FCE970D0810F}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{8A50650E-89E5-409F-9D6B-9C11EEFEB0DC}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{D3C015B3-F0B5-4593-B7AC-1A3284DF90B2}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="123460.498866213"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{906CFE5F-2D0F-4100-BABE-68A469E348FD}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{9F76FF7C-21C0-44ED-83B9-8FDA0D7CBDC5}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{60AB381F-8D41-4D57-BD00-F00929DEA29F}" ShortID="137742489">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{5CC727EC-F06C-4983-AFB2-791AA6AD239C}" ShortID="732565323">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Juhani_Junkala_-_Epic_Boss_Battle___Video_Game_Music___Loop_Ready___Free_Download" ID="{2D8546A9-4BF3-483D-AA66-4E398A1064FF}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

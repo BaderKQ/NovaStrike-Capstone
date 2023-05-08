@@ -115,6 +115,56 @@
 				<WorkUnit Name="SwingLight" ID="{1115084B-DB7D-4021-8E2B-56136BDFF1F7}" PersistMode="Reference"/>
 				<WorkUnit Name="Debug" ID="{4303AF45-7DCF-4BC0-9C78-DDEC982D9535}" PersistMode="Reference"/>
 				<WorkUnit Name="GravitusMeleeVO" ID="{5096038B-9C07-4B7C-958E-5BDE8AA30AF9}" PersistMode="Reference"/>
+				<Event Name="Play_AttackLight_NOScream" ID="{EB553A41-0E29-4B00-A5EE-A58A2A6A7535}">
+					<ChildrenList>
+						<Action Name="" ID="{A0915198-B003-44E2-B445-031380930DF8}" ShortID="1053024837">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Light Attack" ID="{2961FD84-B669-42C4-9CEF-C443105E53AE}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4ABE4C37-2B98-4C26-AE67-9AC4F79AD708}" ShortID="96040488">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swing Light" ID="{68DBA971-4730-4426-BEB5-D9A2B8712D35}" WorkUnitID="{D7DAB8EE-AC10-4D60-8B63-030F1F205005}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{35781CFE-68BF-423C-B5F4-ECC5C9D80113}" ShortID="140212410">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_LightGruntConfirm" ID="{0D873880-D35C-4549-85A7-01BEFF4F080F}" WorkUnitID="{5096038B-9C07-4B7C-958E-5BDE8AA30AF9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8E5D0133-82BD-46D4-83F8-C2A7DB66A16D}" ShortID="267931238">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Saideed Hit" ID="{EBF823E2-597A-4A45-857D-174141B66BD7}" WorkUnitID="{11A65CD9-A556-4F21-AEFD-C5381C8349AB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -15,6 +15,32 @@
 					</ChildrenList>
 				</Event>
 				<WorkUnit Name="States" ID="{85622108-37AC-4DB9-A958-50BD0A9D60C1}" PersistMode="Reference"/>
+				<Event Name="Stop_BossBattleMusic" ID="{DF30EFDD-EB83-49D2-8794-AFB89C9CC747}">
+					<ChildrenList>
+						<Action Name="" ID="{16E9FD0C-2D23-40B3-9BBE-93ED8929C914}" ShortID="143040409">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BossBattleMusic" ID="{E24559B9-C9C9-454E-B018-8FD1EB646000}" WorkUnitID="{5050D281-9396-456A-89A7-C49EB3826303}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BossBattleMusic" ID="{F38AC12D-8B1B-4194-B10B-C11966C1CA3F}">
+					<ChildrenList>
+						<Action Name="" ID="{DD135809-9696-4137-ACE2-22678B3A3BCD}" ShortID="894210209">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BossBattleMusic" ID="{E24559B9-C9C9-454E-B018-8FD1EB646000}" WorkUnitID="{5050D281-9396-456A-89A7-C49EB3826303}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

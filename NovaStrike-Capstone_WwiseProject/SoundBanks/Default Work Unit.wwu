@@ -81,6 +81,7 @@
 						<ObjectRef Name="Play_Execution_B" ID="{F402F6B0-4BCF-488E-98C1-376D06014A83}" WorkUnitID="{4C610E92-6CFE-494A-B84C-D4BD6B2A9D41}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Execution_A" ID="{AF196FFD-AD61-4A5F-ACF3-9C13C337A774}" WorkUnitID="{4C610E92-6CFE-494A-B84C-D4BD6B2A9D41}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AttackHeavy" ID="{3C69F7F7-252D-4A8C-8AAB-A2A5B8EAA952}" WorkUnitID="{B6C29E51-873B-4F8A-9870-E43FABB28624}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AttackLight_NOScream" ID="{EB553A41-0E29-4B00-A5EE-A58A2A6A7535}" WorkUnitID="{B6C29E51-873B-4F8A-9870-E43FABB28624}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Injured" ID="{A2492AE2-6523-4B5A-A2E4-2E406C999CDB}" WorkUnitID="{5096038B-9C07-4B7C-958E-5BDE8AA30AF9}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SwingLaunch2" ID="{179C6178-3C44-4D76-9DFF-F49FADD96581}" WorkUnitID="{8384685B-C51F-4028-9E24-7CF9D40D70E8}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Execution_C" ID="{3C7E230F-0FD2-4ED0-BFD4-35F3FB73511F}" WorkUnitID="{4C610E92-6CFE-494A-B84C-D4BD6B2A9D41}" Origin="Manual" Filter="7"/>
@@ -137,6 +138,7 @@
 						<ObjectRef Name="Play_Vulkan_PowerDown" ID="{089EE17D-01ED-4654-84C7-47D9C52727FB}" WorkUnitID="{A088776F-DE63-4675-A9C9-82E8A1500B99}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Vulkan_Evade" ID="{26CA113D-9F3C-46EE-B53B-BCA95FF1A6A6}" WorkUnitID="{59F398CB-E396-4C1E-91D2-2E2075473256}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Vulkan_FootstepRight" ID="{7E045AD1-95F8-471E-B4DF-C1E1E4D0C536}" WorkUnitID="{97D2A0C5-E18F-4295-831F-B734388C65FE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Vulkan_Execution" ID="{B6DF1B95-E62A-47F0-AA80-89838D66D0F9}" WorkUnitID="{97D2A0C5-E18F-4295-831F-B734388C65FE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Vulkan_Flamecharge" ID="{11CD4F9D-CCFC-48B2-9E67-65FD8DBD4DD7}" WorkUnitID="{A088776F-DE63-4675-A9C9-82E8A1500B99}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Leech_Loop_Mono" ID="{A88A811A-55F8-493F-997B-E44D917AB713}" WorkUnitID="{B61BACA5-9DB8-49F5-8DB8-7A12714CE1C2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Vulkan_Leap" ID="{F30F86D2-772A-4B17-BA33-491694B5ADC4}" WorkUnitID="{97D2A0C5-E18F-4295-831F-B734388C65FE}" Origin="Manual" Filter="7"/>
@@ -151,6 +153,8 @@
 				</SoundBank>
 				<SoundBank Name="Music" ID="{64E28002-BF5D-46DF-A634-D3F5BC6C749A}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_BossBattleMusic" ID="{F38AC12D-8B1B-4194-B10B-C11966C1CA3F}" WorkUnitID="{55C22A04-C63E-4DCA-AF39-98E68F5ECD94}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_BossBattleMusic" ID="{DF30EFDD-EB83-49D2-8794-AFB89C9CC747}" WorkUnitID="{55C22A04-C63E-4DCA-AF39-98E68F5ECD94}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_State_Arena_Finished" ID="{A0FDEC97-EBD4-4B16-A838-254B4DCEAAAE}" WorkUnitID="{85622108-37AC-4DB9-A958-50BD0A9D60C1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_EmberpointMusic" ID="{2E176A8D-BB92-4B47-81A0-93032E5C2BC0}" WorkUnitID="{55C22A04-C63E-4DCA-AF39-98E68F5ECD94}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_State_Arena_InProgress" ID="{E68AC349-81CE-4F25-A6E0-A41014D7E310}" WorkUnitID="{85622108-37AC-4DB9-A958-50BD0A9D60C1}" Origin="Manual" Filter="7"/>
