@@ -9,6 +9,11 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 								<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -19,6 +24,11 @@
 						<Action Name="" ID="{0F6EC8E3-52FE-4407-8104-DD79F3064389}" ShortID="352455342">
 							<PropertyList>
 								<Property Name="Delay" Type="Real64" Value="0.25"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -29,6 +39,11 @@
 						<Action Name="" ID="{2C206FE5-5CB7-4F21-B101-0F7A3B1DC271}" ShortID="454463102">
 							<PropertyList>
 								<Property Name="Delay" Type="Real64" Value="0.25"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -37,6 +52,13 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{2AEF2245-1C57-409C-939D-0CE8A2C9B85E}" ShortID="915436564">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Mechanical Layer 3" ID="{A63EF6CB-6087-44F4-AAE2-1EAE2D55C7B2}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
@@ -44,6 +66,13 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{FFB8FE07-15CE-4FF1-90F8-1B3B80256819}" ShortID="757931953">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Transient Layer 1" ID="{860698A9-A28B-41B1-B76E-886D73D98F55}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
@@ -51,6 +80,13 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{D331E64A-19C7-465D-A4AE-C2B918E74E66}" ShortID="228787336">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Transient Layer 2" ID="{FF555D12-3159-4B95-9F5D-2863B913C4E3}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
@@ -58,6 +94,13 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{32663993-C24C-44AF-89CD-38ECC20BA5CA}" ShortID="376255178">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Transient Layer 3" ID="{B47DBAAF-2784-4C57-9390-5BB9034D9B8E}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
@@ -68,10 +111,22 @@
 							<PropertyList>
 								<Property Name="Delay" Type="Real64" Value="0.1"/>
 								<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Tail Layer Long 1" ID="{8BA6AEA8-5078-404D-8B35-ED555267DE36}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{86D76703-6C80-44E4-A11A-6FC1E2F453ED}" ShortID="599362114">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PrimaryFireBlend" ID="{DE1190B7-F56C-48AB-8E2F-319698A4CB7F}" WorkUnitID="{FE8C4E76-53DD-4917-9CE1-6F7353F8E11C}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -304,6 +359,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Play_WavegunOverheatedLOOP" ID="{ECF23A26-9F32-4044-BE0D-B91534AA8D47}" WorkUnitID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DD9D205E-EB7A-4158-A2BF-FEDFA4C8DDAD}" ShortID="723115465">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.75"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OutOf_Ammo" ID="{1E377387-FC05-4736-AC6D-F6FF4E18557B}" WorkUnitID="{AA6BA01B-3652-4A42-BF08-A409270614A9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

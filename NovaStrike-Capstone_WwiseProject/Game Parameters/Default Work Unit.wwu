@@ -30,7 +30,6 @@
 				<GameParameter Name="Wavegun_Heat" ID="{0675E1DE-767A-430F-94AD-E80556672F02}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
-						<Property Name="Max" Type="Real64" Value="1"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>

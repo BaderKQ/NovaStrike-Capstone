@@ -4481,7 +4481,7 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>1</XPos>
+																		<XPos>100</XPos>
 																		<YPos>-4.00259</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -4524,12 +4524,12 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>0.75043</XPos>
+																		<XPos>75.043</XPos>
 																		<YPos>0.41043</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>1</XPos>
+																		<XPos>100</XPos>
 																		<YPos>0.55167</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -4566,17 +4566,17 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>0.04606</XPos>
+																		<XPos>4.606</XPos>
 																		<YPos>0.12573</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>0.50086</XPos>
+																		<XPos>50.086</XPos>
 																		<YPos>-6.71584</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>1</XPos>
+																		<XPos>100</XPos>
 																		<YPos>-200</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -4613,7 +4613,7 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>1</XPos>
+																		<XPos>100</XPos>
 																		<YPos>-6.43103</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -4650,12 +4650,12 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>0.4932</XPos>
+																		<XPos>49.32</XPos>
 																		<YPos>-4.21707</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>1</XPos>
+																		<XPos>100</XPos>
 																		<YPos>-10.23765</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -4692,8 +4692,41 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>1</XPos>
+																		<XPos>100</XPos>
 																		<YPos>500</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{81A474AF-D7B3-44C8-A88B-B937E7CFBA89}" ShortID="363797075">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Wavegun_Heat" ID="{0675E1DE-767A-430F-94AD-E80556672F02}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{0B4A54D5-2470-4B9B-B8D9-53FECCCF317A}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>54.61624</XPos>
+																		<YPos>-2.26072</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -4712,13 +4745,13 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
-														<RTPC Name="" ID="{7332099A-5221-4B62-B992-971A3FA30CD7}" ShortID="140968896">
+														<RTPC Name="" ID="{62BD1822-63E1-463D-AEA8-DF29AE9A8A1A}" ShortID="747205686">
 															<ReferenceList>
 																<Reference Name="ControlInput">
 																	<ObjectRef Name="Wavegun_Heat" ID="{0675E1DE-767A-430F-94AD-E80556672F02}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
 																</Reference>
 															</ReferenceList>
-															<Curve Name="" ID="{A885864B-8C6B-4684-9F43-8295826415BB}">
+															<Curve Name="" ID="{CC1430FE-AC1F-42D6-9DC0-1B5155AFC0B4}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="3"/>
 																</PropertyList>
@@ -4729,7 +4762,7 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>1</XPos>
+																		<XPos>100</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
