@@ -168,6 +168,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Stable" ID="{7065E30F-FAE2-4F54-8D82-EAF6FA8CB343}"/>
+						<CurrentStateRef Name="IntroShipDay" ID="{6596173E-3618-4C35-91D0-12A608D08025}"/>
 						<CurrentStateRef Name="Tension1" ID="{0898A923-B133-4A8B-8BA3-D9BE6BBAEA0C}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">

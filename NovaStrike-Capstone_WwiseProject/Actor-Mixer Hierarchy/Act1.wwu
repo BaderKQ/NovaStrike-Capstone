@@ -299,6 +299,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Gravitus - Dialogue - Act 1 - Player Heads Upstairs" ID="{FED4F61F-F194-4C57-A2EC-E208DEBD0678}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="14.2952106741573"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Dialogue - Act 1 Stems\Act 1 - Gravitus\Gravitus - Dialogue - Act 1 - Player Heads Upstairs.wav</AudioFile>
 											<MediaIDList>
@@ -638,6 +642,85 @@
 										<ActiveSource Name="Niko - Dialogue - Act 1 - Arena 25_" ID="{EAFDCB78-6C61-4DA3-BC26-55556BEE2881}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Gravitus - SPLICED - Dialogue - Act 1 - Intro" ID="{9FB0E7D1-1775-4D97-B060-8A3D1EEADFBF}" ShortID="125889935">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gravitus - SPLICED - Dialogue - Act 1 - Intro" ID="{6D8DE80A-4B26-488D-AE22-C0E07B3FEDA3}">
+											<Language>SFX</Language>
+											<AudioFile>Gravitus - SPLICED - Dialogue - Act 1 - Intro.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1023059539"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Gravitus - SPLICED - Dialogue - Act 1 - Intro" ID="{6D8DE80A-4B26-488D-AE22-C0E07B3FEDA3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Niko - SPLICED - Dialogue - Act 1 - Intro" ID="{E48FA8A4-E5F4-4B6A-9F96-E2CEE942FB21}" ShortID="330279784">
+									<PropertyList>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Niko - SPLICED - Dialogue - Act 1 - Intro" ID="{4CC50CB3-78D6-4B08-8BD1-1AD0742D98C7}">
+											<Language>SFX</Language>
+											<AudioFile>Niko - SPLICED - Dialogue - Act 1 - Intro.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="78305416"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Niko - SPLICED - Dialogue - Act 1 - Intro" ID="{4CC50CB3-78D6-4B08-8BD1-1AD0742D98C7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Niko - SPLICED - Dialogue - Act 3 - Player Enters Station" ID="{F09CCF3C-EC4A-4F35-81F9-54AAD996B846}" ShortID="299420348">
+									<PropertyList>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Niko" ID="{0E596078-8B57-4BC1-9461-53183419FDD5}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Niko - SPLICED - Dialogue - Act 3 - Player Enters Station" ID="{828C0EEE-7A46-4BBF-B899-F915672738C7}">
+											<Language>SFX</Language>
+											<AudioFile>Niko - SPLICED - Dialogue - Act 3 - Player Enters Station.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="395286235"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Niko - SPLICED - Dialogue - Act 3 - Player Enters Station" ID="{828C0EEE-7A46-4BBF-B899-F915672738C7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<PositioningInfo>
 								<Panner Name="" ID="{DED5FB88-8964-48C0-A07A-53989556FE06}">
@@ -669,6 +752,9 @@
 										<ItemRef Name="Gravitus - Dialogue - Act 1 - Player Finishes Pickaxe Animation" ID="{8B91D03A-EEFD-4DF6-9C9F-58BFBEE03570}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
+										<ItemRef Name="Niko - SPLICED - Dialogue - Act 3 - Player Enters Station" ID="{F09CCF3C-EC4A-4F35-81F9-54AAD996B846}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
 										<ItemRef Name="Niko - Dialogue - Act 1 - Player Gets Jumpscared" ID="{3BAFA349-F45F-4A9E-B510-2CA2209A1DD6}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
@@ -684,6 +770,9 @@
 										<ItemRef Name="Gravitus - Dialogue - Act 1 - After Jumpscare" ID="{70ECCC92-AB7E-46BF-B467-F9F5BFF841EF}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
+										<ItemRef Name="Niko - SPLICED - Dialogue - Act 1 - Intro" ID="{E48FA8A4-E5F4-4B6A-9F96-E2CEE942FB21}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
 										<ItemRef Name="Gravitus - Dialogue - Act 1 - Player Gets Jumpscared" ID="{A3C43BA5-C69C-4248-9A00-ECC6AA74F4A5}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
@@ -694,6 +783,9 @@
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Niko - Dialogue - Act 1 - After Jumpscare" ID="{B48E0ABF-F71A-4E6E-9E16-923F4749642D}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Gravitus - SPLICED - Dialogue - Act 1 - Intro" ID="{9FB0E7D1-1775-4D97-B060-8A3D1EEADFBF}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Gravitus - Dialogue - Act 1 - Intro Ship Day" ID="{2DF309D4-FB8F-405C-8CE5-8D840B7F10F4}"/>
@@ -721,8 +813,8 @@
 									<Grouping>
 										<SwitchRef Name="IntroShipDay" ID="{6596173E-3618-4C35-91D0-12A608D08025}"/>
 										<ItemList>
-											<ItemRef Name="Gravitus - Dialogue - Act 1 - Intro Ship Day" ID="{2DF309D4-FB8F-405C-8CE5-8D840B7F10F4}"/>
-											<ItemRef Name="Niko - Dialogue - Act 1 - Intro Ship Day" ID="{5E708A74-E5F1-4CD5-808B-23753DAF6E4A}"/>
+											<ItemRef Name="Gravitus - SPLICED - Dialogue - Act 1 - Intro" ID="{9FB0E7D1-1775-4D97-B060-8A3D1EEADFBF}"/>
+											<ItemRef Name="Niko - SPLICED - Dialogue - Act 1 - Intro" ID="{E48FA8A4-E5F4-4B6A-9F96-E2CEE942FB21}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
