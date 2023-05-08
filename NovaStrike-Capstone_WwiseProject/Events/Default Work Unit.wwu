@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B0AB3B36-1E31-4FAC-847B-8787E76072FB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Saideed_Entrance" ID="{74AEAFD3-5C95-407B-8C9A-E4C353AD1E8F}">
+					<ChildrenList>
+						<Action Name="" ID="{FB436D70-2CA4-4892-AB2D-F161F008AA12}" ShortID="914539852">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Saideed Entrance" ID="{62708044-1BCB-4FBA-BB47-DB5AF246D300}" WorkUnitID="{11A65CD9-A556-4F21-AEFD-C5381C8349AB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

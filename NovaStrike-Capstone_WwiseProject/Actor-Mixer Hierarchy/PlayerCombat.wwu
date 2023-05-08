@@ -4401,6 +4401,62 @@
 											</ChildrenList>
 											<ObjectLists/>
 										</RandomSequenceContainer>
+										<Sound Name="Wavegun Heat Test1" ID="{D0565DF3-1227-4832-8128-0BD84D79D83E}" ShortID="158054165">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerWaveGunFire" ID="{45EEF577-1CB5-4868-8C39-E0083B66009C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Wavegun Heat Test1" ID="{B04EFB49-99D9-4AF8-A0D1-04359B21A8E8}">
+													<Language>SFX</Language>
+													<AudioFile>Wavegun Heat Test1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="842341281"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Wavegun Heat Test1" ID="{B04EFB49-99D9-4AF8-A0D1-04359B21A8E8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Wavegun Heat Test2" ID="{835DE470-F756-4127-AE96-E8E055E47AF8}" ShortID="230680522">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Wavegun Heat Test2" ID="{D6126829-EBDB-41FC-B1C3-F15860CC0D8B}">
+													<Language>SFX</Language>
+													<AudioFile>Wavegun Heat Test2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="257602885"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Wavegun Heat Test2" ID="{D6126829-EBDB-41FC-B1C3-F15860CC0D8B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<ObjectLists/>
 									<BlendTrackList>
@@ -4411,7 +4467,7 @@
 														<RTPC Name="" ID="{2E72C7C5-FD91-4CCE-AB04-AC031157D513}" ShortID="132615646">
 															<ReferenceList>
 																<Reference Name="ControlInput">
-																	<ObjectRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+																	<ObjectRef Name="Wavegun_Heat" ID="{0675E1DE-767A-430F-94AD-E80556672F02}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
 																</Reference>
 															</ReferenceList>
 															<Curve Name="" ID="{2BF9F8E4-D3CC-4038-B650-CFFDF4EC2994}">
@@ -4426,7 +4482,7 @@
 																	</Point>
 																	<Point>
 																		<XPos>1</XPos>
-																		<YPos>-9.81388</YPos>
+																		<YPos>-4.00259</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -4454,7 +4510,7 @@
 														<RTPC Name="" ID="{8E53D38F-304E-4FF2-A5F0-E0524C5427EA}" ShortID="956135989">
 															<ReferenceList>
 																<Reference Name="ControlInput">
-																	<ObjectRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+																	<ObjectRef Name="Wavegun_Heat" ID="{0675E1DE-767A-430F-94AD-E80556672F02}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
 																</Reference>
 															</ReferenceList>
 															<Curve Name="" ID="{137239B7-5B11-43BE-99C9-314BF3DA2B49}">
@@ -4496,7 +4552,7 @@
 														<RTPC Name="" ID="{E7FA45B8-B201-42E9-AE0E-F7FCADCA314B}" ShortID="879120143">
 															<ReferenceList>
 																<Reference Name="ControlInput">
-																	<ObjectRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+																	<ObjectRef Name="Wavegun_Heat" ID="{0675E1DE-767A-430F-94AD-E80556672F02}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
 																</Reference>
 															</ReferenceList>
 															<Curve Name="" ID="{3159985E-94CE-479A-ABE9-A7B7C5C3A843}">
@@ -4543,7 +4599,7 @@
 														<RTPC Name="" ID="{224997B8-DC4D-477A-BB34-876E456FB5A1}" ShortID="532439799">
 															<ReferenceList>
 																<Reference Name="ControlInput">
-																	<ObjectRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+																	<ObjectRef Name="Wavegun_Heat" ID="{0675E1DE-767A-430F-94AD-E80556672F02}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
 																</Reference>
 															</ReferenceList>
 															<Curve Name="" ID="{BD75A54A-5491-40EE-AE4E-219FADFA394B}">
@@ -4558,7 +4614,7 @@
 																	</Point>
 																	<Point>
 																		<XPos>1</XPos>
-																		<YPos>0</YPos>
+																		<YPos>-6.43103</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -4580,7 +4636,7 @@
 														<RTPC Name="" ID="{7F1FF0CE-8783-4EEA-AD1F-1B0E46521FEB}" ShortID="187644640">
 															<ReferenceList>
 																<Reference Name="ControlInput">
-																	<ObjectRef Name="Energy" ID="{9D933BFB-97E7-41A0-B11F-4E7A60BC8CF2}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+																	<ObjectRef Name="Wavegun_Heat" ID="{0675E1DE-767A-430F-94AD-E80556672F02}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
 																</Reference>
 															</ReferenceList>
 															<Curve Name="" ID="{EE6DBCF4-8EBA-44F7-A48B-741A76C474A8}">
@@ -4600,7 +4656,7 @@
 																	</Point>
 																	<Point>
 																		<XPos>1</XPos>
-																		<YPos>-5.13221</YPos>
+																		<YPos>-10.23765</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -4615,11 +4671,131 @@
 												</BlendTrackAssoc>
 											</BlendTrackAssocList>
 										</BlendTrack>
+										<BlendTrack Name="Heat" ID="{151BC5F5-D785-4718-85D6-2A42216E549C}" ShortID="15324124">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<RTPCList>
+														<RTPC Name="" ID="{0A53D137-63A7-44A9-ADCE-BF0525412281}" ShortID="936933734">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Wavegun_Heat" ID="{0675E1DE-767A-430F-94AD-E80556672F02}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{E88383EF-CF02-4965-BB36-F00A6C36BC6A}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>500</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="Wavegun Heat Test1" ID="{D0565DF3-1227-4832-8128-0BD84D79D83E}"/>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+										<BlendTrack Name="Heat Layer 2 (Steam)" ID="{7DBE3CA3-85A0-4D5E-8D8E-570177BD1781}" ShortID="161349552">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{7332099A-5221-4B62-B992-971A3FA30CD7}" ShortID="140968896">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Wavegun_Heat" ID="{0675E1DE-767A-430F-94AD-E80556672F02}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{A885864B-8C6B-4684-9F43-8295826415BB}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="Wavegun Heat Test2" ID="{835DE470-F756-4127-AE96-E8E055E47AF8}"/>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
 									</BlendTrackList>
 								</BlendContainer>
 							</ChildrenList>
 							<ObjectLists/>
 						</ActorMixer>
+						<Sound Name="Wavegun Overheat" ID="{F42A9853-EE80-46E6-A6E6-8BE0F2419345}" ShortID="749010386">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wavegun Overheat" ID="{82CD5219-ED61-4607-B325-077F85CB7342}">
+									<Language>SFX</Language>
+									<AudioFile>Wavegun Overheat.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="976614731"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Wavegun Overheat" ID="{82CD5219-ED61-4607-B325-077F85CB7342}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wavegun Overheat End" ID="{88175837-940B-490F-95AB-3A4B2F02F54B}" ShortID="513170466">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wavegun Overheat End" ID="{E7FCAC5C-B428-4420-8851-B2F2B9DA164F}">
+									<Language>SFX</Language>
+									<AudioFile>Wavegun Overheat End.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="108775267"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Wavegun Overheat End" ID="{E7FCAC5C-B428-4420-8851-B2F2B9DA164F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
@@ -4979,6 +5155,29 @@
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
+				<Sound Name="Player Hit" ID="{ED926C73-B928-4BE6-9BCD-011DB5CE3522}" ShortID="313462389">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Player Hit" ID="{61DD2D49-9FD9-40CB-9EFA-7D47BBCEAC21}">
+							<Language>SFX</Language>
+							<AudioFile>Player Hit.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="508296907"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Player Hit" ID="{61DD2D49-9FD9-40CB-9EFA-7D47BBCEAC21}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
