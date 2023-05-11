@@ -76,6 +76,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="AI Voice (Male)_1" ID="{CCDF4664-B78B-4A41-A846-591520E4841D}" ShortID="472784573">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -99,6 +106,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="AI Voice (Male)_2" ID="{D3E1DBC2-EF01-47E0-B1C9-BE7EEAD94A94}" ShortID="36083382">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -122,6 +136,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="AI Voice (Male)_3" ID="{0DF4C5B5-CA04-440B-B505-2E08A539A829}" ShortID="324053987">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -144,6 +165,236 @@
 												<ActiveSource Name="AI Voice (Male)_3" ID="{019354E2-3CC0-4D50-B9D5-F793CD13796C}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="AI Combat Dialogue-011" ID="{6B45274E-70F1-4B02-960A-995274A13B4A}" ShortID="198200583">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-011" ID="{A3458EEA-1DA9-451D-AF50-9B2078B9F663}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-011.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="320532271"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-011" ID="{A3458EEA-1DA9-451D-AF50-9B2078B9F663}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-012" ID="{E4C8F862-6F66-4695-ACA4-45E80FEEE9BB}" ShortID="1046977832">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-012" ID="{E6F75C02-398B-42A5-9D9E-C28C9994B9EB}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-012.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1048483273"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-012" ID="{E6F75C02-398B-42A5-9D9E-C28C9994B9EB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-015" ID="{F9B6022C-7E5A-4B2D-A631-2689DE47D6DE}" ShortID="853058505">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-015" ID="{527D25DC-0F68-4FB3-88A4-9B50E2C5575B}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-015.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="115833094"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-015" ID="{527D25DC-0F68-4FB3-88A4-9B50E2C5575B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-016" ID="{EB83AF11-180B-4BAF-8228-6D8B69981FD5}" ShortID="355729529">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-016" ID="{B705A014-3E9D-436F-885F-BF2752AD69DA}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-016.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="332027820"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-016" ID="{B705A014-3E9D-436F-885F-BF2752AD69DA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-017" ID="{312F28DF-0CE3-415D-9B73-057F43F29EC9}" ShortID="485630363">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-017" ID="{02C1FE42-9D29-4FF3-96CD-37D7C27DFDC9}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-017.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="882192988"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-017" ID="{02C1FE42-9D29-4FF3-96CD-37D7C27DFDC9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-018" ID="{43F1D239-9F67-4CD8-BF2A-8B6EAC572628}" ShortID="72669679">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-018" ID="{CF767888-35BF-4820-B47F-E9E59E4DFB89}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-018.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="256323583"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-018" ID="{CF767888-35BF-4820-B47F-E9E59E4DFB89}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-029" ID="{606A989B-FC3D-4584-BC11-31E0755DCBE3}" ShortID="407981411">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-029" ID="{9BD6D9ED-2016-4955-864D-4C13FEE27D46}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-029.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="606774504"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-029" ID="{9BD6D9ED-2016-4955-864D-4C13FEE27D46}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-030" ID="{9A12A47D-5877-4588-B1C9-8509A61D2C37}" ShortID="717733757">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-030" ID="{6798348A-BDFD-47E8-AD2C-AF2F983AA503}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-030.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="46624410"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-030" ID="{6798348A-BDFD-47E8-AD2C-AF2F983AA503}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-031" ID="{9496D08A-5EA5-44AC-8DD9-5379BC2C9C12}" ShortID="1006007839">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-031" ID="{D6B5F8AE-A861-435C-97A4-A01F05E6E436}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-031.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="146877985"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-031" ID="{D6B5F8AE-A861-435C-97A4-A01F05E6E436}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-032" ID="{A7B8D318-BF26-4311-88B8-0579A15A836C}" ShortID="324687338">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-032" ID="{6B607301-2731-47AF-BD8C-D8B33C4446A0}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-032.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="770170855"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-032" ID="{6B607301-2731-47AF-BD8C-D8B33C4446A0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
@@ -158,6 +409,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="AI Voice (Male)_4" ID="{983B27CB-22BF-43AB-BA80-058DBD11B6E7}" ShortID="547496183">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -181,6 +439,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="AI Voice (Male)_5" ID="{21EE4922-2D27-4AC6-B2DF-F7FD87FD6D4E}" ShortID="380221599">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -204,6 +469,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="AI Voice (Male)_6" ID="{E7260EAF-3F43-48C0-9FF5-F7BEC190E753}" ShortID="529636745">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -226,6 +498,190 @@
 												<ActiveSource Name="AI Voice (Male)_6" ID="{006491C9-55D4-416A-A5A9-B03F1A9B3B48}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="AI Combat Dialogue-009" ID="{109B34B1-2CEB-4FD6-9D2D-986283D24539}" ShortID="397503780">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-009" ID="{76C48BEF-7722-4CF4-AF96-A287F13AB457}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-009.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="262664253"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-009" ID="{76C48BEF-7722-4CF4-AF96-A287F13AB457}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-010" ID="{50BBF874-C562-496A-BD06-F4153C4BBAEB}" ShortID="510697036">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-010" ID="{2D07A41A-DB8C-4CB9-935E-9AF865102ED3}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-010.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="989629111"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-010" ID="{2D07A41A-DB8C-4CB9-935E-9AF865102ED3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-023" ID="{B1D616EF-04A3-4383-865F-E8273B58837B}" ShortID="27952475">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-023" ID="{DFABAAB7-1C82-4D7A-AB50-99B2242D2C83}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-023.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="848556471"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-023" ID="{DFABAAB7-1C82-4D7A-AB50-99B2242D2C83}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-024" ID="{23F735C3-4ABB-40F7-B57E-2428E411D4E3}" ShortID="1051361780">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-024" ID="{BB9C9B34-3D29-48D0-9722-3FE2310A49C2}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-024.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="215094903"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-024" ID="{BB9C9B34-3D29-48D0-9722-3FE2310A49C2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-022" ID="{6B64F305-3EF5-4344-90DE-10A7C6E29848}" ShortID="503128558">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-022" ID="{5187F4EF-10F7-412A-B091-F4E7D7DE00B9}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-022.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="978691911"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-022" ID="{5187F4EF-10F7-412A-B091-F4E7D7DE00B9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-021" ID="{44E8F593-EE47-479E-8A55-F17BE84A1A68}" ShortID="16960481">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-021" ID="{63E3E3F6-14E5-443B-8DFE-AE86527B1533}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-021.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="398972012"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-021" ID="{63E3E3F6-14E5-443B-8DFE-AE86527B1533}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-033" ID="{6521E0FD-3040-4D75-BD34-3558C65CD9A7}" ShortID="752856553">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-033" ID="{15097628-9841-4BBC-9507-326110EB5529}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-033.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="752266810"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-033" ID="{15097628-9841-4BBC-9507-326110EB5529}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-034" ID="{44FEBE9A-91C8-47B5-9A2A-023C6FC0ADAB}" ShortID="428061439">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-034" ID="{83E7731D-0909-4342-8C67-077F80B3EB67}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-034.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="482779156"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-034" ID="{83E7731D-0909-4342-8C67-077F80B3EB67}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
@@ -240,6 +696,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="AI Voice (Male)_11" ID="{CCC1AF7A-6270-474C-8814-B8BE5B6C553F}" ShortID="745968503">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -263,6 +726,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="AI Voice (Male)_12" ID="{C7ED1D83-ABED-4082-B527-91FB9F665A8E}" ShortID="421786659">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -286,6 +756,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="AI Voice (Male)_13" ID="{65C15FA4-0B6B-4ACB-9239-4BD02EF5FD7E}" ShortID="406418093">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -309,6 +786,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="AI Voice (Male)_14" ID="{22DFBBE2-D16C-4383-9844-47EA7D502FA9}" ShortID="858872210">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -329,6 +813,282 @@
 											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="AI Voice (Male)_14" ID="{52D8A646-9E93-489C-8CB3-2D30DC8F52E3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-005" ID="{67A4ABA4-FD00-4E95-A07F-4DC92FED83E1}" ShortID="549403081">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-005" ID="{7FD61C82-03C1-4A34-A43E-01110D084DB6}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1052016419"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-005" ID="{7FD61C82-03C1-4A34-A43E-01110D084DB6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-006" ID="{B39BE22D-2A1E-4C69-91F5-3C15295901A9}" ShortID="795628690">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-006" ID="{8F2EF488-1440-43B5-B022-C528105CAB27}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="161145673"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-006" ID="{8F2EF488-1440-43B5-B022-C528105CAB27}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-007" ID="{CBAF2F9F-112B-4E21-9764-EE037B78666F}" ShortID="575881386">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-007" ID="{A174B11D-B863-4F5B-A92B-4A566EF3A926}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-007.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="98492670"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-007" ID="{A174B11D-B863-4F5B-A92B-4A566EF3A926}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-008" ID="{94098EA1-1DEC-4AA0-87EC-7D4F88C193C2}" ShortID="1042277895">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-008" ID="{1BCCF1F9-BF3D-4DC9-9DDF-7B089666C793}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-008.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="480225617"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-008" ID="{1BCCF1F9-BF3D-4DC9-9DDF-7B089666C793}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-013" ID="{F9360AD8-54FB-4692-B992-51083AD81796}" ShortID="266777941">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-013" ID="{70D17663-0C28-4591-A715-4E27562C2B63}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-013.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="72468387"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-013" ID="{70D17663-0C28-4591-A715-4E27562C2B63}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-014" ID="{AFD17B8B-46C3-445C-B5DE-6D0325D67EE7}" ShortID="854608801">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-014" ID="{CABE0371-E166-4433-B58E-3340A9CDD3F0}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-014.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="209189161"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-014" ID="{CABE0371-E166-4433-B58E-3340A9CDD3F0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-019" ID="{B61E3C33-6ACF-4E54-B65C-18893F72E4C9}" ShortID="816367188">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-019" ID="{9BD197D6-F239-4CF2-AD30-375CA19B16FE}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-019.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="647749395"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-019" ID="{9BD197D6-F239-4CF2-AD30-375CA19B16FE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-020" ID="{FE432164-845A-476B-A205-D3D31E07725E}" ShortID="801035418">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-020" ID="{887AA99A-B14E-46C6-B2EE-8190AD438C07}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-020.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="216455074"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-020" ID="{887AA99A-B14E-46C6-B2EE-8190AD438C07}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-025" ID="{AD540727-8501-4F76-A7D1-381506E5B892}" ShortID="504592726">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-025" ID="{0C924321-0FE2-45E6-83FA-B2E3E5B77420}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-025.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="935095479"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-025" ID="{0C924321-0FE2-45E6-83FA-B2E3E5B77420}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-026" ID="{72B0F6E6-3566-42E7-8614-7E147FA3CAF2}" ShortID="531538906">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-026" ID="{D6222BB0-1C53-4409-BC59-91E1CB32CC28}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-026.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="132718097"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-026" ID="{D6222BB0-1C53-4409-BC59-91E1CB32CC28}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-027" ID="{4280DEA1-69F0-4B09-9D53-7EF401DC1902}" ShortID="874638862">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-027" ID="{BDA8D14B-8046-46F7-A086-F7FF480636F7}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-027.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="835329776"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-027" ID="{BDA8D14B-8046-46F7-A086-F7FF480636F7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AI Combat Dialogue-028" ID="{9B3CE241-BA01-4941-AB75-DBF6CFE3A114}" ShortID="37007346">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SuitAI2" ID="{9E098BA5-6D37-4FA7-ABCD-20A8361F4DED}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AI Combat VO-028" ID="{D91B00AD-1131-456E-AA3E-D8142672D09B}">
+													<Language>SFX</Language>
+													<AudioFile>AI Combat VO-028.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="425028798"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AI Combat VO-028" ID="{D91B00AD-1131-456E-AA3E-D8142672D09B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -457,8 +1217,139 @@
 									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="New Random Container" ID="{C43F6CE7-A2BF-4964-B215-F5D3CC4B2FB7}" ShortID="128094758">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
+						<Sound Name="AI Combat Dialogue-001" ID="{24BFB9FF-B661-4CA5-956C-80CEFC268C5D}" ShortID="781651312">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AI Combat VO-001" ID="{C84E458D-6FC3-49E5-AB44-0ADE7BC4BBDE}">
+									<Language>SFX</Language>
+									<AudioFile>AI Combat VO-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="607353889"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="AI Combat VO-001" ID="{C84E458D-6FC3-49E5-AB44-0ADE7BC4BBDE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AI Combat Dialogue-002" ID="{9A9389F5-07BF-4B16-AEA7-E1B0F8508FC2}" ShortID="113459563">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AI Combat VO-002" ID="{12B6B17E-811D-42C9-904B-17A45D0999E5}">
+									<Language>SFX</Language>
+									<AudioFile>AI Combat VO-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="475101489"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="AI Combat VO-002" ID="{12B6B17E-811D-42C9-904B-17A45D0999E5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AI Combat Dialogue-003" ID="{95E14FBC-D213-45C7-B6CF-4D6FD5208DFA}" ShortID="1070074038">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AI Combat VO-003" ID="{E0BF2F46-DF98-4BA5-9F0C-17BF0FEB4244}">
+									<Language>SFX</Language>
+									<AudioFile>AI Combat VO-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="643183068"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="AI Combat VO-003" ID="{E0BF2F46-DF98-4BA5-9F0C-17BF0FEB4244}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AI Combat Dialogue-004" ID="{3AE0B79A-2022-4572-9FF2-F0BD4E22B61F}" ShortID="460293943">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AI Combat VO-004" ID="{B71E64A9-3577-436A-8688-4DF7771A7864}">
+									<Language>SFX</Language>
+									<AudioFile>AI Combat VO-004.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="638081535"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="AI Combat VO-004" ID="{B71E64A9-3577-436A-8688-4DF7771A7864}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
