@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7AF55CF0-9A1D-4DEA-A6C0-E1F46EE124D1}" SchemaVersion="103" RootDocumentID="{2353C102-E716-422F-9F91-4241B036806A}" ParentDocumentID="{C4B86D88-30D3-4309-86B9-25F055C5591E}">
+	<AudioObjects>
+		<WorkUnit Name="Tutorial" ID="{7AF55CF0-9A1D-4DEA-A6C0-E1F46EE124D1}" OwnerID="{C4B86D88-30D3-4309-86B9-25F055C5591E}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchContainer Name="Tutorial_DialogueSwitch" ID="{87EBC45E-D59E-40FB-9355-99BCBA935C18}" ShortID="225298902">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="10 Meters" ID="{0808E249-EE6F-4FF5-A8A6-5372D114FDDA}" WorkUnitID="{84AFC40C-6B9B-4DD2-9240-22BECB342F88}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Intro" ID="{BBCFAD77-8055-4CCE-8355-8F257F0C2EA4}" WorkUnitID="{F47F23E6-F1FD-470E-98A0-5870A801D3CD}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Gravitus" ID="{ABA4A65A-AF2B-4C8B-82B1-102E924F770B}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Tutorial_States" ID="{003A7AEA-9A1D-4BBF-BDA6-C1074C3A608F}" WorkUnitID="{F47F23E6-F1FD-470E-98A0-5870A801D3CD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="AI - Dialogue - Tutorial - Player Finishes Heavy Attack Section" ID="{B0BCE14C-0439-40D0-9B00-43C67180C312}" ShortID="946303900">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="AI" ID="{9E4323C6-EDBB-4EA1-B907-5EE81D64BD0D}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AI - Dialogue - Tutorial - Player Finishes Heavy Attack Section" ID="{CA2ECC60-E523-4B63-9E5C-BB07EFF1A44E}">
+									<Language>SFX</Language>
+									<AudioFile>AI - Dialogue - Tutorial - Player Finishes Heavy Attack Section.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="600619258"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="AI - Dialogue - Tutorial - Player Finishes Heavy Attack Section" ID="{CA2ECC60-E523-4B63-9E5C-BB07EFF1A44E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AI - Dialogue - Tutorial - Player Finishes Light Attacks" ID="{A19FC0BC-FE00-4F7C-94D0-8C407C0ECE42}" ShortID="526706178">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="AI" ID="{9E4323C6-EDBB-4EA1-B907-5EE81D64BD0D}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AI - Dialogue - Tutorial - Player Finishes Light Attacks" ID="{1427F4D4-7655-4C6A-830C-D80838E92991}">
+									<Language>SFX</Language>
+									<AudioFile>AI - Dialogue - Tutorial - Player Finishes Light Attacks.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1027172064"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="AI - Dialogue - Tutorial - Player Finishes Light Attacks" ID="{1427F4D4-7655-4C6A-830C-D80838E92991}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AI - Dialogue - Tutorial - Player Dodges All Attacks" ID="{6DADF07F-E280-4454-8B6D-6A3278B1D0C9}" ShortID="579882707">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="AI" ID="{9E4323C6-EDBB-4EA1-B907-5EE81D64BD0D}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AI - Dialogue - Tutorial - Player Dodges All Attacks" ID="{F0ECAC79-BC05-4F81-AA8F-A5AE54948AFF}">
+									<Language>SFX</Language>
+									<AudioFile>AI - Dialogue - Tutorial - Player Dodges All Attacks.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="48256032"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="AI - Dialogue - Tutorial - Player Dodges All Attacks" ID="{F0ECAC79-BC05-4F81-AA8F-A5AE54948AFF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Gravitus - Dialogue - Tutorial - Intro" ID="{88EEFC9C-EE08-498B-94F0-9E9998E94015}" ShortID="670803649">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gravitus - Dialogue - Tutorial - Intro" ID="{F6F5E305-4778-457C-93C5-98E66C358452}">
+									<Language>SFX</Language>
+									<AudioFile>Gravitus - Dialogue - Tutorial - Intro.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="432964461"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Gravitus - Dialogue - Tutorial - Intro" ID="{F6F5E305-4778-457C-93C5-98E66C358452}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Gravitus - Dialogue - Tutorial - Player Dodges All Attacks" ID="{F093231D-760A-4AB0-B1FC-E0351244072F}" ShortID="483596734">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gravitus - Dialogue - Tutorial - Player Dodges All Attacks" ID="{DDE39BAF-D773-4543-8746-70E18E92CE40}">
+									<Language>SFX</Language>
+									<AudioFile>Gravitus - Dialogue - Tutorial - Player Dodges All Attacks.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="821175485"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Gravitus - Dialogue - Tutorial - Player Dodges All Attacks" ID="{DDE39BAF-D773-4543-8746-70E18E92CE40}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AI - Dialogue - Tutorial - Player Finishes Walking Segment" ID="{1F5D26A3-D2C6-4E3F-A506-062628C7DF13}" ShortID="833896455">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="AI" ID="{9E4323C6-EDBB-4EA1-B907-5EE81D64BD0D}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AI - Dialogue - Tutorial - Player Finishes Walking Segment" ID="{49D1EE7A-72D6-419F-AE37-58F4B4E8749A}">
+									<Language>SFX</Language>
+									<AudioFile>AI - Dialogue - Tutorial - Player Finishes Walking Segment.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1070379320"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="AI - Dialogue - Tutorial - Player Finishes Walking Segment" ID="{49D1EE7A-72D6-419F-AE37-58F4B4E8749A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AI - Dialogue - Tutorial - Player Finishes Extenguishing Fires" ID="{E246029B-2973-4F89-B6F3-7FFE420816BA}" ShortID="666611099">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="AI" ID="{9E4323C6-EDBB-4EA1-B907-5EE81D64BD0D}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AI - Dialogue - Tutorial - Player Finishes Extenguishing Fires" ID="{D06152D2-7AAF-4170-B398-D36835DAC353}">
+									<Language>SFX</Language>
+									<AudioFile>AI - Dialogue - Tutorial - Player Finishes Extenguishing Fires.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="171710847"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="AI - Dialogue - Tutorial - Player Finishes Extenguishing Fires" ID="{D06152D2-7AAF-4170-B398-D36835DAC353}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AI - Dialogue - Tutorial - Intro" ID="{54D97C5C-B668-4EF7-A3C6-8BF99758D33C}" ShortID="1045733282">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="AI" ID="{9E4323C6-EDBB-4EA1-B907-5EE81D64BD0D}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AI - Dialogue - Tutorial - Intro" ID="{2D72DC83-FA11-4BF3-BCAC-A342CA40CF39}">
+									<Language>SFX</Language>
+									<AudioFile>AI - Dialogue - Tutorial - Intro.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="641932129"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="AI - Dialogue - Tutorial - Intro" ID="{2D72DC83-FA11-4BF3-BCAC-A342CA40CF39}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Dialogue - Tutorial - Ending" ID="{1A98E62C-4974-4C35-9515-871CF3AC1099}" ShortID="637784077">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Dialogue" ID="{D00D41DE-E87C-445A-A00B-32B7DEE53D9B}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Dialogue - Tutorial - Ending" ID="{2CBEB820-2A26-4F6A-BB6E-9D5A2ADAD908}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue - Tutorial - Ending.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="626204795"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Dialogue - Tutorial - Ending" ID="{2CBEB820-2A26-4F6A-BB6E-9D5A2ADAD908}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Gravitus - Dialogue - Tutorial - Player Finishes Extenguishing Fires" ID="{FEBD6368-74B0-412B-8DB5-0B9D0CCD574C}" ShortID="515090740">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gravitus - Dialogue - Tutorial - Player Finishes Extenguishing Fires" ID="{2738169D-5230-4546-80D8-96C3EEECA29B}">
+									<Language>SFX</Language>
+									<AudioFile>Gravitus - Dialogue - Tutorial - Player Finishes Extenguishing Fires.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="183481503"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Gravitus - Dialogue - Tutorial - Player Finishes Extenguishing Fires" ID="{2738169D-5230-4546-80D8-96C3EEECA29B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Gravitus - Dialogue - Tutorial - Player Finishes Heavy Attack Section" ID="{5A38BEA5-4EBC-43D2-8353-78ECDEF78D2A}" ShortID="183659120">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gravitus - Dialogue - Tutorial - Player Finishes Heavy Attack Section" ID="{169DA19D-37FF-4353-8CBB-5C7E70D7F9A8}">
+									<Language>SFX</Language>
+									<AudioFile>Gravitus - Dialogue - Tutorial - Player Finishes Heavy Attack Section.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="276287227"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Gravitus - Dialogue - Tutorial - Player Finishes Heavy Attack Section" ID="{169DA19D-37FF-4353-8CBB-5C7E70D7F9A8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Gravitus - Dialogue - Tutorial - Player Finishes Light Attacks" ID="{E289193C-3C09-44F2-8CF0-18A2310AC35A}" ShortID="853490716">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gravitus - Dialogue - Tutorial - Player Finishes Light Attacks" ID="{19DC5DD8-C714-4556-A072-927F885DF477}">
+									<Language>SFX</Language>
+									<AudioFile>Gravitus - Dialogue - Tutorial - Player Finishes Light Attacks.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1045065163"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Gravitus - Dialogue - Tutorial - Player Finishes Light Attacks" ID="{19DC5DD8-C714-4556-A072-927F885DF477}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Gravitus - Dialogue - Tutorial - Player Finishes Walking Segment" ID="{0244030D-C915-42EC-BA8A-BA59886FF129}" ShortID="542291749">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gravitus - Dialogue - Tutorial - Player Finishes Walking Segment" ID="{3559FE02-138C-4EEA-B813-6C7291DC0906}">
+									<Language>SFX</Language>
+									<AudioFile>Gravitus - Dialogue - Tutorial - Player Finishes Walking Segment.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="517224113"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Gravitus - Dialogue - Tutorial - Player Finishes Walking Segment" ID="{3559FE02-138C-4EEA-B813-6C7291DC0906}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Gravitus - Dialogue - Tutorial - Player Finishes Walking Segment" ID="{0244030D-C915-42EC-BA8A-BA59886FF129}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Gravitus - Dialogue - Tutorial - Player Dodges All Attacks" ID="{F093231D-760A-4AB0-B1FC-E0351244072F}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Dialogue - Tutorial - Ending" ID="{1A98E62C-4974-4C35-9515-871CF3AC1099}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Gravitus - Dialogue - Tutorial - Player Finishes Light Attacks" ID="{E289193C-3C09-44F2-8CF0-18A2310AC35A}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="AI - Dialogue - Tutorial - Player Finishes Heavy Attack Section" ID="{B0BCE14C-0439-40D0-9B00-43C67180C312}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="AI - Dialogue - Tutorial - Intro" ID="{54D97C5C-B668-4EF7-A3C6-8BF99758D33C}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Gravitus - Dialogue - Tutorial - Player Finishes Extenguishing Fires" ID="{FEBD6368-74B0-412B-8DB5-0B9D0CCD574C}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="AI - Dialogue - Tutorial - Player Dodges All Attacks" ID="{6DADF07F-E280-4454-8B6D-6A3278B1D0C9}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="AI - Dialogue - Tutorial - Player Finishes Extenguishing Fires" ID="{E246029B-2973-4F89-B6F3-7FFE420816BA}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Gravitus - Dialogue - Tutorial - Intro" ID="{88EEFC9C-EE08-498B-94F0-9E9998E94015}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="AI - Dialogue - Tutorial - Player Finishes Walking Segment" ID="{1F5D26A3-D2C6-4E3F-A506-062628C7DF13}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Gravitus - Dialogue - Tutorial - Player Finishes Heavy Attack Section" ID="{5A38BEA5-4EBC-43D2-8353-78ECDEF78D2A}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="AI - Dialogue - Tutorial - Player Finishes Light Attacks" ID="{A19FC0BC-FE00-4F7C-94D0-8C407C0ECE42}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

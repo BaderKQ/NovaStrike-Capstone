@@ -10,6 +10,7 @@
 				<WorkUnit Name="Act1" ID="{F279CC25-B42F-4D74-A21F-4E85D3E4FCAD}" PersistMode="Reference"/>
 				<WorkUnit Name="Act 3" ID="{633252B6-939B-4DCA-A328-020CA1A76FE0}" PersistMode="Reference"/>
 				<WorkUnit Name="Act2" ID="{4A3E93E3-0730-462E-A3FB-02BFC259A93D}" PersistMode="Reference"/>
+				<WorkUnit Name="Tutorial" ID="{7AF55CF0-9A1D-4DEA-A6C0-E1F46EE124D1}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

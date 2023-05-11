@@ -46,6 +46,18 @@
 						<State Name="Player_Enters_Side_Warehouse" ID="{FA47A2BC-DE6D-489F-9CF9-0766D6BB80B7}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Tutorial_States" ID="{003A7AEA-9A1D-4BBF-BDA6-C1074C3A608F}">
+					<ChildrenList>
+						<State Name="None" ID="{F74EC1CC-B5C0-4448-8527-6D0661498F17}"/>
+						<State Name="Intro" ID="{BBCFAD77-8055-4CCE-8355-8F257F0C2EA4}"/>
+						<State Name="Player_Dodges_All_Attacks" ID="{D94E15FE-00BF-42C1-98A9-02CEE9BAFFD8}"/>
+						<State Name="Player_Finishes_Extenguishing_Fires" ID="{F3280FA7-658B-4521-A436-BB0A9DAE395A}"/>
+						<State Name="Player_Finishes_Heavy_Attack_Section" ID="{A0A72646-1056-4143-A90B-4A8EC671AF0B}"/>
+						<State Name="Player_Finishes_Light_Attacks" ID="{F854189D-1207-4FE4-90CC-29BC10FCA439}"/>
+						<State Name="Player_Finishes_Walking_Segment" ID="{44672265-E054-4C6B-B56E-81CDC422E37B}"/>
+						<State Name="Ending" ID="{69AB537A-4655-406A-8518-485874FE334C}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>
