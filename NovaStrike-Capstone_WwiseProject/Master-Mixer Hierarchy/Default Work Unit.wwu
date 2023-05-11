@@ -382,6 +382,13 @@
 									<ObjectLists/>
 								</Bus>
 								<Bus Name="AI" ID="{9E4323C6-EDBB-4EA1-B907-5EE81D64BD0D}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ObjectLists/>
 								</Bus>
 							</ChildrenList>

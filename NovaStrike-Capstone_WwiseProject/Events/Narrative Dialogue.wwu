@@ -10,6 +10,7 @@
 				<WorkUnit Name="Act 1" ID="{3FD28F44-4EFC-42D4-A55D-31AAD61AE55F}" PersistMode="Reference"/>
 				<WorkUnit Name="Act 3" ID="{20E84687-283F-4CEB-9994-5A39376ED8EA}" PersistMode="Reference"/>
 				<WorkUnit Name="Act 2" ID="{48DDB863-FF05-464D-ACB1-8A1E69C06326}" PersistMode="Reference"/>
+				<WorkUnit Name="Tutorial" ID="{731B82F0-A893-4CD2-9A96-CF40125BCBE0}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{731B82F0-A893-4CD2-9A96-CF40125BCBE0}" SchemaVersion="103" RootDocumentID="{81E81626-7F14-448D-8557-4B6E9757D369}" ParentDocumentID="{81E81626-7F14-448D-8557-4B6E9757D369}">
+	<Events>
+		<WorkUnit Name="Tutorial" ID="{731B82F0-A893-4CD2-9A96-CF40125BCBE0}" OwnerID="{81E81626-7F14-448D-8557-4B6E9757D369}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Tutorial_DialogueSwitch" ID="{42749FAD-C24D-4125-A27D-676098198DB4}">
+					<ChildrenList>
+						<Action Name="" ID="{E1C7CE91-1989-4B41-8144-1DFC9CFA5788}" ShortID="478685201">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stop_Tutorial_DialogueSwitch" ID="{15E1C898-D4BE-445C-BEA7-BE7DD2057EEC}" WorkUnitID="{731B82F0-A893-4CD2-9A96-CF40125BCBE0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{715679C4-535B-4B49-8CD1-8418EA3DC879}" ShortID="1051794066">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tutorial_DialogueSwitch" ID="{87EBC45E-D59E-40FB-9355-99BCBA935C18}" WorkUnitID="{7AF55CF0-9A1D-4DEA-A6C0-E1F46EE124D1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Tutorial_DialogueSwitch" ID="{15E1C898-D4BE-445C-BEA7-BE7DD2057EEC}">
+					<ChildrenList>
+						<Action Name="" ID="{7BB6D524-202F-49B7-9757-98841F466A8A}" ShortID="666680542">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tutorial_DialogueSwitch" ID="{87EBC45E-D59E-40FB-9355-99BCBA935C18}" WorkUnitID="{7AF55CF0-9A1D-4DEA-A6C0-E1F46EE124D1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

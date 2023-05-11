@@ -116,6 +116,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Gravitus - Dialogue - Tutorial - Intro" ID="{88EEFC9C-EE08-498B-94F0-9E9998E94015}" ShortID="670803649">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -139,6 +146,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Gravitus - Dialogue - Tutorial - Player Dodges All Attacks" ID="{F093231D-760A-4AB0-B1FC-E0351244072F}" ShortID="483596734">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -250,6 +264,11 @@
 								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -274,6 +293,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Gravitus - Dialogue - Tutorial - Player Finishes Extenguishing Fires" ID="{FEBD6368-74B0-412B-8DB5-0B9D0CCD574C}" ShortID="515090740">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -297,6 +323,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Gravitus - Dialogue - Tutorial - Player Finishes Heavy Attack Section" ID="{5A38BEA5-4EBC-43D2-8353-78ECDEF78D2A}" ShortID="183659120">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -320,6 +353,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Gravitus - Dialogue - Tutorial - Player Finishes Light Attacks" ID="{E289193C-3C09-44F2-8CF0-18A2310AC35A}" ShortID="853490716">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -343,6 +383,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Gravitus - Dialogue - Tutorial - Player Finishes Walking Segment" ID="{0244030D-C915-42EC-BA8A-BA59886FF129}" ShortID="542291749">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
@@ -409,6 +456,56 @@
 								<ItemRef Name="AI - Dialogue - Tutorial - Player Finishes Light Attacks" ID="{A19FC0BC-FE00-4F7C-94D0-8C407C0ECE42}"/>
 							</GroupingBehavior>
 						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Player_Finishes_Heavy_Attack_Section" ID="{A0A72646-1056-4143-A90B-4A8EC671AF0B}"/>
+								<ItemList>
+									<ItemRef Name="AI - Dialogue - Tutorial - Player Finishes Heavy Attack Section" ID="{B0BCE14C-0439-40D0-9B00-43C67180C312}"/>
+									<ItemRef Name="Gravitus - Dialogue - Tutorial - Player Finishes Heavy Attack Section" ID="{5A38BEA5-4EBC-43D2-8353-78ECDEF78D2A}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Player_Finishes_Walking_Segment" ID="{44672265-E054-4C6B-B56E-81CDC422E37B}"/>
+								<ItemList>
+									<ItemRef Name="AI - Dialogue - Tutorial - Player Finishes Walking Segment" ID="{1F5D26A3-D2C6-4E3F-A506-062628C7DF13}"/>
+									<ItemRef Name="Gravitus - Dialogue - Tutorial - Player Finishes Walking Segment" ID="{0244030D-C915-42EC-BA8A-BA59886FF129}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Intro" ID="{BBCFAD77-8055-4CCE-8355-8F257F0C2EA4}"/>
+								<ItemList>
+									<ItemRef Name="AI - Dialogue - Tutorial - Intro" ID="{54D97C5C-B668-4EF7-A3C6-8BF99758D33C}"/>
+									<ItemRef Name="Gravitus - Dialogue - Tutorial - Intro" ID="{88EEFC9C-EE08-498B-94F0-9E9998E94015}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Ending" ID="{69AB537A-4655-406A-8518-485874FE334C}"/>
+								<ItemList>
+									<ItemRef Name="Dialogue - Tutorial - Ending" ID="{1A98E62C-4974-4C35-9515-871CF3AC1099}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Player_Finishes_Light_Attacks" ID="{F854189D-1207-4FE4-90CC-29BC10FCA439}"/>
+								<ItemList>
+									<ItemRef Name="AI - Dialogue - Tutorial - Player Finishes Light Attacks" ID="{A19FC0BC-FE00-4F7C-94D0-8C407C0ECE42}"/>
+									<ItemRef Name="Gravitus - Dialogue - Tutorial - Player Finishes Light Attacks" ID="{E289193C-3C09-44F2-8CF0-18A2310AC35A}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Player_Finishes_Extenguishing_Fires" ID="{F3280FA7-658B-4521-A436-BB0A9DAE395A}"/>
+								<ItemList>
+									<ItemRef Name="AI - Dialogue - Tutorial - Player Finishes Extenguishing Fires" ID="{E246029B-2973-4F89-B6F3-7FFE420816BA}"/>
+									<ItemRef Name="Gravitus - Dialogue - Tutorial - Player Finishes Extenguishing Fires" ID="{FEBD6368-74B0-412B-8DB5-0B9D0CCD574C}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Player_Dodges_All_Attacks" ID="{D94E15FE-00BF-42C1-98A9-02CEE9BAFFD8}"/>
+								<ItemList>
+									<ItemRef Name="AI - Dialogue - Tutorial - Player Dodges All Attacks" ID="{6DADF07F-E280-4454-8B6D-6A3278B1D0C9}"/>
+									<ItemRef Name="Gravitus - Dialogue - Tutorial - Player Dodges All Attacks" ID="{F093231D-760A-4AB0-B1FC-E0351244072F}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
 			</ChildrenList>
