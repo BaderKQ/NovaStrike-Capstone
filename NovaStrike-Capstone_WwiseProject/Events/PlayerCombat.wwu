@@ -6,6 +6,39 @@
 				<WorkUnit Name="Melee" ID="{B6C29E51-873B-4F8A-9870-E43FABB28624}" PersistMode="Reference"/>
 				<WorkUnit Name="Health &amp; Status" ID="{9E9936B3-EC6D-4789-BCE0-33B5EAC30492}" PersistMode="Reference"/>
 				<WorkUnit Name="Ranged" ID="{A4E3B99C-5C47-4128-ADF4-B09321A0B81A}" PersistMode="Reference"/>
+				<Event Name="Play_GravitusExecutionVO" ID="{4DFD6AA7-0539-4F49-A77F-A800B8FE8E07}">
+					<ChildrenList>
+						<Action Name="" ID="{D6CED794-BC5E-4303-9476-67606D4E758D}" ShortID="91755599">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GravitusExecutionVO" ID="{33C17183-066D-4B72-A1FB-502C5E3D7B57}" WorkUnitID="{AA6BA01B-3652-4A42-BF08-A409270614A9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GravitusWavegunOverloadVO" ID="{80BF094A-9CF4-489D-A3ED-CD554F107586}">
+					<ChildrenList>
+						<Action Name="" ID="{6EBAC8DF-93BC-4009-9E61-D4AA34484A62}" ShortID="813630886">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GravitusWavegunOverloadVO" ID="{DDBF837D-E06A-453E-9B9E-B1B0C8515656}" WorkUnitID="{AA6BA01B-3652-4A42-BF08-A409270614A9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GravitusHitsWeakpointVO" ID="{1BBB91C8-C502-4F6E-AFEF-9F1A1CAD0B67}">
+					<ChildrenList>
+						<Action Name="" ID="{46F41031-2C56-4E00-8B12-FB2E25AFF82A}" ShortID="990285344">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GravitusHitsWeakpointVO" ID="{AAAD91B6-AFC1-4F62-9277-897FDCE5BBAE}" WorkUnitID="{AA6BA01B-3652-4A42-BF08-A409270614A9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

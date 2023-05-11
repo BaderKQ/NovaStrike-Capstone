@@ -11,6 +11,35 @@
 				<WorkUnit Name="Saideed" ID="{5D4DD2E9-BB57-4772-AFD3-CABD3A9A8AC0}" PersistMode="Reference"/>
 				<WorkUnit Name="GeneralEnemySounds" ID="{AB20498E-6ACE-42FD-AFFB-DE47E2154062}" PersistMode="Reference"/>
 				<WorkUnit Name="Vulkan" ID="{97D2A0C5-E18F-4295-831F-B734388C65FE}" PersistMode="Reference"/>
+				<Event Name="Play_Saideed_Entrance" ID="{74AEAFD3-5C95-407B-8C9A-E4C353AD1E8F}">
+					<ChildrenList>
+						<Action Name="" ID="{FB436D70-2CA4-4892-AB2D-F161F008AA12}" ShortID="914539852">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Saideed Entrance" ID="{62708044-1BCB-4FBA-BB47-DB5AF246D300}" WorkUnitID="{11A65CD9-A556-4F21-AEFD-C5381C8349AB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Jumpscare_SFX" ID="{58FBA0A8-E9AA-4D50-B365-74BF581055B8}">
+					<ChildrenList>
+						<Action Name="" ID="{150E510A-5DB6-402D-9D9D-79D9C19B1B27}" ShortID="3717293">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jumpscare SFX" ID="{54EBB326-EEB6-4942-9688-8B4B3E3D5336}" WorkUnitID="{2A1D246C-CFAB-4139-B7F1-3A7A53CADF27}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2F463B9A-34E5-46AD-BA75-88A7BC9E62F2}" ShortID="886049722">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jumpscare Gravitus VO" ID="{12FA072E-2242-46D4-AF91-FBDC0D4AC507}" WorkUnitID="{2A1D246C-CFAB-4139-B7F1-3A7A53CADF27}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

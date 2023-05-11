@@ -87,6 +87,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Set_Game_Parameter_Wavegun_Heat" ID="{A4AB4553-99E7-4863-972D-0E93544E3959}">
+					<ChildrenList>
+						<Action Name="" ID="{F875DF4D-27F2-4B7C-B25D-AD350D48DCE6}" ShortID="596091206">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wavegun_Heat" ID="{0675E1DE-767A-430F-94AD-E80556672F02}" WorkUnitID="{E2FE96D9-E123-4F0C-9B84-27787BBC7B2A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

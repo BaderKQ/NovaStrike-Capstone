@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7984C344-EBDA-4A03-86D2-5BEEFE120917}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="General" ID="{7984C344-EBDA-4A03-86D2-5BEEFE120917}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Pause_All" ID="{ADFA8999-53A3-4B18-9917-5BE6E5D03AE2}">
+					<ChildrenList>
+						<Action Name="" ID="{0B61ED41-E049-4BB9-8120-25F7ACFF5530}" ShortID="506892808">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="8"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Resume_All" ID="{E21AA4B1-3F70-4C45-B3A5-0BCF759E6E30}">
+					<ChildrenList>
+						<Action Name="" ID="{9980DB83-553D-48D0-9ADE-0B97487513D0}" ShortID="565289567">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="10"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

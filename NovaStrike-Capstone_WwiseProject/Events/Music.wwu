@@ -41,6 +41,56 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_Tension_Strings" ID="{F2B1FCB4-7C45-4D1C-95FF-E4ED09B67D03}">
+					<ChildrenList>
+						<Action Name="" ID="{C8EB4B42-FCBB-4E81-B78A-CA9F45851230}" ShortID="873472544">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="4"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tension Strings 2 (Loop)" ID="{C7964F55-82F3-4F14-A2D3-124E4A336465}" WorkUnitID="{2A1D246C-CFAB-4139-B7F1-3A7A53CADF27}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{04BDA6F3-C7A5-40CD-8E84-EAC659944F42}" ShortID="467524019">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="4"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tension Strings 1 (Loop)" ID="{E97580C7-8A88-4C43-9987-9A10CC420C83}" WorkUnitID="{2A1D246C-CFAB-4139-B7F1-3A7A53CADF27}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Tension_Strings_2" ID="{76056304-5EE0-47A6-A7A0-EEA7B2F3654A}">
+					<ChildrenList>
+						<Action Name="" ID="{06ED3D48-C561-4F20-9AA1-499FC3DA7A5E}" ShortID="943944680">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tension Strings 2 (Loop)" ID="{C7964F55-82F3-4F14-A2D3-124E4A336465}" WorkUnitID="{2A1D246C-CFAB-4139-B7F1-3A7A53CADF27}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Tension_Strings_1" ID="{32EB2F6D-682A-4092-AD6E-0C6F6286093B}">
+					<ChildrenList>
+						<Action Name="" ID="{485E7D43-95BE-40F5-88AE-1141E6BDE92F}" ShortID="936936031">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tension Strings 1 (Loop)" ID="{E97580C7-8A88-4C43-9987-9A10CC420C83}" WorkUnitID="{2A1D246C-CFAB-4139-B7F1-3A7A53CADF27}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
