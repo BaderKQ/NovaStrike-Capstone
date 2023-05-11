@@ -1293,6 +1293,818 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</RandomSequenceContainer>
+						<ActorMixer Name="Combat One Liners" ID="{6434E1C3-C1BE-4FB0-9597-9171F1FE0445}" ShortID="905156563">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="GravitusExecutionVO" ID="{33C17183-066D-4B72-A1FB-502C5E3D7B57}" ShortID="440789059">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Gravitus - Combat VO - 03" ID="{1B824257-A35E-456B-9916-AFE5F610CF40}" ShortID="820175021">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gravitus - Combat VO - 03" ID="{17F82268-E9B0-469F-A9A2-59FA8AFC478F}">
+													<Language>SFX</Language>
+													<AudioFile>Gravitus - Combat VO - 03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1001433589"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{82396C18-B280-4C3B-A8CB-344A5AA5784C}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-31.0536044362292"/>
+														<Property Name="PanY" Type="Real64" Value="21.1576846307385"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Gravitus - Combat VO - 03" ID="{17F82268-E9B0-469F-A9A2-59FA8AFC478F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gravitus - Combat VO - 04" ID="{D8604488-1F62-4D7D-8FE0-0762D12E18EE}" ShortID="762156612">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gravitus - Combat VO - 04" ID="{3D5F288A-35E7-4D50-979D-6DBA72C084E1}">
+													<Language>SFX</Language>
+													<AudioFile>Gravitus - Combat VO - 04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="872375794"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{81678F6C-50F9-42DC-964D-83F1EEDB9254}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-31.0536044362292"/>
+														<Property Name="PanY" Type="Real64" Value="21.1576846307385"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Gravitus - Combat VO - 04" ID="{3D5F288A-35E7-4D50-979D-6DBA72C084E1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gravitus - Combat VO - 05" ID="{145678C2-FAF5-4D90-9452-7F3EA6BA6DAA}" ShortID="322073436">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gravitus - Combat VO - 05" ID="{0EE56B1E-0CF9-4D34-9118-60F26EF713FF}">
+													<Language>SFX</Language>
+													<AudioFile>Gravitus - Combat VO - 05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="614272692"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{002D8E5E-A8D0-4A51-BC3E-69D0FB2DE9FC}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-31.0536044362292"/>
+														<Property Name="PanY" Type="Real64" Value="21.1576846307385"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Gravitus - Combat VO - 05" ID="{0EE56B1E-0CF9-4D34-9118-60F26EF713FF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gravitus - Combat VO - 06" ID="{00872471-E1DA-48FB-9F28-4650395D7990}" ShortID="376275521">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gravitus - Combat VO - 06" ID="{45387B72-4502-4B0C-8C87-FD0CD1981A8D}">
+													<Language>SFX</Language>
+													<AudioFile>Gravitus - Combat VO - 06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="430734266"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{EBE6C722-9C98-4969-B769-5CB9918EFB00}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-31.0536044362292"/>
+														<Property Name="PanY" Type="Real64" Value="21.1576846307385"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Gravitus - Combat VO - 06" ID="{45387B72-4502-4B0C-8C87-FD0CD1981A8D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gravitus - Combat VO - 07" ID="{F3AD9CD9-6972-4961-A6A9-0AC7A7E26DEA}" ShortID="532741414">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gravitus - Combat VO - 07" ID="{CDFA347F-D260-4FE8-8C46-ADAA6ECAF0AB}">
+													<Language>SFX</Language>
+													<AudioFile>Gravitus - Combat VO - 07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="778653778"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{DF9C97CE-BC71-4DEA-B149-B421495A72FA}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-31.0536044362292"/>
+														<Property Name="PanY" Type="Real64" Value="21.1576846307385"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Gravitus - Combat VO - 07" ID="{CDFA347F-D260-4FE8-8C46-ADAA6ECAF0AB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gravitus - Combat VO - 21" ID="{93486CFA-0AB1-48B2-9A3F-111764007BB5}" ShortID="724034554">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gravitus - Combat VO - 21" ID="{B7905FBC-7C4C-47F3-917F-A668C22F4609}">
+													<Language>SFX</Language>
+													<AudioFile>Gravitus - Combat VO - 21.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="702986098"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{F58CE7E2-A614-489F-B95E-0BBC4CDA7BF1}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-31.0536044362292"/>
+														<Property Name="PanY" Type="Real64" Value="21.1576846307385"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Gravitus - Combat VO - 21" ID="{B7905FBC-7C4C-47F3-917F-A668C22F4609}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="GravitusWavegunOverloadVO" ID="{DDBF837D-E06A-453E-9B9E-B1B0C8515656}" ShortID="1052608754">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Gravitus - Combat VO - 08" ID="{DE3B1A44-B3BE-4DE4-BD6B-CCEC5C714D6F}" ShortID="493508868">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gravitus - Combat VO - 08" ID="{B4330DF3-C922-4775-96C5-67F28017BD0F}">
+													<Language>SFX</Language>
+													<AudioFile>Gravitus - Combat VO - 08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1043245570"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{64F2DCB6-504F-44DF-B7A5-98D3F517B7EB}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-31.0536044362292"/>
+														<Property Name="PanY" Type="Real64" Value="21.1576846307385"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Gravitus - Combat VO - 08" ID="{B4330DF3-C922-4775-96C5-67F28017BD0F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gravitus - Combat VO - 09" ID="{F2A15733-AA5F-4740-98AB-8BD6491865CB}" ShortID="432957839">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gravitus - Combat VO - 09" ID="{B5C3AC9D-FFFE-458B-AB2E-B7964116DEAC}">
+													<Language>SFX</Language>
+													<AudioFile>Gravitus - Combat VO - 09.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="459139831"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{C6C26BA3-CF92-4C3C-B87A-7BFF48B270C3}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-31.0536044362292"/>
+														<Property Name="PanY" Type="Real64" Value="21.1576846307385"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Gravitus - Combat VO - 09" ID="{B5C3AC9D-FFFE-458B-AB2E-B7964116DEAC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gravitus - Combat VO - 10" ID="{08E38D68-CD97-437C-BCE5-16A02BA54E69}" ShortID="552032659">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gravitus - Combat VO - 10" ID="{7C085431-AEC8-4B73-8D38-B822FF073E56}">
+													<Language>SFX</Language>
+													<AudioFile>Gravitus - Combat VO - 10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="553067217"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{C86F84C9-8299-437D-9372-CFBECDE6F678}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-31.0536044362292"/>
+														<Property Name="PanY" Type="Real64" Value="21.1576846307385"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Gravitus - Combat VO - 10" ID="{7C085431-AEC8-4B73-8D38-B822FF073E56}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="GravitusHitsWeakpointVO" ID="{AAAD91B6-AFC1-4F62-9277-897FDCE5BBAE}" ShortID="340120148">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Gravitus - Combat VO - 11" ID="{CF1873C4-BDC9-4C77-8C32-9DF6A22DE985}" ShortID="793095672">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gravitus - Combat VO - 11" ID="{1AF64E64-2EB2-4245-B265-863062A4C8D2}">
+													<Language>SFX</Language>
+													<AudioFile>Gravitus - Combat VO - 11.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="315373459"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{2DE72A8A-D232-4C4E-92E9-7C0EA3329650}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-31.0536044362292"/>
+														<Property Name="PanY" Type="Real64" Value="21.1576846307385"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Gravitus - Combat VO - 11" ID="{1AF64E64-2EB2-4245-B265-863062A4C8D2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gravitus - Combat VO - 18" ID="{E2B5D2C0-6C15-410D-900A-96C0C1C94000}" ShortID="694657625">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gravitus - Combat VO - 18" ID="{104C5C87-0A44-4EAE-8FB3-E2F54E3B55C4}">
+													<Language>SFX</Language>
+													<AudioFile>Gravitus - Combat VO - 18.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="301882523"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{230E9B3D-BBCC-492E-B083-EA8F95BD7DC1}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-31.0536044362292"/>
+														<Property Name="PanY" Type="Real64" Value="21.1576846307385"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Gravitus - Combat VO - 18" ID="{104C5C87-0A44-4EAE-8FB3-E2F54E3B55C4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gravitus - Combat VO - 13" ID="{874E95AE-04C6-471A-BEC6-740285285074}" ShortID="983573019">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gravitus - Combat VO - 13" ID="{46259B36-4BA1-454D-A944-70A188D7AC69}">
+													<Language>SFX</Language>
+													<AudioFile>Gravitus - Combat VO - 13.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="472306260"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{5BF7203F-719C-42E0-ABFE-EB28E003C0AF}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-31.0536044362292"/>
+														<Property Name="PanY" Type="Real64" Value="21.1576846307385"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Gravitus - Combat VO - 13" ID="{46259B36-4BA1-454D-A944-70A188D7AC69}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gravitus - Combat VO - 12" ID="{7AFFB6F3-56C5-4630-B829-16FFE3E530BB}" ShortID="603613026">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gravitus - Combat VO - 12" ID="{BB627327-E5FF-4E0F-8D58-B2EE9862E4AE}">
+													<Language>SFX</Language>
+													<AudioFile>Gravitus - Combat VO - 12.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="819381688"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{3F2DC253-E9E1-4CB9-B2EA-873D3BCC084F}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-31.0536044362292"/>
+														<Property Name="PanY" Type="Real64" Value="21.1576846307385"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Gravitus - Combat VO - 12" ID="{BB627327-E5FF-4E0F-8D58-B2EE9862E4AE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gravitus - Combat VO - 14" ID="{93C8EC87-4325-4DEF-BE7E-EFD572C65B37}" ShortID="372029804">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gravitus - Combat VO - 14" ID="{CD9C714F-A3F7-41EF-BC46-0851B6EEBE70}">
+													<Language>SFX</Language>
+													<AudioFile>Gravitus - Combat VO - 14.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="376246034"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{05851791-B141-4992-A72A-1C2949D992E8}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-31.0536044362292"/>
+														<Property Name="PanY" Type="Real64" Value="21.1576846307385"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Gravitus - Combat VO - 14" ID="{CD9C714F-A3F7-41EF-BC46-0851B6EEBE70}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gravitus - Combat VO - 16" ID="{91D04597-6D6A-442A-85F5-73290AAF6ECA}" ShortID="30582806">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gravitus - Combat VO - 16" ID="{1F0A9192-E1BD-4F27-BA5B-1FF2DACE9134}">
+													<Language>SFX</Language>
+													<AudioFile>Gravitus - Combat VO - 16.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="334234093"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{DC27EADB-3606-4167-A3D5-A7DBE9F9EB61}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-31.0536044362292"/>
+														<Property Name="PanY" Type="Real64" Value="21.1576846307385"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Gravitus - Combat VO - 16" ID="{1F0A9192-E1BD-4F27-BA5B-1FF2DACE9134}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gravitus - Combat VO - 17" ID="{323CBF09-FD6F-4550-9EE7-50A348CE20B5}" ShortID="805431845">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gravitus - Combat VO - 17" ID="{068165B7-34D1-4340-92EE-458FFB5B0986}">
+													<Language>SFX</Language>
+													<AudioFile>Gravitus - Combat VO - 17.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="607818450"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{69FF2EE6-D809-4E7B-90D0-EF9C4C9BD61F}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-31.0536044362292"/>
+														<Property Name="PanY" Type="Real64" Value="21.1576846307385"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Gravitus - Combat VO - 17" ID="{068165B7-34D1-4340-92EE-458FFB5B0986}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gravitus - Combat VO - 15" ID="{A0D14187-E550-431E-B092-E6C4E0EA4159}" ShortID="268843536">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gravitus - Combat VO - 15" ID="{0888255B-FB25-43DE-B296-62FE56A73EB6}">
+													<Language>SFX</Language>
+													<AudioFile>Gravitus - Combat VO - 15.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="130219195"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{9CE5362C-52B8-4AEC-ACF0-FDAD7DA2CBC9}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-31.0536044362292"/>
+														<Property Name="PanY" Type="Real64" Value="21.1576846307385"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Gravitus - Combat VO - 15" ID="{0888255B-FB25-43DE-B296-62FE56A73EB6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gravitus - Combat VO - 19" ID="{9C325C68-5F2C-4C06-904C-CE5C8343559F}" ShortID="504750381">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gravitus - Combat VO - 19" ID="{BA46146A-3B5A-4FAB-962A-58A1AC501B05}">
+													<Language>SFX</Language>
+													<AudioFile>Gravitus - Combat VO - 19.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="927136309"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{F10FF921-5BFE-4CD1-87A4-D3580B9915E0}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-31.0536044362292"/>
+														<Property Name="PanY" Type="Real64" Value="21.1576846307385"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Gravitus - Combat VO - 19" ID="{BA46146A-3B5A-4FAB-962A-58A1AC501B05}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gravitus - Combat VO - 20" ID="{B897C8CE-9F75-4411-9FD6-2E3B8D498FFE}" ShortID="944034835">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAE62BCB-2D72-4F2B-8C48-87FFD0A64B32}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Gravitus VO" ID="{84044C96-2471-4AA5-8CA8-AEF0CD6F356C}" WorkUnitID="{AB29415C-2CBB-49D0-BC88-060204E4947E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gravitus - Combat VO - 20" ID="{F948DB8E-D852-4E13-84D4-E062E93E1D63}">
+													<Language>SFX</Language>
+													<AudioFile>Gravitus - Combat VO - 20.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="567900502"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{CEC6E47F-52DA-4FD4-AE8B-0BE4A817A33E}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-31.0536044362292"/>
+														<Property Name="PanY" Type="Real64" Value="21.1576846307385"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Gravitus - Combat VO - 20" ID="{F948DB8E-D852-4E13-84D4-E062E93E1D63}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
 					</ChildrenList>
 					<PositioningInfo>
 						<Panner Name="" ID="{011B3A20-1C96-4B26-B862-D9D057DC151E}">
