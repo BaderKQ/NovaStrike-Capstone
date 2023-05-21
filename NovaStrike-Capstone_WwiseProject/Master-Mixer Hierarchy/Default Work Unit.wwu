@@ -86,6 +86,20 @@
 										<Bus Name="Exhaustion" ID="{89BC01DE-5C9F-485B-B0C3-C555204C7078}">
 											<ObjectLists/>
 										</Bus>
+										<Bus Name="OneLiners" ID="{309FA988-1490-48C3-8B21-15C0A4EBB48C}">
+											<ObjectLists/>
+											<DuckingList>
+												<DuckItem>
+													<BusRef Name="Exhaustion" ID="{89BC01DE-5C9F-485B-B0C3-C555204C7078}"/>
+													<DuckingParam>
+														<Volume>-24</Volume>
+														<FadeInTime>0.5</FadeInTime>
+														<FadeOutTime>0.5</FadeOutTime>
+														<FadeCurve>FadeLinear</FadeCurve>
+													</DuckingParam>
+												</DuckItem>
+											</DuckingList>
+										</Bus>
 									</ChildrenList>
 									<ObjectLists/>
 								</Bus>
